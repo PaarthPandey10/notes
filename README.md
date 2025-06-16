@@ -21,14 +21,10 @@ Feel free to browse and use the notes for your own study — see the license bel
 
 ## 📄 License
 
-All content in this repository is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
-See [`LICENSE`](./LICENSE) for the full legal text.
+All formatting and original effort in this repository are © 2025 Paarth Pandey.  
+You may use the content for personal reference only.  
 
-You are free to:
-
-- ✔️ Share — copy and redistribute the material  
-- ✔️ Adapt — remix, transform, and build upon the material  
-**As long as you give appropriate credit.**
+Any copying, redistribution, or modification of the formatting or structure without explicit permission is prohibited.
 
 ---
 
