@@ -1,7 +1,31 @@
 # AWS Cloud Practitioner Essentials Notes
 
-These notes are from the AWS Cloud Practitioner Essentials course on Coursera. 
+> Notes from the AWS Cloud Practitioner Essentials course on Coursera.
 
-There are two parts to these notes:
-1. Main notes
-2. Resource Summaries - These are the summaries of the extra documentations, resources, readings and whitepapers provided during the course. 
+---
+
+## Overview
+
+These notes cover all modules from the AWS Cloud Practitioner Essentials course.  
+They include summaries of concepts, services, and architecture, as well as extra AWS documentation and whitepaper breakdowns.
+
+---
+
+## Key Highlights
+
+- Main Notes for each module
+- Resource Summaries including AWS docs, blogs, and whitepapers
+- Structured for clarity and exam revision
+
+---
+
+## Contact
+
+For any questions or feedback, reach out:  
+**Paarth Pandey**  
+[LinkedIn](https://www.linkedin.com/in/paarth-pandey-13779529b/) | [GitHub](https://github.com/paarthpandey10) | paarthdxb@gmail.com
+
+—
+
+> Author: [Paarth Pandey](https://github.com/paarthpandey10)  
+> AWS Cloud Practitioner Essentials – Coursera
