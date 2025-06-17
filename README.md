@@ -1,35 +1,97 @@
 # Notes
 
-This repository contains my personal study notes, summaries, and key learnings across domains like:
-
-- 🛡️ Cybersecurity  
-- 💻 Programming  
-- ☁️ Cloud Computing  
-- 📚 Certifications and Courses  
-
-These notes are written for clarity, quick reference, and long-term retention.
+> A central knowledge base of everything I'm learning in cybersecurity, programming, cloud computing, and more.
 
 ---
 
-## 🧠 Purpose
+## Table of Contents
 
-This repo is my central knowledge base to track, revise, and organize everything I learn over time.
-
-Feel free to browse and use the notes for your own study — see the license below.
+- [About](#about)  
+- [Project Structure](#project-structure)  
+- [Usage / How to Use](#usage--how-to-use)  
+- [Features / Highlights](#features--highlights)  
+- [Technologies Used](#technologies-used)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)
 
 ---
 
-## 📄 License
+## About
+
+This repository contains my personal study notes, summaries, and key learnings across domains like cybersecurity, programming, cloud computing, and various certifications.  
+It is designed for clarity, quick reference, and long-term retention.
+
+---
+
+## Project Structure
+```
+notes/
+├── aws-cloud-practitioner/
+│ ├── README.md
+│ ├── aws-cloud-practitioner-main.md
+│ └── aws-cloud-practitioner-resource-summaries.md
+├── google-cybersecurity/
+│ ├── README.md
+│ ├── google-cybersecurity-main.md
+│ └── google-cybersecurity-glossary.md
+├── google-introduction-to-git-github/
+│ ├── README.md
+│ ├── google-introduction-to-git-github-main.md
+│ └── google-introduction-to-git-github-glossary.md
+├── linux-notes/
+│ ├── README.md
+│ └── linux-notes.md
+├── tm-internship-notes/
+│ ├── README.md
+│ └── tm-internship.md
+├── LICENSE
+└── README.md
+```
+---
+
+## Usage / How to Use
+
+Browse any folder to read the notes related to that topic or course.  
+These notes are written for personal learning and quick review.
+
+---
+
+## Features / Highlights
+
+- Clean and structured summaries of key topics
+- Notes on certifications like AWS and Google Cybersecurity
+- Internship learning logs
+- Linux CLI and Git basics
+
+---
+
+## Technologies Used
+
+- Markdown for all notes
+- Git & GitHub for version control and organization
+
+---
+
+## Contributing
+
+Not open for contributions.
+
+---
+
+## License
 
 All formatting and original effort in this repository are © 2025 Paarth Pandey.  
-You may use the content for personal reference only.  
-
-Any copying, redistribution, or modification of the formatting or structure without explicit permission is prohibited.
+Use for personal reference only. Redistribution or modification of formatting/structure without permission is prohibited.
 
 ---
 
-## 🙋‍♂️ About Me
+## Contact
 
 **Paarth Pandey**  
-Cybersecurity & Computer Science enthusiast  
-• [LinkedIn](https://www.linkedin.com/in/paarth-pandey-13779529b/) • [GitHub](https://github.com/paarthpandey10)
+[LinkedIn](https://www.linkedin.com/in/paarth-pandey-13779529b/) | [GitHub](https://github.com/paarthpandey10) | paarthdxb@gmail.com
+
+---
+
+> Author: [Paarth Pandey](https://github.com/paarthpandey10)  
+> Personal Notes Collection
