@@ -39,9 +39,17 @@ notes/
 │ ├── README.md
 │ ├── google-introduction-to-git-github-main.md
 │ └── google-introduction-to-git-github-glossary.md
+├── kali-pentest/
+│ ├── README.md
+│ └── kali-pentest-notes.ctb
+│ ├── kali-pentest-notes.pdf
 ├── linux-notes/
 │ ├── README.md
 │ └── linux-notes.md
+├── networking-notes/
+│ ├── README.md
+│ └── networking-notes.ctb
+│ ├── networking-notes.pdf
 ├── tm-internship-notes/
 │ ├── README.md
 │ └── tm-internship.md
