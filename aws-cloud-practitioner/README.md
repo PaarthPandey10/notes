@@ -14,7 +14,6 @@ They include summaries of concepts, services, and architecture, as well as extra
 ## Key Highlights
 
 - Main Notes for each module
-- Resource Summaries including AWS docs, blogs, and whitepapers
 - Structured for clarity and exam revision
 
 ---
