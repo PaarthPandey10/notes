@@ -1,4 +1,4 @@
-# Google Cybersecurity Professional 
+# cd Google Cybersecurity Professional 
 
 ## *Coursera*
 
@@ -3172,3 +3172,2826 @@ Returns a single number that represents the sum of the numerical data in a colum
 SELECT SUM(cost)  
 Returns the sum of costs from all records that have a value in the cost column
 
+# Course 5: Assets, Threats and Vulnerabilities
+
+## Understand risks, threats, and vulnerabilities:
+
+When security events occur, you’ll need to work in close coordination with others to address the problem. Doing so quickly requires clear communication between you and your team to get the job done.
+
+Previously, you learned about three foundational security terms:
+
+Risk: Anything that can impact the confidentiality, integrity, or availability of an asset
+
+Threat: Any circumstance or event that can negatively impact assets
+
+Vulnerability: A weakness that can be exploited by a threat
+
+These words tend to be used interchangeably in everyday life. But in security, they are used to describe very specific concepts when responding to and planning for security events. In this reading, you’ll identify what each term represents and how they are related.
+
+Security risk  
+Security plans are all about how an organization defines risk. However, this definition can vary widely by organization. As you may recall, a risk is anything that can impact the confidentiality, integrity, or availability of an asset. Since organizations have particular assets that they value, they tend to differ in how they interpret and approach risk.
+
+One way to interpret risk is to consider the potential effects that negative events can have on a business. Another way to present this idea is with this calculation:
+
+Likelihood x Impact \= Risk
+
+For example, you risk being late when you drive a car to work. This negative event is more likely to happen if you get a flat tire along the way. And the impact could be serious, like losing your job. All these factors influence how you approach commuting to work every day. The same is true for how businesses handle security risks.
+
+In general, we calculate risk in this field to help:
+
+Prevent costly and disruptive events
+
+Identify improvements that can be made to systems and processes
+
+Determine which risks can be tolerated
+
+Prioritize the critical assets that require attention
+
+The business impact of a negative event will always depend on the asset and the situation. Your primary focus as a security professional will be to focus on the likelihood side of the equation by dealing with certain factors that increase the odds of a problem.
+
+Risk factors  
+As you’ll discover throughout this course, there are two broad risk factors that you’ll be concerned with in the field:
+
+Threats
+
+Vulnerabilities
+
+The risk of an asset being harmed or damaged depends greatly on whether a threat takes advantage of vulnerabilities.
+
+Let’s apply this to the risk of being late to work. A threat would be a nail puncturing your tire, since tires are vulnerable to running over sharp objects. In terms of security planning, you would want to reduce the likelihood of this risk by driving on a clean road.
+
+Categories of threat  
+Threats are circumstances or events that can negatively impact assets. There are many different types of threats. However, they are commonly categorized as two types: intentional and unintentional.
+
+For example, an intentional threat might be a malicious hacker who gains access to sensitive information by targeting a misconfigured application. An unintentional threat might be an employee who holds the door open for an unknown person and grants them access to a restricted area. Either one can cause an event that must be responded to.
+
+Categories of vulnerability  
+Vulnerabilities are weaknesses that can be exploited by threats. There’s a wide range of vulnerabilities, but they can be grouped into two categories: technical and human.
+
+For example, a technical vulnerability can be misconfigured software that might give an unauthorized person access to important data. A human vulnerability can be a forgetful employee who loses their access card in a parking lot. Either one can lead to risk.
+
+## Asset Classification:
+
+Asset management is the process of tracking assets and the risks that affect them. The idea behind this process is simple: you can only protect what you know you have. 
+
+Previously, you learned that identifying, tracking, and classifying assets are all important parts of asset management. In this reading, you’ll learn more about the purpose and benefits of asset classification, including common classification levels.
+
+A security professional taking inventory of a variety of boxes.  
+Why asset management matters  
+Keeping assets safe requires a workable system that helps businesses operate smoothly. Setting these systems up requires having detailed knowledge of the assets in an environment. For example, a bank needs to have money available each day to serve its customers. Equipment, devices, and processes need to be in place to ensure that money is available and secure from unauthorized access.
+
+Organizations protect a variety of different assets. Some examples might include:
+
+Digital assets such as customer data or financial records.
+
+Information systems that process data, like networks or software.
+
+Physical assets which can include facilities, equipment, or supplies.
+
+Intangible assets such as brand reputation or intellectual property.
+
+Regardless of its type, every asset should be classified and accounted for. As you may recall, asset classification is the practice of labeling assets based on sensitivity and importance to an organization. Determining each of those two factors varies, but the sensitivity and importance of an asset typically requires knowing the following:
+
+What you have
+
+Where it is
+
+Who owns it, and
+
+How important it is
+
+An organization that classifies its assets does so based on these characteristics. Doing so helps them determine the sensitivity and value of an asset.
+
+Common asset classifications  
+Asset classification helps organizations implement an effective risk management strategy. It also helps them prioritize security resources, reduce IT costs, and stay in compliance with legal regulations.
+
+The most common classification scheme is: restricted, confidential, internal-only, and public.
+
+Restricted is the highest level. This category is reserved for incredibly sensitive assets,  like need-to-know information.
+
+Confidential refers to assets whose disclosure may lead to a significant negative impact on an organization.
+
+Internal-only describes assets that are available to employees and business partners.
+
+Public is the lowest level of classification. These assets have no negative consequences to the organization if they’re released.
+
+How this scheme is applied depends greatly on the characteristics of an asset. It might surprise you to learn that identifying an asset’s owner is sometimes the most complicated characteristic to determine.
+
+Note: Although many organizations adopt this classification scheme, there can be variability at the highest levels. For example, government organizations label their most sensitive assets as confidential instead of restricted.
+
+Challenges of classifying information  
+Identifying the owner of certain assets is straightforward, like the owner of a building. Other types of assets can be trickier to identify. This is especially true when it comes to information.
+
+For example, a business might issue a laptop to one of its employees to allow them to work remotely. You might assume the business is the asset owner in this situation. But, what if the employee uses the laptop for personal matters, like storing their photos?
+
+Ownership is just one characteristic that makes classifying information a challenge. Another concern is that information can have multiple classification values at the same time. For example, consider a letter addressed to you in the mail. The letter contains some public information that’s okay to share, like your name. It also contains fairly confidential pieces of information that you’d rather only be available to certain people, like your address. You’ll learn more about how these challenges are addressed as you continue through the program.
+
+## The Emergence of Cloud Security:
+
+One of the most significant technology developments this century has been the emergence of cloud computing. The United Kingdom's National Cyber Security Centre defines cloud computing as, “An on-demand, massively scalable service, hosted on shared infrastructure, accessible via the internet.”
+
+Earlier, you learned that most information is in the form of data, which is in a constant state of change. In recent years, businesses started moving their data to the cloud. The adoption of cloud-based services has complicated how information is kept safe online. In this reading, you’ll learn about these challenges and the opportunities they’ve created for security professionals.
+
+A cloud lifting a business out of a marketplace and into the sky.  
+Soaring into the cloud  
+Starting an online business used to be a complicated and costly process. In years past, companies had to build and maintain their own internal solutions to operate in the digital marketplace. Now, it’s much easier for anyone to participate because of the cloud.
+
+The availability of cloud technologies has drastically changed how businesses operate online. These new tools allow companies to scale and adapt quickly while also lowering their costs. Despite these benefits, the shift to cloud-based services has also introduced a range of new cybersecurity challenges that put assets at risk.
+
+Cloud-based services  
+The term cloud-based services refers to a variety of on demand or web-based business solutions. Depending on a company’s needs and budget, services can range from website hosting, to application development environments, to entire back-end infrastructure.
+
+There are three main categories of cloud-based services:
+
+Software as a service (SaaS)
+
+Platform as a service (PaaS)
+
+Infrastructure as a service (IaaS)
+
+Software as a service (SaaS)  
+SaaS refers to front-end applications that users access via a web browser. The service providers host, manage, and maintain all of the back-end systems for those applications. Common examples of SaaS services include applications like Gmail™ email service, Slack, and Zoom software.
+
+Platform as a service (PaaS)  
+PaaS refers to back-end application development tools that clients can access online. Developers use these resources to write code and build, manage, and deploy their own apps. Meanwhile, the cloud service providers host and maintain the back-end hardware and software that the apps use to operate. Some examples of PaaS services include Google App Engine™ platform, Heroku®, and VMware Cloud Foundry. 
+
+Infrastructure as a service (IaaS)  
+IaaS customers are given remote access to a range of back-end systems that are hosted by the cloud service provider. This includes data processing servers, storage, networking resources, and more. Resources are commonly licensed as needed, making it a cost-effective alternative to buying and maintaining on premises.
+
+Cloud-based services allow companies to connect with their customers, employees, and business partners over the internet. Some of the largest organizations in the world offer cloud-based services:
+
+Google Cloud Platform
+
+Microsoft Azure
+
+Cloud security  
+Shifting applications and infrastructure over to the cloud can make it easier to operate an online business. It can also complicate keeping data private and safe. Cloud security is a growing subfield of cybersecurity that specifically focuses on the protection of data, applications, and infrastructure in the cloud.
+
+In a traditional model, organizations had their entire IT infrastructure on premises. Protecting those systems was entirely up to the internal security team in that environment. These responsibilities are not so clearly defined when part or all of an operational environment is in the cloud.
+
+For example, a PaaS client pays to access the resources they need to build their applications. So, it is reasonable to expect them to be responsible for securing the apps they build. On the other hand, the responsibility for maintaining the security of the servers they are accessing should belong to the cloud service provider because there are other clients using the same systems.
+
+In cloud security, this concept is known as the shared responsibility model. Clients are commonly responsible for securing anything that is directly within their control:
+
+Identity and access management
+
+Resource configuration
+
+Data handling
+
+Note: The amount of responsibility that is delegated to a service provider varies depending on the service being used: SaaS, PaaS, and IaaS.
+
+Cloud security challenges  
+All service providers do their best to deliver secure products to their customers. Much of their success depends on preventing breaches and how well they can protect sensitive information. However, since data is stored in the cloud and accessed over the internet, several challenges arise:
+
+Misconfiguration is one of the biggest concerns. Customers of cloud-based services are responsible for configuring their own security environment. Oftentimes, they use out-of-the-box configurations that fail to address their specific security objectives.
+
+Cloud-native breaches are more likely to occur due to misconfigured services.
+
+Monitoring access might be difficult depending on the client and level of service.
+
+Meeting regulatory standards is also a concern, particularly in industries that are required by law to follow specific requirements such as HIPAA, PCI DSS, and GDPR.
+
+Many other challenges exist besides these. As more businesses adopt cloud-based services, there’s a growing need for cloud security professionals to meet a growing number of risks. Burning Glass, a leading labor market analytics firm, ranks cloud security among the most in-demand skills in cybersecurity.
+
+## Security Guidelines in Action:
+
+Organizations often face an overwhelming amount of risk. Developing a security plan from the beginning that addresses all risk can be challenging. This makes security frameworks a useful option.
+
+Previously, you learned about the NIST Cybersecurity Framework (CSF). A major benefit of the CSF is that it's flexible and can be applied to any industry. In this reading, you’ll explore how the NIST CSF can be implemented.
+
+The NIST CSFs five functions: identify, protect, detect, respond, and recover.  
+Origins of the framework  
+Originally released in 2014, NIST developed the Cybersecurity Framework to protect critical infrastructure in the United States. NIST was selected to develop the CSF because they are an unbiased source of scientific data and practices. NIST eventually adapted the CSF to fit the needs of businesses in the public and private sector. Their goal was to make the framework more flexible, making it easier to adopt for small businesses or anyone else that might lack the resources to develop their own security plans.
+
+Components of the CSF  
+As you might recall, the framework consists of three main components: the core, tiers, and profiles. In the following sections, you'll learn more about each of these CSF components.
+
+Core  
+The CSF core is a set of desired cybersecurity outcomes that help organizations customize their security plan. It consists of six functions, or parts: Identify, Protect, Detect, Respond, Recover, and Govern. These functions are commonly used as an informative reference to help organizations identify their most important assets and protect those assets with appropriate safeguards. The CSF core is also used to understand ways to detect attacks and develop response and recovery plans should an attack happen.
+
+Previously, the core consisted of just five functions. Govern was added in February of 2024 to emphasize the importance of leadership and decision-making when it comes to managing cybersecurity risks.
+
+Tiers  
+The CSF tiers are a way of measuring the sophistication of an organization's cybersecurity program. CSF tiers are measured on a scale of 1 to 4\. Tier 1 is the lowest score, indicating that a limited set of security controls have been implemented. Overall, CSF tiers are used to assess an organization's security posture and identify areas for improvement.
+
+Profiles  
+The CSF profiles are pre-made templates of the NIST CSF that are developed by a team of industry experts. CSF profiles are tailored to address the specific risks of an organization or industry. They are used to help organizations develop a baseline for their cybersecurity plans, or as a way of comparing their current cybersecurity posture to a specific industry standard.
+
+Note: The core, tiers, and profiles were each designed to help any business improve their security operations. Although there are only three components, the entire framework consists of a complex system of subcategories and processes.
+
+Implementing the CSF  
+As you might recall, compliance is an important concept in security. Compliance is the process of adhering to internal standards and external regulations. In other words, compliance is a way of measuring how well an organization is protecting their assets. The NIST Cybersecurity Framework (CSF) is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. Organizations may choose to use the CSF to achieve compliance with a variety of regulations.
+
+Note: Regulations are rules that must be followed, while frameworks are resources you can choose to use.
+
+Since its creation, many businesses have used the NIST CSF. However, CSF can be a challenge to implement due to its high level of detail. It can also be tough to find where the framework fits in. For example, some businesses have established security plans, making it unclear how CSF can benefit them. Alternatively, some businesses might be in the early stages of building their plans and need a place to start.
+
+In any scenario, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) provides detailed guidance that any organization can use to implement the CSF. This is a quick overview and summary of their recommendations:
+
+Create a current profile of the security operations and outline the specific needs of your business.
+
+Perform a risk assessment to identify which of your current operations are meeting business and regulatory standards.
+
+Analyze and prioritize existing gaps in security operations that place the businesses assets at risk.
+
+Implement a plan of action to achieve your organization’s goals and objectives.
+
+Pro tip: Always consider current risk, threat, and vulnerability trends when using the NIST CSF. 
+
+You can learn more about implementing the CSF in   
+this report by CISA that outlines how the framework was applied in the commercial facilities sector  
+.
+
+Industries embracing the CSF  
+The NIST CSF has continued to evolve since its introduction in 2014\. Its design is influenced by the standards and best practices of some of the largest companies in the world.
+
+A benefit of the framework is that it aligns with the security practices of many organizations across the global economy. It also helps with regulatory compliance that might be shared by business partners.
+
+## Principle of Least Privilege:
+
+Security controls are essential to keeping sensitive data private and safe. One of the most common controls is the principle of least privilege, also referred to as PoLP or least privilege. The principle of least privilege is a security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+
+Least privilege is a fundamental security control that supports the confidentiality, integrity, and availability (CIA) triad of information. In this reading, you'll learn how the principle of least privilege reduces risk, how it's commonly implemented, and why it should be routinely audited.
+
+Limiting access reduces risk  
+Every business needs to plan for the risk of data theft, misuse, or abuse. Implementing the principle of least privilege can greatly reduce the risk of costly incidents like data breaches by:
+
+Limiting access to sensitive information
+
+Reducing the chances of accidental data modification, tampering, or loss
+
+Supporting system monitoring and administration
+
+Least privilege greatly reduces the likelihood of a successful attack by connecting specific resources to specific users and placing limits on what they can do. It's an important security control that should be applied to any asset. Clearly defining who or what your users are is usually the first step of implementing least privilege effectively.
+
+Note: Least privilege is closely related to another fundamental security principle, the separation of duties—a security concept that divides tasks and responsibilities among different users to prevent giving a single user complete control over critical business functions. You'll learn more about separation of duties in a different reading about identity and access management.
+
+Determining access and authorization  
+To implement least privilege, access and authorization must be determined first. There are two questions to ask to do so: 
+
+Who is the user? 
+
+How much access do they need to a specific resource? 
+
+Determining who the user is usually straightforward. A user can refer to a person, like a customer, an employee, or a vendor. It can also refer to a device or software that's connected to your business network. In general, every user should have their own account. Accounts are typically stored and managed within an organization's directory service.
+
+These are the most common types of user accounts:
+
+Guest accounts are provided to external users who need to access an internal network, like customers, clients, contractors, or business partners.
+
+User accounts are assigned to staff based on their job duties.
+
+Service accounts are granted to applications or software that needs to interact with other software on the network.
+
+Privileged accounts have elevated permissions or administrative access.
+
+It's best practice to determine a baseline access level for each account type before implementing least privilege. However, the appropriate access level can change from one moment to the next. For example, a customer support representative should only have access to your information while they are helping you. Your data should then become inaccessible when the support agent starts working with another customer and they are no longer actively assisting you. Least privilege can only reduce risk if user accounts are routinely and consistently monitored.
+
+Pro tip: Passwords play an important role when implementing the principle of least privilege. Even if user accounts are assigned appropriately, an insecure password can compromise your systems.
+
+Auditing account privileges  
+Setting up the right user accounts and assigning them the appropriate privileges is a helpful first step. Periodically auditing those accounts is a key part of keeping your company’s systems secure.
+
+There are three common approaches to auditing user accounts:
+
+Usage audits
+
+Privilege audits
+
+Account change audits
+
+As a security professional, you might be involved with any of these processes.
+
+Usage audits  
+When conducting a usage audit, the security team will review which resources each account is accessing and what the user is doing with the resource. Usage audits can help determine whether users are acting in accordance with an organization’s security policies. They can also help identify whether a user has permissions that can be revoked because they are no longer being used.
+
+Privilege audits  
+Users tend to accumulate more access privileges than they need over time, an issue known as privilege creep. This might occur if an employee receives a promotion or switches teams and their job duties change. Privilege audits assess whether a user's role is in alignment with the resources they have access to.
+
+Account change audits  
+Account directory services keep records and logs associated with each user. Changes to an account are usually saved and can be used to audit the directory for suspicious activity, like multiple attempts to change an account password. Performing account change audits helps to ensure that all account changes are made by authorized users.
+
+Note: Most directory services can be configured to alert system administrators of suspicious activity.
+
+## The Data Lifecycle:
+
+Organizations of all sizes handle a large amount of data that must be kept private. You learned that data can be vulnerable whether it is at rest, in use, or in transit. Regardless of the state it is in, information should be kept private by limiting access and authorization.
+
+In security, data vulnerabilities are often mapped in a model known as the data lifecycle. Each stage of the data lifecycle plays an important role in the security controls that are put in place to maintain the CIA triad of information. In this reading, you will learn about the data lifecycle, the plans that determine how data is protected, and the specific types of data that require extra attention.
+
+The data lifecycle  
+The data lifecycle is an important model that security teams consider when protecting information. It influences how they set policies that align with business objectives. It also plays an important role in the technologies security teams use to make information accessible.
+
+In general, the data lifecycle has five stages. Each describe how data flows through an organization from the moment it is created until it is no longer useful:
+
+Collect
+
+Store
+
+Use
+
+Archive
+
+Destroy
+
+Five stages of the data lifecycle: collection, storage, usage, archival, and destruction.  
+Protecting information at each stage of this process describes the need to keep it accessible and recoverable should something go wrong.
+
+Data governance  
+Businesses handle massive amounts of data every day. New information is constantly being collected from internal and external sources. A structured approach to managing all of this data is the best way to keep it private and secure.
+
+Data governance is a set of processes that define how an organization manages information. Governance often includes policies that specify how to keep data private, accurate, available, and secure throughout its lifecycle.
+
+Effective data governance is a collaborative activity that relies on people. Data governance policies commonly categorize individuals into a specific role:
+
+Data owner: the person that decides who can access, edit, use, or destroy their information.
+
+Data custodian: anyone or anything that's responsible for the safe handling, transport, and storage of information.
+
+Data steward: the person or group that maintains and implements data governance policies set by an organization.
+
+Businesses store, move, and transform data using a wide range of IT systems. Data governance policies often assign accountability to data owners, custodians, and stewards.
+
+Note: As a data custodian, you will primarily be  responsible for maintaining security and privacy rules for your organization.
+
+Protecting data at every stage  
+Most security plans include a specific policy that outlines how information will be managed across an organization. This is known as a data governance policy. These documents clearly define procedures that should be followed to participate in keeping data safe. They place limits on who or what can access data. Security professionals are important participants in data governance. As a data custodian, you will be responsible for ensuring that data isn’t damaged, stolen, or misused.
+
+Legally protected information  
+Data is more than just a bunch of 1s and 0s being processed by a computer. Data can represent someone's personal thoughts, actions, and choices. It can represent a purchase, a sensitive medical decision, and everything in between. For this reason, data owners should be the ones deciding whether or not to share their data. As a security professional, protecting a person's data privacy decisions must always be respected.
+
+Securing data can be challenging. In large part, that's because data owners generate more data than they can manage. As a result, data custodians and stewards sometimes lack direct, explicit instructions on how they should handle specific types of data. Governments and other regulatory agencies have bridged this gap by creating rules that specify the types of information that organizations must protect by default:
+
+PII is any information used to infer an individual's identity. Personally identifiable information, or PII, refers to information that can be used to contact or locate someone.
+
+PHI stands for protected health information.  In the U.S., it is regulated by the Health Insurance Portability and Accountability Act (HIPAA), which defines PHI as “information that relates to the past, present, or future physical or mental health or condition of an individual.” In the EU, PHI has a similar definition but it is regulated by the General Data Protection Regulation (GDPR).
+
+SPII is a specific type of PII that falls under stricter handling guidelines. The S stands for sensitive, meaning this is a type of personally identifiable information that should only be accessed on a need-to-know basis, such as a bank account number or login credentials.
+
+Overall, it's important to protect all types of personal information from unauthorized use and disclosure.
+
+## Information Privacy:
+
+Information security vs. information privacy  
+Security and privacy are two terms that often get used interchangeably outside of this field. Although the two concepts are connected, they represent specific functions:
+
+Information privacy refers to the protection of unauthorized access and distribution of data.
+
+Information security (InfoSec) refers to the practice of keeping data in all states away from unauthorized users.
+
+The key difference: Privacy is about providing people with control over their personal information and how it's shared. Security is about protecting people’s choices and keeping their information safe from potential threats.
+
+For example, a retail company might want to collect specific kinds of personal information about its customers for marketing purposes, like their age, gender, and location. How this private information will be used should be disclosed to customers before it's collected. In addition, customers should be given an option to opt-out if they decide not to share their data.
+
+Once the company obtains consent to collect personal information, it might implement specific security controls in place to protect that private data from unauthorized access, use, or disclosure. The company should also have security controls in place to respect the privacy of all stakeholders and anyone who chose to opt-out.
+
+Note: Privacy and security are both essential for maintaining customer trust and brand reputation.
+
+Why privacy matters in security  
+Data privacy and protection are topics that started gaining a lot of attention in the late 1990s. At that time, tech companies suddenly went from processing people’s data to storing and using it for business purposes. For example, if a user searched for a product online, companies began storing and sharing access to information about that user’s search history with other companies. Businesses were then able to deliver personalized shopping experiences to the user for free.
+
+Eventually this practice led to a global conversation about whether these organizations had the right to collect and share someone’s private data. Additionally, the issue of data security became a greater concern; the more organizations collected data, the more vulnerable it was to being abused, misused, or stolen.
+
+Many organizations became more concerned about the issues of data privacy. Businesses became more transparent about how they were collecting, storing, and using information. They also began implementing more security measures to protect people's data privacy. However, without clear rules in place, protections were inconsistently applied.
+
+Note: The more data is collected, stored, and used, the more vulnerable it is to breaches and threats.
+
+Notable privacy regulations  
+Businesses are required to abide by certain laws to operate. As you might recall, regulations are rules set by a government or another authority to control the way something is done. Privacy regulations in particular exist to protect a user from having their information collected, used, or shared without their consent. Regulations may also describe the security measures that need to be in place to keep private information away from threats.
+
+Three of the most influential industry regulations that every security professional should know about are:
+
+General Data Protection Regulation (GDPR)
+
+Payment Card Industry Data Security Standard (PCI DSS)
+
+Health Insurance Portability and Accountability Act (HIPAA)
+
+GDPR  
+GDPR is a set of rules and regulations developed by the European Union (EU) that puts data owners in total control of their personal information. Under GDPR, types of personal information include a person's name, address, phone number, financial information, and medical information.
+
+The GDPR applies to any business that handles the data of EU citizens or residents, regardless of where that business operates. For example, a US based company that handles the data of EU visitors to their website is subject to the GDPRs provisions.
+
+PCI DSS  
+PCI DSS is a set of security standards formed by major organizations in the financial industry. This regulation aims to secure credit and debit card transactions against data theft and fraud.
+
+HIPAA  
+HIPAA is a U.S. law that requires the protection of sensitive patient health information. HIPAA prohibits the disclosure of a person's medical information without their knowledge and consent.
+
+Note: These regulations influence data handling at many organizations around the world even though they were developed by specific nations.
+
+Several other security and privacy compliance laws exist. Which ones your organization needs to follow will depend on the industry and the area of authority. Regardless of the circumstances, regulatory compliance is important to every business.
+
+Security assessments and audits  
+Businesses should comply with important regulations in their industry. Doing so validates that they have met a minimum level of security while also demonstrating their dedication to maintaining data privacy.
+
+Meeting compliance standards is usually a continual, two-part process of security audits and assessments:
+
+A security audit is a review of an organization's security controls, policies, and procedures against a set of expectations.
+
+A security assessment is a check to determine how resilient current security implementations are against threats.
+
+For example, if a regulation states that multi-factor authentication (MFA) must be enabled for all administrator accounts, an audit might be conducted to check those user accounts for compliance. After the audit, the internal team might perform a security assessment that determines many users are using weak passwords. Based on their assessment, the team could decide to enable MFA on all user accounts to improve their overall security posture.
+
+Note: Compliance with legal regulations, such as GDPR, can be determined during audits.
+
+As a security analyst, you are likely to be involved with security audits and assessments in the field. Businesses usually perform security audits less frequently, approximately once per year. Security audits may be performed both internally and externally by different third-party groups.
+
+In contrast, security assessments are usually performed more frequently, about every three-to-six months. Security assessments are typically performed by internal employees, often as preparation for a security audit. Both evaluations are incredibly important ways to ensure that your systems are effectively protecting everyone's privacy.
+
+## Symmetric and Asymmetric Encryption:
+
+Types of encryption  
+There are two main types of encryption:
+
+Symmetric encryption is the use of a single secret key to exchange information. Because it uses one key for encryption and decryption, the sender and receiver must know the secret key to lock or unlock the cipher.
+
+Asymmetric encryption is the use of a public and private key pair for encryption and decryption of data. It uses two separate keys: a public key and a private key. The public key is used to encrypt data, and the private key decrypts it. The private key is only given to users with authorized access.
+
+The importance of key length  
+Ciphers are vulnerable to brute force attacks, which use a trial and error process to discover private information. This tactic is the digital equivalent of trying every number in a combination lock trying to find the right one. In modern encryption, longer key lengths are considered to be more secure. Longer key lengths mean more possibilities that an attacker needs to try to unlock a cipher.
+
+One drawback to having long encryption keys is slower processing times. Although short key lengths are generally less secure, they’re much faster to compute. Providing fast data communication online while keeping information safe is a delicate balancing act. 
+
+Approved algorithms  
+Many web applications use a combination of symmetric and asymmetric encryption. This is how they balance user experience with safeguarding information. As an analyst, you should be aware of the most widely-used algorithms.
+
+Symmetric algorithms  
+Triple DES (3DES) is known as a block cipher because of the way it converts plaintext into ciphertext in “blocks.” Its origins trace back to the Data Encryption Standard (DES), which was developed in the early 1970s. DES was one of the earliest symmetric encryption algorithms that generated 64-bit keys, although only 56 bits are used for encryption. A bit is the smallest unit of data measurement on a computer. As you might imagine, Triple DES generates keys that are three times as long. Triple DES applies the DES algorithm three times, using three different 56-bit keys. This results in an effective key length of 168 bits. Despite the longer keys, many organizations are moving away from using Triple DES due to limitations on the amount of data that can be encrypted. However, Triple DES is likely to remain in use for backwards compatibility purposes.   
+
+Advanced Encryption Standard (AES) is one of the most secure symmetric algorithms today. AES generates keys that are 128, 192, or 256 bits. Cryptographic keys of this size are considered to be safe from brute force attacks. It’s estimated that brute forcing an AES 128-bit key could take a modern computer billions of years\!
+
+Asymmetric algorithms  
+Rivest Shamir Adleman (RSA) is named after its three creators who developed it while at the Massachusetts Institute of Technology (MIT). RSA is one of the first asymmetric encryption algorithms that produces a public and private key pair. Asymmetric algorithms like RSA produce even longer key lengths. In part, this is due to the fact that these functions are creating two keys. RSA key sizes are 1,024, 2,048, or 4,096 bits. RSA is mainly used to protect highly sensitive data.
+
+Digital Signature Algorithm (DSA) is a standard asymmetric algorithm that was introduced by NIST in the early 1990s. DSA also generates key lengths of 2,048 bits. This algorithm is widely used today as a complement to RSA in public key infrastructure.
+
+Generating keys  
+These algorithms must be implemented when an organization chooses one to protect their data. One way this is done is using OpenSSL, which is an open-source command line tool that can be used to generate public and private keys. OpenSSL is commonly used by computers to verify digital certificates that are exchanged as part of public key infrastructure.
+
+Note: OpenSSL is just one option. There are various others available that can generate keys with any of these common algorithms. 
+
+In early 2014, OpenSSL disclosed a vulnerability, known as the   
+Heartbleed bug  
+, that exposed sensitive data in the memory of websites and applications. Although unpatched versions of OpenSSL are still available, the Heartbleed bug was patched later that year (2014). Many businesses today use the secure versions of OpenSSL to generate public and private keys, demonstrating the importance of using up-to-date software.
+
+Obscurity is not security  
+In the world of cryptography, a cipher must be proven to be unbreakable before claiming that it is secure. According to   
+Kerckhoff’s principle  
+, cryptography should be designed in such a way that all the details of an algorithm—except for the private key—should be knowable without sacrificing its security. For example, you can access all the details about how AES encryption works online and yet it is still unbreakable.
+
+Occasionally, organizations implement their own, custom encryption algorithms. There have been instances where those secret cryptographic systems have been quickly cracked after being made public.
+
+Pro tip: A cryptographic system should not be considered secure if it requires secrecy around how it works.
+
+Encryption is everywhere  
+Companies use both symmetric and asymmetric encryption. They often work as a team, balancing security with user experience.
+
+For example, websites tend to use asymmetric encryption to secure small blocks of data that are important. Usernames and passwords are often secured with asymmetric encryption while processing login requests. Once a user gains access, the rest of their web session often switches to using symmetric encryption for its speed.
+
+Using data encryption like this is increasingly required by law. Regulations like the Federal Information Processing Standards (FIPS 140-3) and the General Data Protection Regulation (GDPR) outline how data should be collected, used, and handled. Achieving compliance with either regulation is critical to demonstrating to business partners and governments that customer data is handled responsibly.
+
+## The evolution of hash functions:
+
+Hash functions are important controls that are part of every company's security strategy. Hashing is widely used for authentication and non-repudiation, the concept that the authenticity of information can’t be denied.
+
+Previously, you learned that hash functions are algorithms that produce a code that can't be decrypted. Hash functions convert information into a unique value that can then be used to determine its integrity. In this reading, you’ll learn about the origins of hash functions and how they’ve changed over time.
+
+The hashing algorithm process. A plaintext document is converted by a hash function into hashed text.  
+Origins of hashing  
+Hash functions have been around since the early days of computing. They were originally created as a way to quickly search for data. Since the beginning, these algorithms have been designed to represent data of any size as small, fixed-size values, or digests. Using a hash table, which is a data structure that's used to store and reference hash values, these small values became a more secure and efficient way for computers to reference data.
+
+One of the earliest hash functions is Message Digest 5, more commonly known as MD5. Professor Ronald Rivest of the Massachusetts Institute of Technology (MIT) developed MD5 in the early 1990s as a way to verify that a file sent over a network matched its source file.
+
+Whether it’s used to convert a single email or the source code of an application, MD5 works by converting data into a 128-bit value. You might recall that a bit is the smallest unit of data measurement on a computer. Bits can either be a 0 or 1\. In a computer, bits represent user input in a way that computers can interpret. In a hash table, this appears as a string of 32 characters. Altering anything in the source file generates an entirely new hash value.
+
+Generally, the longer the hash value, the more secure it is. It wasn’t long after MD5's creation that security practitioners discovered 128-bit digests resulted in a major vulnerability.
+
+Here is an example of how plaintext gets turned into hash values:
+
+Names being turned into hash values. The hash values are stored in random rows of a data table.  
+Hash collisions  
+One of the flaws in MD5 happens to be a characteristic of all hash functions. Hash algorithms map any input, regardless of its length, into a fixed-size value of letters and numbers. What’s the problem with that? Although there are an infinite amount of possible inputs, there’s only a finite set of available outputs\!
+
+MD5 values are limited to 32 characters in length. Due to the limited output size, the algorithm is considered to be vulnerable to hash collision, an instance when different inputs produce the same hash value. Because hashes are used for authentication, a hash collision is similar to copying someone’s identity. Attackers can carry out collision attacks to fraudulently impersonate authentic data.
+
+Next-generation hashing  
+To avoid the risk of hash collisions, functions that generated longer values were needed. MD5's shortcomings gave way to a new group of functions known as the Secure Hashing Algorithms, or SHAs.
+
+The National Institute of Standards and Technology (NIST) approves each of these algorithms. Numbers besides each SHA function indicate the size of its hash value in bits. Except for SHA-1, which produces a 160-bit digest, these algorithms are considered to be collision-resistant. However, that doesn’t make them invulnerable to other exploits.
+
+Five functions make up the SHA family of algorithms:
+
+SHA-1
+
+SHA-224
+
+SHA-256
+
+SHA-384
+
+SHA-512
+
+Secure password storage  
+Passwords are typically stored in a database where they are mapped to a username. The server receives a request for authentication that contains the credentials supplied by the user. It then looks up the username in the database and compares it with the password that was provided and verifies that it matches before granting them access.
+
+This is a safe system unless an attacker gains access to the user database. If passwords are stored in plaintext, then an attacker can steal that information and use it to access company resources. Hashing adds an additional layer of security. Because hash values can't be reversed, an attacker would not be able to steal someone's login credentials if they managed to gain access to the database.
+
+Rainbow tables  
+A rainbow table is a file of pre-generated hash values and their associated plaintext. They’re like dictionaries of weak passwords. Attackers capable of obtaining an organization’s password database can use a rainbow table to compare them against all possible values.
+
+Adding some “salt”  
+Functions with larger digests are less vulnerable to collision and rainbow table attacks. But as you’re learning, no security control is perfect.
+
+Salting is an additional safeguard that's used to strengthen hash functions. A salt is a random string of characters that's added to data before it's hashed. The additional characters produce a more unique hash value, making salted data resilient to rainbow table attacks.
+
+For example, a database containing passwords might have several hashed entries for the password "password." If those passwords were all salted, each entry would be completely different. That means an attacker using a rainbow table would be unable to find matching values for "password" in the database.
+
+User input entering a hash function. A random set of characters are added to the hashing process.  
+For this reason, salting has become increasingly common when storing passwords and other types of sensitive data. The length and uniqueness of a salt is important. Similar to hash values, the longer and more complex a salt is, the harder it is to crack.
+
+## Rise of SSO and MFA:
+
+A better approach to authentication  
+Single sign-on (SSO) is a technology that combines several different logins into one. More companies are turning to SSO as a solution to their authentication needs for three reasons:
+
+SSO improves the user experience by eliminating the number of usernames and passwords people have to remember.
+
+Companies can lower costs by streamlining how they manage connected services.
+
+SSO improves overall security by reducing the number of access points attackers can target.
+
+This technology became available in the mid-1990s as a way to combat password fatigue, which refers to people’s tendency to reuse passwords across services. Remembering many different passwords can be a challenge, but using the same password repeatedly is a major security risk. SSO solves this dilemma by shifting the burden of authentication away from the user.
+
+How SSO works  
+SSO works by automating how trust is established between a user and a service provider. Rather than placing the responsibility on an employee or customer, SSO solutions use trusted third-parties to prove that a user is who they claim to be. This is done through the exchange of encrypted access tokens between the identity provider and the service provider.
+
+Similar to other kinds of digital information, these access tokens are exchanged using specific protocols. SSO implementations commonly rely on two different authentication protocols: LDAP and SAML. LDAP, which stands for Lightweight Directory Access Protocol, is mostly used to transmit information on-premises; SAML, which stands for Security Assertion Markup Language, is mostly used to transmit information off-premises, like in the cloud.
+
+Note: LDAP and SAML protocols are often used together.
+
+Here's an example of how SSO can connect a user to multiple applications with one access token:
+
+One user connects to multiple applications with one access token.  
+Limitations of SSO  
+Usernames and passwords alone are not always the most secure way of protecting sensitive information. SSO provides useful benefits, but there’s still the risk associated with using one form of authentication. For example, a lost or stolen password could expose information across multiple services. Thankfully, there’s a solution to this problem.
+
+MFA to the rescue  
+Multi-factor authentication (MFA) requires a user to verify their identity in two or more ways to access a system or network. In a sense, MFA is similar to using an ATM to withdraw money from your bank account. First, you insert a debit card into the machine as one form of identification. Then, you enter your PIN number as a second form of identification. Combined, both steps, or factors, are used to verify your identity before authorizing you to access the account.
+
+An equation showing user login plus biometric or physical devices equal access.  
+Strengthening authentication  
+MFA builds on the benefits of SSO. It works by having users prove that they are who they claim to be. The user must provide two factors (2FA) or three factors (3FA) to authenticate their identification. The MFA process asks users to provide these proofs, such as:
+
+Something a user knows: most commonly a username and password
+
+Something a user has: normally received from a service provider, like a one-time passcode (OTP) sent via SMS
+
+Something a user is: refers to physical characteristics of a user, like their fingerprints or facial scans
+
+Requiring multiple forms of identification is an effective security measure, especially in cloud environments. It can be difficult for businesses in the cloud to ensure that the users remotely accessing their systems are not threat actors. MFA can reduce the risk of authenticating the wrong users by requiring forms of identification that are difficult to imitate or brute force.
+
+## Identity and Access Management:
+
+Security is more than simply combining processes and technologies to protect assets. Instead, security is about ensuring that these processes and technologies are creating a secure environment that supports a defense strategy. A key to doing this is implementing two fundamental security principles that limit access to organizational resources:
+
+The principle of least privilege in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+
+Separation of duties, which is the principle that users should not be given levels of authorization that would allow them to misuse a system.
+
+Both principles typically support each other. For example, according to least privilege, a person who needs permission to approve purchases from the IT department shouldn't have the permission to approve purchases from every department. Likewise, according to separation of duties, the person who can approve purchases from the IT department should be different from the person who can input new purchases.
+
+In other words, least privilege limits the access that an individual receives, while separation of duties divides responsibilities among multiple people to prevent any one person from having too much control.
+
+Note: Separation of duties is sometimes referred to as segregation of duties.
+
+Previously, you learned about the authentication, authorization, and accounting (AAA) framework. Many businesses used this model to implement these two security principles and manage user access. In this reading, you’ll learn about the other major framework for managing user access, identity and access management (IAM). You will learn about the similarities between AAA and IAM and how they're commonly implemented.
+
+Identity and access management (IAM)  
+As organizations become more reliant on technology, regulatory agencies have put more pressure on them to demonstrate that they’re doing everything they can to prevent threats. Identity and access management (IAM) is a collection of processes and technologies that helps organizations manage digital identities in their environment. Both AAA and IAM systems are designed to authenticate users, determine their access privileges, and track their activities within a system.
+
+Either model used by your organization is more than a single, clearly defined system. They each consist of a collection of security controls that ensure the right user is granted access to the right resources at the right time and for the right reasons. Each of those four factors is determined by your organization's policies and processes.
+
+Note: A user can either be a person, a device, or software.
+
+Authenticating users  
+To ensure the right user is attempting to access a resource requires some form of proof that the user is who they claim to be. In a   
+video on authentication controls  
+, you learned that there are a few factors that can be used to authenticate a user:
+
+Knowledge, or something the user knows
+
+Ownership, or something the user possesses
+
+Characteristic, or something the user is
+
+Authentication is mainly verified with login credentials. Single sign-on (SSO), a technology that combines several different logins into one, and multi-factor authentication (MFA), a security measure that requires a user to verify their identity in two or more ways to access a system or network, are other tools that organizations use to authenticate individuals and systems.
+
+Pro tip: Another way to remember this authentication model is: something you know, something you have, and something you are.
+
+User provisioning  
+Back-end systems need to be able to verify whether the information provided by a user is accurate. To accomplish this, users must be properly provisioned. User provisioning is the process of creating and maintaining a user's digital identity. For example, a college might create a new user account when a new instructor is hired. The new account will be configured to provide access to instructor-only resources while they are teaching. Security analysts are routinely involved with provisioning users and their access privileges.
+
+Pro tip: Another role analysts have in IAM is to deprovision users. This is an important practice that removes a user's access rights when they should no longer have them.
+
+Granting authorization  
+If the right user has been authenticated, the network should ensure the right resources are made available. There are three common frameworks that organizations use to handle this step of IAM:
+
+Mandatory access control (MAC)
+
+Discretionary access control (DAC)
+
+Role-based access control (RBAC)
+
+A system administrator deciding to grant users and an operating system access to data.  
+Mandatory Access Control (MAC)  
+MAC is the strictest of the three frameworks. Authorization in this model is based on a strict need-to-know basis. Access to information must be granted manually by a central authority or system administrator. For example, MAC is commonly applied in law enforcement, military, and other government agencies where users must request access through a chain of command. MAC is also known as non-discretionary control because access isn’t given at the discretion of the data owner.
+
+A data owner choosing to grant specific users access to their data.  
+Discretionary Access Control (DAC)  
+DAC is typically applied when a data owner decides appropriate levels of access. One example of DAC is when the owner of a Google Drive folder shares editor, viewer, or commentor access with someone else.
+
+A system administrator assigning users to specific roles that have predefined access levels.  
+Role-Based Access Control (RBAC)  
+RBAC is used when authorization is determined by a user's role within an organization. For example, a user in the marketing department may have access to user analytics but not network administration.
+
+Access control technologies  
+Users often experience authentication and authorization as a single, seamless experience. In large part, that’s due to access control technologies that are configured to work together. These tools offer the speed and automation needed by administrators to monitor and modify access rights. They also decrease errors and potential risks.
+
+An organization's IT department sometimes develops and maintains customized access control technologies on their own. A typical IAM or AAA system consists of a user directory, a set of tools for managing data in that directory, an authorization system, and an auditing system. Some organizations create custom systems to tailor them to their security needs. However, building an in-house solution comes at a steep cost of time and other resources.
+
+Instead, many organizations opt to license third-party solutions that offer a suite of tools that enable them to quickly secure their information systems. Keep in mind, security is about more than combining a bunch of tools. It’s always important to configure these technologies so they can help to provide a secure environment.
+
+Vulnerabilities of CI/CD:  
+What is CI/CD and Why Does it Matter?  
+CI/CD automates the entire software release process, from code creation to deployment. This automation is what enables modern development teams to be agile and respond quickly to user needs. Let's break down the key parts:
+
+Continuous Integration (CI): Building a Solid Foundation  
+Continuous Integration (CI) is all about frequently merging code changes from different developers into a central location. This triggers automated processes like building the software and running tests. CI catches problems through an automated process: every time code is integrated, the system automatically builds and tests it. This immediate feedback loop reveals integration problems as soon as they occur. CI helps catch integration problems early, leading to higher quality code. Think of it as the foundation of the pipeline.
+
+Continuous Delivery (CD): Ready to Release  
+Continuous Delivery means your code is always ready to be released to users. After passing automated tests, code is automatically deployed to a staging environment (a practice environment) or prepared for final release. Typically, a manual approval step is still needed before going live to production, which provides a control point.
+
+Continuous Deployment (CD): Fully Automated Releases  
+Continuous Deployment automates the entire release process. Changes that pass all automated checks are automatically deployed directly to the live production environment, with no manual approval. This is all about speed and efficiency.
+
+Diagram illustrating a three-stage CI/CD pipeline, flowing from left to right.\]  
+Security Benefits of Continuous Delivery and Deployment  
+You might be wondering how security fits into all this automation. The good news is that Continuous Delivery and Deployment can actually enhance security. CD allows you to build security checks right into your deployment pipeline. This ensures that only thoroughly vetted software versions are released.
+
+These automated security checks can include:
+
+Dynamic Application Security Testing (DAST): Automated tests that find vulnerabilities in running applications in realistic staging environments.
+
+Security Compliance Checks: Automated checks that ensure software meets your organization’s security rules and policies.
+
+Infrastructure Security Validations: Checks that make sure the systems hosting your software are secure.
+
+Why a secure CI/CD Pipelines is Non-Negotiable  
+To grasp the power of CI/CD is vital.  Pipeline protection is not optional; it is essential. Consider these points:
+
+Secure Automation: CI/CD automates repetitive tasks: building, testing, deploying. When automation is implemented securely, this reduces errors from manual work, speeds processes, and importantly, reduces human errors that create vulnerabilities. However, insecure automation automates the introduction of vulnerabilities at scale.
+
+Improved Code Quality Via Security Checks: Automated tests in CI/CD rigorously check code before release. Crucially, this includes automated security tests. This leads to fewer bugs and security weaknesses in final software, but only if security tests integrate effectively within the pipeline.
+
+Faster Time to Market for Security Updates: CI/CD accelerates releases. This enables faster delivery of new features, bug fixes, and security updates, improving response time to both user needs and security threats. This rapid deployment of security updates is a significant security advantage of a well-secured CI/CD pipeline.
+
+Enhanced Collaboration and Feedback with Safety Focus: CI/CD encourages collaboration between development, security, testing, and operations teams. Quick feedback loops aid identification and resolution of vulnerabilities early in development. This collaborative environment is essential to build security into the pipeline and address vulnerabilities proactively.
+
+Reduced Risk: Frequent, smaller releases, a result of CI/CD, are less risky than large, infrequent releases. If issues arise (including security issues), pinpointing and fixing the problem becomes easier. This also applies to security vulnerabilities; smaller, frequent releases limit the potential impact of a security flaw introduced in any single release, provided security monitoring and testing remain continuous.
+
+In essence, CI/CD is the engine of modern agile software development. It allows for reliable, efficient, and responsive software delivery. However, an unsecured CI/CD pipeline can become a major entry point for vulnerabilities.
+
+Common CI/CD Pipeline Vulnerabilities: What to Watch Out For  
+Knowing the benefits of CI/CD is only half the battle. You also need to understand the potential security weaknesses. Here are some common vulnerabilities to be aware of:
+
+Insecure Dependencies: Risks from Third-Party Code  
+CI/CD pipelines often use many third-party libraries and components. If these components have known vulnerabilities (Common Vulnerabilities and Exposures, or CVEs), those vulnerabilities can be unknowingly added to your application during the automated build process.
+
+Action Step: Regularly scan and update your dependencies. Make sure you’re using secure versions of all external components.
+
+Misconfigured Permissions: Controlling Access  
+Weak access controls in CI/CD tools, code repositories, and related systems are a significant vulnerability. Unauthorized access can allow attackers to modify code, pipeline configurations, or inject malicious content.
+
+Action Step: Implement strong access management using Role-Based Access Control (RBAC). Ensure only authorized individuals can access and change critical pipeline elements.
+
+Lack of Automated Security Testing: Missing Critical Checks  
+Failing to include automated security testing in your CI/CD pipeline is a serious error. Without tools like SAST and DAST, you are almost guaranteed to release software full of vulnerabilities that will go undetected until after it's live, leading to significantly higher costs and effort to fix..
+
+Action Step: Integrate automated security testing (SAST and DAST) into your CI/CD pipeline. This should be a core part of your secure CI/CD strategy.
+
+Exposed Secrets: Protecting Sensitive Information  
+Hardcoding sensitive data like API keys, passwords, and tokens directly into code or pipeline settings is a serious security mistake. If exposed, these secrets can lead to major security breaches.
+
+Action Step: Never hardcode secrets. Use secure vaults or dedicated secrets management tools to store and manage sensitive information. Enforce this practice across your team.
+
+Unsecured Build Environments: Protecting the Pipeline Infrastructure  
+The CI/CD environment itself (the servers and systems that run your pipeline) needs to be secure. If this environment is vulnerable, attackers can compromise it to alter builds, inject malicious code, or steal sensitive data.
+
+Action Step: Harden your build environments. Use secure containers or virtual machines to minimize the risk of a compromised pipeline.
+
+Building a Secure CI/CD Pipeline: Defense in Depth  
+To proactively address these vulnerabilities, a layered security approach is key. Here are essential best practices for your CI/CD security strategy:
+
+Integrate Security from the Start: Embrace DevSecOps: Adopt a DevSecOps mindset. This means building security into every stage of development, from planning to deployment and beyond. This naturally includes embedding security checks into your CI/CD pipeline.
+
+Implement Strong Access Controls: Use strict permission policies based on the principle of least privilege. Only grant necessary access to code, pipeline settings, and deployment configurations. Use tools like Multi-Factor Authentication (MFA) and Role-Based Access Control (RBAC) to secure your CI/CD environment.
+
+Automate Security Testing Everywhere: Make automated security scans and tests a fundamental part of your build and deployment process. Tools like SAST, Software Composition Analysis (SCA), and DAST are not optional extras – they are essential for a secure CI/CD pipeline so you can catch vulnerabilities early.
+
+Keep Dependencies Updated: Maintain a current inventory of all third-party dependencies, libraries, and CI/CD plugins. Regularly update these components to patch security vulnerabilities (CVEs). Tools like   
+Dependabot  
+ and   
+Snyk  
+ can automate dependency management.
+
+Secure Secrets Management: Never hardcode sensitive information in your code or pipeline configurations. Require the use of dedicated secrets management tools like HashiCorp Vault or AWS Secrets Manager. Securely store, access, and rotate secrets throughout the CI/CD process.
+
+## OWASP Top 10:
+
+What is OWASP?  
+OWASP is a nonprofit foundation that works to improve the security of software. OWASP is an open platform that security professionals from around the world use to share information, tools, and events that are focused on securing the web.
+
+The OWASP Top 10  
+One of OWASP’s most valuable resources is the OWASP Top 10\. The organization has published this list since 2003 as a way to spread awareness of the web’s most targeted vulnerabilities. The Top 10 mainly applies to new or custom made software. Many of the world's largest organizations reference the OWASP Top 10 during application development to help ensure their programs address common security mistakes.
+
+Pro tip: OWASP’s Top 10 is updated every few years as technologies evolve. Rankings are based on how often the vulnerabilities are discovered and the level of risk they present.
+
+Note: Auditors also use the OWASP Top 10 as one point of reference when checking for regulatory compliance.
+
+Common vulnerabilities  
+Businesses often make critical security decisions based on the vulnerabilities listed in the OWASP Top 10\. This resource influences how businesses design new software that will be on their network, unlike the CVE® list, which helps them identify improvements to existing programs. These are the most regularly listed vulnerabilities that appear in their rankings to know about:
+
+Broken access control  
+Access controls limit what users can do in a web application. For example, a blog might allow visitors to post comments on a recent article but restricts them from deleting the article entirely. Failures in these mechanisms can lead to unauthorized information disclosure, modification, or destruction. They can also give someone unauthorized access to other business applications.
+
+Cryptographic failures  
+Information is one of the most important assets businesses need to protect. Privacy laws such as General Data Protection Regulation (GDPR) require sensitive data to be protected by effective encryption methods. Vulnerabilities can occur when businesses fail to encrypt things like personally identifiable information (PII). For example, if a web application uses a weak hashing algorithm, like MD5, it’s more at risk of suffering a data breach.
+
+Injection  
+Injection occurs when malicious code is inserted into a vulnerable application. Although the app appears to work normally, it does things that it wasn’t intended to do. Injection attacks can give threat actors a backdoor into an organization’s information system. A common target is a website’s login form. When these forms are vulnerable to injection, attackers can insert malicious code that gives them access to modify or steal user credentials. 
+
+Insecure design  
+Applications should be designed in such a way that makes them resilient to attack. When they aren’t, they’re much more vulnerable to threats like injection attacks or malware infections. Insecure design refers to a wide range of missing or poorly implemented security controls that should have been programmed into an application when it was being developed.
+
+Security misconfiguration  
+Misconfigurations occur when security settings aren’t properly set or maintained. Companies use a variety of different interconnected systems. Mistakes often happen when those systems aren’t properly set up or audited. A common example is when businesses deploy equipment, like a network server, using default settings. This can lead businesses to use settings that fail to address the organization's security objectives.
+
+Vulnerable and outdated components  
+Vulnerable and outdated components is a category that mainly relates to application development. Instead of coding everything from scratch, most developers use open-source libraries to complete their projects faster and easier. This publicly available software is maintained by communities of programmers on a volunteer basis. Applications that use vulnerable components that have not been maintained are at greater risk of being exploited by threat actors.
+
+Identification and authentication failures  
+Identification is the keyword in this vulnerability category. When applications fail to recognize who should have access and what they’re authorized to do, it can lead to serious problems. For example, a home Wi-Fi router normally uses a simple login form to keep unwanted guests off the network. If this defense fails, an attacker can invade the homeowner’s privacy.
+
+Software and data integrity failures  
+Software and data integrity failures are instances when updates or patches are inadequately reviewed before implementation. Attackers might exploit these weaknesses to deliver malicious software. When that occurs, there can be serious downstream effects. Third parties are likely to become infected if a single system is compromised, an event known as a supply chain attack.
+
+A famous example of a supply chain attack is the   
+SolarWinds cyber attack (2020)  
+ where hackers injected malicious code into software updates that the company unknowingly released to their customers.
+
+Security logging and monitoring failures  
+In security, it’s important to be able to log and trace back events. Having a record of events like user login attempts is critical to finding and fixing problems. Sufficient monitoring and incident response is equally important.
+
+Server-side request forgery  
+Companies have public and private information stored on web servers. When you use a hyperlink or click a button on a website, a request is sent to a server that should validate who you are, fetch the appropriate data, and then return it to you.
+
+A hacker using their victim's computer to steal data from a web server.  
+Server-side request forgeries (SSRFs) are when attackers manipulate the normal operations of a server to read or update other resources on that server. These are possible when an application on the server is vulnerable. Malicious code can be carried by the vulnerable app to the host server that will fetch unauthorized data.
+
+## Open Source Intelligence:
+
+Information vs intelligence  
+The terms intelligence and information are often used interchangeably, making it easy to mix them up. Both are important aspects of cybersecurity that differ in their focus and objectives.
+
+Information refers to the collection of raw data or facts about a specific subject. Intelligence, on the other hand, refers to the analysis of information to produce knowledge or insights that can be used to support decision-making.
+
+For example, new information might be released about an update to the operating system (OS) that's installed on your organization's workstations. Later, you might find that new cyber threats have been linked to this new update by researching multiple cybersecurity news resources. The analysis of this information can be used as intelligence to guide your organization's decision about installing the OS updates on employee workstations.
+
+In other words, intelligence is derived from information through the process of analysis, interpretation, and integration. Gathering information and intelligence are both important aspects of cybersecurity.
+
+Intelligence improves decision-making   
+Businesses often use information to gain insights into the behavior of their customers. Insights, or intelligence, can then be used to improve their decision making. In security, open-source information is used in a similar way to gain insights into threats and vulnerabilities that can pose risks to an organization.
+
+OSINT plays a significant role in information security (InfoSec), which is the practice of keeping data in all states away from unauthorized users.
+
+For example, a company's InfoSec team is responsible for protecting their network from potential threats. They might utilize OSINT to monitor online forums and hacker communities for discussions about emerging vulnerabilities. If they come across a forum post discussing a newly discovered weakness in a popular software that the company uses, the team can quickly assess the risk, prioritize patching efforts, and implement necessary safeguards to prevent an attack.
+
+Here are some of the ways OSINT can be used to generate intelligence:
+
+To provide insights into cyber attacks
+
+To detect potential data exposures
+
+To evaluate existing defenses
+
+To identify unknown vulnerabilities
+
+Collecting intelligence is sometimes part of the vulnerability management process. Security teams might use OSINT to develop profiles of potential targets and make data driven decisions on improving their defenses.
+
+OSINT tools  
+There's an enormous amount of open-source information online. Finding relevant information that can be used to gather intelligence is a challenge. Information can be gathered from a variety of sources, such as search engines, social media, discussion boards, blogs, and more. Several tools also exist that can be used in your intelligence gathering process. Here are just a few examples of tools that you can explore:
+
+VirusTotal is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content.
+
+MITRE ATT\&CK® is a knowledge base of adversary tactics and techniques based on real-world observations.
+
+OSINT Framework is a web-based interface where you can find OSINT tools for almost any kind of source or platform.
+
+Have I been Pwned is a tool that can be used to search for breached email accounts.
+
+There are numerous other OSINT tools that can be used to find specific types of information. Remember, information can be gathered from a variety of sources. Ultimately, it's your responsibility to thoroughly research any available information that's relevant to the problem you’re trying to solve.
+
+## Vulnerability Scanning:
+
+What is a vulnerability scanner?  
+A vulnerability scanner is software that automatically compares known vulnerabilities and exposures against the technologies on the network. In general, these tools scan systems to find misconfigurations or programming flaws.
+
+Scanning tools are used to analyze each of the five attack surfaces that you learned about in   
+the video about the defense in depth strategy  
+:
+
+Perimeter layer, like authentication systems that validate user access
+
+Network layer, which is made up of technologies like network firewalls and others
+
+Endpoint layer, which describes devices on a network, like laptops, desktops, or servers
+
+Application layer, which involves the software that users interact with
+
+Data layer, which includes any information that’s stored, in transit, or in use
+
+When a scan of any layer begins, the scanning tool compares the findings against databases of security threats. At the end of the scan, the tool flags any vulnerabilities that it finds and adds them to its reference database. Each scan adds more information to the database, helping the tool be more accurate in its analysis.
+
+Note: Vulnerability databases are also routinely updated by the company that designed the scanning software.
+
+Performing scans  
+Vulnerability scanners are meant to be non-intrusive. Meaning, they don’t break or take advantage of a system like an attacker would. Instead, they simply scan a surface and alert you to any potentially unlocked doors in your systems.
+
+Note: While vulnerability scanners are non-intrusive, there are instances when a scan can inadvertently cause issues, like crash a system.
+
+There are a few different ways that these tools are used to scan a surface. Each approach corresponds to the pathway a threat actor might take. Next, you can explore each type of scan to get a clearer picture of this. 
+
+External vs. internal
+
+External and internal scans simulate an attacker's approach.
+
+External scans test the perimeter layer outside of the internal network. They analyze outward facing systems, like websites and firewalls. These kinds of scans can uncover vulnerable things like vulnerable network ports or servers.
+
+Internal scans start from the opposite end by examining an organization's internal systems. For example, this type of scan might analyze application software for weaknesses in how it handles user input.
+
+Authenticated vs. unauthenticated  
+Authenticated and unauthenticated scans simulate whether or not a user has access to a system.
+
+Authenticated scans might test a system by logging in with a real user account or even with an admin account. These service accounts are used to check for vulnerabilities, like broken access controls.
+
+Unauthenticated scans simulate external threat actors that do not have access to your business resources. For example, a scan might analyze file shares within the organization that are used to house internal-only documents. Unauthenticated users should receive "access denied" results if they tried opening these files. However, a vulnerability would be identified if you were able to access a file.
+
+Limited vs. comprehensive  
+Limited and comprehensive scans focus on particular devices that are accessed by internal and external users.
+
+Limited scans analyze particular devices on a network, like searching for misconfigurations on a firewall.
+
+Comprehensive scans analyze all devices connected to a network. This includes operating systems, user databases, and more.
+
+Pro tip: Discovery scanning should be done prior to limited or comprehensive scans. Discovery scanning is used to get an idea of the computers, devices, and open ports that are on a network.
+
+## Importance of Updates:
+
+Patching gaps in security  
+An outdated computer is a lot like a house with unlocked doors. Malicious actors use these gaps in security the same way, to gain unauthorized access. Software updates are similar to locking the doors to keep them out.
+
+A patch update is a software and operating system update that addresses security vulnerabilities within a program or product. Patches usually contain bug fixes that address common security vulnerabilities and exposures.
+
+Note: Ideally, patches address common vulnerabilities and exposures before malicious hackers find them. However, patches are sometimes developed as a result of a zero-day, which is an exploit that was previously unknown.
+
+Common update strategies  
+When software updates become available, clients and users have two installation options:
+
+Manual updates
+
+Automatic updates
+
+As you’ll learn, each strategy has both benefits and disadvantages.
+
+Manual updates  
+A manual deployment strategy relies on IT departments or users obtaining updates from the developers. Home office or small business environments might require you to find, download, and install updates yourself. In enterprise settings, the process is usually handled with a configuration management tool. These tools offer a range of options to deploy updates, like to all clients on your network or a select group of users.  
+
+Advantage: An advantage of manual update deployment strategies is control. That can be useful if software updates are not thoroughly tested by developers, leading to instability issues.
+
+Disadvantage: A drawback to manual update deployments is that critical updates can be forgotten or disregarded entirely.
+
+Automatic updates  
+An automatic deployment strategy takes the opposite approach. With this option, finding, downloading, and installing updates can be done by the system or application.
+
+Pro tip: The Cybersecurity and Infrastructure Security Agency (CISA) recommends using automatic options whenever they’re available.
+
+Certain permissions need to be enabled by users or IT groups before updates can be installed, or pushed, when they're available. It is up to the developers to adequately test their patches before release.
+
+Advantage: An advantage to automatic updates is that the deployment process is simplified. It also keeps systems and software current with the latest, critical patches.
+
+Disadvantage: A drawback to automatic updates is that instability issues can occur if the patches were not thoroughly tested by the vendor. This can result in performance problems and a poor user experience.
+
+End-of-life software  
+Sometimes updates are not available for a certain type of software known as end-of-life (EOL) software. All software has a lifecycle. It begins when it’s produced and ends when a newer version is released. At that point, developers must allocate resources to the newer versions, which leads to EOL software. While the older software is still useful, the manufacturer no longer supports it. 
+
+Note: Patches and updates are very different from upgrades. Upgrades refer to completely new versions of hardware or software that can be purchased.
+
+CISA recommends discontinuing the use of EOL software  
+ because it poses an unfixable risk to systems. But, this recommendation is not always followed. Replacing EOL technology can be costly for businesses and individual users.
+
+The risks that EOL software presents continues to grow as more connected devices enter the marketplace. For example, there are billions of Internet of Things (IoT) devices, like smart light bulbs, connected to home and work networks. In some business settings, all an attacker needs is a single unpatched device to gain access to the network and cause problems.
+
+## Penetration Testing:
+
+Penetration testing  
+A penetration test, or pen test, is a simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes. The simulated attack in a pen test involves using the same tools and techniques as malicious actors in order to mimic a real life attack. Since a pen test is an authorized attack, it is considered to be a form of ethical hacking. Unlike a vulnerability assessment that finds weaknesses in a system's security, a pen test exploits those weaknesses to determine the potential consequences if the system breaks or gets broken into by a threat actor.
+
+For example, the cybersecurity team at a financial company might simulate an attack on their banking app to determine if there are weaknesses that would allow an attacker to steal customer information or illegally transfer funds. If the pen test uncovers misconfigurations, the team can address them and improve the overall security of the app.  
+
+Note: Organizations that are regulated by PCI DSS, HIPAA, or GDPR must routinely perform penetration testing to maintain compliance standards.
+
+Learning from varied perspectives  
+These authorized attacks are performed by pen testers who are skilled in programming and network architecture. Depending on their objectives, organizations might use a few different approaches to penetration testing:
+
+Red team tests simulate attacks to identify vulnerabilities in systems, networks, or applications.
+
+Blue team tests focus on defense and incident response to validate an organization's existing security systems.
+
+Purple team tests are collaborative, focusing on improving the security posture of the organization by combining elements of red and blue team exercises.
+
+Red team tests are commonly performed by independent pen testers who are hired to evaluate internal systems. Although, cybersecurity teams may also have their own pen testing experts. Regardless of the approach, penetration testers must make an important decision before simulating an attack: How much access and information do I need?
+
+Penetration testing strategies  
+There are three common penetration testing strategies: 
+
+Open-box testing is when the tester has the same privileged access that an internal developer would have—information like system architecture, data flow, and network diagrams. This strategy goes by several different names, including internal, full knowledge, white-box, and clear-box penetration testing.
+
+Closed-box testing is when the tester has little to no access to internal systems—similar to a malicious hacker. This strategy is sometimes referred to as external, black-box, or zero knowledge penetration testing.
+
+Partial knowledge testing is when the tester has limited access and knowledge of an internal system—for example, a customer service representative. This strategy is also known as gray-box testing.
+
+Closed box testers tend to produce the most accurate simulations of a real-world attack. Nevertheless, each strategy produces valuable results by demonstrating how an attacker might infiltrate a system and what information they could access.
+
+Becoming a penetration tester  
+Penetration testers are in-demand in the fast growing field of cybersecurity. All of the skills you’re learning in this program can help you advance towards a career in pen testing:
+
+Network and application security
+
+Experience with operating systems, like Linux
+
+Vulnerability analysis and threat modeling
+
+Detection and response tools
+
+Programming languages, like Python and BASH
+
+Communication skills
+
+Programming skills are very helpful in penetration testing because it's often performed on software and IT systems. With enough practice and dedication, cybersecurity professionals at any level can develop the skills needed to be a pen tester.
+
+Bug bounty programs  
+Organizations commonly run bug bounty programs which offer freelance pen testers financial rewards for finding and reporting vulnerabilities in their products. Bug bounties are great opportunities for amateur security professionals to participate and grow their skills.
+
+## Approach with an attacker mindset:
+
+Being prepared for anything  
+Having a plan should things go wrong is important. But how do you figure out what to plan for? In this field, teams often conduct simulations of things that can go wrong as part of their vulnerability management strategy. One way this is done is by applying an attacker mindset to the weaknesses they discover.
+
+Applying an attacker mindset is a lot like conducting an experiment. It's about causing problems in a controlled environment and evaluating the outcome to gain insights. Adopting an attacker mindset is a beneficial skill in security because it offers a different perspective about the challenges you're trying to solve. The insights you gain can be valuable when it's time to establish a security plan or modify an existing one.
+
+A group of people securing using different technologies.  
+Simulating threats  
+One method of applying an attacker mindset is using attack simulations. These activities are normally performed in one of two ways: proactively and reactively. Both approaches share a common goal, which is to make systems safer.
+
+Proactive simulations assume the role of an attacker by exploiting vulnerabilities and breaking through defenses. This is sometimes called a red team exercise.
+
+Reactive simulations assume the role of a defender responding to an attack. This is sometimes called a blue team exercise.
+
+Each kind of simulation is a team effort that you might be involved with as an analyst.
+
+Proactive teams tend to spend more time planning their attacks than performing them. If you find yourself engaged in one of these exercises, your team will likely deploy a range of tactics. For example, they might persuade staff into disclosing their login credentials using fictitious emails to evaluate security awareness at the company.
+
+On the other hand, reactive teams dedicate their efforts to gathering information about the assets they're protecting. This is commonly done with the assistance of vulnerability scanning tools. 
+
+Scanning for trouble  
+You might recall that a vulnerability scanner is software that automatically compares existing common vulnerabilities and exposures against the technologies on the network. Vulnerability scanners are frequently used in the field. Security teams employ a variety of scanning techniques to uncover weaknesses in their defenses. Reactive simulations often rely on the results of a scan to weigh the risks and determine ways to remediate a problem.
+
+For example, a team conducting a reactive simulation might perform an external vulnerability scan of their network. The entire exercise might follow the steps you learned in a video about vulnerability assessments:
+
+Identification: A vulnerable server is flagged because it's running an outdated operating system (OS).
+
+Vulnerability analysis: Research is done on the outdated OS and its vulnerabilities.
+
+Risk assessment: After doing your due diligence, the severity of each vulnerability is scored and the impact of not fixing it is evaluated.
+
+Remediation: Finally, the information that you’ve gathered can be used to address the issue.
+
+During an activity like this, you’ll often produce a report of your findings. These can be brought to the attention of service providers or your supervisors. Clearly communicating the results of these exercises to others is an important skill to develop as a security professional.
+
+Finding innovative solutions  
+Many security controls that you’ve learned about were created as a reactive response to risks. That’s because criminals are continually looking for ways to bypass existing defenses. Effectively applying an attacker mindset will require you to stay knowledgeable of security trends and emerging technologies.
+
+Pro tip: Resources like NISTs National Vulnerability Database (NVD) can help you remain current on common vulnerabilities.
+
+## Types of threat actors:
+
+Threat actors  
+A threat actor is any person or group who presents a security risk. This broad definition refers to people inside and outside an organization. It also includes individuals who intentionally pose a threat, and those that accidentally put assets at risk. That’s a wide range of people\!
+
+Threat actors are normally divided into five categories based on their motivations:
+
+Competitors refers to rival companies who pose a threat because they might benefit from leaked information.
+
+State actors are government intelligence agencies.
+
+Criminal syndicates refer to organized groups of people who make money from criminal activity.
+
+Insider threats can be any individual who has or had authorized access to an organization’s resources. This includes employees who accidentally compromise assets or individuals who purposefully put them at risk for their own benefit.
+
+Shadow IT refers to individuals who use technologies that lack IT governance. A common example is when an employee uses their personal email to send work-related communications.
+
+In the digital attack surface, these threat actors often gain unauthorized access by hacking into systems. By definition, a hacker is any person who uses computers to gain unauthorized access to computer systems, networks, or data. Similar to the term threat actor, hacker is also an umbrella term. When used alone, the term fails to capture a threat actor’s intentions.
+
+A group of hackers on a world map carrying assets.  
+Types of hackers  
+Because the formal definition of a hacker is broad, the term can be a bit ambiguous. In security, it applies to three types of individuals based on their intent:
+
+Unauthorized hackers 
+
+Authorized, or ethical, hackers
+
+Semi-authorized hackers
+
+An unauthorized hacker, or unethical hacker, is an individual who uses their programming skills to commit crimes. Unauthorized hackers are also known as malicious hackers. Skill level ranges widely among this category of hacker. For example, there are hackers with limited skills who can’t write their own malicious software, sometimes called script kiddies. Unauthorized hackers like this carry out attacks using pre-written code that they obtain from other, more skilled hackers.
+
+Authorized, or ethical, hackers refer to individuals who use their programming skills to improve an organization's overall security. These include internal members of a security team who are concerned with testing and evaluating systems to secure the attack surface. They also include external security vendors and freelance hackers that some companies incentivize to find and report vulnerabilities, a practice called bug bounty programs.
+
+Semi-authorized hackers typically refer to individuals who might violate ethical standards, but are not considered malicious. For example, a hacktivist is a person who might use their skills to achieve a political goal. One might exploit security vulnerabilities of a public utility company to spread awareness of their existence. The intentions of these types of threat actors is often to expose security risks that should be addressed before a malicious hacker finds them.
+
+Advanced persistent threats  
+Many malicious hackers find their way into a system, cause trouble, and then leave. But on some occasions, threat actors stick around. These kinds of events are known as advanced persistent threats, or APTs.
+
+An advanced persistent threat (APT) refers to instances when a threat actor maintains unauthorized access to a system for an extended period of time. The term is mostly associated with nation states and state-sponsored actors. Typically, an APT is concerned with surveilling a target to gather information. They then use the intel to manipulate government, defense, financial, and telecom services.
+
+Just because the term is associated with state actors does not mean that private businesses are safe from APTs. These kinds of threat actors are stealthy because hacking into another government agency or utility is costly and time consuming. APTs will often target private organizations first as a step towards gaining access to larger entities.
+
+Access points  
+Each threat actor has a unique motivation for targeting an organization's assets. Keeping them out takes more than knowing their intentions and capabilities. It’s also important to recognize the types of attack vectors they’ll use.
+
+For the most part, threat actors gain access through one of these attack vector categories:
+
+Direct access, referring to instances when they have physical access to a system
+
+Removable media, which includes portable hardware, like USB flash drives
+
+Social media platforms that are used for communication and content sharing
+
+Email, including both personal and business accounts
+
+Wireless networks on premises
+
+Cloud services usually provided by third-party organizations
+
+Supply chains like third-party vendors that can present a backdoor into systems
+
+Any of these attack vectors can provide access to a system. Recognizing a threat actor’s intentions can help you determine which access points they might target and what ultimate goals they could have. For example, remote workers are more likely to present a threat via email than a direct access threat.
+
+## Fortify against brute force cyber attacks:
+
+A matter of trial and error  
+One way of opening a closed lock is trying as many combinations as possible. Threat actors sometimes use similar tactics to gain access to an application or a network. 
+
+Attackers use a variety of tactics to find their way into a system:
+
+Simple brute force attacks are an approach in which attackers guess a user's login credentials. They might do this by entering any combination of username and password that they can think of until they find the one that works.
+
+Dictionary attacks are a similar technique except in these instances attackers use a list of commonly used credentials to access a system. This list is similar to matching a definition to a word in a dictionary.
+
+Reverse brute force attacks are similar to dictionary attacks, except they start with a single credential and try it in various systems until a match is found.
+
+Credential stuffing is a tactic in which attackers use stolen login credentials from previous data breaches to access user accounts at another organization. A specialized type of credential stuffing is called pass the hash. These attacks reuse stolen, unsalted hashed credentials to trick an authentication system into creating a new authenticated user session on the network.
+
+Note: Besides access credentials, encrypted information can sometimes be brute forced using a technique known as exhaustive key search.
+
+Each of these methods involve a lot of guess work. Brute forcing your way into a system can be a tedious and time consuming process—especially when it’s done manually. That’s why threat actors often use tools to conduct their attacks.
+
+Tools of the trade  
+There are so many combinations that can be used to create a single set of login credentials. The number of characters, letters, and numbers that can be mixed together is truly incredible. When done manually, it could take someone years to try every possible combination.
+
+Instead of dedicating the time to do this, attackers often use software to do the guess work for them. These are some common brute forcing tools:
+
+Aircrack-ng
+
+Hashcat 
+
+John the Ripper
+
+Ophcrack
+
+THC Hydra
+
+Sometimes, security professionals use these tools to test and analyze their own systems. They each serve different purposes. For example, you might use Aircrack-ng to test a Wi-Fi network for vulnerabilities to brute force attack.
+
+Prevention measures  
+Organizations defend against brute force attacks with a combination of technical and managerial controls. Each make cracking defense systems through brute force less likely:
+
+Hashing and salting
+
+Multi-factor authentication (MFA)
+
+CAPTCHA
+
+Password policies
+
+Technologies, like multi-factor authentication (MFA), reinforce each login attempt by requiring a second or third form of identification. Other important tools are CAPTCHA and effective password policies.
+
+Hashing and salting  
+Hashing converts information into a unique value that can then be used to determine its integrity. Salting is an additional safeguard that’s used to strengthen hash functions. It works by adding random characters to data, like passwords. This increases the length and complexity of hash values, making them harder to brute force and less susceptible to dictionary attacks.
+
+Multi-factor authentication (MFA)  
+Multi-factor authentication (MFA) is a security measure that requires a user to verify their identity in two or more ways to access a system or network. MFA is a layered approach to protecting information. MFA limits the chances of brute force attacks because unauthorized users are unlikely to meet each authentication requirement even if one credential becomes compromised.
+
+CAPTCHA  
+CAPTCHA stands for Completely Automated Public Turing test to tell Computers and Humans Apart. It is known as a challenge-response authentication system. CAPTCHA asks users to complete a simple test that proves they are human and not software that’s trying to brute force a password.
+
+Here are common CAPTCHA examples:
+
+A side by side comparison of a text-based and image-based CAPTCHA verifying if a user is human.  
+There are two types of CAPTCHA tests. One scrambles and distorts a randomly generated sequence of letters and/or numbers and asks users to enter them into a text box. The other test asks users to match images to a randomly generated word. You’ve likely had to pass a CAPTCHA test when accessing a web service that contains sensitive information, like an online bank account.
+
+Password policy  
+Organizations use these managerial controls to standardize good password practices across their business. For example, one of these policies might require users to create passwords that are at least 8 characters long and feature a letter, number, and symbol. Other common requirements can include password lockout policies. For example, a password lockout can limit the number of login attempts before access to an account is suspended and require users to create new, unique passwords after a certain amount of time.
+
+The purpose of each of these requirements is to create more possible password combinations. This lengthens the amount of time it takes an attacker to find one that will work. The   
+National Institute of Standards and Technology (NIST) Special Publication 800-63B  
+ provides detailed guidance that organizations can reference when creating their own password policies.
+
+## Social Engineering Tactics:
+
+Social engineering attacks are a popular choice among threat actors. That’s because it’s often easier to trick people into providing them with access, information, or money than it is to exploit a software or network vulnerability.
+
+As you might recall, social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. It's an umbrella term that can apply to a broad range of attacks. Each technique is designed to capitalize on the trusting nature of people and their willingness to help. In this reading, you will learn about specific social engineering tactics to watch out for. You’ll also learn ways that organizations counter these threats.
+
+Social engineering risks  
+A hacker impersonating someone known to their target.  
+Social engineering is a form of deception that takes advantage of the way people think. It preys on people’s natural feelings of curiosity, generosity, and excitement. Threat actors turn those feelings against their targets by affecting their better judgment. Social engineering attacks can be incredibly harmful because of how easy they can be to accomplish.
+
+One of the highest-profile social engineering attacks that occurred in recent years was the   
+Twitter Hack of 2020\. During that incident, a group of hackers made phone calls to Twitter employees pretending to be from the IT department. Using this basic scam, the group managed to gain access to the organization’s network and internal tools. This allowed them to take over the accounts of high-profile users, including politicians, celebrities, and entrepreneurs.
+
+Attacks like this are just one example of the chaos threat actors can create using basic social engineering techniques. These attacks present serious risks because they don’t require sophisticated computer skills to perform. Defending against them requires a multi-layered approach that combines technological controls with user awareness.
+
+Signs of an attack  
+Oftentimes, people are unable to tell that an attack is happening until it's too late. Social engineering is such a dangerous threat because it typically allows attackers to bypass technological defenses that are in their way. Although these threats are difficult to prevent, recognizing the signs of social engineering is a key to reducing the likelihood of a successful attack.
+
+These are common types of social engineering to watch out for:
+
+Baiting is a social engineering tactic that tempts people into compromising their security. A common example is USB baiting that relies on someone finding an infected USB drive and plugging it into their device.
+
+Phishing is the use of digital communications to trick people into revealing sensitive data or deploying malicious software. It is one of the most common forms of social engineering, typically performed via email.
+
+Quid pro quo is a type of baiting used to trick someone into believing that they’ll be rewarded in return for sharing access, information, or money. For example, an attacker might impersonate a loan officer at a bank and call customers offering them a lower interest rate on their credit card. They'll tell the customers that they simply need to provide their account details to claim the deal.
+
+Tailgating is a social engineering tactic in which unauthorized people follow an authorized person into a restricted area. This technique is also sometimes referred to as piggybacking.
+
+Watering hole is a type of attack when a threat actor compromises a website frequently visited by a specific group of users. Oftentimes, these watering hole sites are infected with malicious software. An example is the Holy Water attack of 2020 that infected various religious, charity, and volunteer websites.
+
+Attackers might use any of these techniques to gain unauthorized access to an organization. Everyone is vulnerable to them, from entry-level employees to senior executives. However, you can reduce the risks of social engineering attacks at any business by teaching others what to expect.
+
+Encouraging caution  
+Spreading awareness usually starts with comprehensive security training. When it comes to social engineering, there are three main areas to focus on when teaching others:
+
+Stay alert of suspicious communications and unknown people, especially when it comes to email. For example, look out for spelling errors and double-check the sender's name and email address.
+
+Be cautious about sharing information, especially over social media. Threat actors often search these platforms for any information they can use to their advantage.
+
+Control curiosity when something seems too good to be true. This can include wanting to click on attachments or links in emails and advertisements.
+
+Pro tip: Implementing technologies like firewalls, multi-factor authentication (MFA), block lists, email filtering, and others helps layers the defenses should someone make a mistake.
+
+Ideally, security training extends beyond employees. Educating customers about social engineering threats is also a key to mitigating these threats. And security analysts play an important part in promoting safe practices. For example, a big part of an analyst's job is testing systems and documenting best practices for others at an organization to follow.
+
+## Introduction to Malware:
+
+Previously, you learned that malware is software designed to harm devices or networks. Since its first appearance on personal computers decades ago, malware has developed into a variety of strains. Being able to identify different types of malware and understand the ways in which they are spread will help you stay alert and be informed as a security professional.
+
+Icons of different types of malware  
+Virus  
+A virus is malicious code written to interfere with computer operations and cause damage to data and software. This type of malware must be installed by the target user before it can spread itself and cause damage. One of the many ways that viruses are spread is through phishing campaigns where malicious links are hidden within links or attachments.
+
+Worm  
+A worm is malware that can duplicate and spread itself across systems on its own. Similar to a virus, a worm must be installed by the target user and can also be spread with tactics like malicious email. Given a worm's ability to spread on its own, attackers sometimes target devices, drives, or files that have shared access over a network.
+
+A well known example is the Blaster worm, also known as Lovesan, Lovsan, or MSBlast. In the early 2000s, this worm spread itself on computers running Windows XP and Windows 2000 operating systems. It would force devices into a continuous loop of shutting down and restarting. Although it did not damage the infected devices, it was able to spread itself to hundreds of thousands of users around the world. Many variants of the Blaster worm have been deployed since the original and can infect modern computers.
+
+Note: Worms were very popular attacks in the mid 2000s but are less frequently used in recent years.
+
+Trojan  
+A trojan, also called a Trojan horse, is malware that looks like a legitimate file or program. This characteristic relates to how trojans are spread. Similar to viruses, attackers deliver this type of malware hidden in file and application downloads. Attackers rely on tricking unsuspecting users into believing they’re downloading a harmless file, when they’re actually infecting their own device with malware that can be used to spy on them, grant access to other devices, and more.
+
+Adware  
+Advertising-supported software, or adware, is a type of legitimate software that is sometimes used to display digital advertisements in applications. Software developers often use adware as a way to lower their production costs or to make their products free to the public—also known as freeware or shareware. In these instances, developers monetize their product through ad revenue rather than at the expense of their users.
+
+Malicious adware falls into a sub-category of malware known as a potentially unwanted application (PUA). A PUA is a type of unwanted software that is bundled in with legitimate programs which might display ads, cause device slowdown, or install other software. Attackers sometimes hide this type of malware in freeware with insecure design to monetize ads for themselves instead of the developer. This works even when the user has declined to receive ads.
+
+Spyware  
+Spyware is malware that's used to gather and sell information without consent. It's also considered a PUA. Spyware is commonly hidden in bundleware, additional software that is sometimes packaged with other applications. PUAs like spyware have become a serious challenge in the open-source software development ecosystem. That’s because developers tend to overlook how their software could be misused or abused by others.
+
+Scareware  
+Another type of PUA is scareware. This type of malware employs tactics to frighten users into infecting their own device. Scareware tricks users by displaying fake warnings that appear to come from legitimate companies. Email and pop-ups are just a couple of ways scareware is spread. Both can be used to deliver phony warnings with false claims about the user's files or data being at risk.
+
+Fileless malware  
+Fileless malware does not need to be installed by the user because it uses legitimate programs that are already installed to infect a computer. This type of infection resides in memory where the malware never touches the hard drive. This is unlike the other types of malware, which are stored within a file on disk. Instead, these stealthy infections get into the operating system or hide within trusted applications.
+
+Pro tip: Fileless malware is detected by performing memory analysis, which requires experience with operating systems. 
+
+Rootkits  
+A rootkit is malware that provides remote, administrative access to a computer. Most attackers use rootkits to open a backdoor to systems, allowing them to install other forms of malware or to conduct network security attacks.
+
+This kind of malware is often spread by a combination of two components: a dropper and a loader. A dropper is a type of malware that comes packed with malicious code which is delivered and installed onto a target system. For example, a dropper is often disguised as a legitimate file, such as a document, an image, or an executable to deceive its target into opening, or dropping it, onto their device. If the user opens the dropper program, its malicious code is executed and it hides itself on the target system.
+
+Multi-staged malware attacks, where multiple packets of malicious code are deployed, commonly use a variation called a loader. A loader is a type of malware that downloads strains of malicious code from an external source and installs them onto a target system. Attackers might use loaders for different purposes, such as to set up another type of malware---a botnet.
+
+Botnet  
+A botnet, short for “robot network,” is a collection of computers infected by malware that are under the control of a single threat actor, known as the “bot-herder.” Viruses, worms, and trojans are often used to spread the initial infection and turn the devices into a bot for the bot-herder. The attacker then uses file sharing, email, or social media application protocols to create new bots and grow the botnet. When a target unknowingly opens the malicious file, the computer, or bot, reports the information back to the bot-herder, who can execute commands on the infected computer.
+
+Ransomware  
+Ransomware describes a malicious attack where threat actors encrypt an organization's data and demand payment to restore access. According to the Cybersecurity and Infrastructure Security Agency (CISA), ransomware crimes are on the rise and becoming increasingly sophisticated. Ransomware infections can cause significant damage to an organization and its customers. An example is the   
+WannaCry  
+ attack that encrypts a victim's computer until a ransom payment of cryptocurrency is paid.
+
+## Prevent Injection Attacks:
+
+SQL queries  
+Every bit of information that’s accessed online is stored in a database. A database is an organized collection of information or data in one place. A database can include data such as an organization's employee directory or customer payment methods. In SQL, database information is organized in tables. SQL is commonly used for retrieving, inserting, updating, or deleting information in tables using queries.
+
+A SQL query is a request for data from a database. For example, a SQL query can request data from an organization's employee directory such as employee IDs, names, and job titles. A human resources application can accept an input that queries a SQL table to filter the data and locate a specific person. SQL injections can occur anywhere within a vulnerable application that can accept a SQL query.
+
+Queries are usually initiated in places where users can input information into an application or a website via an input field. Input fields include features that accept text input such as login forms, search bars, or comment submission boxes. A SQL injection occurs when an attacker exploits input fields that aren't programmed to filter out unwanted text. SQL injections can be used to manipulate databases, steal sensitive data, or even take control of vulnerable applications.
+
+SQL injection categories  
+There are three main categories of SQL injection: 
+
+In-band
+
+Out-of-band
+
+Inferential
+
+In the following sections, you'll learn that each type describes how a SQL injection is initiated and how it returns the results of the attack.
+
+In-band SQL injection  
+In-band, or classic, SQL injection is the most common type. An in-band injection is one that uses the same communication channel to launch the attack and gather the results.
+
+For example, this might occur in the search box of a retailer's website that lets customers find products to buy. If the search box is vulnerable to injection, an attacker could enter a malicious query that would be executed in the database, causing it to return sensitive information like user passwords. The data that's returned is displayed back in the search box where the attack was initiated.
+
+Out-of-band SQL injection  
+An out-of-band injection is one that uses a different communication channel  to launch the attack and gather the results.
+
+For example, an attacker could use a malicious query to create a connection between a vulnerable website and a database they control. This separate channel would allow them to bypass any security controls that are in place on the website's server, allowing them to steal sensitive data
+
+Note: Out-of-band injection attacks are very uncommon because they'll only work when certain features are enabled on the target server.
+
+Inferential SQL injection  
+Inferential SQL injection occurs when an attacker is unable to directly see the results of their attack. Instead, they can interpret the results by analyzing the behavior of the system.
+
+For example, an attacker might perform a SQL injection attack on the login form of a website that causes the system to respond with an error message. Although sensitive data is not returned, the attacker can figure out the database's structure based on the error. They can then use this information to craft attacks that will give them access to sensitive data or to take control of the system.
+
+Injection Prevention  
+SQL queries are often programmed with the assumption that users will only input relevant information. For example, a login form that expects users to input their email address assumes the input will be formatted a certain way, such as jdoe@domain.com. Unfortunately, this isn’t always the case.
+
+A key to preventing SQL injection attacks is to escape user inputs—preventing someone from inserting any code that a program isn't expecting.
+
+There are several ways to escape user inputs:
+
+Prepared statements: a coding technique that executes SQL statements before passing them on to a database
+
+Input sanitization: programming that removes user input which could be interpreted as code.
+
+Input validation: programming that ensures user input meets a system's expectations.
+
+Using a combination of these techniques can help prevent SQL injection attacks. In the security field, you might need to work closely with application developers to address vulnerabilities that can lead to SQL injections. OWASP's SQL injection detection techniques is a useful resource if you're interested in investigating SQL injection vulnerabilities on your own
+
+## Traits of an effective threat model:
+
+Threat modeling is the process of identifying assets, their vulnerabilities, and how each is exposed to threats. It is a strategic approach that combines various security activities, such as vulnerability management, threat analysis, and incident response. Security teams commonly perform these exercises to ensure their systems are adequately protected. Another use of threat modeling is to proactively find ways of reducing risks to any system or business process.
+
+Traditionally, threat modeling is associated with the field of application development. In this reading, you will learn about common threat modeling frameworks that are used to design software that can withstand attacks. You'll also learn about the growing need for application security and ways that you can participate.
+
+Why application security matters  
+Applications have become an essential part of many organizations' success. For example, web-based applications allow customers from anywhere in the world to connect with businesses, their partners, and other customers.
+
+Mobile applications have also changed the way people access the digital world. Smartphones are often the main way that data is exchanged between users and a business. The volume of data being processed by applications makes securing them a key to reducing risk for everyone who’s connected. 
+
+For example, say an application uses Java-based logging libraries with the Log4Shell vulnerability (  
+CVE-2021-44228  
+). If it's not patched, this vulnerability can allow remote code execution that an attacker can use to gain full access to your system from anywhere in the world. If exploited, a critical vulnerability like this can impact millions of devices.
+
+Defending the application layer  
+Defending the application layer requires proper testing to uncover weaknesses that can lead to risk. Threat modeling is one of the primary ways to ensure that an application meets security requirements. A DevSecOps team, which stands for development, security, and operations, usually performs these analyses.
+
+A typical threat modeling process is performed in a cycle:
+
+Define the scope
+
+Identify threats
+
+Characterize the environment
+
+Analyze threats
+
+Mitigate risks
+
+Evaluate findings
+
+The six steps of a threat modeling exercise shown as a cycle.  
+Ideally, threat modeling should be performed before, during, and after an application is developed. However, conducting a thorough software analysis takes time and resources. Everything from the application's architecture to its business purposes should be evaluated. As a result, a number of threat-modeling frameworks have been developed over the years to make the process smoother. 
+
+Note: Threat modeling should be incorporated at every stage of the software development lifecycle, or SDLC.
+
+Common frameworks  
+When performing threat modeling, there are multiple methods that can be used, such as:
+
+STRIDE
+
+PASTA
+
+Trike
+
+VAST
+
+Organizations might use any one of these to gather intelligence and make decisions to improve their security posture. Ultimately, the “right” model depends on the situation and the types of risks an application might face.
+
+STRIDE   
+STRIDE is a threat-modeling framework developed by Microsoft. It’s commonly used to identify vulnerabilities in six specific attack vectors. The acronym represents each of these vectors: spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.
+
+PASTA  
+The Process of Attack Simulation and Threat Analysis (PASTA) is a risk-centric threat modeling process developed by two OWASP leaders and supported by a cybersecurity firm called VerSprite. Its main focus is to discover evidence of viable threats and represent this information as a model. PASTA's evidence-based design can be applied when threat modeling an application or the environment that supports that application. Its seven stage process consists of various activities that incorporate relevant security artifacts of the environment, like vulnerability assessment reports.
+
+Trike   
+Trike is an open source methodology and tool that takes a security-centric approach to threat modeling. It's commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.
+
+VAST  
+The Visual, Agile, and Simple Threat (VAST) Modeling framework is part of an automated threat-modeling platform called ThreatModeler®. Many security teams opt to use VAST as a way of automating and streamlining their threat modeling assessments.
+
+Participating in threat modeling  
+Threat modeling is often performed by experienced security professionals, but it’s almost never done alone. This is especially true when it comes to securing applications. Programs are complex systems responsible for handling a lot of data and processing  a variety of commands from users and other systems.
+
+One of the keys to threat modeling is asking the right questions:
+
+What are we working on?
+
+What kinds of things can go wrong?
+
+What are we doing about it?
+
+Have we addressed everything?
+
+Did we do a good job?
+
+It takes time and practice to learn how to work with things like data flow diagrams and attack trees. However, anyone can learn to be an effective threat modeler. Regardless of your level of experience, participating in one of these exercises always starts with simply asking the right questions.
+
+# Course 6: Sound the Alarm: Detection and Response
+
+## Roles in Response:
+
+Command, control, and communication  
+A computer security incident response team (CSIRT) is a specialized group of security professionals that are trained in incident management and response. During incident response, teams can encounter a variety of different challenges. For incident response to be effective and efficient, there must be clear command, control, and communication of the situation to achieve the desired goal. 
+
+Command refers to having the appropriate leadership and direction to oversee the response.
+
+Control refers to the ability to manage technical aspects during incident response, like coordinating resources and assigning tasks.
+
+Communication refers to the ability to keep stakeholders informed.
+
+Establishing a CSIRT organizational structure with clear and distinctive roles aids in achieving an effective and efficient response.
+
+Roles in CSIRTs   
+CSIRTs are organization dependent, so they can vary in their structure and operation. Structurally, they can exist as a separate, dedicated team or as a task force that meets when necessary. CSIRTs involve both nonsecurity and security professionals. Nonsecurity professionals are often consulted to offer their expertise on the incident. These professionals can be from external departments, such as human resources, public relations, management, IT, legal, and others. Security professionals involved in a CSIRT typically include three key security related roles: 
+
+Security analyst
+
+Technical lead
+
+Incident coordinator
+
+Security analyst  
+The job of the security analyst is to continuously monitor an environment for any security threats. This includes: 
+
+Analyzing and triaging alerts
+
+Performing root-cause investigations
+
+Escalating or resolving alerts 
+
+If a critical threat is identified, then analysts escalate it to the appropriate team lead, such as the technical lead.
+
+Technical lead  
+The job of the technical lead is to manage all of the technical aspects of the incident response process, such as applying software patches or updates. They do this by first determining the root cause of the incident. Then, they create and implement the strategies for containing, eradicating, and recovering from the incident. Technical leads often collaborate with other teams to ensure their incident response priorities align with business priorities, such as reducing disruptions for customers or returning to normal operations. 
+
+Incident coordinator  
+Responding to an incident also requires cross-collaboration with nonsecurity professionals. CSIRTs will often consult with and leverage the expertise of members from external departments. The job of the incident coordinator is to coordinate with the relevant departments during a security incident. By doing so, the lines of communication are open and clear, and all personnel are made aware of the incident status. Incident coordinators can also be found in other teams, like the SOC. 
+
+Other roles  
+Depending on the organization, many other roles can be found in a CSIRT, including a dedicated communications lead, a legal lead, a planning lead, and more. 
+
+Note: Teams, roles, responsibilities, and organizational structures can differ for each company. For example, some different job titles for incident coordinator include incident commander and incident manager.
+
+Security operations center  
+A security operations center (SOC) is an organizational unit dedicated to monitoring networks, systems, and devices for security threats or attacks. Structurally, a SOC (usually pronounced "sock") often exists as its own separate unit or within a CSIRT. You may be familiar with the term blue team, which refers to the security professionals who are responsible for defending against all security threats and attacks at an organization. A SOC is involved in various types of blue team activities, such as network monitoring, analysis, and response to incidents. 
+
+SOC organization  
+A SOC is composed of SOC analysts, SOC leads, and SOC managers. Each role has its own respective responsibilities. SOC analysts are grouped into three different tiers. 
+
+A triangle with four labeled tiers. From bottom to top: SOC Analyst L1, SOC Analyst L2, SOC Lead L3, and Manager.  
+Tier 1 SOC analyst  
+The first tier is composed of the least experienced SOC analysts who are known as level 1s (L1s). They are responsible for:
+
+Monitoring, reviewing, and prioritizing alerts based on criticality or severity
+
+Creating and closing alerts using ticketing systems
+
+Escalating alert tickets to Tier 2 or Tier 3
+
+Tier 2 SOC analyst  
+The second tier comprises the more experienced SOC analysts, or level 2s (L2s). They are responsible for: 
+
+Receiving escalated tickets from L1 and conducting deeper investigations
+
+Configuring and refining security tools
+
+Reporting to the SOC Lead
+
+Tier 3 SOC lead  
+The third tier of a SOC is composed of the SOC leads, or level 3s (L3s). These highly experienced professionals are responsible for:
+
+Managing the operations of their team
+
+Exploring methods of detection by performing advanced detection techniques, such as malware and forensics analysis
+
+Reporting to the SOC manager
+
+SOC manager   
+The SOC manager is at the top of the pyramid and is responsible for: 
+
+Hiring, training, and evaluating the SOC team members
+
+Creating performance metrics and managing the performance of the SOC team
+
+Developing reports related to incidents, compliance, and auditing
+
+Communicating findings to stakeholders such as executive management   
+
+Other roles  
+SOCs can also contain other specialized roles such as: 
+
+Forensic investigators: Forensic investigators are commonly L2s and L3s who collect, preserve, and analyze digital evidence related to security incidents to determine what happened.
+
+Threat hunters: Threat hunters are typically L3s who work to detect, analyze, and defend against new and advanced cybersecurity threats using threat intelligence.
+
+Note: Just like CSIRTs, the organizational structure of a SOC can differ depending on the organization.  
+ 
+
+## Overview of Detection Tools:
+
+Why you need detection tools  
+Detection tools work similarly to home security systems. Whereas home security systems monitor and protect homes against intrusion, cybersecurity detection tools help organizations protect their networks and systems against unwanted and unauthorized access. For organizations to protect their systems from security threats or attacks, they must be made aware when there is any indication of an intrusion. Detection tools make security professionals aware of the activity happening on a network or a system. The tools do this by continuously monitoring networks and systems for any suspicious activity. Once something unusual or suspicious is detected, the tool triggers an alert that notifies the security professional to investigate and stop the possible intrusion. 
+
+Detection tools  
+As a security analyst, you'll likely encounter IDS, IPS, and EDR detection tools at some point, but it's important to understand the differences between them. Here is a comparison chart for quick reference: 
+
+Capability
+
+IDS
+
+IPS
+
+EDR
+
+Detects malicious activity
+
+✓
+
+✓
+
+✓
+
+Prevents intrusions
+
+N/A
+
+✓
+
+✓
+
+Logs activity
+
+✓
+
+✓
+
+✓
+
+Generates alerts
+
+✓
+
+✓
+
+✓
+
+Performs behavioral analysis
+
+N/A
+
+N/A
+
+✓
+
+Overview of IDS tools  
+An intrusion detection system (IDS) is an application that monitors system activity and alerts on possible intrusions. An IDS provides continuous monitoring of network events to help protect against security threats or attacks. The goal of an IDS is to detect potential malicious activity and generate an alert once such activity is detected. An IDS does not stop or prevent the activity. Instead, security professionals will investigate the alert and act to stop it, if necessary. 
+
+For example, an IDS can send out an alert when it identifies a suspicious user login, such as an unknown IP address logging into an application or a device at an unusual time. But, an IDS will not stop or prevent any further actions, like blocking the suspicious user login. 
+
+Examples of IDS tools include Zeek, Suricata, Snort®, and Sagan. 
+
+Detection categories  
+As a security analyst, you will investigate alerts that an IDS generates. There are four types of detection categories you should be familiar with:
+
+A true positive is an alert that correctly detects the presence of an attack.
+
+A true negative is a state where there is no detection of malicious activity. This is when no malicious activity exists and no alert is triggered. 
+
+A false positive is an alert that incorrectly detects the presence of a threat. This is when an IDS identifies an activity as malicious, but it isn't. False positives are an inconvenience for security teams because they spend time and resources investigating an illegitimate alert. 
+
+A false negative is a state where the presence of a threat is not detected. This is when malicious activity happens but an IDS fails to detect it. False negatives are dangerous because security teams are left unaware of legitimate attacks that they can be vulnerable to. 
+
+Overview of IPS tools  
+An intrusion prevention system (IPS) is an application that monitors system activity for intrusive activity and takes action to stop the activity. An IPS works similarly to an IDS. But, IPS monitors system activity to detect and alert on intrusions, and it also takes action to prevent the activity and minimize its effects. For example, an IPS can send an alert and modify an access control list on a router to block specific traffic on a server.
+
+Note: Many IDS tools can also operate as an IPS. Tools like Suricata, Snort, and Sagan have both IDS and IPS capabilities.
+
+Overview of EDR tools    
+Endpoint detection and response (EDR) is an application that monitors an endpoint for malicious activity. EDR tools are installed on endpoints. Remember that an endpoint is any device connected on a network. Examples include end-user devices, like computers, phones, tablets, and more.
+
+EDR tools monitor, record, and analyze endpoint system activity to identify, alert, and respond to suspicious activity. Unlike IDS or IPS tools, EDRs collect endpoint activity data and perform behavioral analysis to identify threat patterns happening on an endpoint. Behavioral analysis uses the power of machine learning and artificial intelligence to analyze system behavior to identify malicious or unusual activity. EDR tools also use automation to stop attacks without the manual intervention of security professionals. For example, if an EDR detects an unusual process starting up on a user’s workstation that normally is not used, it can automatically block the process from running.
+
+Tools like Open EDR®, Bitdefender™ Endpoint Detection and Response, and FortiEDR™ are examples of EDR tools.
+
+Note: Security information and event management (SIEM) tools also have detection capabilities, which you'll explore later.
+
+## Overview of SIEM Technology:
+
+SIEM advantages  
+SIEM tools collect and manage security-relevant data that can be used during investigations. This is important because SIEM tools provide awareness about the activity that occurs between devices on a network. The information SIEM tools provide can help security teams quickly investigate and respond to security incidents. SIEM tools have many advantages that can help security teams effectively respond to and manage incidents. Some of the advantages are:
+
+Access to event data: SIEM tools provide access to the event and activity data that happens on a network, including real-time activity. Networks can be connected to hundreds of different systems and devices. SIEM tools have the ability to ingest all of this data so that it can be accessed.
+
+Monitoring, detecting, and alerting: SIEM tools continuously monitor systems and networks in real-time. They then analyze the collected data using detection rules to detect malicious activity. If an activity matches the rule, an alert is generated and sent out for security teams to assess.
+
+Log storage: SIEM tools can act as a system for data retention, which can provide access to historical data. Data can be kept or deleted after a period depending on an organization's requirements. 
+
+The SIEM process  
+The SIEM process consists of three critical steps:
+
+Collect and aggregate data
+
+Normalize data 
+
+Analyze data
+
+By understanding these steps, organizations can utilize the power of SIEM tools to gather, organize, and analyze security event data from different sources. Organizations can later use this information to improve their ability to identify and mitigate potential threats.
+
+Collect and aggregate data  
+SIEM tools require data for them to be effectively used. During the first step, the SIEM collects event data from various sources like firewalls, servers, routers, and more. This data, also known as logs, contains event details like timestamps, IP addresses, and more. Logs are a record of events that occur within an organization’s systems. After all of this log data is collected, it gets aggregated in one location. Aggregation refers to the process of consolidating log data into a centralized place. Through collection and aggregation, SIEM tools eliminate the need for manually reviewing and analyzing event data by accessing individual data sources. Instead, all event data is accessible in one location—the SIEM. 
+
+Puzzle pieces representing data sources are ingested into a SIEM and processed as a completed puzzle.  
+Parsing can occur during the first step of the SIEM process when data is collected and aggregated. Parsing maps data according to their fields and their corresponding values. For example, the following log example contains fields with values. At first, it might be difficult to interpret information from this log based on its format:
+
+April 3 11:01:21 server sshd\[1088\]: Failed password for user nuhara from 218.124.14.105 port 5023
+
+In a parsed format, the fields and values are extracted and paired making them easier to read and interpret:
+
+host \= server
+
+process \= sshd
+
+source\_user \= nuhara
+
+source ip \= 218.124.14.105
+
+source port \= 5023
+
+Normalize data  
+SIEM tools collect data from many different sources. This data must be transformed into a single format so that it can be easily processed by the SIEM. However, each data source is different and data can be formatted in many different ways. For example, a firewall log can be formatted differently than a server log.
+
+A SIEM solution ingests raw data and normalizes it into structured data.  
+Collected event data should go through the process of normalization. Normalization converts data into a standard, structured format that is easily searchable. 
+
+Analyze data  
+After log data has been collected, aggregated, and normalized, the SIEM must do something useful with all of the data to enable security teams to investigate threats. During this final step in the process, SIEM tools analyze the data. Analysis can be done with some type of detection logic such as a set of rules and conditions. SIEM tools then apply these rules to the data, and if any of the log activity matches a rule, alerts are sent out to cybersecurity teams.
+
+Note: A part of the analysis process includes correlation. Correlation involves the comparison of multiple log events to identify common patterns that indicate potential security threats.
+
+SIEM tools   
+There are many SIEM tools. The following are some SIEM tools commonly used in the cybersecurity industry:
+
+AlienVault® OSSIM™
+
+Chronicle
+
+Elastic
+
+Exabeam
+
+IBM QRadar® Security Intelligence Platform
+
+LogRhythm
+
+Splunk
+
+## Maintain awareness with network monitoring:
+
+Network communication can be noisy\! Events like sending an email, streaming a video, or visiting a website all produce network communications in the form of network traffic and network data. As a reminder, network traffic is the amount of data that moves across a network. It can also include the type of data that is transferred, such as HTTP. Network data is the data that's transmitted between devices on a network.
+
+Network monitoring is essential in maintaining situational awareness of any activity on a network. By collecting and analyzing network traffic, organizations can detect suspicious network activity. But before networks can be monitored, you must know exactly what to monitor. In this reading, you'll learn more about the importance of network monitoring, ways to monitor your network, and network monitoring tools.
+
+Know your network  
+As you’ve learned, networks connect devices, and devices then communicate and exchange data using network protocols. Network communications provide information about connections such as source and destination IP addresses, amount of data transferred, date and time, and more. This information can be valuable for security professionals when developing a baseline of normal or expected behavior. 
+
+Line graph displaying a baseline running through the middle of data peaks.  
+A baseline is a reference point that’s used for comparison. You've probably encountered or used baselines at some point. For example, a grocery amount for a personal budget is an example of a baseline that can be used to help identify any patterns or changes in spending habits. In security, baselines help establish a standard of expected or normal behavior for systems, devices, and networks. Essentially, by knowing the baseline of normal network behavior, you'll be better able to identify abnormal network behavior.
+
+Monitor your network  
+Once you’ve determined a baseline, you can monitor a network to identify any deviations from that baseline. Monitoring involves examining network components to detect unusual activities, such as large and unusual data transfers. Here are examples of network components that can be monitored to detect malicious activity:
+
+Flow analysis  
+Flow refers to the movement of network communications and includes information related to packets, protocols, and ports. Packets can travel to ports, which receive and transmit communications. Ports are often, but not always, associated with network protocols. For example, port 443 is commonly used by HTTPS which is a protocol that provides website traffic encryption.
+
+However, malicious actors can use protocols and ports that are not commonly associated to maintain communications between the compromised system and their own machine. These communications are what’s known as command and control (C2), which are the techniques used by malicious actors to maintain communications with compromised systems.
+
+For example, malicious actors can use HTTPS protocol over port 8088 as opposed to its commonly associated port 443 to communicate with compromised systems. Organizations must know which ports should be open and approved for connections, and watch out for any mismatches between ports and their associated protocols.
+
+Packet payload information  
+Network packets contain components related to the transmission of the packet. This includes details like source and destination IP address, and the packet payload information, which is the actual data that’s transmitted. Often, this data is encrypted and requires decryption for it to be readable. Organizations can monitor the payload information of packets to uncover unusual activity, such as sensitive data transmitting outside of the network, which could indicate a possible data exfiltration attack.
+
+Temporal patterns  
+Network packets contain information relating to time. This information is useful in understanding time patterns. For example, a company operating in North America experiences bulk traffic flows between 9 a.m. to 5 p.m., which is the baseline of normal network activity. If large volumes of traffic are suddenly outside of the normal hours of network activity, then this is considered off baseline and should be investigated.
+
+Through network monitoring, organizations can promptly detect network intrusions and work to prevent them from happening by securing network components.
+
+Protect your network  
+In this program, you’ve learned about security operations centers (SOC) and their role in monitoring systems against security threats and attacks. Organizations may deploy a network operations center (NOC), which is an organizational unit that monitors the performance of a network and responds to any network disruption, such as a network outage. While a SOC is focused on maintaining the security of an organization through detection and response, a NOC is responsible for maintaining network performance, availability, and uptime. 
+
+An analyst monitors system activity on multiple computer screens.  
+Security analysts monitor networks to identify any signs of potential security incidents known as indicators of compromise (IoC) and  protect networks from threats or attacks. To do this, they must understand the environment that network communications travel through so that they can identify deviations in network traffic. 
+
+Network monitoring tools  
+Network monitoring can be automated or performed manually. Some common network monitoring tools can include: 
+
+Intrusion detection systems (IDS) monitor system activity and alert on possible intrusions. An IDS will detect and alert on the deviations you’ve configured it to detect. Most commonly, IDS tools will monitor the content of packet payload to detect patterns associated with threats such as malware or phishing attempts.
+
+Network protocol analyzers, also known as packet sniffers, are tools designed to capture and analyze data traffic within a network. They can be used to analyze network communications manually in detail. Examples include tools such as tcpdump and Wireshark, which can be used by security professionals to record network communications through packet captures. Packet captures can then be investigated to identify potentially malicious activity.
+
+## Packet Captures:
+
+Packets  
+Previously in the program, you learned that a data packet is a basic unit of information that travels from one device to another within a network. Detecting network intrusions begins at the packet level. That's because packets form the basis of information exchange over a network. Each time you perform an activity on the internet—like visiting a website—packets are sent and received between your computer and the website’s server. These packets are what help transmit information through a network. For example, when uploading an image to a website, the data gets broken up into multiple packets, which then get routed to the intended destination and reassembled upon delivery. 
+
+In cybersecurity, packets provide valuable information that helps add context to events during investigations. Understanding the transfer of information through packets will not only help you develop insight on network activity, it will also help you identify abnormalities and better defend networks from attacks.
+
+Packets contain three components: the header, the payload, and the footer. Here’s a description of each of these components.
+
+Header  
+Packets begin with the most essential component: the header. Packets can have several headers depending on the protocols used such as an Ethernet header, an IP header, a TCP header, and more. Headers provide information that’s used to route packets to their destination. This includes information about the source and destination IP addresses, packet length, protocol, packet identification numbers, and more. 
+
+Here is an IPv4 header with the information it provides:
+
+An IPv4 header with its thirteen fields  
+Payload  
+The payload component directly follows the header and contains the actual data being delivered. Think back to the example of uploading an image to a website; the payload of this packet would be the image itself.
+
+Footer  
+The footer, also known as the trailer, is located at the end of a packet. The Ethernet protocol uses footers to provide error-checking information to determine if data has been corrupted. In addition, Ethernet network packets that are analyzed might not display footer information due to network configurations.
+
+Note: Most protocols, such as the Internet Protocol (IP), do not use footers. 
+
+Network protocol analyzers  
+Network protocol analyzers (packet sniffers) are tools designed to capture and analyze data traffic within a network. Examples of network protocol analyzers include tcpdump, Wireshark, and TShark. 
+
+Beyond their use in security as an investigative tool used to monitor networks and identify suspicious activity, network protocol analyzers can be used to collect network statistics, such as bandwidth or speed, and troubleshoot network performance issues, like slowdowns. 
+
+Network protocol analyzers can also be used for malicious purposes. For example, malicious actors can use network protocol analyzers to capture packets containing sensitive data, such as account login information.
+
+Here’s a network diagram illustrating how packets get transmitted from a sender to the receiver. A network protocol analyzer is placed in the middle of the communications to capture the data packets that travel over the wire.
+
+Computer A sends data packets to Computer B. The network protocol analyzer is located in the middle of the network’s path.  
+How network protocol analyzers work  
+Network protocol analyzers use both software and hardware capabilities to capture network traffic and display it for security analysts to examine and analyze. Here’s how:
+
+First, packets must be collected from the network via the Network Interface Card (NIC), which is hardware that connects computers to a network, like a router. NICs receive and transmit network traffic, but by default they only listen to network traffic that’s addressed to them. To capture all network traffic that is sent over the network, a NIC must be switched to a mode that has access to all visible network data packets. In wireless interfaces this is often referred to as monitoring mode, and in other systems it may be called promiscuous mode. This mode enables the NIC to have access to all visible network data packets, but it won’t help analysts access all packets across a network. A network protocol analyzer must be positioned in an appropriate network segment to access all traffic between different hosts. 
+
+The network protocol analyzer collects the network traffic in raw binary format. Binary format consists of 0s and 1s and is not as easy for humans to interpret. The network protocol analyzer takes the binary and converts it so that it’s displayed in a human-readable format, so analysts can easily read and understand the information.  
+
+Note: Enabling promiscuous can expose your device to potential attacks because it allows sensitive information like passwords and other confidential data to be captured. It's important to use tools that operate in promiscuous mode responsibly and with caution.
+
+Capturing packets  
+Packet sniffing is the practice of capturing and inspecting data packets across a network. A packet capture (p-cap) is a file containing data packets intercepted from an interface or network. Packet captures can be viewed and further analyzed using network protocol analyzers. For example, you can filter packet captures to only display information that's most relevant to your investigation, such as packets sent from a specific IP address.
+
+Note: Using network protocol analyzers to intercept and examine private network communications without permission is considered illegal in many places.
+
+P-cap files can come in many formats depending on the packet capture library that’s used. Each format has different uses and network tools may use or support specific packet capture file formats by default. You should be familiar with the following libraries and formats:
+
+Libpcap is a packet capture library designed to be used by Unix-like systems, like Linux and MacOS®. Tools like tcpdump use Libpcap as the default packet capture file format. 
+
+WinPcap is an open-source packet capture library designed for devices running Windows operating systems. It’s considered an older file format and isn’t predominantly used.
+
+Npcap is a library designed by the port scanning tool Nmap that is commonly used in Windows operating systems.
+
+PCAPng is a modern file format that can simultaneously capture packets and store data. Its ability to do both explains the “ng,” which stands for “next generation.”
+
+Pro tip: Analyzing your home network can be a good way to practice using these tools.
+
+Investigate Packet Details:  
+Internet Protocol (IP)  
+Packets form the foundation of data exchange over a network, which means that detection begins at the packet level. The Internet Protocol (IP) includes a set of standards used for routing and addressing data packets as they travel between devices on a network. IP operates as the foundation for all communications over the internet.
+
+IP ensures that packets reach their destinations. There are two versions of IP that you will find in use today: IPv4 and IPv6. Both versions use different headers to structure packet information. 
+
+IPv4  
+IPv4 is the most commonly used version of IP. There are thirteen fields in the header:
+
+Version: This field indicates the IP version. For an IPv4 header, IPv4 is used. 
+
+Internet Header Length (IHL): This field specifies the length of the IPv4 header including any Options.
+
+Type of Service (ToS): This field provides information about packet priority for delivery.
+
+Total Length: This field specifies the total length of the entire IP packet including the header and the data.
+
+Identification: Packets that are too large to send are fragmented into smaller pieces. This field specifies a unique identifier for fragments of an original IP packet so that they can be reassembled once they reach their destination.
+
+Flags: This field provides information about packet fragmentation including whether the original packet has been fragmented and if there are more fragments in transit.
+
+Fragment Offset: This field is used to identify the correct sequence of fragments.
+
+Time to Live (TTL): This field limits how long a packet can be circulated in a network, preventing packets from being forwarded by routers indefinitely.
+
+Protocol: This field specifies the protocol used for the data portion of the packet.
+
+Header Checksum: This field specifies a checksum value which is used for error-checking the header.
+
+Source Address: This field specifies the source address of the sender.
+
+Destination Address: This field specifies the destination address of the receiver.
+
+Options: This field is optional and can be used to apply security options to a packet.
+
+An IPv4 header with its 13 fields.  
+IPv6  
+IPv6 adoption has been increasing because of its large address space. There are eight fields in the header:
+
+Version: This field indicates the IP version. For an IPv6 header, IPv6 is used.
+
+Traffic Class: This field is similar to the IPv4 Type of Service field. The Traffic Class field provides information about the packet's priority or class to help with packet delivery.
+
+Flow Label: This field identifies the packets of a flow. A flow is the sequence of packets sent from a specific source. 
+
+Payload Length: This field specifies the length of the data portion of the packet.
+
+Next Header: This field indicates the type of header that follows the IPv6 header such as TCP.
+
+Hop Limit: This field is similar to the IPv4 Time to Live field. The Hop Limit limits how long a packet can travel in a network before being discarded.
+
+Source Address: This field specifies the source address of the sender.
+
+Destination Address: This field specifies the destination address of the receiver.
+
+An IPv6 header with its eight fields.  
+Header fields contain valuable information for investigations and tools like Wireshark help to display these fields in a human-readable format.
+
+Wireshark  
+Wireshark is an open-source network protocol analyzer. It uses a graphical user interface (GUI), which makes it easier to visualize network communications for packet analysis purposes. Wireshark has many features to explore that are beyond the scope of this course. You'll focus on how to use basic filtering to isolate network packets so that you can find what you need.
+
+Wireshark's interface.  
+Display filters  
+Wireshark's display filters let you apply filters to packet capture files. This is helpful when you are inspecting packet captures with large volumes of information. Display filters will help you find specific information that's most relevant to your investigation. You can filter packets based on information such as protocols, IP addresses, ports, and virtually any other property found in a packet. Here, you'll focus on display filtering syntax and filtering for protocols, IP addresses, and ports.
+
+Comparison operators  
+You can use different comparison operators to locate specific header fields and values. Comparison operators can be expressed using either abbreviations or symbols. For example, this filter using the \== equal symbol in this filter ip.src \== 8.8.8.8 is identical to using the eq abbreviation in this filter ip.src eq 8.8.8.8.
+
+This table summarizes the different types of comparison operators you can use for display filtering.
+
+Operator type
+
+Symbol
+
+Abbreviation
+
+Equal
+
+\==
+
+eq
+
+Not equal
+
+\!=
+
+ne
+
+Greater than
+
+\> 
+
+gt
+
+Less than
+
+\<
+
+lt
+
+Greater than or equal to
+
+\>=
+
+ge
+
+Less than or equal to
+
+\<=
+
+le
+
+Pro tip: You can combine comparison operators with Boolean logical operators like and and or to create complex display filters. Parentheses can also be used to group expressions and to prioritize search terms.
+
+Contains operator  
+The contains operator is used to filter packets that contain an exact match of a string of text. Here is an example of a filter that displays all HTTP streams that match the keyword "moved". 
+
+A Wireshark packet capture using the contains operator to find HTTP streams with the string "moved."  
+Matches operator  
+The matches operator is used to filter packets based on the regular expression (regex) that's specified. Regular expression is a sequence of characters that forms a pattern. You'll explore more about regular expressions later in this program. 
+
+Filter toolbar  
+You can apply filters to a packet capture using Wireshark's filter toolbar. In this example, dns is the applied filter, which means Wireshark will only display packets containing the DNS protocol.
+
+A Wireshark filter toolbar with a dns filter applied.  
+Pro tip: Wireshark uses different colors to represent protocols. You can customize colors and create your own filters.
+
+Filter for protocols  
+Protocol filtering is one of the simplest ways you can use display filters. You can simply enter the name of the protocol to filter. For example, to filter for DNS packets simply type dns in the filter toolbar. Here is a list of some protocols you can filter for:
+
+dns
+
+http
+
+ftp
+
+ssh
+
+arp
+
+telnet
+
+icmp
+
+Filter for an IP address  
+You can use display filters to locate packets with a specific IP address. 
+
+For example, if you would like to filter packets that contain a specific IP address use ip.addr, followed by a space, the equal \== comparison operator, and the IP address. Here is an example of a display filter that filters for the IP address 172.21.224.2:
+
+ip.addr \== 172.21.224.2
+
+To filter for packets originating from a specific source IP address, you can use the ip.src filter. Here is an example that looks for the 10.10.10.10 source IP address:
+
+ip.src \== 10.10.10.10
+
+To filter for packets delivered to a specific destination IP address, you can use the ip.dst filter. Here is an example that searches for the 4.4.4.4 destination IP address:
+
+ip.dst \== 4.4.4.4
+
+Filter for a MAC address  
+You can also filter packets according to the Media Access Control (MAC) address. As a refresher, a MAC address is a unique alphanumeric identifier that is assigned to each physical device on a network.
+
+Here's an example:
+
+eth.addr \== 00:70:f4:23:18:c4
+
+Filter for ports  
+Port filtering is used to filter packets based on port numbers. This is helpful when you want to isolate specific types of traffic. DNS traffic uses TCP or UDP port 53 so this will list traffic related to DNS queries and responses only.
+
+For example, if you would like to filter for a UDP port:
+
+udp.port \== 53
+
+Likewise, you can filter for TCP ports as well:
+
+tcp.port \== 25
+
+Follow streams  
+Wireshark provides a feature that lets you filter for packets specific to a protocol and view streams. A stream or conversation is the exchange of data between devices using a protocol. Wireshark reassembles the data that was transferred in the stream in a way that's simple to read.
+
+A Wireshark follow stream dialog box displays stream content of an HTTP conversation.  
+Following a protocol stream is useful when trying to understand the details of a conversation. For example, you can examine the details of an HTTP conversation to view the content of the exchanged request and response messages.
+
+## Overview of tcpdump
+
+What is tcpdump?  
+Tcpdump is a command-line network protocol analyzer. Recall that a command-line interface (CLI) is a text-based user interface that uses commands to interact with the computer. 
+
+Tcpdump is used to capture network traffic. This traffic can be saved to a packet capture (p-cap), which is a file containing data packets intercepted from an interface or network. The p-cap file can be  accessed, analyzed, or shared at a later time. Analysts use tcpdump for a variety of reasons, from troubleshooting network issues to identifying malicious activity. Tcpdump comes pre-installed in many Linux distributions and can also be installed on other Unix-based operating systems such as macOS®. 
+
+Note: It's common for network traffic to be encrypted, which means data is encoded and unreadable. Inspecting the network packets might require decrypting the data using the appropriate private keys. 
+
+Capturing packets with tcpdump  
+Previously in this program, you learned that a Linux root user (or superuser) has elevated privileges to modify the system. You also learned that the sudo command temporarily grants elevated permissions to specific users in Linux. Like many other packet sniffing tools, you’ll need to have administrator-level privileges to capture network traffic using tcpdump. This means you will need to either be logged in as the root user or have the ability to use the sudo command. Here is a breakdown of the tcpdump syntax for capturing packets:
+
+sudo tcpdump \[-i interface\] \[option(s)\] \[expression(s)\]
+
+The sudo tcpdump command begins running tcpdump using elevated permissions as sudo. 
+
+The \-i parameter specifies the network interface to capture network traffic. You must specify a network interface to capture from to begin capturing packets. For example, if you specify \-i any you’ll sniff traffic from all network interfaces on the system. 
+
+The option(s) are optional and provide you with the ability to alter the execution of the command. The expression(s) are a way to further filter network traffic packets so that you can isolate network traffic. You’ll learn more about option(s) and expression(s) in the next section.
+
+Note: Before you can begin capturing network traffic, you must identify which network interface you'll want to use to capture packets from. You can use the \-D flag to list the network interfaces available on a system.
+
+Options  
+With tcpdump, you can apply options, also known as flags, to the end of commands to filter network traffic. Short options are abbreviated and represented by a hyphen and a single character like \-i. Long options are spelled out using a double hyphen like \--interface. Tcpdump has over fifty options that you can explore using   
+the manual page  
+. Here, you’ll examine a couple of essential tcpdump options including how to write and read packet capture files. 
+
+Note: Options are case sensitive. For example, a lowercase \-w is a separate option with a different use than the option with an uppercase \-W.
+
+Note: tcpdump options that are written using short options can be written with or without a space between the option and its value. For example, sudo tcpdump \-i any \-c 3 and sudo tcpdump \-iany \-c3 are equivalent commands.
+
+\-w  
+Using the \-w flag, you can write or save the sniffed network packets to a packet capture file instead of just printing it out in the terminal. This is very useful because you can refer to this saved file for later analysis. In this command, tcpdump is capturing network traffic from all network interfaces and saving it to a packet capture file named packetcapture.pcap:
+
+sudo tcpdump \-i any \-w packetcapture.pcap  
+\-r  
+Using the \-r flag, you can read a packet capture file by specifying the file name as a parameter. Here is an example of a tcpdump command that reads a file called packetcapture.pcap:
+
+sudo tcpdump \-r packetcapture.pcap  
+\-v  
+As you’ve learned, packets contain a lot of information. By default, tcpdump will not print out all of a packet's information. This option, which stands for verbose, lets you control how much packet information you want tcpdump to print out.
+
+There are three levels of verbosity you can use depending on how much packet information you want tcpdump to print out. The levels are \-v, \-vv, and \-vvv. The level of verbosity increases with each added v. The verbose option can be helpful if you’re looking for packet information like the details of a packet’s IP header fields. Here’s an example of a tcpdump command that reads the packetcapture.pcap file with verbosity:
+
+sudo tcpdump \-r packetcapture.pcap \-v  
+\-c  
+The \-c option stands for count. This option lets you control how many packets tcpdump will capture. For example, specifying \-c 1 will only print out one single packet, whereas \-c 10 prints out 10 packets. This example is telling tcpdump to only capture the first three packets it sniffs from any network interface:
+
+sudo tcpdump \-i any \-c 3  
+\-n    
+By default, tcpdump will perform name resolution. This means that tcpdump automatically converts IP addresses to names. It will also resolve ports to commonly associated services that use these ports. This can be problematic because tcpdump isn’t always accurate in name resolution. For example, tcpdump can capture traffic from port 80 and automatically translates port 80 to HTTP in the output. However, this is misleading because port 80 isn’t always going to be using HTTP; it could be using a different protocol.
+
+Additionally, name resolution uses what’s known as a reverse DNS lookup. A reverse DNS lookup is a query that looks for the domain name associated with an IP address. If you perform a reverse DNS lookup on an attacker’s system, they might be alerted that you are investigating them through their DNS records.
+
+Using the \-n flag disables this automatic mapping of numbers to names and is considered to be best practice when sniffing or analyzing traffic. Using \-n will not resolve hostnames, whereas \-nn will not resolve both hostnames or ports. Here’s an example of a tcpdump command that reads the packetcapture.pcap file with verbosity and disables name resolution:
+
+sudo tcpdump \-r packetcapture.pcap \-v \-n  
+Pro tip: You can combine options together. For example, \-v and \-n can be combined as \-vn. But, if an option accepts a parameter right after it like \-c 1 or \-r capture.pcap then you can’t combine other options to it.
+
+Expressions  
+Using filter expressions in tcpdump commands is also optional, but knowing how and when to use filter expressions can be helpful during packet analysis. There are many ways to use filter expressions. 
+
+If you want to specifically search for network traffic by protocol, you can use filter expressions to isolate network packets. For example, you can filter to find only IPv6 traffic using the filter expression ip6.
+
+You can also use boolean operators like and, or, or not to further filter network traffic for specific IP addresses, ports, and more. The example below reads the packetcapture.pcap file and combines two expressions ip and port 80 using the and boolean operator:
+
+sudo tcpdump \-r packetcapture.pcap \-n 'ip and port 80'
+
+Pro tip: You can use single or double quotes to ensure that tcpdump executes all of the expressions. You can also use parentheses to group and prioritize different expressions. Grouping expressions is helpful for complex or lengthy commands. For example, the command ip and (port 80 or port 443\) tells tcpdump to prioritize executing the filters enclosed in the parentheses before filtering for IPv4.
+
+Interpreting output  
+Once you run a command to capture packets, tcpdump will print the output of the command as the sniffed packets. In the output, tcpdump prints one line of text for each packet with each line beginning with a timestamp. Here’s an example of a command and output for a single TCP packet: 
+
+sudo tcpdump \-i any \-v \-c 1
+
+This command tells tcpdump to capture packets on \-i any network interface. The option \-v prints out the packet with detailed information and the option \-c 1 prints out only one packet. Here is the output of this command: 
+
+Output of a tcpdump command with labels for the timestamp, source IP, source port, destination IP, and destination port.  
+Timestamp: The output begins with the timestamp, which starts with hours, minutes, seconds, and fractions of a second. 
+
+Source IP: The packet’s origin is provided by its source IP address.
+
+Source port: This port number is where the packet originated.
+
+Destination IP: The destination IP address is where the packet is being transmitted to.
+
+Destination port: This port number is where the packet is being transmitted to.
+
+The remaining output contains details of the TCP connection including flags and sequence number. The options information is additional packet information that the  \-v option has provided.
+
+## Incident Detection Methods:
+
+Methods of detection  
+During the Detection and Analysis Phase of the incident response lifecycle, security teams are notified of a possible incident and work to investigate and verify the incident by collecting and analyzing data. As a reminder, detection refers to the prompt discovery of security events and analysis involves the investigation and validation of alerts.
+
+As you’ve learned, an intrusion detection system (IDS) can detect possible intrusions and send out alerts to security analysts to investigate the suspicious activity. Security analysts can also use security information and event management (SIEM) tools to detect, collect, and analyze security data.
+
+You’ve also learned that there are challenges with detection. Even the best security teams can fail to detect real threats for a variety of reasons. For example, detection tools can only detect what security teams configure them to monitor. If they aren’t properly configured, they can fail to detect suspicious activity, leaving systems vulnerable to attack. It’s important for security teams to use additional methods of detection to increase their coverage and accuracy.
+
+Threat hunting  
+Threats evolve and attackers advance their tactics and techniques. Automated, technology-driven detection can be limited in keeping up to date with the evolving threat landscape. Human-driven detection like threat hunting combines the power of technology with a human element to discover hidden threats left undetected by detection tools.
+
+Threat hunting is the proactive search for threats on a network. Security professionals use threat hunting to uncover malicious activity that was not identified by detection tools and as a way to do further analysis on detections. Threat hunting is also used to detect threats before they cause damage. For example, fileless malware is difficult for detection tools to identify. It’s a form of malware that uses sophisticated evasion techniques such as hiding in memory instead of using files or applications, allowing it to bypass traditional methods of detection like signature analysis. With threat hunting, the combination of active human analysis and technology is used to identify threats like fileless malware. 
+
+Note: Threat hunting specialists are known as threat hunters. Threat hunters perform research on emerging threats and attacks and then determine the probability of an organization being vulnerable to a particular attack. Threat hunters use a combination of threat intelligence, indicators of compromise, indicators of attack, and machine learning to search for threats in an organization.
+
+Threat intelligence  
+Organizations can improve their detection capabilities by staying updated on the evolving threat landscape and understanding the relationship between their environment and malicious actors. One way to understand threats is by using threat intelligence, which is evidence-based threat information that provides context about existing or emerging threats. 
+
+Threat intelligence can come from private or public sources like:
+
+Industry reports: These often include details about attacker's tactics, techniques, and procedures (TTP).
+
+Government advisories: Similar to industry reports, government advisories include details about attackers' TTP. 
+
+Threat data feeds: Threat data feeds provide a stream of threat-related data that can be used to help protect against sophisticated attackers like advanced persistent threats (APTs). APTs are instances when a threat actor maintains unauthorized access to a system for an extended period of time. The data is usually a list of indicators like IP addresses, domains, and file hashes.
+
+It can be difficult for organizations to efficiently manage large volumes of threat intelligence. Organizations can leverage a threat intelligence platform (TIP) which is an application that collects, centralizes, and analyzes threat intelligence from different sources. TIPs provide a centralized platform for organizations to identify and prioritize relevant threats and improve their security posture. 
+
+Note: Threat intelligence data feeds are best used to add context to detections. They should not drive detections completely and should be assessed before applied to an organization.
+
+Cyber deception  
+Cyber deception involves techniques that deliberately deceive malicious actors with the goal of increasing detection and improving defensive strategies.
+
+Honeypots are an example of an active cyber defense mechanism that uses deception technology. Honeypots are systems or resources that are created as decoys vulnerable to attacks with the purpose of attracting potential intruders. For example, having a fake file labeled Client Credit Card Information \- 2022 can be used to capture the activity of malicious actors by tricking them into accessing the file because it appears to be legitimate. Once a malicious actor tries to access this file, security teams are alerted.
+
+## Ongoing Monitoring of CI/CD:
+
+Ongoing Monitoring of CI/CD: Automatically Finding Threats  
+In our last reading about cybersecurity incident detection methods, you explored ways to discover threats. You learned about tools like intrusion detection systems (IDS) and security information and event management (SIEM). This reading focuses on ongoing monitoring specifically for your Continuous Integration and Continuous Delivery/Deployment (CI/CD) pipelines. Monitoring your CI/CD pipeline helps protect your software supply chain.and there are special tools that can automatically find unusual activity and help you pinpoint Indicators of Compromise (IoCs).
+
+Automation for Finding Threats  
+CI/CD pipelines help you release software faster, but they can also open up new vulnerabilities for attackers. If someone breaks into your pipeline, they could add code, steal private information, or stop your software from working. So, ongoing monitoring that automatically finds unusual pipeline activity is critical. Effective CI/CD monitoring uses automation to do more than just collect logs. It uses monitoring tools to automatically find unusual things happening in build processes, code, or deployment steps that may indicate potential security threats. When these threats are found, security teams can respond quickly and limit the damage. This automated threat detection is a main goal of strong CI/CD security.
+
+Common Indicators of Compromise (IoCs) in CI/CD Pipelines  
+Understanding common CI/CD IoCs helps you monitor effectively and quickly find security incidents. Here are some examples:
+
+Unauthorized Code Changes:
+
+Code changes from people who shouldn't be making changes.
+
+Code changes made at unusual times or from unexpected locations.
+
+Code changes that look suspicious, like confusing code, very large deletions without a good reason, or code that doesn't follow coding rules.
+
+Suspicious Deployment Patterns:
+
+Deployments to unusual or unapproved systems (for example, production deployments started directly from developer branches).
+
+Deployments happening at unexpected times or too often (deployments outside of planned release times).
+
+Deployments started by unusual user accounts or automated accounts that shouldn't be releasing to production.
+
+Compromised Dependencies:
+
+Finding known vulnerabilities (CVEs) in dependencies during automated checks in the CI/CD pipeline.
+
+Suddenly adding new, unexpected dependencies to build settings.
+
+Attempts to download dependencies from unofficial or untrusted sources.
+
+Unusual Pipeline Execution:
+
+Pipeline steps that normally work fine suddenly failing.
+
+Pipelines takeing much longer to run for no clear reason.
+
+Changes in the order or way pipeline steps run without approved changes being made.
+
+Secrets Exposure Attempts:
+
+Logs showing attempts to get to secrets from unapproved places in the pipeline.
+
+Finding private secrets hardcoded in code changes (ideally prevented earlier, but monitoring can catch mistakes).
+
+Proactive Security Through Monitoring for IoCs  
+Ongoing monitoring of CI/CD pipelines, focusing on automated anomaly detection and finding IoCs, makes your security stronger and more proactive. By using monitoring tools to continuously check pipeline activity for these indicators before serious damage occurs, you can:
+
+Respond to Incidents Quickly: Finding IoCs early helps security teams respond rapidly to potential attacks, stopping problems before attackers reach their goals.
+
+Limit the Damage: Responding quickly based on IoC detection reduces the possible impact of a security issue by limiting how long attackers are in the pipeline.
+
+Improve Threat Knowledge: Checking IoCs gives valuable information about how attackers are targeting your CI/CD, which helps improve security and threat hunting in the future.
+
+Using Automation to Find Anomalies and IoCs  
+To monitor CI/CD pipelines and automatically find threats, you can use these methods:
+
+Comprehensive Logging and Auditing   
+Detailed logs are the bases of monitoring. Logs provide the raw data that monitoring tools check for unusual activity and potential Indicators of Compromise (IoCs). The most common logs for finding anomalies include:
+
+Pipeline Execution Logs: To effectively leverage pipeline execution logs for security monitoring, specialized tools employ automated baselining techniques. These tools analyze logs from successful, typical CI/CD pipeline runs to establish a profile of normal operation. This baseline encompasses key performance indicators such as the standard duration of each pipeline stage and expected success and failure rates. By continuously monitoring execution logs and comparing them against this established baseline, the tools can automatically detect anomalous activities. Deviations from the norm, including pipeline steps exceeding typical execution times, unexpected error occurrences, or alterations in the usual step order, are flagged as potential Indicators of Compromise (IoCs), warranting further security scrutiny.
+
+Code Commit Logs: Keep track of code changes for each pipeline run. Unusual code changes, such as changes from people who shouldn't be making changes, changes made late at night, or changes with suspicious content (like very large deletions or confusing code), are important IoCs to monitor.
+
+Access Logs: Monitoring tools can learn who usually accesses CI/CD. Unusual logins, like logins from different countries, failed login attempts followed by a successful login, or login attempts to change important pipeline settings, are strong indicators of compromise.
+
+Deployment Logs: Tools can learn how often deployments usually happen and what those deployments look like. Unusual deployments, such as deployments at odd times or deployments to unexpected places, can be IoCs.
+
+Security Information and Event Management (SIEM) Integration  
+Connecting your CI/CD logs to a SIEM tool can help  automatically find anomalies at a large scale. SIEM platforms are made to:
+
+Automatically Find Anomalies: SIEMs use machine learning and analytics to automatically find unusual patterns in CI/CD logs, which are  possible IoCs to investigate.
+
+Use Rules to Alert for Known IoCs: You can set up specific rules in the SIEM to find known CI/CD IoCs. For example, rules can send alerts when:
+
+Detection of specific malicious file hashes (related to known CI/CD attacks) are found in build results.
+
+CI/CD servers connect to known malicious command and control (C2) servers (using threat intelligence data).
+
+Someone tries to download or access private secrets outside of approved pipeline steps.
+
+Real-time Alerting and Notifications   
+Automated alerts make sure security teams are notified right away about unusual activity and possible IoCs, so they can respond quickly. Alerts should be set up for:
+
+Unusual Build Failures: Pipeline steps failing repeatedly, especially after code changes that shouldn't cause failures.
+
+Suspicious Code Changes (Based on Anomalies): Alerts sent by code analysis tools that find highly unusual code changes based on size, author, or confusing content.
+
+Attempts to Expose Secrets: Alerts sent by security tools when someone tries to access or steal secrets from unapproved parts of the pipeline.
+
+Unusual Network Traffic: Alerts for unusual network traffic from CI/CD servers, especially traffic going out to unknown or suspicious locations.
+
+Performance Monitoring to Find IoAs and Discover IoCs   
+Performance monitoring, while mainly used to make sure things are running smoothly, can also indirectly help find IoCs. Performance issues (Indicators of Attack \- IoAs) like sudden slowdowns or CI/CD servers running out of resources can lead to deeper checks that may uncover IoCs.
+
+Continuous Vulnerability Scanning  
+Regularly checking the CI/CD infrastructure for weaknesses can proactively find vulnerable parts. This includes Common Vulnerabilities and Exposures (CVEs) in CI/CD tools, plugins, and containers. These weaknesses are potential IoCs. They highlight areas that need to be patched right away to prevent attacks and possible pipeline compromise.
+
+## Indicators of Compromise:
+
+Indicators of compromise  
+Indicators of compromise (IoCs) are observable evidence that suggests signs of a potential security incident. IoCs chart specific pieces of evidence that are associated with an attack, like a file name associated with a type of malware. You can think of an IoC as evidence that points to something that's already happened, like noticing that a valuable has been stolen from inside of a car. 
+
+Indicators of attack (IoA) are the series of observed events that indicate a real-time incident.  IoAs focus on identifying the behavioral evidence of an attacker, including their methods and intentions.
+
+Essentially, IoCs help to identify the who and what of an attack after it's taken place, while IoAs focus on finding the why and how of an ongoing or unknown attack. For example, observing a process that makes a network connection is an example of an IoA. The filename of the process and the IP address that the process contacted are examples of the related IoCs.
+
+Note: Indicators of compromise are not always a confirmation that a security incident has happened. IoCs may be the result of human error, system malfunctions, and other reasons not related to security. 
+
+Pyramid of Pain  
+Not all indicators of compromise are equal in the value they provide to security teams. It’s important for security professionals to understand the different types of indicators of compromise so that they can quickly and effectively detect and respond to them. This is why security researcher David J. Bianco created the concept of the   
+Pyramid of Pain  
+, with the goal of improving how indicators of compromise are used in incident detection.
+
+A triangle divided into six tiers outlines six indicators of compromise each with a corresponding level of difficulty.  
+The Pyramid of Pain captures the relationship between indicators of compromise and the level of difficulty that malicious actors experience when indicators of compromise are blocked by security teams. It lists the different types of indicators of compromise that security professionals use to identify malicious activity. 
+
+Each type of indicator of compromise is separated into levels of difficulty. These levels represent the “pain” levels that an attacker faces when security teams block the activity associated with the indicator of compromise. For example, blocking an IP address associated with a malicious actor is labeled as easy because malicious actors can easily use different IP addresses to work around this and continue with their malicious efforts. If security teams are able to block the IoCs located at the top of the pyramid, the more difficult it becomes for attackers to continue their attacks. Here’s a breakdown of the different types of indicators of compromise found in the Pyramid of Pain. 
+
+Hash values: Hashes that correspond to known malicious files. These are often used to provide unique references to specific samples of malware or to files involved in an intrusion.
+
+IP addresses: An internet protocol address like 192.168.1.1
+
+Domain names: A web address such as www.google.com 
+
+Network artifacts: Observable evidence created by malicious actors on a network. For example, information found in network protocols such as User-Agent strings. 
+
+Host artifacts: Observable evidence created by malicious actors on a host. A host is any device that’s connected on a network. For example, the name of a file created by malware.
+
+Tools: Software that’s used by a malicious actor to achieve their goal. For example, attackers can use password cracking tools like John the Ripper to perform password attacks to gain access into an account.
+
+Tactics, techniques, and procedures (TTPs): This is the behavior of a malicious actor. Tactics refer to the high-level overview of the behavior. Techniques provide detailed descriptions of the behavior relating to the tactic. Procedures are highly detailed descriptions of the technique. TTPs are the hardest to detect.
+
+## Analyze indicators of compromise with investigative tools:
+
+Adding context to investigations  
+You've learned about the Pyramid of Pain which describes the relationship between indicators of compromise and the level of difficulty that malicious actors experience when indicators of compromise are blocked by security teams. You also learned about different types of IoCs, but as you know, not all IoCs are equal. Malicious actors can manage to evade detection and continue compromising systems despite having their IoC-related activity blocked or limited. 
+
+For example, identifying and blocking a single IP address associated with malicious activity does not provide a broader insight on an attack, nor does it stop a malicious actor from continuing their activity. Focusing on a single piece of evidence is like fixating on a single section of a painting: You miss out on the bigger picture.
+
+A woman observes a single section of a large painting.  
+Security analysts need a way to expand the use of IoCs so that they can add context to alerts. Threat intelligence is evidence-based threat information that provides context about existing or emerging threats. By accessing additional information related to IoCs, security analysts can expand their viewpoint to observe the bigger picture and construct a narrative that helps inform their response actions. 
+
+A woman views a large painting of an elephant in its entirety.  
+By adding context to an IoC—for instance, identifying other artifacts related to the suspicious IP address, such as suspicious network communications or unusual processes—security teams can start to develop a detailed picture of a security incident. This context can help security teams detect security incidents faster and take a more informed approach in their response.
+
+The power of crowdsourcing  
+Crowdsourcing is the practice of gathering information using public input and collaboration. Threat intelligence platforms use crowdsourcing to collect information from the global cybersecurity community. Traditionally, an organization's response to incidents was performed in isolation. A security team would receive and analyze an alert, and then work to remediate it without additional insights on how to approach it. Without crowdsourcing, attackers can perform the same attacks against multiple organizations. 
+
+An attacker successfully attacks five different organizations.  
+With crowdsourcing, organizations harness the knowledge of millions of other cybersecurity professionals, including cybersecurity product vendors, government agencies, cloud providers, and more. Crowdsourcing allows people and organizations from the global cybersecurity community to openly share and access a collection of threat intelligence data, which helps to continuously improve detection technologies and methodologies. 
+
+Examples of information-sharing organizations include Information Sharing and Analysis Centers (ISACs), which focus on collecting and sharing sector-specific threat intelligence to companies within specific industries like energy, healthcare, and others. Open-source intelligence (OSINT) is the collection and analysis of information from publicly available sources to generate usable intelligence. OSINT can also be used as a method to gather information related to threat actors, threats, vulnerabilities, and more.
+
+This threat intelligence data is used to improve the detection methods and techniques of security products, like detection tools or anti-virus software. For example, attackers often perform the same attacks on multiple targets with the hope that one of them will be successful. Once an organization detects an attack, they can immediately publish the attack details, such as malicious files, IP addresses, or URLs, to tools like VirusTotal. This threat intelligence can then help other organizations defend against the same attack.
+
+An attacker is prevented from attacking organizations due to crowdsourced threat intelligence.  
+VirusTotal   
+VirusTotal  
+ is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content. VirusTotal also offers additional services and tools for enterprise use. This reading focuses on the VirusTotal website, which is available for free and non-commercial use.
+
+It can be used to analyze suspicious files, IP addresses, domains, and URLs to detect cybersecurity threats such as malware. Users can submit and check artifacts, like file hashes or IP addresses, to get VirusTotal reports, which provide additional information on whether an IoC is considered malicious or not, how that IoC is connected or related to other IoCs in the dataset, and more.
+
+A screenshot of the VirusTotal home page.  
+Here is a breakdown of the reports summary:
+
+A screenshot of a VirusTotal reports summary.  
+Detection: The Detection tab provides a list of third-party security vendors and their detection verdicts on an IoC. For example, vendors can list their detection verdict as malicious, suspicious, unsafe, and more.
+
+Details: The Details tab provides additional information extracted from a static analysis of the IoC. Information such as different hashes, file types, file sizes, headers, creation time, and first and last submission information can all be found in this tab.
+
+Relations: The Relations tab provides related IoCs that are somehow connected to an artifact, such as contacted URLs, domains, IP addresses, and dropped files if the artifact is an executable.
+
+Behavior: The Behavior tab contains information related to the observed activity and behaviors of an artifact after executing it in a controlled or sandboxed environment. This information includes tactics and techniques detected, network communications, registry and file systems actions, processes, and more.
+
+Community: The Community tab is where members of the VirusTotal community, such as security professionals or researchers, can leave comments and insights about the IoC. 
+
+Vendors’ ratio and community score: The score displayed at the top of the report is the vendors’ ratio. The vendors’ ratio shows how many security vendors have flagged the IoC as malicious overall. Below this score, there is also the community score, based on the inputs of the VirusTotal community. The more detections a file has and the higher its community score is, the more likely that the file is malicious.
+
+Note: Data uploaded to VirusTotal will be publicly shared with the entire VirusTotal community. Be careful of what you submit, and make sure you do not upload personal information. 
+
+Other tools  
+There are other investigative tools that can be used to analyze IoCs. These tools can also share the data that's uploaded to them to the security community.
+
+Jotti malware scan  
+Jotti's malware scan is a free service that lets you scan suspicious files with several antivirus programs. There are some limitations to the number of files that you can submit. 
+
+Urlscan.io  
+Urlscan.io is a free service that scans and analyzes URLs and provides a detailed report summarizing the URL information.
+
+MalwareBazaar  
+MalwareBazaar is a free repository for malware samples. Malware samples are a great source of threat intelligence that can be used for research purposes.
+
+## Best Practice for effective Documentation:
+
+Documentation is any form of recorded content that is used for a specific purpose, and it is essential in the field of security. Security teams use documentation to support investigations, complete tasks, and communicate findings. This reading explores the benefits of documentation and provides you with a list of common practices to help you create effective documentation in your security career.
+
+Documentation benefits  
+You’ve already learned about many types of security documentation, including playbooks, final reports, and more. As you’ve also learned, effective documentation has three benefits:
+
+Transparency
+
+Standardization
+
+Clarity
+
+Transparency  
+In security, transparency is critical for demonstrating compliance with regulations and internal processes, meeting insurance requirements, and for legal proceedings. Chain of custody is the process of documenting evidence possession and control during an incident lifecycle. Chain of custody is an example of how documentation produces transparency and an audit trail.
+
+Standardization  
+Standardization through repeatable processes and procedures supports continuous improvement efforts, helps with knowledge transfer, and facilitates the onboarding of new team members. Standards are references that inform how to set policies.
+
+You have learned how NIST provides various security frameworks that are used to improve security measures. Likewise, organizations set up their own standards to meet their business needs. An example of documentation that establishes standardization is an incident response plan, which is a document that outlines the procedures to take in each step of incident response. Incident response plans standardize an organization’s response process by outlining procedures in advance of an incident. By documenting an organization’s incident response plan, you create a standard that people follow, maintaining consistency with repeatable processes and procedures. 
+
+Clarity  
+Ideally, all documentation provides clarity to its audience. Clear documentation helps people quickly access the information they need so they can take necessary action. Security analysts are required to document the reasoning behind any action they take so that it’s clear to their team why an alert was escalated or closed.
+
+Best practices  
+As a security professional, you’ll need to apply documentation best practices in your career. Here are some general guidelines to remember:
+
+Know your audience  
+Before you start creating documentation, consider your audience and their needs. For instance, an incident summary written for a security operations center (SOC) manager will be written differently than one that's drafted for a chief executive officer (CEO). The SOC manager can understand technical security language but a CEO might not. Tailor your document to meet your audience’s needs.
+
+Be concise  
+You might be tasked with creating long documentation, such as a report. But when documentation is too long, people can be discouraged from using it. To ensure that your documentation is useful, establish the purpose immediately. This helps people quickly identify the objective of the document. For example, executive summaries outline the major facts of an incident at the beginning of a final report. This summary should be brief so that it can be easily skimmed to identify the key findings. 
+
+Update regularly   
+In security, new vulnerabilities are discovered and exploited constantly. Documentation must be regularly reviewed and updated to keep up with the evolving threat landscape. For example, after an incident has been resolved, a comprehensive review of the incident can identify gaps in processes and procedures that require changes and updates. By regularly updating documentation, security teams stay well informed and incident response plans stay updated.
+
+## Triage Process:
+
+Triage process  
+Incidents can have the potential to cause significant damage to an organization. Security teams must respond quickly and efficiently to prevent or limit the impact of an incident before it becomes too late. Triage is the prioritizing of incidents according to their level of importance or urgency. The triage process helps security teams evaluate and prioritize security alerts and allocate resources effectively so that the most critical issues are addressed first. 
+
+The triage process consists of three steps:
+
+Receive and assess 
+
+Assign priority 
+
+Collect and analyze
+
+Receive and assess  
+During this first step of the triage process, a security analyst receives an alert from an alerting system like an intrusion detection system (IDS). You might recall that an IDS is an application that monitors system activity and alerts on possible intrusions. The analyst then reviews the alert to verify its validity and ensure they have a complete understanding of the alert. 
+
+This involves gathering as much information as possible about the alert, including details about the activity that triggered the alert, the systems and assets involved, and more. Here are some questions to consider when verifying the validity of an alert: 
+
+Is the alert a false positive? Security analysts must determine whether the alert is a genuine security concern or a false positive, or an alert that incorrectly detects the presence of a threat.
+
+Was this alert triggered in the past? If so, how was it resolved? The history of an alert can help determine whether the alert is a new or recurring issue. 
+
+Is the alert triggered by a known vulnerability? If an alert is triggered by a known vulnerability, security analysts can leverage existing knowledge to determine an appropriate response and minimize the impact of the vulnerability. 
+
+What is the severity of the alert? The severity of an alert can help determine the priority of the response so that critical issues are quickly escalated.
+
+Assign priority   
+Once the alert has been properly assessed and verified as a genuine security issue, it needs to be prioritized accordingly. Incidents differ in their impact, size, and scope, which affects the response efforts. To manage time and resources, security teams must prioritize how they respond to various incidents because not all incidents are equal. Here are some factors to consider when determining the priority of an incident:
+
+Functional impact: Security incidents that target information technology systems impact the service that these systems provide to its users. For example, a ransomware incident can severely impact the confidentiality, availability, and integrity of systems. Data can be encrypted or deleted, making it completely inaccessible to users. Consider how an incident impacts the existing business functionality of the affected system.
+
+Information impact: Incidents can affect the confidentiality, integrity, and availability of an organization’s data and information. In a data exfiltration attack, malicious actors can steal sensitive data. This data can belong to third party users or organizations. Consider the effects that information compromise can have beyond the organization. 
+
+Recoverability: How an organization recovers from an incident depends on the size and scope of the incident and the amount of resources available. In some cases, recovery might not be possible, like when a malicious actor successfully steals proprietary data and shares it publicly. Spending time, effort, and resources on an incident with no recoverability can be wasteful. It’s important to consider whether recovery is possible and consider whether it’s worth the time and cost.
+
+Note: Security alerts often come with an assigned priority or severity level that classifies the urgency of the alert based on a level of prioritization. 
+
+Collect and analyze  
+The final step of the triage process involves the security analyst performing a comprehensive analysis of the incident. Analysis involves gathering evidence from different sources, conducting external research, and documenting the investigative process. The goal of this step is to gather enough information to make an informed decision to address it. Depending on the severity of the incident, escalation to a level two analyst or a manager might be required. Level two analysts and managers might have more knowledge on using advanced techniques to address the incident. 
+
+Benefits of triage  
+By prioritizing incidents based on their potential impact, you can reduce the scope of impact to the organization by ensuring a timely response. Here are some benefits that triage has for security teams: 
+
+Resource management: Triaging alerts allows security teams to focus their resources on threats that require urgent attention. This helps team members avoid dedicating time and resources to lower priority tasks and might also reduce response time.
+
+Standardized approach: Triage provides a standardized approach to incident handling. Process documentation, like playbooks, help to move alerts through an iterative process to ensure that alerts are properly assessed and validated. This ensures that only valid alerts are moved up to investigate.
+
+## Business Continuity Considerations:
+
+Business continuity planning  
+Security teams must be prepared to minimize the impact that security incidents can have on their normal business operations. When an incident occurs, organizations might experience significant disruptions to the functionality of their systems and services. Prolonged disruption to systems and services can have serious effects, causing legal, financial, and reputational damages. Organizations can use business continuity planning so that they can remain operational during any major disruptions.
+
+Similar to an incident response plan, a business continuity plan (BCP) is a document that outlines the procedures to sustain business operations during and after a significant disruption. A BCP helps organizations ensure that critical business functions can resume or can be quickly restored when an incident occurs.
+
+Entry level security analysts aren't typically responsible for the development and testing of a BCP. However, it's important that you understand how BCPs provide organizations with a structured way to respond and recover from security incidents.
+
+Note: Business continuity plans are not the same as disaster recovery plans. Disaster recovery plans are used to recover information systems in response to a major disaster. These disasters can range from hardware failure to the destruction of facilities from a natural disaster, like a flood. 
+
+Consider the impacts of ransomware to business continuity  
+Impacts of a security incident such as ransomware can be devastating for business operations. Ransomware attacks targeting critical infrastructure such as healthcare can have the potential to cause significant disruption. Depending on the severity of a ransomware attack, the accessibility, availability, and delivery of essential healthcare services can be impacted. For example, ransomware can encrypt data, resulting in disabled access to medical records, which prevents healthcare providers from accessing patient records. At a larger scale, security incidents that target the assets, systems, and networks of critical infrastructure can also undermine national security, economic security, and the health and safety of the public. For this reason, BCPs help to minimize interruptions to operations so that essential services can be accessed.
+
+Recovery strategies   
+When an outage occurs due to a security incident, organizations must have some sort of a functional recovery plan set to resolve the issue and get systems fully operational. BCPs can include strategies for recovery that focus on returning to normal operations. Site resilience is one example of a recovery strategy. 
+
+Site resilience   
+Resilience is the ability to prepare for, respond to, and recover from disruptions. Organizations can design their systems to be resilient so that they can continue delivering services despite facing disruptions. An example is site resilience, which is used to ensure the availability of networks, data centers, or other infrastructure when a disruption happens. There are three types of recovery sites used for site resilience:
+
+Hot sites: A fully operational facility that is a duplicate of an organization's primary environment. Hot sites can be activated immediately when an organization's primary site experiences failure or disruption.
+
+Warm sites: A facility that contains a fully updated and configured version of the hot site. Unlike hot sites, warm sites are not fully operational and available for immediate use but can quickly be made operational when a failure or disruption occurs.
+
+Cold sites: A backup facility equipped with some of the necessary infrastructure required to operate an organization's site. When a disruption or failure occurs, cold sites might not be ready for immediate use and might need additional work to be operational.
+
+## Post Incident Activity:
+
+Post-incident activity  
+The Post-incident activity phase of the NIST Incident Response Lifecycle is the process of reviewing an incident to identify areas for improvement during incident handling.
+
+The four phases of the NIST Incident Response Lifecycle as icons with arrows representing the cyclical order.  
+Lessons learned   
+After an organization has successfully contained, eradicated, and recovered from an incident, the incident comes to a close. However, this doesn’t mean that the work of security professionals is complete. Incidents provide organizations and their security teams with an opportunity to learn from what happened and prioritize ways to improve the incident handling process.
+
+This is typically done through a lessons learned meeting, also known as a post-mortem. A lessons learned meeting includes all involved parties after a major incident. Depending on the scope of an incident, multiple meetings can be scheduled to gather sufficient data. The purpose of this meeting is to evaluate the incident in its entirety, assess the response actions, and identify any areas of improvement. It provides an opportunity for an organization and its people to learn and improve, not to assign blame. This meeting should be scheduled no later than two weeks after an incident has been successfully remediated. 
+
+Not all incidents require their own lessons learned meeting; the size and severity of an incident will dictate whether the meeting is necessary. However, major incidents, such as ransomware attacks, should be reviewed in a dedicated lessons learned meeting. This meeting consists of all parties who participated in any aspect of the incident response process. Here are some examples of questions that are addressed in this meeting:
+
+What happened?
+
+What time did it happen?
+
+Who discovered it?
+
+How did it get contained?
+
+What were the actions taken for recovery?
+
+What could have been done differently?
+
+Besides having the opportunity to learn from the incident, there are additional benefits to conducting a lessons learned meeting. For large organizations, lessons learned meetings offer a platform for team members across departments to share information and recommendations for future prevention. 
+
+Pro tip: Before a team hosts a lessons learned meeting, organizers should make sure all attendees come prepared. The meeting hosts typically develop and distribute a meeting agenda beforehand, which contains the topics of discussion and ensures that attendees are informed and prepared. Additionally, meeting roles should be assigned in advance, including a moderator to lead and facilitate discussion and a scribe to take meeting notes.
+
+Recommendations  
+Lessons learned meetings provide opportunities for growth and improvement. For example, security teams can identify errors in response actions, gaps in processes and procedures, or ineffective security controls. A lessons learned meeting should result in a list of prioritized actions or actionable recommendations meant to improve an organization’s incident handling processes and overall security posture. This ensures that organizations are implementing the lessons they’ve learned after an incident so that they are not vulnerable to experiencing the same incident in the future. Examples of changes that can be implemented include updating and improving playbook instructions or implementing new security tools and technologies.
+
+Final report  
+Throughout this course, you explored the importance that documentation has in recording details during the incident response lifecycle. At a minimum, incident response documentation should describe the incident by covering the 5 W's of incident investigation: who, what, where, why, and when. The details that are captured during incident response are important for developing additional documents during the end of the lifecycle. 
+
+One of the most essential forms of documentation that gets created during the end of an incident is the final report. The final report provides a comprehensive review of an incident. Final reports are not standardized, and their formats can vary across organizations. Additionally, multiple final reports can be created depending on the audience it’s written for. Here are some examples of common elements found in a final report:
+
+Executive summary: A high-level summary of the report including the key findings and essential facts related to the incident
+
+Timeline:  A detailed chronological timeline of the incident that includes timestamps dating the sequence of events that led to the incident
+
+Investigation: A compilation of the actions taken during the detection and analysis of the incident. For example, analysis of a network artifact such as a packet capture reveals information about what activities happen on a network.
+
+Recommendations: A list of suggested actions for future prevention
+
+Pro tip: When writing the final report, consider the audience that you’re writing the report for. Oftentimes, business executives and other non-security professionals who don’t have the expertise to understand technical details will read post-incident final reports. Considering the audience when writing a final report will help you effectively communicate the most important details.
+
+## Best practices for log collection and management:
+
+Logs  
+Data sources such as devices generate data in the form of events. A log is a record of events that occur within an organization's systems. Logs contain log entries and each entry details information corresponding to a single event that happened on a device or system. Originally, logs served the sole purpose of troubleshooting common technology issues. For example, error logs provide information about why an unexpected error occurred and help to identify the root cause of the error so that it can be fixed. Today, virtually all computing devices produce some form of logs that provide valuable insights beyond troubleshooting. 
+
+Security teams access logs from logging receivers like SIEM tools which consolidate logs to provide a central repository for log data. Security professionals use logs to perform log analysis, which is the process of examining logs to identify events of interest. Logs help uncover the details surrounding the 5 W's of incident investigation: who triggered the incident, what happened, when the incident took place, where the incident took place, and why the incident occurred. 
+
+Types of logs  
+Depending on the data source, different log types can be produced. Here’s a list of some common log types that organizations should record:
+
+Network: Network logs are generated by network devices like firewalls, routers, or switches.
+
+System: System logs are generated by operating systems like Chrome OS™, Windows, Linux, or macOS®. 
+
+Application: Application logs are generated by software applications and contain information relating to the events occurring within the application such as a smartphone app.
+
+Security: Security logs are generated by various devices or systems such as antivirus software and intrusion detection systems. Security logs contain security-related information such as file deletion.
+
+Authentication: Authentication logs are generated whenever authentication occurs such as a successful login attempt into a computer.
+
+Log details  
+Generally, logs contain a date, time, location, action, and author of the action. Here is an example of an authentication log:
+
+Login Event \[05:45:15\] User1 Authenticated successfully
+
+Logs contain information and can be adjusted to contain even more information. Verbose logging records additional, detailed information beyond the default log recording. Here is an example of the same log above but logged as verbose.
+
+Login Event \[2022/11/16 05:45:15.892673\] auth\_performer.cc:470 User1 Authenticated successfully from device1 (192.168.1.2)
+
+Log management  
+Because all devices produce logs, it can quickly become overwhelming for organizations to keep track of all the logs that are generated. To get the most value from your logs, you need to choose exactly what to log, how to access it easily, and keep it secure using log management. Log management is the process of collecting, storing, analyzing, and disposing of log data. 
+
+What to log  
+The most important aspect of log management is choosing what to log. Organizations are different, and their logging requirements can differ too. It's important to consider which log sources are most likely to contain the most useful information depending on your event of interest. This might be configuring log sources to reduce the amount of data they record, such as excluding excessive verbosity. Some information, including but not limited to phone numbers, email addresses, and names, form personally identifiable information (PII), which requires special handling and in some jurisdictions might not be possible to be logged.
+
+The issue with overlogging  
+From a security perspective, it can be tempting to log everything. This is the most common mistake organizations make. Just because it can be logged, doesn't mean it needs to be logged. Storing excessive amounts of logs can have many disadvantages with some SIEM tools. For example, overlogging can increase storage and maintenance costs. Additionally, overlogging can increase the load on systems, which can cause performance issues and affect usability, making it difficult to search for and identify important events. 
+
+Log retention  
+Organizations might operate in industries with regulatory requirements. For example, some regulations require organizations to retain logs for set periods of time and organizations can implement log retention practices in their log management policy.
+
+Organizations that operate in the following industries might need to modify their log management policy to meet regulatory requirements:
+
+Public sector industries, like the Federal Information Security Modernization Act (FISMA)
+
+Healthcare industries, like the Health Insurance Portability and Accountability Act of 1996 (HIPAA)
+
+Financial services industries, such as the Payment Card Industry Data Security Standard (PCI DSS), the Gramm-Leach-Bliley Act (GLBA), and the Sarbanes-Oxley Act of 2002 (SOX)
+
+Log protection  
+Along with management and retention, the protection of logs is vital in maintaining log integrity. It’s not unusual for malicious actors to modify logs in attempts to mislead security teams and to even hide their activity.
+
+Storing logs in a centralized log server is a way to maintain log integrity. When logs are generated, they get sent to a dedicated server instead of getting stored on a local machine. This makes it more difficult for attackers to access logs because there is a barrier between the attacker and the log location.
+
+## Overview of log file formats:
+
+JavaScript Object Notation (JSON)  
+JavaScript Object Notation (JSON) is a file format that is used to store and transmit data. JSON is known for being lightweight and easy to read and write. It is used for transmitting data in web technologies and is also commonly used in cloud environments. JSON syntax is derived from JavaScript syntax. If you are familiar with JavaScript, you might recognize that JSON contains components from JavaScript including:
+
+Key-value pairs
+
+Commas
+
+Double quotes
+
+Curly brackets
+
+Square brackets
+
+Key-value pairs  
+A key-value pair is a set of data that represents two linked items: a key and its corresponding value. A key-value pair consists of a key followed by a colon, and then followed by a value. An example of a key-value pair is  "Alert": "Malware".
+
+Note: For readability, it is recommended that key-value pairs contain a space before or after the colon that separates the key and value.
+
+Commas  
+Commas are used to separate data. For example: "Alert": "Malware", "Alert code": 1090, "severity": 10\.
+
+Double quotes  
+Double quotes are used to enclose text data, which is also known as a string, for example:  "Alert": "Malware". Data that contains numbers is not enclosed in quotes, like this: "Alert code": 1090\.
+
+Curly brackets  
+Curly brackets enclose an object, which is a data type that stores data in a comma-separated list of key-value pairs. Objects are often used to describe multiple properties for a given key. JSON log entries start and end with a curly bracket. In this example, User is the object that contains multiple properties:
+
+"User":  
+{   
+    "id": "1234",   
+    "name": "user",  
+    "role": "engineer"  
+}
+
+Square brackets  
+Square brackets are used to enclose an array, which is a data type that stores data in a comma-separated ordered list. Arrays are useful when you want to store data as an ordered collection, for example: \["Administrators", "Users", "Engineering"\].
+
+Syslog  
+Syslog is a standard for logging and transmitting data. It can be used to refer to any of its three different capabilities: 
+
+Protocol: The syslog protocol is used to transport logs to a centralized log server for log management. It uses port 514 for plaintext logs and port 6514 for encrypted logs.
+
+Service: The syslog service acts as a log forwarding service that consolidates logs from multiple sources into a single location. The service works by receiving and then forwarding any syslog log entries to a remote server. 
+
+Log format: The syslog log format is one of the most commonly used log formats that you will be focusing on. It is the native logging format used in  Unix® systems. It consists of three components: a header, structured-data, and a message.
+
+Syslog log example  
+Here is an example of a syslog entry that contains all three components: a header, followed by structured-data, and a message:
+
+\<236\>1 2022-03-21T01:11:11.003Z virtual.machine.com evntslog \- ID01 \[user@32473 iut="1" eventSource="Application" eventID="9999"\]   
+This is a log entry\!
+
+Header   
+The header contains details like the timestamp; the hostname, which is the name of the machine that sends the log; the application name; and the message ID. 
+
+Timestamp: The timestamp in this example is 2022-03-21T01:11:11.003Z, where 2022-03-21 is the date in YYYY-MM-DD format. T is used to separate the date and the time. 01:11:11.003 is the 24-hour format of the time and includes the number of milliseconds 003\. Z indicates the timezone, which is Coordinated Universal Time (UTC). 
+
+Hostname: virtual.machine.com 
+
+Application: evntslog 
+
+Message ID: ID01
+
+Structured-data   
+The structured-data portion of the log entry contains additional logging information. This information is enclosed in square brackets and structured in key-value pairs. Here, there are three keys with corresponding values: \[user@32473 iut="1" eventSource="Application" eventID="9999"\].
+
+Message   
+The message contains a detailed log message about the event. Here, the message is This is a log entry\!.
+
+Priority (PRI)  
+The priority (PRI) field indicates the urgency of the logged event and is contained with angle brackets. In this example, the priority value is \<236\> . Generally, the lower the priority level, the more urgent the event is. 
+
+Note: Syslog headers can be combined with JSON, and XML formats. Custom log formats also exist.
+
+XML (eXtensible Markup Language)  
+XML (eXtensible Markup Language) is a language and a format used for storing and transmitting data. XML is a native file format used in Windows systems. XML syntax uses the following:
+
+Tags
+
+Elements
+
+Attributes
+
+Tags   
+XML uses tags to store and identify data. Tags are pairs that must contain a start tag and an end tag. The start tag encloses data with angle brackets, for example \<tag\>,  whereas the end of a tag encloses data with angle brackets and a forward slash like this: \</tag\>. 
+
+Elements   
+XML elements include both the data contained inside of a tag and the tags itself. All XML entries must contain at least one root element. Root elements contain other elements that sit underneath them, known as child elements. 
+
+Here is an example:
+
+\<Event\>	  
+    \<EventID\>4688\</EventID\>  
+    \<Version\>5\</Version\>  
+\</Event\>
+
+In this example, \<Event\> is the root element and contains two child elements \<EventID\> and \<Version\>. There is data contained in each respective child element.
+
+Attributes  
+XML elements can also contain attributes. Attributes are used to provide additional information about elements. Attributes are included as the second part of the tag itself and must always be quoted using either single or double quotes.
+
+For example:
+
+\<EventData\>  
+    \<Data Name='SubjectUserSid'\>S-2-3-11-160321\</Data\>  
+    \<Data Name='SubjectUserName'\>JSMITH\</Data\>  
+    \<Data Name='SubjectDomainName'\>ADCOMP\</Data\>  
+    \<Data Name='SubjectLogonId'\>0x1cf1c12\</Data\>  
+    \<Data Name='NewProcessId'\>0x1404\</Data\>  
+\</EventData\>
+
+In the first line for this example, the tag is \<Data\> and it uses the attribute  Name='SubjectUserSid' to describe the data enclosed in the tag S-2-3-11-160321.
+
+CSV (Comma Separated Value)  
+CSV (Comma Separated Value) uses commas to separate data values. In CSV logs, the position of the data corresponds to its field name, but the field names themselves might not be included in the log. It’s critical to understand what fields the source device (like an IPS, firewall, scanner, etc.) is including in the log. 
+
+Here is an example:
+
+2009-11-24T21:27:09.534255,ALERT,192.168.2.7, 1041,x.x.250.50,80,TCP,ALLOWED,1:2001999:9,"ET MALWARE BTGrab.com Spyware Downloading Ads",1
+
+CEF (Common Event Format)  
+Common Event Format (CEF) is a log format that uses key-value pairs to structure data and identify fields and their corresponding values. The CEF syntax is defined as containing the following fields: 
+
+CEF:Version|Device Vendor|Device Product|Device Version|Signature ID|Name|Severity|Extension 
+
+Fields are all separated with a pipe character |. However, anything in the Extension part of the CEF log entry must be written in a key-value format. Syslog is a common method used to transport logs like CEF. When Syslog is used a timestamp and hostname will be prepended to the CEF message. Here is an example of a CEF log entry that details malicious activity relating to a worm infection:
+
+Sep 29 08:26:10 host CEF:1|Security|threatmanager|1.0|100|worm successfully stopped|10|src=10.0.0.2 dst=2.1.2.2 spt=1232
+
+Here is a breakdown of the fields:
+
+Syslog Timestamp: Sep 29 08:26:10
+
+Syslog Hostname: host
+
+Version:  CEF:1
+
+Device Vendor: Security
+
+Device Product: threatmanager
+
+Device Version: 1.0
+
+Signature ID: 100
+
+Name: worm successfully stopped
+
+Severity: 10
+
+Extension: This field contains data written as key-value pairs. There are two IP addresses, src=10.0.0.2 and dst=2.1.2.2, and a source port number spt=1232. Extensions are not required and are optional to add.
+
+This log entry contains details about a Security application called threat manager that successfully stopped a worm from spreading from the internal network at 10.0.0.2 to the external network 2.1.2.2 through the port 1232\. A high severity level of 10 is reported.
+
+Note: Extensions and syslog prefix are optional to add to a CEF log.
+
+## Detection tools and techniques:
+
+Host-based intrusion detection system  
+A host-based intrusion detection system (HIDS) is an application that monitors the activity of the host on which it's installed. A HIDS is installed as an agent on a host. A host is also known as an endpoint, which is any device connected to a network like a computer or a server. 
+
+Typically, HIDS agents are installed on all endpoints and used to monitor and detect security threats. A HIDS monitors internal activity happening on the host to identify any unauthorized or abnormal behavior. If anything unusual is detected, such as the installation of an unauthorized application, the HIDS logs it and sends out an alert. 
+
+In addition to monitoring inbound and outbound traffic flows, HIDS can have additional capabilities, such as monitoring file systems, system resource usage, user activity, and more. 
+
+This diagram shows a HIDS tool installed on a computer. The dotted circle around the host indicates that it is only monitoring the local activity on the single computer on which it’s installed. 
+
+A network diagram with a host-based intrusion detection system monitoring a single computer.  
+Network-based intrusion detection system  
+A network-based intrusion detection system (NIDS) is an application that collects and monitors network traffic and network data. NIDS software is installed on devices located at specific parts of the network that you want to monitor. The NIDS application inspects network traffic from different devices on the network. If any malicious network traffic is detected, the NIDS logs it and generates an alert.
+
+This diagram shows a NIDS that is installed on a network. The highlighted circle around the server and computers indicates that the NIDS is installed on the server and is monitoring the activity of the computers.
+
+Network-based intrusion detection system installed on a server monitoring   
+network communications between multiple computers  
+Using a combination of HIDS and NIDS to monitor an environment can provide a multi-layered approach to intrusion detection and response. HIDS and NIDS tools provide a different perspective on the activity occurring on a network and the individual hosts that are connected to it. This helps provide a comprehensive view of the activity happening in an environment.
+
+Detection techniques  
+Detection systems can use different techniques to detect threats and attacks. The two types of detection techniques that are commonly used by IDS technologies are signature-based analysis and anomaly-based analysis.
+
+Signature-based analysis  
+Signature analysis, or signature-based analysis, is a detection method that is used to find events of interest. A signature is a pattern that is associated with malicious activity. Signatures can contain specific patterns like a sequence of binary numbers, bytes, or even specific data like an IP address. 
+
+Previously, you explored the Pyramid of Pain, which is a concept that prioritizes the different types of indicators of compromise (IoCs) associated with an attack or threat, such as IP addresses, tools, tactics, techniques, and more. IoCs and other indicators of attack can be useful for creating targeted signatures to detect and block attacks.
+
+Different types of signatures can be used depending on which type of threat or attack you want to detect. For example, an anti-malware signature contains patterns associated with malware. This can include malicious scripts that are used by the malware. IDS tools will monitor an environment for events that match the patterns defined in this malware signature. If an event matches the signature, the event gets logged and an alert is generated. 
+
+Advantages  
+Low rate of false positives: Signature-based analysis is very efficient at detecting known threats because it is simply comparing activity to signatures. This leads to fewer false positives. Remember that a false positive is an alert that incorrectly detects the presence of a threat.
+
+Disadvantages  
+Signatures can be evaded: Signatures are unique, and attackers can modify their attack behaviors to bypass the signatures. For example, attackers can make slight modifications to malware code to alter its signature and avoid detection.
+
+Signatures require updates: Signature-based analysis relies on a database of signatures to detect threats. Each time a new exploit or attack is discovered, new signatures must be created and added to the signature database.
+
+Inability to detect unknown threats: Signature-based analysis relies on detecting known threats through signatures. Unknown threats can't be detected, such as new malware families or zero-day attacks, which are exploits that were previously unknown. 
+
+Anomaly-based analysis  
+Anomaly-based analysis is a detection method that identifies abnormal behavior. There are two phases to anomaly-based analysis: a training phase and a detection phase. In the training phase, a baseline of normal or expected behavior must be established. Baselines are developed by collecting data that corresponds to normal system behavior. In the detection phase, the current system activity is compared against this baseline. Activity that happens outside of the baseline gets logged, and an alert is generated. 
+
+Advantages  
+Ability to detect new and evolving threats: Unlike signature-based analysis, which uses known patterns to detect threats, anomaly-based analysis can detect unknown threats.
+
+Disadvantages  
+High rate of false positives: Any behavior that deviates from the baseline can be flagged as abnormal, including non-malicious behaviors. This leads to a high rate of false positives.
+
+Pre-existing compromise: The existence of an attacker during the training phase will include malicious behavior in the baseline. This can lead to missing a pre-existing attacker.
+
+## Overview of Suricata:
+
+Introduction to Suricata  
+Suricata  
+ is an open-source intrusion detection system, intrusion prevention system, and network analysis tool.
+
+Suricata features  
+There are three main ways Suricata can be used:
+
+Intrusion detection system (IDS): As a network-based IDS, Suricata can monitor network traffic and alert on suspicious activities and intrusions. Suricata can also be set up as a host-based IDS to monitor the system and network activities of a single host like a computer.
+
+Intrusion prevention system (IPS): Suricata can also function as an intrusion prevention system (IPS) to detect and block malicious activity and traffic. Running Suricata in IPS mode requires additional configuration such as enabling IPS mode. 
+
+Network security monitoring (NSM): In this mode, Suricata helps keep networks safe by producing and saving relevant network logs. Suricata can analyze live network traffic, existing packet capture files, and create and save full or conditional packet captures. This can be useful for forensics, incident response, and for testing signatures. For example, you can trigger an alert and capture the live network traffic to generate traffic logs, which you can then analyze to refine detection signatures.
+
+Rules   
+Rules or signatures are used to identify specific patterns, behavior, and conditions of network traffic that might indicate malicious activity. The terms rule and signature are often used interchangeably in Suricata. Security analysts use signatures, or patterns associated with malicious activity, to detect and alert on specific malicious activity. Rules can also be used to provide additional context and visibility into systems and networks, helping to identify potential security threats or vulnerabilities. 
+
+Suricata uses signatures analysis, which is a detection method used to find events of interest. Signatures consist of three components:
+
+ Action: The first component of a signature. It describes the action to take if network or system activity matches the signature. Examples include: alert, pass, drop, or reject.
+
+Header: The header includes network traffic information like source and destination IP addresses, source and destination ports, protocol, and traffic direction.
+
+Rule options: The rule options provide you with different options to customize signatures.
+
+Here's an example of a Suricata signature:
+
+A Suricata signature with an action, header, and rule options.  
+Rule options have a specific ordering and changing their order would change the meaning of the rule.
+
+Note: The terms rule and signature are synonymous.
+
+Note: Rule order refers to the order in which rules are evaluated by Suricata. Rules are processed in the order in which they are defined in the configuration file. However, Suricata processes rules in a different default order: pass, drop, reject, and alert. Rule order affects the final verdict of a packet especially when conflicting actions such as a drop rule and an alert rule both match on the same packet.
+
+Custom rules  
+Although Suricata comes with pre-written rules, it is highly recommended that you modify or customize the existing rules to meet your specific security requirements. 
+
+There is no one-size-fits-all approach to creating and modifying rules. This is because each organization's IT infrastructure differs. Security teams must extensively test and modify detection signatures according to their needs.
+
+Creating custom rules helps to tailor detection and monitoring. Custom rules help to minimize the amount of false positive alerts that security teams receive. It's important to develop the ability to write effective and customized signatures so that you can fully leverage the power of detection technologies.
+
+Configuration file  
+Before detection tools are deployed and can begin monitoring systems and networks, you must properly configure their settings so that they know what to do. A configuration file is a file used to configure the settings of an application. Configuration files let you customize exactly how you want your IDS to interact with the rest of your environment. 
+
+Suricata's configuration file is suricata.yaml, which uses the YAML file format for syntax and structure.
+
+Log files  
+There are two log files that Suricata generates when alerts are triggered:
+
+eve.json: The eve.json file is the standard Suricata log file. This file contains detailed information and metadata about the events and alerts generated by Suricata stored in JSON format. For example, events in this file contain a unique identifier called flow\_id  which is used to correlate related logs or alerts to a single network flow, making it easier to analyze network traffic. The eve.json file is used for more detailed analysis and is considered to be a better file format for log parsing and SIEM log ingestion.
+
+fast.log: The fast.log file is used to record minimal alert information including basic IP address and port details about the network traffic. The fast.log file is used for basic logging and alerting and is considered a legacy file format and is not suitable for incident response or threat hunting tasks.
+
+The main difference between the eve.json file and the fast.log file is the level of detail that is recorded in each. The fast.log file records basic information, whereas the eve.json file contains additional verbose information.
+
+## Log Sources and Log Ingestion:
+
+SIEM process overview  
+Previously, you covered the SIEM process. As a refresher, the process consists of three steps:
+
+Collect and aggregate data: SIEM tools collect event data from various data sources.
+
+Normalize data: Event data that's been collected becomes normalized. Normalization converts data into a standard format so that data is structured in a consistent way and becomes easier to read and search. While data normalization is a common feature in many SIEM tools, it's important to note that SIEM tools vary in their data normalization capabilities.
+
+Analyze data: After the data is collected and normalized, SIEM tools analyze and correlate the data to identify common patterns that indicate unusual activity.
+
+This reading focuses on the first step of this process, the collection and aggregation of data.
+
+Log ingestion  
+A SIEM tool collects data from various sources.  
+Data is required for SIEM tools to work effectively. SIEM tools must first collect data using log ingestion. Log ingestion is the process of collecting and importing data from log sources into a SIEM tool. Data comes from any source that generates log data, like a server.
+
+In log ingestion, the SIEM creates a copy of the event data it receives and retains it within its own storage. This copy allows the SIEM to analyze and process the data without directly modifying the original source logs. The collection of event data provides a centralized platform for security analysts to analyze the data and respond to incidents. This event data includes authentication attempts, network activity, and more.
+
+Log forwarders  
+There are many ways SIEM tools can ingest log data. For instance, you can manually upload data or use software to help collect data for log ingestion. Manually uploading data may be inefficient and time-consuming because networks can contain thousands of systems and devices. Hence, it's easier to use software that helps collect data. 
+
+A common way that organizations collect log data is to use log forwarders. Log forwarders are software that automate the process of collecting and sending log data. Some operating systems have native log forwarders. If you are using an operating system that does not have a native log forwarder, you would need to install a third-party log forwarding software on a device. After installing it, you'd configure the software to specify which logs to forward and where to send them. For example, you can configure the logs to be sent to a SIEM tool. The SIEM tool would then process and normalize the data. This allows the data to be easily searched, explored, correlated, and analyzed.
+
+## Search methods with SIEM tools:
+
+Splunk searches  
+As you’ve learned, Splunk has its own querying language called Search Processing Language (SPL). SPL is used to search and retrieve events from indexes using Splunk’s Search & Reporting app. An SPL search can contain many different commands and arguments. For example, you can use commands to transform your search results into a chart format or filter results for specific information. 
+
+Splunk Cloud's search page.  
+Here is an example of a basic SPL search that is querying an index for a failed event:
+
+index=main fail 
+
+index=main: This is the beginning of the search command that tells Splunk to retrieve events from an  index named main. An index stores event data that's been collected and processed by Splunk.
+
+fail: This is the search term. This tells Splunk to return any event that contains the term fail.
+
+Knowing how to effectively use SPL has many benefits. It helps shorten the time it takes to return search results. It also helps you obtain the exact results you need from various data sources. SPL supports many different types of searches that are beyond the scope of this reading. If you would like to learn more about SPL, explore   
+Splunk's Search Reference  
+.
+
+Pipes  
+Previously, you might have learned about how piping is used in the Linux bash shell. As a refresher, piping sends the output of one command as the input to another command.
+
+SPL also uses the pipe character | to separate the individual commands in the search. It's also used to chain commands together so that the output of one command combines into the next command. This is useful because you can refine data in various ways to get the results you need using a single command.
+
+Here is an example of two commands that are piped together: 
+
+index=main fail| chart count by host
+
+index=main fail: This is the beginning of the search command that tells Splunk to retrieve events from an  index named main for events containing the search term fail. 
+
+|: The pipe character separates and chains the two commands index=main and chart count by host. This means that the output of the first command index=main is used as the input of the second command chart count by host. 
+
+chart count by host: This command tells Splunk to transform the search results by creating a chart according to the  count or number of events. The argument by host tells Splunk to list the events by host, which are the names of the devices the events come from. This command can be helpful in identifying hosts with excessive failure counts in an environment.
+
+Wildcard  
+A wildcard is a special character that can be substituted with any other character. A wildcard is usually symbolized by an asterisk character \*. Wildcards match characters in string values. In Splunk, the wildcard that you use depends on the command that you are using the wildcard with. Wildcards are useful because they can help find events that contain data that is similar but not entirely identical. Here is an example of using a wildcard to expand the search results for a search term:
+
+index=main fail\*
+
+index=main: This command retrieves events from an index named main. 
+
+fail\*: The wildcard after fail represents any character. This tells Splunk to search for all possible endings that contain the term fail. This expands the search results to return any event that contains the term fail such as “failed” or “failure”.
+
+Pro tip: Double quotations are used to specify a search for an exact phrase or string. For example, if you want to only search for events that contain the exact phrase login failure, you can enclose the phrase in double quotations "login failure". This search will match only events that contain the exact phrase login failure and not other events that contain the words  failure or login separately.
+
+Google Security Operations (Chronicle) searches  
+In Google SecOps (Chronicle), you can search for events using the Search field. You can also use Procedural Filtering to apply filters to a search to further refine the search results. For example, you can use Procedural Filtering to include or exclude search results that contain specific information relating to an event type or log source. There are two types of searches you can perform to find events in Google SecOps (Chronicle), a Unified Data Model (UDM) Search or a Raw Log Search.
+
+Unified Data Model (UDM) Search  
+The UDM Search is the default search type used in Google SecOps (Chronicle). You can perform a UDM search by typing your search, clicking on “Search,” and selecting “UDM Search.” Through a UDM Search, Google SecOps (Chronicle) searches security data that has been ingested, parsed, and normalized. A UDM Search retrieves search results faster than a Raw Log Search because it searches through indexed and structured data that’s normalized in UDM.
+
+A UDM Search retrieves events formatted in UDM and these events contain UDM fields. There are many different types of UDM fields that can be used to query for specific information from an event. Discussing all of these UDM fields is beyond the scope of this reading, but you can learn more about UDM fields by exploring   
+Google Security Operations UDM field list  
+. Know that all UDM events contain a set of common fields including:
+
+Entities: Entities are also known as nouns. All UDM events must contain at least one entity. This field provides additional context about a device, user, or process that’s involved in an event. For example, a UDM event that contains entity information includes the details of the origin of an event such as the hostname, the username, and IP address of the event.
+
+Event metadata: This field provides a basic description of an event, including what type of event it is, timestamps, and more. 
+
+Network metadata: This field provides information about network-related events and protocol details. 
+
+Security results: This field provides the security-related outcome of events. An example of a security result can be an antivirus software detecting and quarantining a malicious file by reporting "virus detected and quarantined." 
+
+Here’s an example of a simple UDM search that uses the event metadata field to locate events relating to user logins:
+
+metadata.event\_type \= “USER\_LOGIN” 
+
+metadata.event\_type \= “USER\_LOGIN”: This UDM field metadata.event\_type contains information about the event type. This includes information like timestamp, network connection, user authentication, and more. Here, the event type specifies USER\_LOGIN, which searches for events relating to authentication. 
+
+Using just the metadata fields, you can quickly start searching for events. As you continue practicing searching in Google SecOps (Chronicle) using UDM Search, you will encounter more fields. Try using these fields to form specific searches to locate different events.
+
+Raw Log Search   
+If you can't find the information you are searching for through the normalized data, using a Raw Log Search will search through the raw, unparsed logs. You can perform a Raw Log Search by typing your search, clicking on “Search,” and selecting “Raw Log Search.” Because it is searching through raw logs, it takes longer than a structured search. In the Search field, you can perform a Raw Log Search by specifying information like usernames, filenames, hashes, and more. Google SecOps (Chronicle) will retrieve events that are associated with the search.
+
+Pro tip: Raw Log Search supports the use of regular expressions, which can help you narrow down a search to match on specific patterns.
+
+Note: Many SIEM tools utilize their own proprietary log forwarders. SIEM tools can also integrate with open-source log forwarders. Choosing the right log forwarder depends on many factors such as the specific requirements of your system or organization, compatibility with your existing infrastructure, and more.
