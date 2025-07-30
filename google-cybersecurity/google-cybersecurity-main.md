@@ -1,4 +1,4 @@
-# cd Google Cybersecurity Professional 
+# Google Cybersecurity Professional 
 
 ## *Coursera*
 
