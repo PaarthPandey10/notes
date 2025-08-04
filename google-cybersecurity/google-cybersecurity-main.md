@@ -2970,8 +2970,8 @@ For example, when working with the customers table, you can use aggregate functi
 
 12  
 SELECT COUNT(firstname)  
-FROM customers;  
-Reset  
+FROM customers;
+
 The result is a table with one column titled COUNT(firstname) and one row that indicates the count. 
 
 If you want to find the number of customers from a specific country, you can add a filter to your query:
@@ -2979,8 +2979,8 @@ If you want to find the number of customers from a specific country, you can add
 123  
 SELECT COUNT(firstname)  
 FROM customers  
-WHERE country \= 'USA';  
-Reset  
+WHERE country \= 'USA';
+
 With this filter, the count is lower because it only includes the records where the country column contains a value of 'USA'.
 
 There are a lot of other aggregate functions in SQL. The syntax of placing them after SELECT is exactly the same as the COUNT function.
@@ -5995,3 +5995,2142 @@ If you can't find the information you are searching for through the normalized d
 Pro tip: Raw Log Search supports the use of regular expressions, which can help you narrow down a search to match on specific patterns.
 
 Note: Many SIEM tools utilize their own proprietary log forwarders. SIEM tools can also integrate with open-source log forwarders. Choosing the right log forwarder depends on many factors such as the specific requirements of your system or organization, compatibility with your existing infrastructure, and more.
+
+# Course 7: Automate Cybersecurity Tasks with Python
+
+## Get to know Python:
+
+How programming works   
+Programming is a process that can be used to create a specific set of instructions for a computer to execute tasks. Computer programs exist everywhere. Computers, cell phones, and many other electronic devices are all given instructions by computer programs. 
+
+There are multiple programming languages used to create computer programs. Python is one of these. Programming languages are converted to binary numbers, which are a series of 0s and 1s that represent the operations that the computer's central processing unit (CPU) should perform. Each instruction corresponds to a specific operation, such as adding two numbers or loading a value from memory. 
+
+It would be very time-consuming for humans to communicate this way. Programming languages like Python make it easier to write code because you can use less syntax when instructing computers to perform complex processes.
+
+Using Python to program  
+Python is a general purpose programming language that can be used to solve a variety of problems. For example, it can be used to build websites, perform data analysis, and automate tasks. 
+
+Python code must be converted through an interpreter before the computer can process it. An interpreter is a computer program that translates Python code into runnable instructions line by line. 
+
+Python versions  
+There are multiple versions of Python. In this course, you are using Python 3\. While using Python, it's important to keep track of the version you're using. There are differences in the syntax of each version. Syntax refers to the rules that determine what is correctly structured in a computing language.
+
+Python in cybersecurity  
+In cybersecurity, Python is used especially for automation. Automation is the use of technology to reduce human and manual effort to perform common and repetitive tasks. These are some specific areas of cybersecurity in which Python might be used to automate specific tasks:  
+Log analysis  
+Malware analysis  
+Access control list management  
+Intrusion detection  
+Compliance checks  
+Network scanning
+
+## Python Environments:
+
+Notebooks  
+One way to write Python code is through a notebook. In this course, you'll interact with Python through notebooks. A notebook is an online interface for writing, storing, and running code. They also allow you to document information about the code. Notebook content either appears in a code cell or markdown cell.
+
+Code cells  
+Code cells are meant for writing and running code. A notebook provides a mechanism for running these code cells. Often, this is a play button located within the cell. When you run the code, its output appears after the code. 
+
+Markdown cells  
+Markdown cells are meant for describing the code. They allow you to format text in the markdown language. Markdown language is used for formatting plain text in text editors and code editors. For example, you might indicate that text should be in a certain header style. 
+
+Common notebook environments  
+Two common notebook environments are   
+Jupyter Notebook  
+ and   
+Google Colaboratory  
+ (or Google Colab). They allow you to run several programming languages, including Python. 
+
+Integrated development environments (IDEs)  
+Another option for writing Python code is through an integrated development environment (IDE), or a software application for writing code that provides editing assistance and error correction tools. Integrated development environments include a graphical user interface (GUI) that provides programmers with a variety of options to customize and build their programs. 
+
+Command line  
+The command line is another environment that allows you to run Python programs. Previously, you learned that a command-line interface (CLI) is a text-based user interface that uses commands to interact with the computer. By entering commands into the command line, you can access all files and directories saved on your hard drive, including files containing Python code you want to run. You can also use the command line to open a file editor and create a new Python file.
+
+## Data types in Python:
+
+String  
+In Python, string data is data consisting of an ordered sequence of characters. Characters in a string may include letters, numbers, symbols, and spaces. These characters must be placed within quotation marks. These are all valid strings:
+
+"updates needed"
+
+"20%"
+
+"5.0"
+
+"35"
+
+"\*\*/\*\*/\*\*" 
+
+""
+
+Note: The last item (""), which doesn't contain anything within the quotation marks, is called an empty string.
+
+You can use the print() function to display a string. You can explore this by running this code: 
+
+1  
+print("updates needed")
+
+The code prints "updates needed". 
+
+You can place strings in either double quotation marks ("") or single quotation marks (''). The following code demonstrates that the same message prints when the string is in single quotation marks:
+
+1  
+print('updates needed') 
+
+Note: Choosing one type of quotation marks and using it consistently makes it easier to read your code. This course uses double quotation marks.
+
+List  
+In Python, list data is a data structure that consists of a collection of data in sequential form. Lists elements can be of any data type, such as strings, integers, Booleans, or even other lists. The elements of a list are placed within square brackets, and each element is separated by a comma. The following lists contains elements of various data types:
+
+\[12, 36, 54, 1, 7\]
+
+\["eraab", "arusso", "drosas"\]
+
+\[True, False, True, True\]
+
+\[15, "approved", True, 45.5, False\]
+
+\[\]
+
+Note: The last item \[\], which doesn't contain anything within the brackets, is called an empty list.
+
+You can also use the print() function to display a list:
+
+1  
+print(\[12, 36, 54, 1, 7\])
+
+This displays a list containing the integers 12, 36, 54, 1, and 7\.
+
+Integer  
+In Python, integer data is data consisting of a number that does not include a decimal point. These are all examples of integer data:
+
+\-100 
+
+\-12
+
+\-1
+
+0
+
+1
+
+20
+
+500 
+
+Integers are not placed in quotation marks. You can use the print() function to display an integer. When you run this code, it displays 5: 
+
+1  
+print(5)
+
+You can also use the print() function to perform mathematical operations with integers. For example, this code adds two integers:
+
+1  
+print(5 \+ 2\)
+
+The result is 7\. You can also subtract, multiply, or divide two integers.
+
+Float  
+Float data is data consisting of a number with a decimal point. All of the following are examples of float data: 
+
+\-2.2
+
+\-1.34
+
+0.0
+
+0.34 
+
+Just like integer data, float data is not placed in quotation marks. In addition, you can also use the print() function to display float data or to perform mathematical calculations with float data. You can run the following code to review the result of this calculation:
+
+1  
+print(1.2 \+ 2.8)
+
+The output is 4.0.
+
+Note: Dividing two integer values or two float values results in float output when you use the symbol /:
+
+12  
+print(1/4)  
+print(1.0/4.0)
+
+The output of both calculations is the float value of .25.  
+
+If you want to return a whole number from a calculation, you must use the symbol // instead:
+
+12  
+print(1//4)  
+print(1.0//4.0)
+
+It will round down to the nearest whole number. In the case of print(1//4), the output is the integer value of 0 because using this symbol rounds down the calculation from .25 to the nearest whole number. In the case of print(1.0//4.0), the output is the float value of 0.0 because it maintains the float data type of the values in the calculation while also rounding down to the nearest whole number.
+
+Boolean   
+Boolean data is data that can only be one of two values: either True or False.
+
+You should not place Boolean values in quotation marks. When you run the following code, it displays the Boolean value of True:
+
+1  
+print(True)
+
+You can also return a Boolean value by comparing numbers. Because 9 is not greater than 10, this code evaluates to False:
+
+1  
+print(9 \> 10\)
+
+Additional data types  
+In this course, you will work with the string, list, integer, float and Boolean data types, but there are other data types. These additional data types include tuple data, dictionary data, and set data.
+
+Tuple  
+Tuple data is a data structure that consists of a collection of data that cannot be changed. Like lists, tuples can contain elements of varying data types. 
+
+A difference between tuple data and list data is that it is possible to change the elements in a list, but it is not possible to change the elements in a tuple. This could be useful in a cybersecurity context. For example, if software identifiers are stored in a tuple to ensure that they will not be altered, this can provide assurance that an access control list will only block the intended software.
+
+The syntax of a tuple is also different from the syntax of a list. A tuple is placed in parentheses rather than brackets. These are all examples of the tuple data type:
+
+("wjaffrey", "arutley", "dkot")
+
+(46, 2, 13, 2, 8, 0, 0\)
+
+(True, False, True, True)
+
+("wjaffrey", 13, True)
+
+Pro tip: Tuples are more memory efficient than lists, so they are useful when you are working with a large quantity of data.
+
+Dictionary  
+Dictionary data is data that consists of one or more key-value pairs. Each key is mapped to a value. A colon (:) is placed between the key and value. Commas separate key-value pairs from other key-value pairs, and the dictionary is placed within curly brackets ({}). 
+
+Dictionaries are useful when you want to store and retrieve data in a predictable way. For example, the following dictionary maps a building name to a number. The building name is the value, and the number is the key. A colon is placed after the key.
+
+{ 1: "East",
+
+  2: "West",
+
+  3: "North",
+
+  4: "South" }
+
+Set  
+In Python, set data is data that consists of an unordered collection of unique values. This means no two values in a set can be the same. 
+
+Elements in a set are always placed within curly brackets and are separated by a comma. These elements can be of any data type. This example of a set contains strings of usernames:
+
+{"jlanksy", "drosas", "nmason"}
+
+## Working with variables:
+
+What are variables?  
+In a programming language, a variable is a container that stores data. It's a named storage location in a computer's memory that can hold a value. It stores the data in a particular data type, such as integer, string, or Boolean. The value that is stored in a variable can change. 
+
+You can think of variables as boxes with labels on them. Even when you change the contents of a box, the label on the box itself remains the same. Similarly, when you change the value stored in a variable, the name of the variable remains the same. 
+
+Security analysts working in Python will use a variety of variables. Some examples include variables for login attempts, allow lists, and addresses.
+
+Working with variables  
+In Python, it's important to know both how to assign variables and how to reassign them.
+
+Assigning and reassigning variables  
+If you want to create a variable called username and assign it a value of "nzhao", place the variable to the left of the equals sign and its value to the right:
+
+\# Assign 'username' 
+
+username \= "nzhao"
+
+If you later reset this username to "zhao2", you still refer to that variable container as username. 
+
+\# Reassign 'username' 
+
+username \= "zhao2"
+
+Although the contents have changed from "nzhao" to "zhao2", the variable username remains the same. 
+
+Note: You must place "nzhao" and "zhao2" in quotation marks because they're strings. Python automatically assigns a variable its data type when it runs. For example, when the username variable contains the string "nzhao", it’s assigned a string data type.
+
+Assigning variables to variables  
+Using a similar process, you can also assign variables to other variables. In the following example, the variable username is assigned to a new variable old\_username: 
+
+\# Assign a variable to another variable
+
+username \= "nzhao"
+
+old\_username \= username
+
+Because username contains the string value of "nzhao" and old\_username contains the value of username, old\_username now contains a value of "nzhao".
+
+Putting it together  
+The following code demonstrates how a username can be updated. The username variable is assigned an initial value, which is then stored in a second variable called old\_username. After this, the username variable is reassigned a new value. You can run this code to get a message about the previous username and the current username:
+
+12345  
+username \= "nzhao"  
+old\_username \= username  
+username \= "zhao2"  
+print("Previous username:", old\_username)  
+print("Current username:", username)
+
+Best practices for naming variables   
+You can name a variable almost anything you want, but there are a few guidelines you should follow to ensure correct syntax and prevent errors:
+
+Use only letters, numbers, and underscores in variable names. Valid examples: date\_3, username, interval2
+
+Remember that variable names in Python are case-sensitive. These are all different variables: time, Time, TIME, timE.
+
+Don't use Python’s built-in keywords or functions for variable names. For example, variables shouldn't be named True, False, or if.  
+
+Additionally, you should follow these stylistic guidelines to make your code easier for you and other security analysts to read and understand:
+
+Separate two or more words with underscores. Valid examples: login\_attempts, invalid\_user, status\_update
+
+Avoid variables with similar names. These variables could be easily confused with one another: start\_time, starting\_time, time\_starting.
+
+Avoid unnecessarily long names for variables. For instance, don't give variables names like variable\_that\_equals\_3.
+
+Names should describe the data and not be random words. Valid examples: num\_login\_attempts, device\_id, invalid\_usernames
+
+Note: Using underscores to separate multiple words in variables is recommended, but another convention that you might encounter is capitalizing the first letter of each word except the first word. Example: loginAttempt
+
+## Conditionals:
+
+How conditional statements work  
+A conditional statement is a statement that evaluates code to determine whether it meets a specific set of conditions. When a condition is met, it evaluates to a Boolean value of True and performs specified actions. When the condition isn’t met, it evaluates a Boolean value of False and doesn’t perform the specified actions. 
+
+In conditional statements, the condition is often based on a comparison of two values. This table summarizes common comparison operators used to compare numerical values.
+
+operator
+
+use
+
+\>
+
+greater than
+
+\<
+
+less than
+
+\>=
+
+greater than or equal to
+
+\<=
+
+less than or equal to
+
+\==
+
+equal to
+
+\!=
+
+not equal to
+
+Note: The equal to (==) and not equal to (\!=) operators are also commonly used to compare string data.
+
+if statements  
+The keyword if starts a conditional statement. It’s a necessary component of any conditional statement. In the following example, if begins a statement that tells Python to print an "OK" message when the HTTP response status code equals 200:
+
+if status \== 200:
+
+    print("OK")
+
+This code consists of a header and a body.
+
+The header of an if statement  
+The first line of this code is the header. In the header of an if statement, the keyword if is followed by the condition. Here, the condition is that the status variable is equal to a value of 200\. The condition can be placed in parentheses:
+
+if (status \== 200):
+
+    print("OK")
+
+In cases like this one, placing parentheses around conditions in Python is optional. You might want to include them if it helps you with code readability. However, this condition will be processed the same way if written without parentheses. 
+
+In other situations, because Python evaluates the conditions in parentheses first, parentheses can affect how Python processes conditions. You will read more about one of these in the section of this reading on not.
+
+Note: You must always place a colon (:) at the end of the header. Without this syntax, the code will produce an error.
+
+The body of an if statement
+
+After the header of an if statement comes the body of the if statement. This tells Python what action or actions to perform when the condition evaluates to True. In this example, there is just one action, printing "OK" to the screen. In other cases, there might be more lines of code with additional actions.
+
+Note: For the body of the if statement to execute as intended, it must be indented further than the header. Additionally, if there are multiple lines of code within the body, they must all be indented consistently. 
+
+Continuing conditionals with else and elif  
+In the previous example, if the HTTP status response code was not equal to 200, the condition would evaluate to False and Python would continue with the rest of the program. However, it’s also possible to specify alternative actions with else and elif.
+
+else statements  
+The keyword else precedes a code section that only evaluates when all conditions that precede it within the conditional statement evaluate to False.
+
+In the following example, when the HTTP response status code is not equal to 200, it prints an alternative message of "check other status":
+
+if status \== 200:
+
+    print("OK")
+
+else:
+
+    print("check other status")
+
+Note: Like with if, a colon (:) is required after else, and the body that follows the else header is indented.
+
+elif statements  
+In some cases, you might have multiple alternative actions that depend on new conditions. In that case, you can use elif. The elif keyword precedes a condition that is only evaluated when previous conditions evaluate to False. Unlike with else, there can be multiple elif statements following if.
+
+For example, you might want to print one message if the HTTP response status code is 200, one message if it is 400, and one if it is 500\. The following code demonstrates how you can use elif for this: 
+
+if status \== 200:
+
+    print("OK")
+
+elif status \== 400:
+
+    print("Bad Request")
+
+elif status \== 500:
+
+    print("Internal Server Error") 
+
+Python will first check if the value of status is 200, and if this evaluates to False, it will go onto the first elif statement. There, it will check whether the value of status is 400\. If that evaluates to True, it will print "Bad Request", but if it evaluates to False, it will go on to the next elif statement. 
+
+If you want the code to print another message when all conditions evaluate to False, then you can incorporate else after the last elif. In this example, if it reaches the else statement, it prints a message to check the status:
+
+if status \== 200:
+
+    print("OK")
+
+elif status \== 400:
+
+    print("Bad Request")
+
+elif status \== 500:
+
+    print("Internal Server Error")
+
+else:
+
+    print("check other status")
+
+Just like with if and else, it’s important to place a colon (:) after the elif header and indent the code that follows this header.
+
+Note: Python processes multiple elif statements differently than multiple if statements. When it reaches an elif statement that evaluates to True, it won’t check the following elif statements. On the other hand, Python will run all if statements.
+
+Logical operators for multiple conditions  
+In some cases, you might want Python to perform an action based on a more complex condition. You might require two conditions to evaluate to True. Or, you might require only one of two conditions to evaluate to True. Or, you might want Python to perform an action when a condition evaluates to False. The operators and, or, and not can be used in these cases.
+
+and  
+The and operator requires both conditions on either side of the operator to evaluate to True. For example, all HTTP status response codes between 200 and 226 relate to successful responses. You can use and to join a condition of being greater than or equal to 200 with another condition of being less than or equal to 226:
+
+if status \>= 200 and status \<= 226:
+
+    print("successful response")
+
+When both conditions are True, then the "successful response" message will print.
+
+or  
+The or operator requires only one of the conditions on either side of the operator to evaluate to True. For example, both a status code of 100 and a status code of 102 are informational responses. Using or, you could ask Python to print an "informational response" message when the code is either 100 or 102:
+
+if status \== 100 or status \== 102:
+
+    print("informational response")
+
+Only one of these conditions needs to be met for Python to print the message.
+
+not  
+The not operator negates a given condition so that it evaluates to False if the condition is True and to True if it is False. For example, if you want to indicate that Python should check the status code when it’s something outside of the successful range, you can use not:
+
+if not(status \>= 200 and status \<= 226):
+
+    print("check status")
+
+Python first checks whether the value of status is greater than or equal to 200 and less than or equal to 226, and then because of the operator not, it inverts this. This means it will print the message if status is less than 200 or greater than 226\.
+
+Note: In this case, the parentheses are necessary for the code to apply not to both conditions. Python will evaluate the conditions within the parentheses first. This means it will first evaluate the conditions on either side of the and operator and then apply not to both of them.
+
+## Loops:
+
+for loops    
+If you need to iterate through a specified sequence, you should use a for loop. 
+
+The following for loop iterates through a sequence of usernames. You can run it to observe the output:
+
+12  
+for i in \["elarson", "bmoreno", "tshah", "sgilmore"\]:  
+    print(i)
+
+The first line of this code is the loop header. In the loop header, the keyword for signals the beginning of a for loop. Directly after for, the loop variable appears. The loop variable is a variable that is used to control the iterations of a loop. In for loops, the loop variable is part of the header. In this example, the loop variable is i. 
+
+The rest of the loop header indicates the sequence to iterate through. The in operator appears before the sequence to tell Python to run the loop for every item in the sequence. In this example, the sequence is the list of usernames. The loop header must end with a colon (:). 
+
+The second line of this example for loop is the loop body. The body of the for loop might consist of multiple lines of code. In the body, you indicate what the loop should do with each iteration. In this case, it's to print(i), or in other words, to display the current value of the loop variable during that iteration of the loop. For Python to execute the code properly, the loop body must be indented further than the loop header. 
+
+Note: When used in a for loop, the in operator precedes the sequence that the for loop will iterate through. When used in a conditional statement, the in operator is used to evaluate whether an object is part of a sequence.  The example if "elarson" in \["tshah", "bmoreno", "elarson"\] evaluates to True because "elarson" is part of the sequence following in.
+
+Looping through a list  
+Using for loops in Python allows you to easily iterate through lists, such as a list of computer assets. In the following for loop, asset is the loop variable and another variable, computer\_assets, is the sequence. The computer\_assets variable stores a list. This means that on the first iteration the value of asset will be the first element in that list, and on the second iteration, the value of asset will be the second element in that list. You can run the code to observe what it outputs: 
+
+123  
+computer\_assets \= \["laptop1", "desktop20", "smartphone03"\]  
+for asset in computer\_assets:  
+    print(asset)
+
+Note: It is also possible to loop through a string. This will return every character one by one. You can observe this by running the following code block that iterates through the string "security":
+
+123  
+string \= "security"  
+for character in string:  
+    print(character)
+
+Using  range()  
+Another way to iterate through a for loop is based on a sequence of numbers, and this can be done with range(). The range() function generates a sequence of numbers. It accepts inputs for the start point, stop point, and increment in parentheses. For example, the following code indicates to start the sequence of numbers at 0, stop at 5, and increment each time by 1:
+
+range(0, 5, 1\)
+
+Note: The start point is inclusive, meaning that 0 will be included in the sequence of numbers, but the stop point is exclusive, meaning that 5 will be excluded from the sequence. It will conclude one integer before the stopping point.
+
+When you run this code, you can observe how 5 is excluded from the sequence:
+
+12  
+for i in range(0, 5, 1):  
+    print(i)
+
+You should be aware that it's always necessary to include the stop point, but if the start point is the default value of 0 and the increment is the default value of 1, they don't have to be specified in the code. If you run this code, you will get the same results:
+
+12  
+for i in range(5):  
+    print(i)
+
+Note: If the start point is anything other than 0 or the increment is anything other than 1, they should be specified.
+
+while loops  
+If you want a loop to iterate based on a condition, you should use a while loop. As long as the condition is True, the loop continues, but when it evaluates to False, the while loop exits. The following while loop continues as long as the condition that i \< 5 is True:
+
+1234  
+i \= 1  
+while i \< 5:  
+    print(i)  
+    i \= i \+ 1
+
+In this while loop, the loop header is the line while i \< 5:. Unlike with for loops, the value of a loop variable used to control the iterations is not assigned within the loop header in a while loop. Instead, it is assigned outside of the loop. In this example, i is assigned a starting value of 1 in a line preceding the loop.
+
+The keyword while signals the beginning of a while loop. After this, the loop header indicates the condition that determines when the loop terminates. This condition uses the same comparison operators as conditional statements. Like in a for loop, the header of a while loop must end with a colon (:).
+
+The body of a while loop indicates the actions to take with each iteration. In this example, it is to display the value of i and to increment the value of i by 1\. In order for the value of i to change with each iteration, it's necessary to indicate this in the body of the while loop. In this example, the loop iterates four times until it reaches a value of 5\.
+
+Integers in the loop condition  
+Often, as just demonstrated, the loop condition is based on integer values. For example, you might want to allow a user to log in as long as they've logged in less than five times. Then, your loop variable, login\_attempts, can be initialized to 0, incremented by 1 in the loop, and the loop condition can specify to iterate only when the variable is less than 5\. You can run the code below and review the count of each login attempt:
+
+1234  
+login\_attempts \= 0  
+while login\_attempts \< 5:  
+    print("Login attempts:", login\_attempts)  
+    login\_attempts \= login\_attempts \+ 1
+
+The value of login\_attempts went from 0 to 4 before the loop condition evaluated to False. Therefore, the values of 0 through 4 print, and the value 5 does not print.
+
+Boolean values in the loop condition  
+Conditions in while loops can also depend on other data types, including comparisons of Boolean data. In Boolean data comparisons, your loop condition can check whether a loop variable equals a value like True or False. The loop iterates an indeterminate number of times until the Boolean condition is no longer True. 
+
+In the example below, a Boolean value is used to exit a loop when a user has made five login attempts. A variable called count keeps track of each login attempt and changes the login\_status variable to False when the count equals 4\. (Incrementing count from 0 to 4 represents five login attempts.) Because the while condition only iterates when login\_status is True, it will exit the loop. You can run this to explore this output: 
+
+1234567  
+count \= 0  
+login\_status \= True  
+while login\_status \== True:  
+    print("Try again.")  
+    count \= count \+ 1  
+    if count \== 4:  
+        login\_status \= False
+
+The code prints a message to try again four times, but exits the loop once login\_status is set to False.   
+
+Managing loops  
+You can use the break and continue keywords to further control your loop iterations. Both are incorporated into a conditional statement within the body of the loop. They can be inserted to execute when the condition in an if statement is True. The break keyword is used to break out of a loop. The continue keyword is used to skip an iteration and continue with the next one. 
+
+break  
+When you want to exit a for or while loop based on a particular condition in an if statement being True, you can write a conditional statement in the body of the loop and write the keyword break in the body of the conditional. 
+
+The following example demonstrates this. The conditional statement with break instructs Python to exit the for loop if the value of the loop variable asset is equal to "desktop20". On the second iteration, this condition evaluates to True. You can run this code to observe this in the output: 
+
+12345  
+computer\_assets \= \["laptop1", "desktop20", "smartphone03"\]  
+for asset in computer\_assets:  
+    if asset \== "desktop20":  
+        break  
+    print(asset)
+
+As expected, the values of "desktop20" and "smartphone03" don't print because the loop breaks on the second iteration.
+
+continue  
+When you want to skip an iteration based on a certain condition in an if statement being True, you can add the keyword continue in the body of a conditional statement within the loop. In this example, continue will execute when the loop variable of asset is equal to "desktop20". You can run this code to observe how this output differs from the previous example with break:
+
+12345  
+computer\_assets \= \["laptop1", "desktop20", "smartphone03"\]  
+for asset in computer\_assets:  
+    if asset \== "desktop20":  
+        continue  
+    print(asset)
+
+The value "desktop20" in the second iteration doesn't print. However, in this case, the loop continues to the next iteration, and "smartphone03" is printed. 
+
+Infinite loops  
+If you create a loop that doesn't exit, this is called an infinite loop. In these cases, you should press CTRL-C or CTRL-Z on your keyboard to stop the infinite loop. You might need to do this when running a service that constantly processes data, such as a web server.
+
+## Python Functions in Cybersecurity:
+
+Functions in cybersecurity  
+A function is a section of code that can be reused in a program. Functions are important in Python because they allow you to automate repetitive parts of your code. In cybersecurity, you will likely adopt some processes that you will often repeat.
+
+When working with security logs, you will often encounter tasks that need to be repeated. For example, if you were responsible for finding malicious login activity based on failed login attempts, you might have to repeat the process for multiple logs.
+
+To work around that, you could define a function that takes a log as its input and returns all potentially malicious logins. It would be easy to apply this function to different logs.
+
+Defining a function  
+In Python, you'll work with built-in functions and user-defined functions. Built-in functions are functions that exist within Python and can be called directly. The print() function is an example of a built-in function.
+
+User-defined functions are functions that programmers design for their specific needs. To define a function, you need to include a function header and the body of your function.
+
+Function header  
+The function header is what tells Python that you are starting to define a function. For example, if you want to define a function that displays an "investigate activity" message, you can include this function header:
+
+def display\_investigation\_message():
+
+The def keyword is placed before a function name to define a function. In this case, the name of that function is display\_investigation\_message. 
+
+The parentheses that follow the name of the function and the colon (:) at the end of the function header are also essential parts of the syntax.
+
+Pro tip: When naming a function, give it a name that indicates what it does. This will make it easier to remember when calling it later.
+
+Function body  
+The body of the function is an indented block of code after the function header that defines what the function does. The indentation is very important when writing a function because it separates the definition of a function from the rest of the code.
+
+To add a body to your definition of the display\_investigation\_message() function, add an indented line with the print() function. Your function definition becomes the following:
+
+def display\_investigation\_message():
+
+    print("investigate activity")
+
+Calling a function  
+After defining a function, you can use it as many times as needed in your code. Using a function after defining it is referred to as calling a function. To call a function, write its name followed by parentheses. So, for the function you previously defined, you can use the following code to call it:
+
+display\_investigation\_message()
+
+Although you'll use functions in more complex ways as you expand your understanding, the following code provides an introduction to how the display\_investigation\_message() function might be part of a larger section of code. You can run it and analyze its output:
+
+123456789101112  
+def display\_investigation\_message():  
+    print("investigate activity")
+
+application\_status \= "potential concern"  
+email\_status \= "okay"
+
+if application\_status \== "potential concern":  
+    print("application\_log:")  
+    display\_investigation\_message()
+
+The display\_investigation\_message() function is used twice within the code. It will print "investigate activity" messages about two different logs when the specified conditions evaluate to True. In this example, only the first conditional statement evaluates to True, so the message prints once.
+
+This code calls the function from within conditionals, but you might call a function from a variety of locations within the code.
+
+Note: Calling a function inside of the body of its function definition can create an infinite loop. This happens when it is not combined with logic that stops the function call when certain conditions are met. For example, in the following function definition, after you first call func1(), it will continue to call itself and create an infinite loop: 
+
+def func1():
+
+    func1()
+
+## Functions and Variables:
+
+Working with variables in functions  
+Working with variables in functions requires an understanding of both parameters and arguments. The terms parameters and arguments have distinct uses when referring to variables in a function. Additionally, if you want the function to return output, you should be familiar with return statements.
+
+Parameters  
+A parameter is an object that is included in a function definition for use in that function. When you define a function, you create variables in the function header. They can then be used in the body of the function. In this context, these variables are called parameters.  For example, consider the following function:
+
+def remaining\_login\_attempts(maximum\_attempts, total\_attempts):
+
+    print(maximum\_attempts \- total\_attempts)
+
+This function takes in two variables, maximum\_attempts and total\_attempts and uses them to perform a calculation. In this example, maximum\_attempts and total\_attempts are parameters.
+
+Arguments  
+In Python, an argument is the data brought into a function when it is called. When calling remaining\_login\_attempts in the following example, the integers 3 and 2 are considered arguments:
+
+remaining\_login\_attempts(3, 2\)
+
+These integers pass into the function through the parameters that were identified when defining the function. In this case, those parameters would be maximum\_attempts and total\_attempts. 3 is in the first position, so it passes into maximum\_attempts. Similarly, 2 is in the second position and passes into total\_attempts.
+
+Return statements  
+When defining functions in Python, you use return statements if you want the function to return output. The return keyword is used to return information from a function.
+
+The return keyword appears in front of the information that you want to return. In the following example, it is before the calculation of how many login attempts remain:
+
+def remaining\_login\_attempts(maximum\_attempts, total\_attempts):
+
+    return maximum\_attempts \- total\_attempts
+
+Note: The return keyword is not a function, so you should not place parentheses after it.
+
+Return statements are useful when you want to store what a function returns inside of a variable to use elsewhere in the code. For example, you might use this variable for calculations or within conditional statements. In the following example, the information returned from the call to remaining\_login\_attempts is stored in a variable called remaining\_attempts. Then, this variable is used in a conditional that prints a "Your account is locked" message when remaining\_attempts is less than or equal to 0\. You can run this code to explore its output:
+
+12345  
+def remaining\_login\_attempts(maximum\_attempts, total\_attempts):  
+    return maximum\_attempts \- total\_attempts  
+remaining\_attempts \= remaining\_login\_attempts(3, 3\)  
+if remaining\_attempts \<= 0:  
+    print("Your account is locked")
+
+In this example, the message prints because the calculation in the function results in 0\.
+
+Note: When Python encounters a return statement, it executes this statement and then exits the function. If there are lines of code that follow the return statement within the function, they will not be run. The previous example didn't contain any lines of code after the return statement, but this might apply in other functions, such as one containing a conditional statement.
+
+Global and local variables  
+To better understand how functions interact with variables, you should know the difference between global and local variables. 
+
+When defining and calling functions, you're working with local variables, which are different from the variables you define outside the scope of a function.
+
+Global variables  
+A global variable is a variable that is available through the entire program. Global variables are assigned outside of a function definition. Whenever that variable is called, whether inside or outside a function, it will return the value it is assigned.
+
+For example, you might assign the following variable at the beginning of your code:
+
+device\_id \= "7ad2130bd"
+
+Throughout the rest of your code, you will be able to access and modify the device\_id variable in conditionals, loops, functions, and other syntax.
+
+Local variables  
+A local variable is a variable assigned within a function. These variables cannot be called or accessed outside of the body of a function. Local variables include parameters as well as other variables assigned within a function definition.
+
+In the following function definition, total\_string and name are local variables:
+
+def greet\_employee(name):
+
+    total\_string \= "Welcome" \+ name
+
+    return total\_string
+
+The variable total\_string is a local variable because it's assigned inside of the function. The parameter name is a local variable because it is also created when the function is defined. 
+
+Whenever you call a function, Python creates these variables temporarily while the function is running and deletes them from memory after the function stops running.
+
+This means that if you call the greet\_employee() function with an argument and then use the total\_string variable outside of this function, you'll get an error.
+
+Best practices for global and local variables  
+When working with variables and functions, it is very important to make sure that you only use a certain variable name once, even if one is defined globally and the other is defined locally. 
+
+When using global variables inside functions, functions can access the values of a global variable. You can run the following example to explore this:
+
+1234  
+username \= "elarson"  
+def identify\_user():  
+    print(username)  
+identify\_user()
+
+The code block returns "elarson" even though that name isn't defined locally. The function accesses the global variable. If you wanted the identify\_user() function to accommodate other usernames, you would have to reassign the global username variable outside of the function. This isn't good practice. A better way to pass different values into a function is to use a parameter instead of a global variable.
+
+There's something else to consider too. If you reuse the name of a global variable within a function, it will create a new local variable with that name. In other words, there will be both a global variable with that name and a local variable with that name, and they'll have different values. You can consider the following code block:
+
+1234567  
+username \= "elarson"  
+print("1:" \+ username)  
+def greet():  
+    username \= "bmoreno"  
+    print("2:" \+ username)  
+greet()  
+print("3:" \+ username)
+
+The first print statement occurs before the function, and Python returns the value of the global username variable, "elarson". The second print statement is within the function, and it returns the value of the local username variable, which is "bmoreno". But this doesn't change the value of the global variable, and when username is printed a third time after the function call, it's still "elarson".
+
+Due to this complexity, it's best to avoid combining global and local variables within functions.
+
+## Built-in functions:
+
+print()   
+The print() function outputs a specified object to the screen. The print() function is one of the most commonly used functions in Python because it allows you to output any detail from your code.
+
+To use the print() function, you pass the object you want to print as an argument to the function. The print() function takes in any number of arguments, separated by a comma, and prints all of them. For example, you can run the following code that prints a string, a variable, another string, and an integer together:
+
+12  
+month \= "September"  
+print("Investigate failed login attempts during", month, "if more than", 100\)
+
+type()   
+The type() function returns the data type of its argument. The type() function helps you keep track of the data types of variables to avoid errors throughout your code. 
+
+To use it, you pass the object as an argument, and it returns its data type. It only accepts one argument. For example, you could specify type("security") or type(7).
+
+Passing one function into another  
+When working with functions, you often need to pass them through print() if you want to output the data type to the screen. This is the case when using a function like type(). Consider the following code:
+
+1  
+print(type("This is a string"))
+
+It displays str, which means that the argument passed to the type() function is a string. This happens because the type() function is processed first and its output is passed as an argument to the print() function. 
+
+max() and min()   
+The max() function returns the largest numeric input passed into it. The min() function returns the smallest numeric input passed into it.
+
+The max() and min() functions accept arguments of either multiple numeric values or of an iterable like a list, and they return the largest or smallest value respectively.
+
+In a cybersecurity context, you could use these functions to identify the longest or shortest session that a user logged in for. If a specific user logged in seven times during a week, and you stored their access times in minutes in a list, you can use the max() and min() functions to find and print their longest and shortest sessions:
+
+123  
+time\_list \= \[12, 2, 32, 19, 57, 22, 14\]  
+print(min(time\_list))  
+print(max(time\_list))
+
+sorted()  
+The sorted() function sorts the components of a list. The sorted() function also works on any iterable, like a string, and returns the sorted elements in a list. By default, it sorts them in ascending order. When given an iterable that contains numbers, it sorts them from smallest to largest; this includes iterables that contain numeric data as well as iterables that contain string data beginning with numbers. An iterable that contains strings that begin with alphabetic characters will be sorted alphabetically.
+
+The sorted() function takes an iterable, like a list or a string, as an input. So, for example, you can use the following code to sort the list of login sessions from shortest to longest:
+
+12  
+time\_list \= \[12, 2, 32, 19, 57, 22, 14\]  
+print(sorted(time\_list))
+
+This displays the sorted list. 
+
+The sorted() function does not change the iterable that it sorts. The following code illustrates this:
+
+123  
+time\_list \= \[12, 2, 32, 19, 57, 22, 14\]  
+print(sorted(time\_list))  
+print(time\_list)
+
+The first print() function displays the sorted list. However, the second print() function, which does not include the sorted() function, displays the list as assigned to time\_list in the first line of code.
+
+One more important detail about the sorted() function is that it cannot take lists or strings that have elements of more than one data type. For example, you can’t use the list \[1, 2, "hello"\].
+
+## Importing modules and libraries:
+
+The Python Standard Library  
+The Python Standard Library is an extensive collection of Python code that often comes packaged with Python. It includes a variety of modules, each with pre-built code centered around a particular type of task. 
+
+For example, you were previously introduced to the following modules in the Python Standard Library:
+
+The re module, which provides functions used for searching for patterns in log files
+
+The csv module, which provides functions used when working with .csv files
+
+The glob and os modules, which provide functions used when interacting with the command line
+
+The time and datetime modules, which provide functions used when working with timestamps
+
+Another Python Standard Library module is statistics. The statistics module includes functions used when calculating statistics related to numeric data. For example, mean() is a function in the statistics module that takes numeric data as input and calculates its mean (or average). Additionally, median() is a function in the statistics module that takes numeric data as input and calculates its median (or middle value).
+
+How to import modules from the Python Standard Library  
+To access modules from the Python Standard Library, you need to import them. You can choose to either import a full module or to only import specific functions from a module. 
+
+Importing an entire module  
+To import an entire Python Standard Library module, you use the import keyword. The import keyword searches for a module or library in a system and adds it to the local Python environment. After import, specify the name of the module to import. For example, you can specify import statistics to import the statistics module. This will import all the functions inside of the statistics module for use later in your code.
+
+As an example, you might want to use the mean() function from the statistics module to calculate the average number of failed login attempts per month for a particular user. In the following code block, the total number of failed login attempts for each of the twelve months is stored in a list called monthly\_failed\_attempts. Run this code and analyze how mean() can be used to calculate the average of these monthly failed login totals and store it in mean\_failed\_attempts:
+
+1234  
+import statistics  
+monthly\_failed\_attempts \= \[20, 17, 178, 33, 15, 21, 19, 29, 32, 15, 25, 19\]  
+mean\_failed\_attempts \= statistics.mean(monthly\_failed\_attempts)  
+print("mean:", mean\_failed\_attempts)
+
+The output returns a mean of 35.25. You might notice the outlying value of 178 and want to find the middle value as well. To do this through the median() function, you can use the following code:
+
+1234  
+import statistics  
+monthly\_failed\_attempts \= \[20, 17, 178, 33, 15, 21, 19, 29, 32, 15, 25, 19\]  
+median\_failed\_attempts \= statistics.median(monthly\_failed\_attempts)  
+print("median:", median\_failed\_attempts)
+
+This gives you the value of 20.5, which might also be useful for analyzing the user's failed login attempt statistics.
+
+Note: When importing an entire Python Standard Library module, you need to identify the name of the module with the function when you call it. You can do this by placing the module name followed by a period (.) before the function name. For example, the previous code blocks use statistics.mean() and statistics.median() to call those functions. 
+
+Importing specific functions from a module  
+To import a specific function from the Python Standard Library, you can use the from keyword. For example, if you want to import just the median() function from the statistics module, you can write from statistics import median.
+
+To import multiple functions from a module, you can separate the functions you want to import with a comma. For instance, from statistics import mean, median imports both the mean() and the median() functions from the statistics module.
+
+An important detail to note is that if you import specific functions from a module, you no longer have to specify the name of the module before those functions. You can examine this in the following code, which specifically imports only the median() and the mean() functions from the statistics module and performs the same calculations as the previous examples:
+
+123456  
+from statistics import mean, median  
+monthly\_failed\_attempts \= \[20, 17, 178, 33, 15, 21, 19, 29, 32, 15, 25, 19\]  
+mean\_failed\_attempts \= mean(monthly\_failed\_attempts)  
+print("mean:", mean\_failed\_attempts)  
+median\_failed\_attempts \= median(monthly\_failed\_attempts)  
+print("median:", median\_failed\_attempts)
+
+It is no longer necessary to specify statistics.mean() or statistics.median() and instead the code incorporates these functions as mean() and median().
+
+External libraries  
+In addition to the Python Standard Library, you can also download external libraries and incorporate them into your Python code. For example, previously you were introduced to Beautiful Soup (bs4) for parsing HTML files and NumPy (numpy) for arrays and mathematical computations. Before using them in a Jupyter Notebook or a Google Colab environment, you need to install them first.
+
+To install a library, such as numpy, in either environment, you can run the following line prior to importing the library:
+
+%pip install numpy
+
+This installs the library so you can use it in your notebook.
+
+After a library is installed, you can import it directly into Python using the import keyword in a similar way to how you used it to import modules from the Python Standard Library. For example, after the numpy install, you can use this code to import it:
+
+import numpy
+
+## Proper syntax and readability in Python:
+
+Comments  
+A comment is a note programmers make about the intentions behind their code. Comments make it easier for you and other programmers to read and understand your code. 
+
+It’s important to start your code with a comment that explains what the program does. Then, throughout the code, you should add additional comments about your intentions behind specific sections.
+
+When adding comments, you can add both single-line comments and multi-line comments.
+
+Single-line comments  
+Single-line comments in Python begin with the (\#) symbol. According to the PEP 8 style guide, it’s best practice to keep all lines in Python under 79 characters to maintain readability, and this includes comments.
+
+Single-line comments are often used throughout your program to explain the intention behind specific sections of code. For example, this might be when you're explaining simpler components of your program, such as the following for loop:
+
+\# Print elements of 'computer\_assets' list
+
+computer\_assets \= \["laptop1", "desktop20", "smartphone03"\]
+
+for asset in computer\_assets:
+
+    print(asset)
+
+Note: Comments are important when writing more complex code, like functions, or multiple loops or conditional statements. However, they're optional when writing less complex code like reassigning a variable.
+
+Multi-line comments  
+Multi-line comments are used when you need more than 79 characters in a single comment. For example, this might occur when defining a function if the comment describes its inputs and their data types as well as its output. 
+
+There are two commonly used ways of writing multi-line comments in Python. The first is by using the hashtag (\#) symbol over multiple lines:
+
+\# remaining\_login\_attempts() function takes two integer parameters,
+
+\# the maximum login attempts allowed and the total attempts made,
+
+\# and it returns an integer representing remaining login attempts
+
+def remaining\_login\_attempts(maximum\_attempts, total\_attempts):
+
+    return maximum\_attempts \- total\_attempts
+
+Another way of writing multi-line comments is by using documentation strings and not assigning them to a variable. Documentation strings, also called docstrings, are strings that are written over multiple lines and are used to document code. To create a documentation string, use triple quotation marks (""" """). 
+
+You could add the comment to the function in the previous example in this way too:
+
+"""
+
+remaining\_login\_attempts() function takes two integer parameters,
+
+the maximum login attempts allowed and the total attempts made,
+
+and it returns an integer representing remaining login attempts
+
+"""
+
+Correct indentation  
+Indentation is space added at the beginning of a line of code. In Python, you should indent the body of conditional statements, iterative statements, and function definitions. Indentation is not only necessary for Python to interpret this syntax properly, but it can also make it easier for you and other programmers to read your code.
+
+The PEP 8 style guide recommends that indentations should be four spaces long. For example, if you had a conditional statement inside of a while loop, the body of the loop would be indented four spaces and the body of the conditional would be indented four spaces beyond that. This means the conditional would be indented eight spaces in total. 
+
+count \= 0
+
+login\_status \= True
+
+while login\_status \== True:
+
+    print("Try again.")
+
+    count \= count \+ 1
+
+    if count \== 4:
+
+        login\_status \= False
+
+Maintaining correct syntax  
+Syntax errors involve invalid usage of the Python language. They are incredibly common with Python, so focusing on correct syntax is essential in ensuring that your code runs. Awareness of common errors will help you more easily fix them. 
+
+Syntax errors often occur because of mistakes with data types or in the headers of conditional or iterative statements or of function definitions.
+
+Data types  
+Correct syntax varies depending on data type:
+
+Place string data in quotation marks.
+
+Example: username \= "bmoreno"
+
+Do not add quotation marks around integer, float, or Boolean data types.
+
+Examples: login\_attempts \= 5, percentage\_successful \= .8, login\_status \= True
+
+Place lists in brackets and separate the elements of a list with commas.
+
+Example: username\_list \= \["bmoreno", "tshah"\]
+
+Colons in headers  
+The header of a conditional or iterative statement or of a function definition must end with a colon. For example, a colon appears at the end of the header in the following function definition:
+
+def remaining\_login\_attempts(maximum\_attempts, total\_attempts):
+
+    return maximum\_attempts \- total\_attempts
+
+## Strings and security analytics:
+
+String data in a security setting  
+As an analyst, string data is one of the most common data types you will encounter in Python. String data is data consisting of an ordered sequence of characters. It's used to store any type of information you don't need to manipulate mathematically (such as through division or subtraction). In a cybersecurity context, this includes IP addresses, usernames, URLs, and employee IDs.
+
+You'll need to work with these strings in a variety of ways. For example, you might extract certain parts of an IP address, or you might verify whether usernames meet required criteria.
+
+Working with indices in strings  
+Indices   
+An index is a number assigned to every element in a sequence that indicates its position. With strings, this means each character in the string has its own index.
+
+Indices start at 0\. For example, you might be working with this string containing a device ID: "h32rb17". The following table indicates the index for each character in this string:
+
+character
+
+index           
+
+h
+
+0
+
+3
+
+1
+
+2
+
+2
+
+r
+
+3
+
+b
+
+4
+
+1
+
+5
+
+7
+
+6
+
+You can also use negative numbers as indices. This is based on their position relative to the last character in the string:
+
+character
+
+index           
+
+h
+
+\-7
+
+3
+
+\-6
+
+2
+
+\-5
+
+r
+
+\-4
+
+b
+
+\-3
+
+1
+
+\-2
+
+7
+
+\-1
+
+Bracket notation  
+Bracket notation refers to the indices placed in square brackets. You can use bracket notation to extract a part of a string. For example, the first character of the device ID might represent a certain characteristic of the device. If you want to extract it, you can use bracket notation for this:
+
+"h32rb17"\[0\]
+
+This device ID might also be stored within a variable called device\_id. You can apply the same bracket notation to the variable:
+
+device\_id \= "h32rb17"
+
+device\_id\[0\]
+
+In both cases, bracket notation outputs the character h when this bracket notation is placed inside a print() function. You can observe this by running the following code:
+
+123  
+device\_id \= "h32rb17"  
+print("h32rb17"\[0\])  
+print(device\_id\[0\])
+
+You can also take a slice from a string. When you take a slice from a string, you extract more than one character from it. It's often done in cybersecurity contexts when you’re only interested in a specific part of a string. For example, this might be certain numbers in an IP address or certain parts of a URL.
+
+In the device ID example, you might need the first three characters to determine a particular quality of the device. To do this, you can take a slice of the string using bracket notation. You can run this line of code to observe that it outputs "h32":
+
+1  
+print("h32rb17"\[0:3\])
+
+Note: The slice starts at the 0 index, but the second index specified after the colon is excluded.  This means the slice ends one position before index 3, which is at index 2\. 
+
+String functions and methods  
+The str() and len() functions are useful for working with strings. You can also apply methods to strings, including the .upper(), .lower(), and .index() methods. A method is a function that belongs to a specific data type.
+
+str() and len()  
+The str() function converts its input object into a string. As an analyst, you might use this in security logs when working with numerical IDs that aren't going to be used with mathematical processes. Converting an integer to a string gives you the ability to search through it and extract slices from it.
+
+Consider the example of an employee ID 19329302 that you need to convert into a string. You can use the following line of code to convert it into a string and store it in a variable:
+
+string\_id \= str(19329302)
+
+The second function you learned for strings is the len() function, which returns the number of elements in an object.
+
+As an example, if you want to verify that a certain device ID conforms to a standard of containing seven characters, you can use the len() function and a conditional. When you run the following code, it will print a message if "h32rb17" has seven characters:
+
+123  
+device\_id\_length \= len("h32rb17")  
+if device\_id\_length \== 7:  
+    print("The device ID has 7 characters.")
+
+.upper() and .lower()   
+The .upper() method returns a copy of the string with all of its characters in uppercase. For example, you can change this department name to all uppercase by running the code "Information Technology".upper(). It would return the string "INFORMATION TECHNOLOGY".
+
+Meanwhile, the .lower() method returns a copy of the string in all lowercase characters. "Information Technology".lower() would return the string "information technology".
+
+.index()  
+The .index() method finds the first occurrence of the input in a string and returns its location. For example, this code uses the .index() method to find the first occurrence of the character "r" in the device ID "h32rb17":
+
+1  
+print("h32rb17".index("r"))
+
+The .index() method returns 3 because the first occurrence of the character "r" is at index 3\.
+
+In other cases, the input may not be found. When this happens, Python returns an error. For instance, the code print("h32rb17".index("a")) returns an error because "a" is not in the string "h32rb17".
+
+Also note that if a string contains more than one instance of a character, only the first one will be returned. For instance, the device ID "r45rt46" contains two instances of "r". You can run the following code to explore its output:
+
+1  
+print("r45rt46".index("r"))
+
+The output is 0 because .index() returns only the first instance of "r", which is at index 0\. The instance of "r" at index 3 is not returned.
+
+Finding substrings with .index()  
+A substring is a continuous sequence of characters within a string. For example, "llo" is a substring of "hello".
+
+The .index() method can also be used to find the index of the first occurrence of a substring. It returns the index of the first character in that substring. Consider this example that finds the first instance of the user "tshah" in a string:
+
+12  
+tshah\_index \= "tsnow, tshah, bmoreno \- updated".index("tshah")  
+print(tshah\_index)
+
+The .index() method returns the index 7, which is where the substring "tshah" starts.
+
+Note: When using the .index() method to search for substrings, you need to be careful. In the previous example, you want to locate the instance of "tshah". If you search for just "ts", Python will return 0 instead of 7 because "ts" is also a substring of "tsnow".
+
+## Lists and security analytics:
+
+List data in a security setting  
+As a security analyst, you'll frequently work with lists in Python. List data is a data structure that consists of a collection of data in sequential form. You can use lists to store multiple elements in a single variable. A single list can contain multiple data types. 
+
+In a cybersecurity context, lists might be used to store usernames, IP addresses, URLs, device IDs, and data.
+
+Placing data within a list allows you to work with it in a variety of ways. For example, you might iterate through a list of device IDs using a for loop to perform the same actions for all items in the list. You could incorporate a conditional statement to only perform these actions if the device IDs meet certain conditions. 
+
+Working with indices in lists  
+Indices  
+Like strings, you can work with lists through their indices, and indices start at 0\. In a list, an index is assigned to every element in the list.
+
+This table contains the index for each element in the list \["elarson", "fgarcia", "tshah", "sgilmore"\]:
+
+element
+
+index
+
+"elarson"
+
+0
+
+"fgarcia"
+
+1
+
+"tshah"
+
+2
+
+"sgilmore"
+
+3
+
+Bracket notation  
+Similar to strings, you can use bracket notation to extract elements or slices in a list. To extract an element from a list, after the list or the variable that contains a list, add square brackets that contain the index of the element. The following example extracts the element with an index of 2 from the variable username\_list and prints it. You can run this code to examine what it outputs:
+
+12  
+username\_list \= \["elarson", "fgarcia", "tshah", "sgilmore"\]  
+print(username\_list\[2\])
+
+This example extracts the element at index 2 directly from the list:
+
+1  
+print(\["elarson", "fgarcia", "tshah", "sgilmore"\]\[2\])
+
+Extracting a slice from a list  
+Just like with strings, it's also possible to use bracket notation to take a slice from a list. With lists, this means extracting more than one element from the list.
+
+When you extract a slice from a list, the result is another list. This extracted list is called a sublist because it is part of the original, larger list. 
+
+To extract a sublist using bracket notation, you need to include two indices. You can run the following code that takes a slice from a list and explore the sublist it returns:
+
+12  
+username\_list \= \["elarson", "fgarcia", "tshah", "sgilmore"\]  
+print(username\_list\[0:2\])
+
+The code returns a sublist of \["elarson", "fgarcia"\]. This is because the element at index 0, "elarson", is included in the slice, but the element at index 2, "tshah", is excluded. The slice ends one element before this index.
+
+Changing the elements in a list  
+Unlike strings, you can also use bracket notation to change elements in a list. This is because a string is immutable and cannot be changed after it is created and assigned a value, but lists are not immutable.
+
+To change a list element, use similar syntax as you would use when reassigning a variable, but place the specific element to change in bracket notation after the variable name. For example, the following code changes the element at index 1 of the username\_list variable to "bmoreno".
+
+1234  
+username\_list \= \["elarson", "fgarcia", "tshah", "sgilmore"\]  
+print("Before changing an element:", username\_list)  
+username\_list\[1\] \= "bmoreno"  
+print("After changing an element:", username\_list)
+
+This code has updated the element at index 1 from "fgarcia" to "bmoreno".
+
+List methods  
+List methods are functions that are specific to the list data type. These include the .insert() , .remove(), .append() and .index(). 
+
+.insert()   
+The .insert() method adds an element in a specific position inside a list. It has two parameters. The first is the index where you will insert the new element, and the second is the element you want to insert.
+
+You can run the following code to explore how this method can be used to insert a new username into a username list:
+
+1234  
+username\_list \= \["elarson", "bmoreno", "tshah", "sgilmore"\]  
+print("Before inserting an element:", username\_list)  
+username\_list.insert(2,"wjaffrey")  
+print("After inserting an element:", username\_list)
+
+Because the first parameter is 2 and the second parameter is "wjaffrey", "wjaffrey" is inserted at index 2, which is the third position. The other list elements are shifted one position in the list. For example, "tshah" was originally located at index 2 and now is located at index 3\.
+
+.remove()  
+The .remove() method removes the first occurrence of a specific element in a list. It has only one parameter, the element you want to remove.
+
+The following code removes "elarson" from the username\_list:
+
+1234  
+username\_list \= \["elarson", "bmoreno", "wjaffrey", "tshah", "sgilmore"\]  
+print("Before removing an element:", username\_list)  
+username\_list.remove("elarson")  
+print("After removing an element:", username\_list)
+
+This code removes "elarson" from the list. The elements that follow "elarson" are all shifted one position closer to the beginning of the list.
+
+Note: If there are two of the same element in a list, the .remove() method only removes the first instance of that element and not all occurrences.
+
+.append()   
+The .append() method adds input to the end of a list. Its one parameter is the element you want to add to the end of the list. 
+
+For example, you could use .append() to add "btang" to the end of the username\_list:
+
+1234  
+username\_list \= \["bmoreno", "wjaffrey", "tshah", "sgilmore"\]  
+print("Before appending an element:", username\_list)  
+username\_list.append("btang")  
+print("After appending an element:", username\_list)
+
+This code places "btang" at the end of the username\_list, and all other elements remain in their original positions.
+
+The .append() method is often used with for loops to populate an empty list with elements. You can explore how this works with the following code:
+
+12345  
+numbers\_list \= \[\]  
+print("Before appending a sequence of numbers:", numbers\_list)  
+for i in range(10):  
+    numbers\_list.append(i)  
+print("After appending a sequence of numbers:", numbers\_list)
+
+Before the for loop, the numbers\_list variable does not contain any elements. When it is printed, the empty list is displayed. Then, the for loop iterates through a sequence of numbers and uses the .append() method to add each of these numbers to numbers\_list. After the loop, when the numbers\_list variable is printed, it displays these numbers.  
+
+.index()  
+Similar to the .index() method used for strings, the .index() method used for lists finds the first occurrence of an element in a list and returns its index. It takes the element you're searching for as an input.
+
+Note: Although it has the same name and use as the .index() method used for strings, the .index() method used for lists is not the same method. Methods are defined when defining a data type, and because strings and lists are defined differently, the methods are also different.
+
+Using the username\_list variable, you can use the .index() method to find the index of the username "tshah":
+
+123  
+username\_list \= \["bmoreno", "wjaffrey", "tshah", "sgilmore", "btang"\]  
+username\_index \= username\_list.index("tshah")  
+print(username\_index)
+
+Because the index of "tshah" is 2, it outputs this number.
+
+Similar to the .index() method used for strings, it only returns the index of the first occurrence of a list item. So if the username "tshah" were repeated twice, it would return the index of the first instance, and not the second.
+
+## Regular Expressions:
+
+Basics of regular expressions  
+A regular expression (regex) is a sequence of characters that forms a pattern. You can use these in Python to search for a variety of patterns. This could include IP addresses, emails, or device IDs.
+
+To access regular expressions and related functions in Python, you need to import the re module first. You should use the following line of code to import the re module:
+
+import re
+
+Regular expressions are stored in Python as strings. Then, these strings are used in re module functions to search through other strings. There are many functions in the re module, but you will explore how regular expressions work through re.findall(). The re.findall() function returns a list of matches to a regular expression. It requires two parameters. The first is the string containing the regular expression pattern, and the second is the string you want to search through.
+
+The patterns that comprise a regular expression consist of alphanumeric characters and special symbols. If a regular expression pattern consists only of alphanumeric characters, Python will review the specified string for matches to this pattern and return them. In the following example, the first parameter is a regular expression pattern consisting only of the alphanumeric characters "ts". The second parameter, "tsnow, tshah, bmoreno",  is the string it will search through. You can run the following code to explore what it returns:
+
+12  
+import re  
+re.findall("ts", "tsnow, tshah, bmoreno")
+
+The output is a list of only two elements, the two matches to "ts": \['ts', 'ts'\].
+
+If you want to do more than search for specific strings, you must incorporate special symbols into your regular expressions.
+
+Regular expression symbols  
+Symbols for character types  
+You can use a variety of symbols to form a pattern for your regular expression. Some of these symbols identify a particular type of character. For example, \\w matches with any alphanumeric character.
+
+Note: The \\w symbol also matches with the underscore ( \_ ).
+
+ You can run this code to explore what re.findall() returns when applying the regular expression of "\\w" to the device ID of "h32rb17".
+
+12  
+import re  
+re.findall("\\w", "h32rb17")
+
+Because every character within this device ID is an alphanumeric character, Python returns a list with seven elements. Each element represents one of the characters in the device ID.
+
+You can use these additional symbols to match to specific kinds of characters:
+
+ . matches to all characters, including symbols
+
+\\d matches to all single digits \[0-9\]
+
+\\s matches to all single spaces 
+
+\\. matches to the period character
+
+The following code searches through the same device ID as the previous example but changes the regular expression pattern to "\\d". When you run it, it will return a different list:
+
+12  
+import re  
+re.findall("\\d", "h32rb17")
+
+This time, the list contains only four elements. Each element is one of the numeric digits in the string.
+
+Symbols to quantify occurrences  
+Other symbols quantify the number of occurrences of a specific character in the pattern. In a regular expression pattern, you can add them after a character or a symbol identifying a character type to specify the number of repetitions that match to the pattern.
+
+For example, the \+ symbol represents one or more occurrences of a specific character. In the following example, the pattern places it after the "\\d" symbol to find matches to one or more occurrences of a single digit:
+
+12  
+import re  
+re.findall("\\d+", "h32rb17")
+
+With the regular expression "\\d+", the list contains the two matches of "32" and "17".
+
+Another symbol used to quantify the number of occurrences is the \* symbol. The \* symbol represents zero, one, or more occurrences of a specific character.  The following code substitutes the \*  symbol for the \+ used in the previous example. You can run it to examine the difference:
+
+12  
+import re  
+re.findall("\\d\*", "h32rb17")
+
+Because it also matches to zero occurrences, the list now contains empty strings for the characters that were not single digits.
+
+If you want to indicate a specific number of repetitions to allow, you can place this number in curly brackets ({ }) after the character or symbol. In the following example, the regular expression pattern "\\d{2}" instructs Python to return all matches of exactly two single digits in a row from a string of multiple device IDs:
+
+12  
+import re  
+re.findall("\\d{2}", "h32rb17 k825t0m c2994eh")
+
+Because it is matching to two repetitions, when Python encounters a single digit, it checks whether there is another one following it. If there is, Python adds the two digits to the list and goes on to the next digit. If there isn't, it proceeds to the next digit without adding the first digit to the list.
+
+Note: Python scans strings left-to-right when matching against a regular expression. When Python finds a part of the string that matches the first expected character defined in the regular expression, it continues to compare the subsequent characters to the expected pattern. When the pattern is complete, it starts this process again. So in cases in which three digits appear in a row, it handles the third digit as a new starting digit.
+
+You can also specify a range within the curly brackets by separating two numbers with a comma. The first number is the minimum number of repetitions and the second number is the maximum number of repetitions. The following example returns all matches that have between one and three repetitions of a single digit:
+
+12  
+import re  
+re.findall("\\d{1,3}", "h32rb17 k825t0m c2994eh")
+
+The returned list contains elements of one digit like  "0", two digits like "32" and three digits like "825".
+
+Constructing a pattern  
+Constructing a regular expression requires you to break down the pattern you're searching for into smaller chunks and represent those chunks using the symbols you've learned. Consider an example of a string that contains multiple pieces of information about employees at an organization. For each employee, the following string contains their employee ID, their username followed by a colon (:), their attempted logins for the day, and their department:
+
+employee\_logins\_string \= "1001 bmoreno: 12 Marketing 1002 tshah: 7 Human Resources 1003 sgilmore: 5 Finance"
+
+Your task is to extract the username and the login attempts, without the employee's ID number or department.
+
+To complete this task with regular expressions, you need to break down what you're searching for into smaller components. In this case, those components are the varying number of characters in a username, a colon, a space, and a varying number of single digits. The corresponding regular expression symbols are \\w+, :, \\s, and \\d+ respectively. Using these symbols as your regular expression, you can run the following code to extract the strings:
+
+1234  
+import re  
+pattern \= "\\w+:\\s\\d+"  
+employee\_logins\_string \= "1001 bmoreno: 12 Marketing 1002 tshah: 7 Human Resources 1003 sgilmore: 5 Finance"  
+print(re.findall(pattern, employee\_logins\_string))
+
+Note: Working with regular expressions can carry the risk of returning unneeded information or excluding strings that you want to return. Therefore, it's useful to test your regular expressions.
+
+## Automating tasks in CI/CD:
+
+Automating Tasks in CI/CD: Using Python to Build Security Directly Into Your Pipeline  
+You’ve learned learned how important automation is for security and you’ve also seen how Python can automate security tasks. Now, let’s explore how to use automation, and especially Python, to make your Continuous Integration and Continuous Delivery/Deployment (CI/CD) pipelines more secure.
+
+Just like security analysts use Python to automate security tasks for whole systems, you can use Python to automate security tasks right inside your CI/CD pipeline. This means you build security checks directly into how you build and release software. This is called DevSecOps. Think of it as 'Development, Security, and Operations' working together from the beginning. DevSecOps is about making security a shared responsibility and automating security practices as part of your everyday workflow, ensuring that security is considered at every stage of your CI/CD pipeline.
+
+ Why Automate Security Tasks in CI/CD with Python?
+
+Imagine manually checking every piece of code for problems, or manually testing every version of software for security issues before it’s released. That would be really slow and have a lot of errors. Python is a great tool to automate these security tasks in CI/CD because it’s flexible and has many helpful tools \- like libraries.
+
+Using Python to  automate security tasks in your CI/CD pipeline is beneficial for a few reasons: :
+
+Increases Speed and Efficiency: Python scripts for security checks are fast and work well as part of your pipeline. This keeps your software releases quick and secure at the same time.
+
+Finds Problems Early: Python can help find security problems early on when software is being developed. This makes problems easier and less expensive to fix. 
+
+Remains Consistent: Python scripts make sure security checks are done the same way every time you build and release software. This lowers the chance of human error.
+
+Reduces workload  for Security Teams: Python frees up security teams from repetitive tasks and allows them to work on  larger security problems, planning, or creating better Python scripts for security automation.
+
+Supports a culture or security: Python-based automation helps put security into the CI/CD process. This helps create a DevSecOps culture where everyone thinks about security, not just the security team.
+
+What Security Tasks Can You Automate in CI/CD with Python?  
+You can use Python to automate many kinds of security tasks in CI/CD pipelines. Here are some main tasks:
+
+Security Testing   
+Static Application Security Testing (SAST): Python scripts can be written to start SAST tools that look at your code for weaknesses before it gets built. Python can also be used to understand the SAST results, create reports, and automatically stop the process if serious security problems are found.
+
+Dynamic Application Security Testing (DAST): Python can be used to automatically run DAST tools to test software while it’s running in a test area. Then, Python scripts can look at the DAST results and give feedback in the CI/CD pipeline.
+
+Software Composition Analysis (SCA): Python can work with SCA tools to check your software’s dependencies for weaknesses. Dependencies are things like open source code and components from other companies. Scripts can control the SCA process, report problems, and set rules based on the severity of weaknesses.
+
+Automated Vulnerability Scanning   
+Python scripts can organize vulnerability scans of things like container images, infrastructure settings, and the CI/CD pipeline itself. You can use Python to schedule these scans, collect the results, and send alerts when new vulnerabilities are discovered.
+
+Compliance Checks   
+Python scripts can automatically check for compliance. For example, scripts can check if code follows secure coding rules or if infrastructure settings meet security guidelines. You can then use Python to make reports about compliance and ensure security standards are followed.
+
+Secrets Management Automation   
+Python is key for automating secure secrets management. Scripts can be used to review through code and stop private credentials from being directly written in the code. Also, Python scripts can work with secret management tools (like HashiCorp Vault) to safely get and put secrets into applications during automated releases.
+
+Policy Enforcement   
+"Policy as Code" and Python scripts work together to automatically enforce security policies. Python can be used to define and understand security policies. Then, scripts can check pipeline steps against these policies. If policies are broken (for example, if too many vulnerabilities are found), Python can automatically stop releases.
+
+How Python Works with CI/CD Tools  
+Python is even more helpful for CI/CD security automation because it works well with popular CI/CD tools. Tools like Jenkins, GitLab CI, and CircleCI let you easily run Python scripts as part of your release process.
+
+Here’s how Python fits in:
+
+Run Scripts: CI/CD systems let you set up release steps that run commands or scripts. You can easily set up steps to run Python scripts that do security tasks.
+
+API Connections: Many CI/CD tools and security tools have APIs (Application Programming Interfaces). Python is excellent at using APIs. You can write Python scripts to use CI/CD system APIs to manage the release process, start jobs, get software build files, and connect to security tool APIs to start scans and get results.
+
+Add-ons and Extensions: Some CI/CD systems have add-ons or extensions made in Python or that can easily use Python scripts. This makes it even simpler to add security automation based on Python.
+
+Using Python to Set Up Environments, Check Code Quality, and Secure Releases  
+Besides security testing, Python scripts can automate other important CI/CD tasks while adding security best practices:
+
+Set Up Environments: Python can automate staging areas. Scripts can make sure these areas are set up securely, with good network settings and security controls.
+
+Code Quality Checks: Python can be used to run code quality tools (linters). Scripts can check code for style problems and possible security errors. This helps make sure code quality standards are followed early in development.
+
+Automate Secure Releases: Python scripts are very useful for automating releases to staging and production areas securely. Python can manage release processes and ensure releases follow security best practices. This includes using secure settings and moving software files securely.
+
+Conclusion: Python \- Your Automation Ally for Secure CI/CD  
+Using Python to automate security tasks is key to making your CI/CD pipeline secure and fast. By using Python’s abilities and connecting it to your CI/CD tools, you can find and fix security problems early, do less manual work, enforce security rules, and make your software more secure overall.
+
+By making Python automation a main part of your CI/CD security plan, you’ll be ready to create and release secure software, quickly and with confidence. Now you know how Python helps automate security in CI/CD. Next, you’ll learn about the specific parts of Python that make this possible. You’ll learn about variables, conditional statements, iterative statements, functions, and working with files. These are the basic pieces for creating your own powerful Python scripts to automate security in CI/CD.
+
+Essential python components for automation:  
+Automating tasks in Python  
+Automation is the use of technology to reduce human and manual effort to perform common and repetitive tasks. As a security analyst, you will primarily use Python to automate tasks.
+
+You have encountered multiple examples of how to use Python for automation in this course, including investigating logins, managing access, and updating devices.
+
+Automating cybersecurity-related tasks requires understanding the following Python components that you've worked with in this course:
+
+Variables  
+A variable is a container that stores data. Variables are essential for automation. Without them, you would have to individually rewrite values for each action you took in Python.
+
+Conditional statements  
+A conditional statement is a statement that evaluates code to determine if it meets a specified set of conditions. Conditional statements allow you to check for conditions before performing actions. This is much more efficient than manually evaluating whether to apply an action to each separate piece of data.
+
+Iterative statements  
+An iterative statement is code that repeatedly executes a set of instructions. You explored two kinds of iterative statements: for loops and while loops. In both cases, they allow you to perform the same actions a certain number of times without the need to retype the same code each time. Using a for loop allows you to automate repetition of that code based on a sequence, and using a while loop allows you to automate the repetition based on a condition.
+
+Functions  
+A function is a section of code that can be reused in a program. Functions help you automate your tasks by reducing the need to incorporate the same code multiple places in a program. Instead, you can define the function once and call it wherever you need it. 
+
+You can develop your own functions based on your particular needs. You can also incorporate the built-in functions that exist directly in Python without needing to manually code them.
+
+Techniques for working with strings  
+String data is one of the most common data types that you'll encounter when automating cybersecurity tasks through Python, and there are a lot of techniques that make working with strings efficient. You can use bracket notation to access characters in a string through their indices. You can also use a variety of functions and methods when working with strings, including str(), len(), and .index().
+
+Techniques for working with lists  
+List data is another common data type. Like with strings, you can use bracket notation to access a list element through its index. Several methods also help you with automation when working with lists. These include .insert(), .remove(), .append(), and .index().
+
+Example: Counting logins made by a flagged user  
+As one example, you may find that you need to investigate the logins of a specific user who has been flagged for unusual activity. Specifically, you are responsible for counting how many times this user has logged in for the day. If you are given a list identifying the username associated with each login attempt made that day, you can automate this investigation in Python.
+
+To automate the investigation, you'll need to incorporate the following Python components:
+
+A for loop will allow you to iterate through all the usernames in the list. 
+
+Within the for loop, you should incorporate a conditional statement to examine whether each username in the list matches the username of the flagged user.
+
+When the condition evaluates to True, you also need to increment a counter variable that keeps track of the number of times the flagged user appears in the list.
+
+Additionally, if you want to reuse this code multiple times, you can incorporate it into a function. The function can include parameters that accept the username of the flagged user and the list to iterate through. (The list would contain the usernames associated with all login attempts made that day.) The function can use the counter variable to return the number of logins for that flagged user.
+
+Working with files in Python  
+One additional component of automating cybersecurity-related tasks in Python is understanding how to work with files. Security-related data will often be initially found in log files. A log is a record of events that occur within an organization's systems. In logs, lines are often appended to the record as time progresses.
+
+Two common file formats for security logs are .txt files and .csv files. Both .txt and .csv files are types of text files, meaning they contain only plain text. They do not contain images and do not specify graphical properties of the text, including font, color, or spacing. In a .csv file, or a "comma-separated values" file, the values are separated by commas. In a .txt file, there is not a specific format for separating values, and they may be separated in a variety of ways, including spaces.
+
+You can easily extract data from .txt and .csv files. You can also convert both into other file formats.
+
+Coming up, you'll learn how to import, read from, and write to files. You will also explore how to structure the information contained in files.
+
+## Import files into python:
+
+Working with files in cybersecurity   
+Security analysts may need to access a variety of files when working in Python. Many of these files will be logs. A log is a record of events that occur within an organization's systems.
+
+For instance, there may be a log containing information on login attempts. This might be used to identify unusual activity that signals attempts made by a malicious actor to access the system.
+
+As another example, malicious actors that have breached the system might be capable of attacking software applications. An analyst might need to access a log that contains information on software applications that are experiencing issues.
+
+Opening files in Python  
+To open a file called "update\_log.txt" in Python for purposes of reading it, you can incorporate the following line of code:
+
+with open("update\_log.txt", "r") as file:
+
+This line consists of the with keyword, the open() function with its two parameters, and the as keyword followed by a variable name. You must place a colon (:) at the end of the line.
+
+with  
+The keyword with handles errors and manages external resources when used with other functions. In this case, it's used with the open() function in order to open a file. It will then manage the resources by closing the file after exiting the with statement.
+
+Note: You can also use the open() function without the with keyword. However, you should close the file you opened to ensure proper handling of the file. 
+
+open()  
+The open() function opens a file in Python.
+
+The first parameter identifies the file you want to open. In the following file structure, "update\_log.txt" is located in the same directory as the Python file that will access it, "log\_parser.ipynb":
+
+In this file structure, update\_log.txt is in the same directory as the log\_parser.ipynb file, but access\_log.txt is not.  
+Because they're in the same directory, only the name of the file is required. The code can be written as with open("update\_log.txt", "r") as file:.
+
+However, "access\_log.txt" is not in the same directory as the Python file "log\_parser.ipynb". Therefore, it's necessary to specify its absolute file path. A file path is the location of a file or directory. An absolute file path starts from the highest-level directory, the root. In the following code, the first parameter of the open() function includes the absolute file path to "access\_log.txt":
+
+with open("/home/analyst/logs/access\_log.txt", "r") as file:
+
+Note: In Python, the names of files or their file paths can be handled as string data, and like all string data, you must place them in quotation marks.
+
+The second parameter of the open() function indicates what you want to do with the file. In both of these examples, the second parameter is "r", which indicates that you want to read the file. Alternatively, you can use "w" if you want to write to a file or "a" if you want to append to a file.
+
+as  
+When you open a file using with open(), you must provide a variable that can store the file while you are within the with statement. You can do this through the keyword as followed by this variable name. The keyword as assigns a variable that references another object. The code with open("update\_log.txt", "r") as file: assigns file to reference the output of the open() function within the indented code block that follows it.
+
+Reading files in Python  
+After you use the code with open("update\_log.txt", "r") as file: to import "update\_log.txt" into the file variable, you should indicate what to do with the file on the indented lines that follow it. For example, this code uses the .read() method to read the contents of the file:
+
+with open("update\_log.txt", "r") as file:
+
+    updates \= file.read()
+
+print(updates)
+
+The .read() method converts files into strings. This is necessary in order to use and display the contents of the file that was read.
+
+In this example, the file variable is used to generate a string of the file contents through .read(). This string is then stored in another variable called updates. After this, print(updates) displays the string.
+
+Once the file is read into the updates string, you can perform the same operations on it that you might perform with any other string. For example, you could use the .index() method to return the index where a certain character or substring appears. Or, you could use len() to return the length of this string.
+
+Writing files in Python  
+Security analysts may also need to write to files. This could happen for a variety of reasons. For example, they might need to create a file containing the approved usernames on a new allow list. Or, they might need to edit existing files to add data or to adhere to policies for standardization.
+
+To write to a file, you will need to open the file with "w" or "a" as the second argument of open(). 
+
+You should use the "w" argument when you want to replace the contents of an existing file. When working with the existing file update\_log.txt, the code with open("update\_log.txt", "w") as file: opens it so that its contents can be replaced. 
+
+Additionally, you can use the "w" argument to create a new file. For example, with open("update\_log2.txt", "w") as file: creates and opens a new file called "update\_log2.txt". 
+
+You should use the "a" argument if you want to append new information to the end of an existing file rather than writing over it. The code with open("update\_log.txt", "a") as file: opens "update\_log.txt" so that new information can be appended to the end. Its existing information will not be deleted.
+
+Like when opening a file to read from it, you should indicate what to do with the file on the indented lines that follow when you open a file to write to it. With both "w" and "a", you can use the .write() method. The .write() method writes string data to a specified file. 
+
+The following example uses the .write() method to append the content of the line variable to the file "access\_log.txt".
+
+line \= "jrafael,192.168.243.140,4:56:27,True"
+
+with open("access\_log.txt", "a") as file:
+
+    file.write(line)
+
+Note: Calling the .write() method without using the with keyword when importing the file might result in its arguments not being completely written to the file if the file is not properly closed in another way.
+
+## Work with text files in python:
+
+Parsing  
+Part of working with files involves structuring its contents to meet your needs. Parsing is the process of converting data into a more readable format. Data may need to become more readable in a couple of different ways. First, certain parts of your Python code may require modification into a specific format. By converting data into this format, you enable Python to process it in a specific way. Second, programmers need to read and interpret the results of their code, and parsing can also make the data more readable for them.
+
+Methods that can help you parse your data include .split() and .join().
+
+.split()  
+The basics of .split()  
+The .split() method converts a string into a list. It separates the string based on a specified character that's passed into .split() as an argument. 
+
+In the following example, the usernames in the approved\_users string are separated by a comma. For this reason, a string containing the comma (",") is passed into .split() in order to parse it into a list. Run this code and analyze the different contents of approved\_users before and after the .split() method is applied to it:
+
+1234  
+approved\_users \= "elarson,bmoreno,tshah,sgilmore,eraab"  
+print("before .split():", approved\_users)  
+approved\_users \= approved\_users.split(",")  
+print("after .split():", approved\_users)
+
+Before the .split() method is applied to approved\_users, it contains a string, but after it is applied, this string is converted to a list.
+
+If you do not pass an argument into .split(), it will separate the string every time it encounters a whitespace.
+
+Note: A variety of characters are considered whitespaces by Python. These characters include spaces between characters, returns for new lines, and others.
+
+The following example demonstrates how a string of usernames that are separated by space can be split into a list through the .split() method:
+
+1234  
+removed\_users \= "wjaffrey jsoto abernard jhill awilliam"  
+print("before .split():", removed\_users)  
+removed\_users \= removed\_users.split()  
+print("after .split():", removed\_users)
+
+Because an argument isn't passed into .split(), Python splits the removed\_users string at each space when separating it into a list.
+
+Applying .split() to files  
+The .split() method allows you to work with file content as a list after you've converted it to a string through the .read() method. This is useful in a variety of ways. For example, if you want to iterate through the file contents in a for loop, this can be easily done when it's converted into a list.
+
+The following code opens the "update\_log.txt" file. It then reads all of the file contents into the updates variable as a string and splits the string in the updates variable into a list by creating a new element at each whitespace:
+
+123  
+with open("update\_log.txt", "r") as file:  
+    updates \= file.read()  
+updates \= updates.split()  
+After this, through the updates variable, you can work with the contents of the "update\_log.txt" file in parts of your code that require it to be structured as a list. 
+
+Note: Because the line that contains .split() is not indented as part of the with statement, the file closes first. Closing a file as soon as it is no longer needed helps maintain code readability. Once a file is read into the updates variable, it is not needed and can be closed.
+
+.join()  
+The basics of .join()  
+If you need to convert a list into a string, there is also a method for that. The .join() method concatenates the elements of an iterable into a string. The syntax used with .join() is distinct from the syntax used with .split() and other methods that you've worked with, such as .index(). 
+
+In methods like .split() or .index(), you append the method to the string or list that you're working with and then pass in other arguments. For example, the code usernames.index(2), appends the .index() method to the variable usernames, which contains a list. It passes in 2 as the argument to indicate which element to return.
+
+However, with .join(), you must pass the list that you want to concatenate into a string in as an argument. You append .join() to a character that you want to separate each element with once they are joined into a string.
+
+For example, in the following code, the approved\_users variable contains a list. If you want to join that list into a string and separate each element with a comma, you can use ",".join(approved\_users). Run the code and examine what it returns:
+
+1234  
+approved\_users \= \["elarson", "bmoreno", "tshah", "sgilmore", "eraab"\]  
+print("before .join():", approved\_users)  
+approved\_users \= ",".join(approved\_users)  
+print("after .join():", approved\_users)
+
+Before .join() is applied, approved\_users is a list of five elements. After it is applied, it is a string with each username separated by a comma.
+
+Note: Another way to separate elements when using the .join() method is to use "\\n", which is the newline character. The "\\n" character indicates to separate the elements by placing them on new lines.
+
+Applying .join() to files  
+When working with files, it may also be necessary to convert its contents back into a string. For example, you may want to use the .write() method. The .write() method writes string data to a file. This means that if you have converted a file's contents into a list while working with it, you'll need to convert it back into a string before using .write(). You can use the .join() method for this.
+
+You already examined how .split() could be applied to the contents of the "update\_log.txt" file once it is converted into a string through .read() and stored as updates:
+
+123  
+with open("update\_log.txt", "r") as file:  
+    updates \= file.read()  
+updates \= updates.split()  
+After you're through performing operations using the list in the updates variable, you might want to replace "update\_log.txt" with the new contents. To do so, you need to first convert updates back into a string using .join(). Then, you can open the file using a with statement and use the .write() method to write the updates string to the file:
+
+123  
+updates \= " ".join(updates)  
+with open("update\_log.txt", "w") as file:  
+    file.write(updates)  
+The code " ".join(updates) indicates to separate each of the list elements in updates with a space once joined back into a string. And because "w" is specified as the second argument of open(), Python will overwrite the contents of "update\_log.txt" with the string currently in the updates variable.
+
+## Explore debugging techniques:
+
+Types of errors   
+It's a normal part of developing code in Python to get error messages or find that the code you're running isn't working as you intended. The important thing is that you can figure out how to fix errors when they occur. Understanding the three main types of errors can help. These types include syntax errors, logic errors, and exceptions.
+
+Syntax errors   
+A syntax error is an error that involves invalid usage of a programming language. Syntax errors occur when there is a mistake with the Python syntax itself. Common examples of syntax errors include forgetting a punctuation mark, such as a closing bracket for a list or a colon after a function header.  
+
+When you run code with syntax errors, the output will identify the location of the error with the line number and a portion of the affected code. It also describes the error. Syntax errors often begin with the label  "SyntaxError:" . Then, this is followed by a  description of the error. The description might simply be "invalid syntax" . Or if you forget a closing parentheses on a function, the description might be "unexpected EOF while parsing". "EOF" stands for "end of file."  
+
+The following code contains a syntax error. Run it and examine its output:
+
+12  
+message \= "You are debugging a syntax error  
+print(message)  
+Reset  
+This outputs the message "SyntaxError: EOL while scanning string literal". "EOL" stands for "end of line". The error message also indicates that the error happens on the first line. The error occurred because a quotation mark was missing at the end of the string on the first line. You can fix it by adding that quotation mark.
+
+Note: You will sometimes encounter the error label "IndentationError" instead of "SyntaxError". "IndentationError" is a subclass of "SyntaxError" that occurs when the indentation used with a line of code is not syntactically correct. 
+
+Logic errors   
+A logic error is an error that results when the logic used in code produces unintended results.  Logic errors may not produce error messages. In other words, the code will not do what you expect it to do, but it is still valid to the interpreter. 
+
+For example, using the wrong logical operator, such as a greater than or equal to sign (\>=) instead of greater than sign (\>) can result in a logic error.  Python will not evaluate a condition as you intended. However, the code is valid, so it will run without an error message. 
+
+The following example outputs a message related to whether or not a user has reached a maximum number of five login attempts. The condition in the if statement should be login\_attempts \< 5, but it is written as login\_attempts \>= 5\.  A value of 5 has been assigned to login\_attempts so that you can explore what it outputs in that instance:
+
+12345  
+login\_attempts \= 5  
+if login\_attempts \>= 5:  
+    print("User has not reached maximum number of login attempts.")  
+else:  
+    print("User has reached maximum number of login attempts.")  
+Reset  
+The output displays the message "User has not reached maximum number of login attempts." However, this is not true since the maximum number of login attempts is five. This is a logic error.
+
+Logic errors can also result when you assign the wrong value in a condition or when a mistake with indentation means that a line of code executes in a way that was not planned.
+
+Exceptions  
+An exception is an error that involves code that cannot be executed even though it is syntactically correct. This happens for a variety of reasons.
+
+One common cause of an exception is when the code includes a variable that hasn't been assigned or a function that hasn't been defined. In this case, your output will include "NameError" to indicate that this is a name error. After you run the following code, use the error message to determine which variable was not assigned:
+
+12345678  
+username \= "elarson"  
+month \= "March"  
+total\_logins \= 75  
+failed\_logins \= 18  
+print("Login report for", username, "in", month)  
+print("Total logins:", total\_logins)  
+print("Failed logins:", failed\_logins)  
+print("Unusual logins:", unusual\_logins)  
+Reset  
+The output indicates there is a "NameError" involving the unusual\_logins variable. You can fix this by assigning this variable a value.
+
+In addition to name errors, the following messages are output for other types of exceptions:
+
+"IndexError": An index error occurs when you place an index in bracket notation that does not exist in the sequence being referenced. For example, in the list usernames \= \["bmoreno", "tshah", "elarson"\], the indices are 0, 1, and 2\. If you referenced this list with the statement print(usernames\[3\]), this would result in an index error.
+
+"TypeError": A type error results from using the wrong data type. For example, if you tried to perform a mathematical calculation by adding a string value to an integer, you would get a type error.
+
+"FileNotFound": A file not found error occurs when you try to open a file that does not exist in the specified location.
+
+Debugging strategies    
+Keep in mind that if you have multiple errors, the Python interpreter will output error messages one at a time, starting with the first error it encounters. After you fix that error and run the code again, the interpreter will output another message for the next syntax error or exception it encounters.
+
+When dealing with syntax errors, the error messages you receive in the output will generally help you fix the error. However, with logic errors and exceptions, additional strategies may be needed.
+
+Debuggers   
+In this course, you have been running code in a notebook environment. However, you may write Python code in an Integrated Development Environment (IDE). An Integrated Development Environment (IDE) is a software application for writing code that provides editing assistance and error correction tools. Many IDEs offer error detection tools in the form of a debugger. A debugger is a software tool that helps to locate the source of an error and assess its causes.
+
+In cases when you can't find the line of code that is causing the issue, debuggers help you narrow down the source of the error in your program. They do this by working with  breakpoints. Breakpoints are markers placed on certain lines of executable code that indicate which sections of code should run when debugging.
+
+Some debuggers also have a feature that allows you to check the values stored in variables as they change throughout your code. This is especially helpful for logic errors so that you can locate where variable values have unintentionally changed. 
+
+Gemini Code Assist logo  
+Recent advancements in AI have opened up many opportunities for enhancing IDEs with powerful, context-aware coding assistance. These are tools that are integrated directly into the IDE or coding environment to provide a more seamless coding experience. For example,   
+Gemini Code Assist  
+ is a free AI tool that integrates into popular IDEs like Visual Studio Code and JetBrains. It functions as an assistant that can help analyze code and find errors, suggest modifications, and also interact in a conversational way to answer many other questions, whether they’re technical or more conceptual. 
+
+These tools are quickly becoming indispensable to coders and cybersecurity professionals as they facilitate and accelerate workflows, but if you choose to use them, please remember that this technology is still evolving. The suggestions, code, or explanations provided may not always be perfectly accurate, optimal, or secure. Always review and validate any AI-generated output before executing programs or relying on the information. Treat the AI assistance as a helpful co-pilot, but maintain oversight and responsibility for your final code.
+
+Use print statements   
+Another debugging strategy is to incorporate temporary print statements that are designed to identify the source of the error. You should strategically incorporate these print statements to print at various locations in the code. You can specify line numbers as well as descriptive text about the location. 
+
+For example, you may have code that is intended to add new users to an approved list and then display the approved list. The code should not add users that are already on the approved list. If you analyze the output of this code after you run it, you will realize that there is a logic error:
+
+123456789  
+new\_users \= \["sgilmore", "bmoreno"\]  
+approved\_users \= \["bmoreno", "tshah", "elarson"\]  
+def add\_users():  
+    for user in new\_users:  
+        if user in approved\_users:  
+            print(user,"already in list")  
+        approved\_users.append(user)  
+add\_users()  
+print(approved\_users)  
+Reset  
+Even though you get the message "bmoreno already in list", a second instance of "bmoreno" is added to the list. In the following code, print statements have been added to the code. When you run it, you can examine what prints:
+
+123456789101112  
+new\_users \= \["sgilmore", "bmoreno"\]  
+approved\_users \= \["bmoreno", "tshah", "elarson"\]  
+def add\_users():  
+    for user in new\_users:  
+        print("line 5 \- inside for loop")  
+        if user in approved\_users:  
+            print("line 7 \- inside if statement")  
+            print(user,"already in list")  
+        print("line 9 \- before .append method")  
+        approved\_users.append(user)
+
+Reset  
+The print statement "line 5 \- inside for loop" outputs twice, indicating that Python has entered the for loop for each username in new\_users. This is as expected. Additionally, the print statement "line 7 \- inside if statement" only outputs once, and this is also as expected because only one of these usernames was already in approved\_users.
+
+However, the print statement "line 9 \- before .append method" outputs twice. This means the code calls the .append() method for both usernames even though one is already in approved\_users. This helps isolate the logic error to this area. This can help you realize that the line of code approved\_users.append(user) should be the body of an else statement so that it only executes when user is not in approved\_users.
+
+## Python reference guide:
+
+### **Comments**
+
+The following syntax is used to create a comment. (A comment is a note programmers make about the intention behind their code.)  
+\#  
+Starts a line that contains a Python comment
+
+\# Print approved usernames  
+Contains a comment that indicates the purpose of the code that follows it is to print approved usernames  
+""" (documentation strings)  
+Starts and ends a multi-line string that is often used as a Python comment; multi-line comments are used when you need more than 79 characters in a single comment 
+
+	"""  
+	The estimate\_attempts() function takes in a monthly  
+login attempt total and a number of months and  
+returns their product.  
+	"""  
+Contains a multi-line comment that indicates the purpose of the estimate\_attempts() function
+
+### **Conditional statements**
+
+The following keywords and operators are used in conditional statements.   
+if  
+Starts a conditional statement
+
+	if device\_id \!= "la858zn":  
+Starts a conditional statement that evaluates whether the device\_id variable contains a value that is not equal to "la858zn"
+
+if user in approved\_list:  
+Starts a conditional statement that evaluates if the user variable contains a value that is also found in the approved\_list variable  
+elif  
+Precedes a condition that is only evaluated when previous conditions evaluate to False; previous conditions include the condition in the if statement, and when applicable, conditions in other elif statements
+
+	elif status \== 500:  
+When previous conditions evaluate to False, evaluates if the status variable contains a value that is equal to 500  
+else  
+Precedes a code section that only evaluates when all conditions that precede it within the conditional statement evaluate to False; this includes the condition in the if statement, and when applicable, conditions in elif statements 
+
+	else:  
+When previous conditions evaluate to False, Python evaluates this else statement  
+and  
+Requires both conditions on either side of the operator to evaluate to True
+
+	if username \== "bmoreno" and login\_attempts \< 5:  
+Evaluates to True if the value in the username variable is equal to "bmoreno" and the value in the login\_attempts variable is less than 5  
+or  
+Requires only one of the conditions on either side of the operator to evaluate to True
+
+	if status \== 100 or status \== 102:  
+Evaluates to True if the value in the status variable is equal to 100 or the value in the  status variable is equal to 102  
+not  
+Negates a given condition so that it evaluates to False if the condition is True and to True if it is False
+
+	if not account\_status \== "removed"  
+Evaluates to False if the value in the account\_status variable is equal to "removed" and evaluates to True if the value is the account\_status variable is not equal to "removed"
+
+### **Iterative statements**
+
+The following keywords are used in iterative statements.   
+for  
+Signals the beginning of a for loop; used to iterate through a specified sequence
+
+	for username in \["bmoreno", "tshah", "elarson"\]:  
+Signals the beginning of a for loop that iterates through the sequence of elements in the list \["bmoreno", "tshah", "elarson"\] using the loop variable username
+
+for i in range(10):  
+Signals the beginning of a for loop that iterates through a sequence of numbers created by range(10) using the loop variable i  
+while  
+Signals the beginning of a while loop; used to iterate based on a condition
+
+	while login\_attempts \< 5:  
+Signals the beginning of a while loop that will iterate as long as the condition that the value of login\_attempts is less than 5 evaluates to True  
+break  
+Used to break out of a loop  
+continue  
+Used to skip a loop iteration and continue with the next one
+
+### **User-defined functions**
+
+The following keywords are used when creating user-defined functions.  
+def  
+Placed before a function name to define a function
+
+def greet\_employee():  
+Defines the greet\_employee() function
+
+def calculate\_fails(total\_attempts, failed\_attempts):  
+Defines the calculate\_fails() function, which includes the two parameters of total\_attempts and failed\_attempts  
+return  
+Used to return information from a function; when Python encounters this keyword, it exits the function after returning the information
+
+def calculate\_fails(total\_attempts, failed\_attempts):  
+    fail\_percentage \= failed\_attempts / total\_attempts  
+    return fail\_percentage  
+Returns the value of the fail\_percentage variable from the calculate\_fails() function
+
+### **Built-in functions**
+
+The following built-in functions are commonly used in Python.  
+print()  
+Outputs a specified object to the screen
+
+	print("login success")  
+Outputs the string "login success" to the screen
+
+print(9 \< 7\)  
+Outputs the Boolean value of False to the screen after evaluating whether the integer 9 is less than the integer 7  
+type()  
+Returns the data type of its input
+
+	print(type(51.1))  
+Returns the data type of float for the input of 51.1
+
+print(type(True))  
+Returns the data type of Boolean for the input of True  
+range()  
+Generates a sequence of numbers
+
+	range(0, 5, 1\)  
+Generates a sequence with a start point of 0, a stop point of 5, and an increment of 1; because the start point is inclusive but the stop point is exclusive, the generated sequence is 0, 1, 2, 3, and 4 
+
+range(5)  
+Generates a sequence with a stop point of 5; when the start point is not specified, it is set at the default value of 0, and when the increment is not specified, it is set at the default value of 1; the generated sequence is 0, 1, 2, 3, and 4   
+max()  
+Returns the largest numeric input passed into it
+
+	print(max(10, 15, 5))  
+Returns 15 and outputs this value to the screen  
+min()  
+Returns the smallest numeric input passed into it
+
+	print(min(10, 15, 5))  
+Returns 5 and outputs this value to the screen  
+sorted()  
+Sorts the components of a list (or other iterable)
+
+	print(sorted(\[10, 15, 5\]))  
+Sorts the elements of the list from smallest to largest and outputs the sorted list of \[5, 10, 15\] to the screen 
+
+print(sorted(\["bmoreno", "tshah", "elarson"\]))  
+Sorts the elements in the list in alphabetical order and outputs the sorted list of \["bmoreno", "elarson", "tshah"\] to the screen  
+str()  
+Converts the input object to a string
+
+str(10)  
+Converts the integer 10 to the string "10"  
+len()  
+Returns the number of elements in an object
+
+print(len("security"))  
+Returns and displays 8, the number of characters in the string "security"
+
+### **Importing modules and libraries**
+
+The following keyword is used to import a module from the Python Standard Library or to import an external library that has already been installed.  
+import  
+Searches for a module or library in a system and adds it to the local Python environment
+
+	import statistics  
+Imports the statistics module and all of its functions from the Python Standard Library
+
+from statistics import mean   
+Imports the mean() function of the statistics module from the Python Standard Library
+
+from statistics import mean, median  
+Imports the mean() and median() functions of the statistics module from the Python Standard Library
+
+### **String methods**
+
+The following methods can be applied to strings in Python.   
+.upper()  
+Returns a copy of the string in all uppercase letters
+
+	print("Security".upper())  
+Returns and displays a copy of the string "Security" as "SECURITY"  
+.lower()  
+Returns a copy of the string in all lowercase letters
+
+	print("Security".lower())  
+Returns and displays a copy of the string "Security" as "security"  
+.index()  
+Finds the first occurrence of the input in a string and returns its location
+
+	print("Security".index("c"))  
+Finds the first occurrence of the character "c" in the string "Security" and returns and displays its index of 2
+
+### **List methods**
+
+The following methods can be applied to lists in Python.   
+.insert()  
+Adds an element in a specific position inside the list
+
+	username\_list \= \["elarson", "fgarcia", "tshah"\]  
+	username\_list.insert(2,"wjaffrey")  
+Adds the element "wjaffrey" at index 2 to the username\_list; the list becomes \["elarson", "fgarcia", "wjaffrey", "tshah"\]  
+.remove()  
+Removes the first occurrence of a specific element inside a list
+
+	username\_list \= \["elarson", "bmoreno", "wjaffrey", "tshah"\]  
+	username\_list.remove("elarson")  
+Removes the element "elarson" from the username\_list; the list becomes \["fgarcia", "wjaffrey", "tshah"\]  
+.append()  
+Adds input to the end of a list
+
+	username\_list \= \["bmoreno", "wjaffrey", "tshah"\]  
+	username\_list.append("btang")  
+Adds the element "btang" to the end of the username\_list; the list becomes \["fgarcia", "wjaffrey", "tshah", "btang"\]  
+.index()  
+Finds the first occurrence of an element in a list and returns its index
+
+	username\_list \= \["bmoreno", "wjaffrey", "tshah", "btang"\]  
+	print(username\_list.index("tshah"))  
+Finds the first occurrence of the element "tshah" in the username\_list and returns and displays its index of 2
+
+### **Additional syntax for working with strings and lists**
+
+The following syntax is useful when working with strings and lists.   
+\+ (concatenation)  
+Combines two strings or lists together
+
+	device\_id \= "IT"+"nwp12"  
+Combines the string "IT" with the string "nwp12" and assigns the combined string of "ITnwp12" to the variable device\_id
+
+users \= \["elarson", "bmoreno"\] \+ \["tshah", "btang"\]  
+Combines the list \["elarson", "bmoreno"\] with the list \["tshah", "btang"\] and assigns the combined list of \["elarson", "bmoreno", "tshah", "btang"\] to the variable users  
+\[\] (bracket notation)  
+Uses indices to extract parts of a string or list 
+
+print("h32rb17"\[0\])  
+Extracts the character at index 0, which is ("h"), from the string "h32rb17"
+
+	print("h32rb17"\[0:3\])  
+Extracts the slice \[0:3\], which is ("h32"), from the string "h32rb17"; the first index in the slice (0) is included in the slice but the second index in the slice (3) is excluded
+
+username\_list \= \["elarson", "fgarcia", "tshah"\]  
+print(username\_list\[2\])  
+Extracts the element at index 2, which is ("tshah"), from the username\_list
+
+### **Regular expressions**
+
+The following re module function and regular expression symbols are useful when searching for patterns in strings.   
+re.findall()  
+Returns a list of matches to a regular expression
+
+	import re  
+re.findall("a53", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "a53" in the string "a53-32c .E"; returns the list \["a53"\]  
+\\w  
+Matches with any alphanumeric character; also matches with the underscore (\_)
+
+	import re  
+re.findall("\\w", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\w" in the string "a53-32c .E"; matches to any alphanumeric character and returns the list \["a", "5", "3", "3", "2", "c", "E"\]  
+.  
+Matches to all characters, including symbols
+
+	import re  
+re.findall(".", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "." in the string "a53-32c .E"; matches to all characters and returns the list \["a", "5", "3", "-", "3", "2", "c", " ", ".", "E"\]
+
+\\d  
+Matches to all single digits
+
+	import re  
+re.findall("\\d", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\d" in the string "a53-32c .E"; matches to all single digits and returns the list \["5", "3", "3", "2"\]  
+\\s  
+Matches to all single spaces
+
+	import re  
+re.findall("\\s", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\s" in the string "a53-32c .E"; matches to all single spaces and returns the list \[" "\]  
+\\.  
+Matches to the period character
+
+	import re  
+re.findall("\\.", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\." in the string "a53-32c .E"; matches to all instances of the period character and returns the list \["."\]  
+\+  
+Represents one or more occurrences of a specific character
+
+	import re  
+re.findall("\\w+", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\w+" in the string "a53-32c .E"; matches to one or more occurrences of any alphanumeric character and returns the list \["a53", "32c", "E"\]
+
+\*  
+Represents, zero, one or more occurrences of a specific character
+
+	import re  
+re.findall("\\w\*", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\w\*" in the string "a53-32c .E"; matches to zero, one or more occurrences of any alphanumeric character and returns the list \["a53", " ", "32c", " ", " ", "E"\]  
+{ }  
+Represents a specified number of occurrences of a specific character; the number is specified within the curly brackets
+
+	import re  
+re.findall("\\w{3}", "a53-32c .E")  
+Returns a list of matches to the regular expression pattern "\\w{3}" in the string "a53-32c .E"; matches to exactly three occurrences of any alphanumeric character and returns the list \["a53","32c"\]
+
+### **File operations**
+
+The following functions, methods, and keywords are used with operations involving files.  
+with  
+Handles errors and manages external resources
+
+with open("logs.txt", "r") as file:  
+Used to handle errors and manage external resources while opening a file; the variable file stores the file information while inside of the with statement; manages resources by closing the file after exiting the with statement  
+open()  
+Opens a file in Python
+
+with open("login\_attempts.txt", "r") as file:  
+Opens the file "login\_attempts.txt" in order to read it ("r")  
+with open("update\_log.txt", "w") as file:  
+Opens the file "update\_log.txt" into the variable file in order to write over its contents ("w")
+
+with open(import\_file, "a") as file:  
+Opens the file assigned to the import\_file variable into the variable file in order to append information to the end of it ("a")  
+as  
+Assigns a variable that references another object
+
+	with open("logs.txt", "r") as file:  
+Assigns the file variable to reference the output of the open() function   
+.read()  
+Converts files into strings; returns the content of an open file as a string by default
+
+	with open("login\_attempts.txt", "r") as file:  
+	    file\_text \= file.read()  
+Converts the file object referenced in the file variable into a string and then stores this string in the file\_text variable  
+.write()  
+Writes string data to a specified file
+
+	with open("access\_log.txt", "a") as file:  
+    file.write("jrafael")  
+Writes the string "jrafael" to the "access\_log.txt" file; because the second argument in the call to the open() function is "a", this string is appended to the end of the file
+
+### **Parsing**
+
+The following methods are useful when parsing data.  
+.split()  
+Converts a string into a list; separates the string based on the character that is passed in as an argument; if an argument is not passed in, it will separate the string each time it encounters whitespace characters such as a space or return  
+	  
+     approved\_users \= "elarson,bmoreno,tshah".split(",")  
+Converts the string "elarson,bmoreno,tshah" into the list \["elarson","bmoreno","tshah"\] by splitting the string into a separate list element at each occurrence of the "," character  
+	  
+     removed\_users \= "wjaffrey jsoto abernard".split()  
+Converts the string "wjaffrey jsoto abernard" into the list \["wjaffrey","jsoto","abernard"\] by splitting the string into a separate list element at each space  
+.join()  
+Concatenates the elements of an iterable into a string; takes the iterable to be concatenated as an argument; is appended to a character that will separate each element once they are joined into a string 
+
+approved\_users \= ",".join(\["elarson", "bmoreno", "tshah"\])  
+Concatenates the elements of the list  \["elarson","bmoreno","tshah"\] into the string "elarson,bmoreno,tshah" , separating each element with the  "," character within the string
+
