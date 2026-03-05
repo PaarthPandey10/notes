@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/ay1.md",
+                "file": "ccna/Day1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ay1"
+              "title": "Day1"
             }
           }
         ]
@@ -196,7 +196,7 @@
   "active": "0435aff5e79afbd7",
   "lastOpenFiles": [
     "Untitled.md",
-    "ccna/ay1.md",
+    "ccna/Day1.md",
     "ccna"
   ]
 }
