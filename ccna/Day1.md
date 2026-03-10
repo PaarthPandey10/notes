@@ -24,5 +24,3 @@ A computer network is a digital telecommunications network that allows nodes to 
 	* Eg: ASA 5500-X (Adaptive Security Appliance), Firepower 2100.
 	* ASA is a more classic version, modern day ASA has IPS (Intrusion Prevention Systems).
 	* Firepower is a modern day ASA, aka Next Generation Firewall.
-
-	
