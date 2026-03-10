@@ -10,4 +10,19 @@
 ## ARP
 ![](images/Pasted%20image%2020260310164423.png)
 
-![](images/1.gif)
+### ARP Request
+![](images/Pasted%20image%2020260310192500.png)
+
+### ARP Reply
+![](images/Pasted%20image%2020260310192518.png)
+
+#### Explanation
+Don't know destination MAC address -> Send ARP request.
+ARP request sent to all other hosts in the network.
+PC3 responds to the ARP request since it's IP address matches the destination IP address in the ARP request -> ARP reply.
+PC1 learn MAC address of PC3, adds it to the ARP table & uses that information to the destination of any ping (or frame) it wants to send.
+Broadcast UUF have a destination MA of FF.FF.FF.FF.FF.FF.
+
+### ARP Table
+![](images/Pasted%20image%2020260310193011.png)
+
