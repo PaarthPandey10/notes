@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/Day 4.md",
+                "file": "ccna/Day 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 4"
+              "title": "Day 3"
             }
           }
         ]
@@ -195,20 +195,21 @@
   },
   "active": "a66fdcd96577cec9",
   "lastOpenFiles": [
+    "Pasted image 20260310152718.png",
+    "Pasted image 20260310152655.png",
+    "Pasted image 20260310152621.png",
+    "Pasted image 20260310152539.png",
+    "Pasted image 20260310152522.png",
+    "ccna/Day 2.md",
+    "ccna/Day1.md",
     "ccna/Day 4.md",
     "ccna/Day 3.md",
     "Pasted image 20260308160512.png",
-    "ccna/Day 2.md",
     "Pasted image 20260308155152.png",
     "Pasted image 20260308155026.png",
     "Pasted image 20260308154847.png",
     "Pasted image 20260308154737.png",
     "Pasted image 20260308154616.png",
-    "Pasted image 20260308154352.png",
-    "Pasted image 20260308153654.png",
-    "Pasted image 20260308153600.png",
-    "Pasted image 20260308152639.png",
-    "ccna/Day1.md",
     "ccna"
   ]
 }
