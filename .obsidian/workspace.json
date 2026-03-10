@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e13874d85f50b49",
+        "id": "4a1a5068c2de8c7b",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ee0906622b8eb7",
+            "id": "4286d2d140ab0c37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ccna/Day 4.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Day 4"
             }
           }
         ]
@@ -188,12 +192,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9ee0906622b8eb7",
+  "active": "4286d2d140ab0c37",
   "lastOpenFiles": [
-    "ccna/Day 2.md",
+    "ccna/images/Pasted image 20260310161310.png",
     "ccna/Day 3.md",
     "ccna/Day 4.md",
     "ccna/Day1.md",
+    "ccna/Day 2.md",
     "ccna/images/Pasted image.md",
     "ccna/images/Pasted.md",
     "ccna/images/Pasted image 20260308151822.png",
