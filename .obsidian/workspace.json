@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eed09a85eecb971a",
+        "id": "15b7db2f11e48da7",
         "type": "tabs",
         "children": [
           {
-            "id": "19d252863f49fcd6",
+            "id": "c1ecb12e9c393822",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ccna/day-5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "day-5"
+              "title": "New tab"
             }
           }
         ]
@@ -94,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ccna/day-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for day-6"
             }
           },
           {
@@ -112,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ccna/day-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from day-6"
             }
           },
           {
@@ -154,27 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ccna/day1.md",
+                "file": "ccna/day-6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of day1"
-            }
-          },
-          {
-            "id": "c01e8fa02000fa41",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of day-6"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,24 +180,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19d252863f49fcd6",
+  "active": "9525fc377ba1559e",
   "lastOpenFiles": [
+    "ccna/images/Pasted image 20260310164912.png",
+    "ccna/day-3.md",
+    "ccna/day-4.md",
+    "ccna/day-2.md",
+    "ccna/day-1.md",
+    "ccna/day-6.md",
+    "ccna/images/Pasted image 20260310164423.png",
+    "ccna/images/Pasted image 20260310164356.png",
+    "ccna/images/Pasted image 20260310164318.png",
+    "ccna/images/Pasted image 20260310164302.png",
+    "ccna/day-5.md",
     "ccna/images/Pasted image 20260310163857.png",
     "ccna/images/Pasted image 20260310163655.png",
     "ccna/images/Pasted image 20260310163524.png",
     "ccna/images/Pasted image 20260310163424.png",
     "ccna/images/Pasted image 20260310163335.png",
     "ccna/images/Pasted image 20260310163225.png",
-    "ccna/images/Pasted image 20260310163146.png",
-    "ccna/images/Pasted image 20260310163117.png",
-    "ccna/images/Pasted image 20260310163104.png",
-    "ccna/images/Pasted image 20260310163031.png",
-    "ccna/day-5.md",
-    "ccna/day-4.md",
-    "ccna/day-3.md",
-    "ccna/day-2.md",
-    "ccna/day-1.md",
-    "ccna/images/Pasted image 20260310161436.png",
     "ccna/images/Pasted image.md",
     "ccna/images/Pasted.md",
     "ccna/images",

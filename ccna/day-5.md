@@ -1,4 +1,4 @@
-# Ethernet LAN Switching
+# Ethernet LAN Switching - I
 
 ## Ethernet Frame
 ![](images/Pasted%20image%2020260310163335.png)
