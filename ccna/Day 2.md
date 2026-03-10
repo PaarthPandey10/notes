@@ -16,7 +16,7 @@
 	* Max length of 100m due to performance and technical reasons. 
 
 ## Ethernet Standards for Copper
-![Image](<ccna/images/Pasted image 20260308151822.png>>)
+![Image](<ccna/images/Pasted image 20260308151822.png>)
 
 ## UTP (Copper) Cables
 Unshielded Twister Pair
