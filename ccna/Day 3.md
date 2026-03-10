@@ -25,7 +25,7 @@
 
 ## TCP/IP Model & its working 
 
-![[Pasted image 20260308160512.png]]
+![[ccna/images/Pasted image 20260308160512.png]]
 
 Application: Protocols for communications between application processes; create & interpret data. 
 Transport: Provides end to end communication b/w application processes using port numbers. 
@@ -80,17 +80,17 @@ Physical: Sends bits as electrical, optical or radio signals over the physical m
 	* Only the communicating hosts 'interpret application data'
 
 ### Encapsulation & Decapsulation Process
-![[Pasted image 20260310152522.png]]
-![[Pasted image 20260310152539.png]]
+![[ccna/images/Pasted image 20260310152522.png]]
+![[ccna/images/Pasted image 20260310152539.png]]
 
 As data moves down, each layer encapsulates data with a header (trailer as well in layer 2) including information needed for that layer. 
 Each layer removes their own header - L2 removes L2-header and L2-trailer, L3 removes L3-header etc.
 
 ### Protocol Data Units (PDU)
-![[Pasted image 20260310152621.png]]
+![[ccna/images/Pasted image 20260310152621.png]]
 
 ### Adjacent Layer Interaction
-![[Pasted image 20260310152655.png]]
+![[ccna/images/Pasted image 20260310152655.png]]
 
 * L4 services L5 by delivering data to correct application using port number. 
 * L3 services L4 by delivering segments/datagrams to correct destination host using IP addresses.
@@ -99,5 +99,5 @@ Each layer removes their own header - L2 removes L2-header and L2-trailer, L3 re
 * Layers are modular
 
 ### OSI Model
-![[Pasted image 20260310152718.png]]
+![[ccna/images/Pasted image 20260310152718.png]]
 
