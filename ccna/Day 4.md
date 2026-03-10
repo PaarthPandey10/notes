@@ -5,7 +5,7 @@
 * These are connected in the CONSOLE parts of the device
 
 ## Rollover Cable
-![](ccna/images/Pasted%20image%2020260310161310.png)
+![](images/Pasted%20image%2020260310161310.png)
 
 ## Terminal Emulator (PuTTy)
 * Connection type = Serial
