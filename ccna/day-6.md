@@ -26,3 +26,8 @@ Broadcast UUF have a destination MA of FF.FF.FF.FF.FF.FF.
 ### ARP Table
 ![](images/Pasted%20image%2020260310193011.png)
 
+## Ping
+![](images/Pasted%20image%2020260312214830.png)
+![](images/Pasted%20image%2020260312214845.png)
+![](images/Pasted%20image%2020260312214920.png)
+
