@@ -27,6 +27,9 @@ Broadcast UUF have a destination MA of FF.FF.FF.FF.FF.FF.
 ![](images/Pasted%20image%2020260310193011.png)
 
 ## Ping
+
+Windows devices ping 4 times, CISCO devices ping 5 times.
+
 ![](images/Pasted%20image%2020260312214830.png)
 ![](images/Pasted%20image%2020260312214845.png)
 ![](images/Pasted%20image%2020260312214920.png)
@@ -43,8 +46,13 @@ Broadcast UUF have a destination MA of FF.FF.FF.FF.FF.FF.
 
 ## Ethernet Frame in wireshark
 
+IPv4 ethernet type: 0x0800
+IPv6 ethernet type: 0x86DD
+ARP ethernet type: 0x0806
+
 ### ICMP
 ![](images/Pasted%20image%2020260313225243.png)
 
 ### ARP
 ![](images/Pasted%20image%2020260313225313.png)
+
