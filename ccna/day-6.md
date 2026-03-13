@@ -31,3 +31,20 @@ Broadcast UUF have a destination MA of FF.FF.FF.FF.FF.FF.
 ![](images/Pasted%20image%2020260312214845.png)
 ![](images/Pasted%20image%2020260312214920.png)
 
+## Clearing the entire MAC Address Table
+![](images/Pasted%20image%2020260313225030.png)
+## Clearing a single entry
+
+### Using MAC Address
+![](images/Pasted%20image%2020260313225050.png)
+
+### Using interface number
+![](images/Pasted%20image%2020260313225154.png)
+
+## Ethernet Frame in wireshark
+
+### ICMP
+![](images/Pasted%20image%2020260313225243.png)
+
+### ARP
+![](images/Pasted%20image%2020260313225313.png)
