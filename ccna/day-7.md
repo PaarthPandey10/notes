@@ -21,4 +21,16 @@ Used to test the network stack (like OSI, TCP/IP Model) on the local device.
 If you ping any address in this range form your PC then the PC will ping itself and latency will be 0 ms.
 ![](images/Pasted%20image%2020260313233348.png)
 
-### IPv
+### IPv4 Address Classes
+![](images/Pasted%20image%2020260314005304.png)
+![](images/Pasted%20image%2020260314005320.png)
+![](images/Pasted%20image%2020260314005409.png)
+
+### Netmask
+![](images/Pasted%20image%2020260314005452.png)
+
+### Host vs Network Address
+![](images/Pasted%20image%2020260314005546.png)
+![](images/Pasted%20image%2020260314005603.png)
+![](images/Pasted%20image%2020260314005621.png)
+
