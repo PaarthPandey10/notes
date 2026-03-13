@@ -24,3 +24,5 @@ where n = number of host bits
 *repeat for green and blue LANs*
 
 ## Showing interfaces
+![](images/Pasted%20image%2020260314011209.png)
+![](images/Pasted%20image%2020260314011233.png)
