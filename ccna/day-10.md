@@ -60,4 +60,5 @@
 ### Larger packets
 ![](images/Pasted%20image%2020260315034133.png)
 
+### Don't fragment
 ![](images/Pasted%20image%2020260315034151.png)
