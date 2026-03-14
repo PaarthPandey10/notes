@@ -9,7 +9,7 @@
 ![](images/Pasted%20image%2020260315030703.png)
 
 ## Full vs Half Duplex
-![](images/Pasted%20image%2020260315030718.png)
+![](images/Pasted%20image%2020260315032803.png)
 
 ## LAN Hubs & Collision Domains
 ![](images/Pasted%20image%2020260315030845.png)
@@ -21,3 +21,10 @@ Here PC1, PC2, and PC3 are part of a collision domain.
 ![](images/Pasted%20image%2020260315031105.png)
 ![](images/Pasted%20image%2020260315031131.png)
 
+## Speed / Duplex Autonegotiation
+![](images/Pasted%20image%2020260315032835.png)
+![](images/Pasted%20image%2020260315032901.png)
+![](images/Pasted%20image%2020260315032942.png)
+
+## Interface Errors
+![](images/Pasted%20image%2020260315033023.png)
