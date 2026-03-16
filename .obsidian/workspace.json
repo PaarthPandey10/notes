@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/day-11.md",
+                "file": "ccna/day-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-11"
+              "title": "day-12"
             }
           }
         ]
@@ -196,17 +196,21 @@
   },
   "active": "778f671bdc3939fd",
   "lastOpenFiles": [
-    "ccna/images/Pasted image 20260316104419.png",
-    "ccna/images/Pasted image 20260316104357.png",
-    "ccna/images/Pasted image 20260316104131.png",
-    "ccna/images/Pasted image 20260316104056.png",
-    "ccna/images/Pasted image 20260316103520.png",
-    "ccna/images/Pasted image 20260316103421.png",
-    "ccna/images/Pasted image 20260316103316.png",
-    "ccna/images/Pasted image 20260316103148.png",
-    "ccna/images/Pasted image 20260316103047.png",
+    "ccna/images/Pasted image 20260316111958.png",
+    "ccna/images/Pasted image 20260316111947.png",
+    "ccna/images/Pasted image 20260316111936.png",
+    "ccna/images/Pasted image 20260316111921.png",
+    "ccna/images/Pasted image 20260316111912.png",
+    "ccna/images/Pasted image 20260316111845.png",
+    "ccna/images/Pasted image 20260316111837.png",
+    "ccna/images/Pasted image 20260316111826.png",
+    "ccna/images/Pasted image 20260316111816.png",
+    "ccna/images/Pasted image 20260316111732.png",
+    "ccna/images/Pasted image 20260316111722.png",
+    "ccna/day-11 (II).md",
+    "ccna/day-12.md",
+    "ccna/day-11 (I).md",
     "ccna/day-10.md",
-    "ccna/day-11.md",
     "ccna/day-09.md",
     "ccna/day-08.md",
     "ccna/day-07.md",
@@ -216,8 +220,6 @@
     "ccna/day-03.md",
     "ccna/day-02.md",
     "ccna/day-01.md",
-    "ccna/images/Pasted image 20260315034151.png",
-    "ccna/images/Pasted image 20260315034133.png",
     "ccna/images/Pasted image.md",
     "ccna/images/Pasted.md",
     "ccna/images",
