@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e51d06421684d29d",
+        "id": "3a2dfbaad6e1dbc4",
         "type": "tabs",
         "children": [
           {
-            "id": "f224167f5a69130b",
+            "id": "778f671bdc3939fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ccna/day-10.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "day-10"
+              "title": "New tab"
             }
           }
         ]
@@ -194,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f224167f5a69130b",
+  "active": "f146412307083702",
   "lastOpenFiles": [
     "ccna/day-09.md",
     "ccna/day-08.md",
