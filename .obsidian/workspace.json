@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/day-13.md",
+                "file": "ccna/day-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-13"
+              "title": "day-14"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ccna/day-13.md",
+                "file": "ccna/day-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of day-13"
+              "title": "Outline of day-14"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -194,21 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "778f671bdc3939fd",
+  "active": "f146412307083702",
   "lastOpenFiles": [
+    "ccna/images/Pasted image 20260318005003.png",
+    "ccna/images/Pasted image 20260318004824.png",
+    "ccna/images/Pasted image 20260318004815.png",
+    "ccna/images/Pasted image 20260318004136.png",
+    "ccna/images/Pasted image 20260318004121.png",
+    "ccna/images/Pasted image 20260318004059.png",
+    "ccna/images/Pasted image 20260318003331.png",
+    "ccna/images/Pasted image 20260318003227.png",
+    "ccna/day-13.md",
+    "ccna/day-14.md",
+    "ccna/images/Pasted image 20260318002301.png",
     "ccna/images/Pasted image 20260317224439.png",
     "Untitled.md",
-    "ccna/day-13.md",
     "ccna/images/Pasted image 20260317223628.png",
-    "ccna/images/Pasted image 20260317223558.png",
-    "ccna/images/Pasted image 20260317223414.png",
-    "ccna/images/Pasted image 20260317223401.png",
-    "ccna/images/Pasted image 20260317223244.png",
-    "ccna/images/Pasted image 20260317223209.png",
-    "ccna/images/Pasted image 20260317223148.png",
-    "ccna/images/Pasted image 20260317222830.png",
-    "ccna/images/Pasted image 20260317222721.png",
-    "ccna/images/Pasted image 20260317222633.png",
     "ccna/day-12.md",
     "ccna/day-11 (II).md",
     "ccna/day-11 (I).md",
