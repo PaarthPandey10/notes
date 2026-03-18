@@ -40,3 +40,19 @@ Find the last weight from the network portion and keep adding that to get succes
 ## Class A Subnetting
 ![](images/Pasted%20image%2020260318142649.png)
 
+### Class A Subnetting Practice
+![](images/Pasted%20image%2020260318145400.png)
+![](images/Pasted%20image%2020260318145454.png)
+Network address
+![](images/Pasted%20image%2020260318145503.png)
+First usable address
+![](images/Pasted%20image%2020260318145541.png)
+Broadcast address
+![](images/Pasted%20image%2020260318145604.png)
+Last usable address
+![](images/Pasted%20image%2020260318145627.png)
+Number of usable addresses
+![](images/Pasted%20image%2020260318145640.png)
+
+
+

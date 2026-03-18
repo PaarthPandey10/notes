@@ -1,5 +1,6 @@
-# Subnetting I
+# Subnetting I 
 
+# Fixed Length Subnet Masks (FLSM)
 ## IPv4 Address Classes
 ![](images/Pasted%20image%2020260317222633.png)
 
