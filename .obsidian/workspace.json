@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/day-17.md",
+                "file": "ccna/day-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-17"
+              "title": "day-18"
             }
           }
         ]
@@ -194,19 +194,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f146412307083702",
+  "active": "778f671bdc3939fd",
   "lastOpenFiles": [
-    "ccna/images/Pasted image 20260319153925.png",
+    "ccna/images/Pasted image 20260322231637.png",
+    "ccna/images/Pasted image 20260322231528.png",
+    "ccna/images/Pasted image 20260322231453.png",
+    "ccna/images/Pasted image 20260322231421.png",
+    "ccna/images/Pasted image 20260322231023.png",
+    "ccna/images/Pasted image 20260322231002.png",
     "ccna/day-17.md",
+    "ccna/day-18.md",
+    "ccna/images/Pasted image 20260319153925.png",
     "ccna/images/Pasted image 20260319153857.png",
     "ccna/images/Pasted image 20260319153838.png",
     "ccna/images/Pasted image 20260319153822.png",
     "ccna/images/Pasted image 20260319153803.png",
-    "ccna/images/Pasted image 20260319153747.png",
-    "ccna/images/Pasted image 20260319153736.png",
-    "ccna/images/Pasted image 20260319153700.png",
-    "ccna/images/Pasted image 20260319153505.png",
-    "ccna/images/Pasted image 20260319153431.png",
     "ccna/day-16.md",
     "ccna/day-14.md",
     "ccna/day-13.md",
