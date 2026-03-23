@@ -51,4 +51,4 @@ For traffic destined outside the LAN, configure a default route from SW2 to R1 (
 
 ------------------
 
-![](images/Pasted%20image%2020260323090533.png)
+![](images/Pasted%20image%2020260323090533.png)![](images/Pasted%20image%2020260323090617.png)
