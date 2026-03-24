@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "778f671bdc3939fd",
+  "active": "f146412307083702",
   "lastOpenFiles": [
     "ccna/day-16.md",
     "ccna/day-15.md",
