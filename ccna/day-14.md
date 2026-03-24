@@ -37,4 +37,3 @@ Find the last weight from the network portion and keep adding that to get succes
 ![](images/Pasted%20image%2020260318142318.png)
 
 
-## 

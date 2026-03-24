@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/day-19.md",
+                "file": "ccna/day-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-19"
+              "title": "day-14"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ccna/day-19.md",
+                "file": "ccna/day-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of day-19"
+              "title": "Outline of day-14"
             }
           },
           {
@@ -196,6 +196,10 @@
   },
   "active": "778f671bdc3939fd",
   "lastOpenFiles": [
+    "ccna/day-13.md",
+    "ccna/day-15.md",
+    "ccna/day-14.md",
+    "ccna/day-19.md",
     "ccna/images/Pasted image 20260323232858.png",
     "ccna/images/Pasted image 20260323232657.png",
     "ccna/images/Pasted image 20260323232616.png",
@@ -206,14 +210,9 @@
     "ccna/images/Pasted image 20260323230531.png",
     "ccna/images/Pasted image 20260323230450.png",
     "ccna/images/Pasted image 20260323225434.png",
-    "ccna/images/Pasted image 20260323225416.png",
     "ccna/day-18.md",
-    "ccna/day-19.md",
     "ccna/day-17.md",
     "ccna/day-16.md",
-    "ccna/day-14.md",
-    "ccna/day-13.md",
-    "ccna/day-15.md",
     "Untitled.md",
     "ccna/day-12.md",
     "ccna/day-11 (II).md",
