@@ -27,3 +27,8 @@ DTP will not form a trunk with a router, PC, etc. The switchport will be in acce
 ![](images/Pasted%20image%2020260326112933.png)
 Negotiation of Trunking: On --> when DTP is on i.e. dynamic desirable, dynamic auto or trunk mode
 Negotiation of Trunking: Off --> when in access mode or switchport no negotiate command used
+
+## VLAN Trunking Protocol (VTP)
+![](images/Pasted%20image%2020260326113213.png)
+### VTP Servers/Clients
+![](images/Pasted%20image%2020260326113336.png)
