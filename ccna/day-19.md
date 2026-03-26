@@ -50,4 +50,11 @@ Configuration Revision: If you add, modify or delete a VLAN - this number increa
 ![](images/Pasted%20image%2020260326122447.png)
 ![](images/Pasted%20image%2020260326122500.png)
 ![](images/Pasted%20image%2020260326123046.png)
-SW3 doesnt forward advertisement to SW4
+SW3 doesnt forward advertisement to SW4, to forward - change its domain name to match everything.
+![](images/Pasted%20image%2020260326131338.png)
+
+### VTP Version 
+![](images/Pasted%20image%2020260326131436.png)
+![](images/Pasted%20image%2020260326131447.png)
+
+
