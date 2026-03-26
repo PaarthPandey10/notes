@@ -58,3 +58,5 @@ SW3 doesnt forward advertisement to SW4, to forward - change its domain name to 
 ![](images/Pasted%20image%2020260326131447.png)
 
 
+
+VTP also has a password feature which allows devices with matching passwords to sync vlan databases. 
