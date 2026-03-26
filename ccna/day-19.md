@@ -37,4 +37,17 @@ Negotiation of Trunking: Off --> when in access mode or switchport no negotiate 
 ![](images/Pasted%20image%2020260326115520.png)![](images/Pasted%20image%2020260326115529.png)
 Configuration Revision: If you add, modify or delete a VLAN - this number increases.
 ![](images/Pasted%20image%2020260326115719.png)
-![](images/Pasted%20image%2020260326115804.png)
+![](images/Pasted%20image%2020260326115804.png)![](images/Pasted%20image%2020260326121554.png)
+![](images/Pasted%20image%2020260326121610.png)
+![](images/Pasted%20image%2020260326121757.png)
+![](images/Pasted%20image%2020260326121812.png)
+![](images/Pasted%20image%2020260326121835.png)
+
+### VTP Transparent
+![](images/Pasted%20image%2020260326121936.png)
+![](images/Pasted%20image%2020260326121955.png)
+![](images/Pasted%20image%2020260326122417.png)
+![](images/Pasted%20image%2020260326122447.png)
+![](images/Pasted%20image%2020260326122500.png)
+![](images/Pasted%20image%2020260326123046.png)
+SW3 doesnt forward advertisement to SW4
