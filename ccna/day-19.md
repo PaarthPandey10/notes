@@ -32,3 +32,9 @@ Negotiation of Trunking: Off --> when in access mode or switchport no negotiate 
 ![](images/Pasted%20image%2020260326113213.png)
 ### VTP Servers/Clients
 ![](images/Pasted%20image%2020260326113336.png)
+
+### Working of VTP
+![](images/Pasted%20image%2020260326115520.png)![](images/Pasted%20image%2020260326115529.png)
+Configuration Revision: If you add, modify or delete a VLAN - this number increases.
+![](images/Pasted%20image%2020260326115719.png)
+![](images/Pasted%20image%2020260326115804.png)
