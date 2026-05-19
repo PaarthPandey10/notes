@@ -34,4 +34,22 @@
 ![](images/Pasted%20image%2020260519221947.png)
 ![](images/Pasted%20image%2020260519222015.png)
 ![](images/Pasted%20image%2020260519222030.png)
+![](images/Pasted%20image%2020260519224559.png)
+
+### STP Cost
+![](images/Pasted%20image%2020260519224616.png)
+![](images/Pasted%20image%2020260519224638.png)
+![](images/Pasted%20image%2020260519224658.png)
+
+## Spanning Tree Protocol Summary
+![](images/Pasted%20image%2020260519225253.png)
+
+### STP Cost, Designated and Root Ports
+![](images/Pasted%20image%2020260519225339.png)
+
+### STP Port ID
+![](images/Pasted%20image%2020260519225404.png)
+![](images/Pasted%20image%2020260519225418.png)
+![](images/Pasted%20image%2020260519225433.png)
+![](images/Pasted%20image%2020260519225527.png)
 
