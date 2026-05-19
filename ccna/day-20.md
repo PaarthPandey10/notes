@@ -8,3 +8,30 @@
 ## Broadcast Storms
 ![](images/Pasted%20image%2020260519150136.png)
 ![](images/Pasted%20image%2020260519150145.png)
+![](images/Pasted%20image%2020260519220432.png)
+
+## Spanning Tree Protocol 
+![](images/Pasted%20image%2020260519220635.png)
+
+### Bridge in Bridge Protocol Data Units 
+![](images/Pasted%20image%2020260519220726.png)
+
+### Working of STP
+![](images/Pasted%20image%2020260519220901.png)
+
+#### Hello BPDU
+![](images/Pasted%20image%2020260519221014.png)
+![](images/Pasted%20image%2020260519221219.png)
+
+### Traditional Bridge ID
+![](images/Pasted%20image%2020260519221329.png)
+![](images/Pasted%20image%2020260519221804.png)
+
+### Updated Bridge ID
+![](images/Pasted%20image%2020260519221830.png)
+![](images/Pasted%20image%2020260519221846.png)
+![](images/Pasted%20image%2020260519221858.png)![](images/Pasted%20image%2020260519221913.png)
+![](images/Pasted%20image%2020260519221947.png)
+![](images/Pasted%20image%2020260519222015.png)
+![](images/Pasted%20image%2020260519222030.png)
+
