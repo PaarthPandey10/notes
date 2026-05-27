@@ -1,0 +1,10 @@
+{
+	"id": "consolidate-to-pdf",
+	"name": "Consolidate to PDF",
+	"version": "1.0.3",
+	"minAppVersion": "1.12.7",
+	"description": "Consolidates and exports the entire vault into one PDF.",
+	"author": "OHM Engineering",
+	"authorUrl": "https://github.com/OHM-Engineering",
+	"isDesktopOnly": true
+}
