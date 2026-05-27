@@ -1,4 +1,4 @@
-# Spanning Tree Protocol
+# Spanning Tree Protocol I
 
 ## Network Redundancy
 ![](images/Pasted%20image%2020260410105205.png)

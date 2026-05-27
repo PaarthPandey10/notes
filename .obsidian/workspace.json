@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ccna/day-20.md",
+                "file": "ccna/day-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-20"
+              "title": "day-21"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ccna/day-20.md",
+                "file": "ccna/day-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of day-20"
+              "title": "Outline of day-21"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -196,34 +196,34 @@
   },
   "active": "114e2b9fc207c584",
   "lastOpenFiles": [
-    "ccna/images/Pasted image 20260519225527.png",
-    "ccna/images/Pasted image 20260519225433.png",
-    "ccna/images/Pasted image 20260519225418.png",
-    "ccna/images/Pasted image 20260519225404.png",
-    "ccna/images/Pasted image 20260519225339.png",
-    "ccna/images/Pasted image 20260519225253.png",
-    "ccna/images/Pasted image 20260519224658.png",
-    "ccna/images/Pasted image 20260519224638.png",
-    "ccna/images/Pasted image 20260519224616.png",
-    "ccna/images/Pasted image 20260519224559.png",
-    "ccna/images/Pasted image 20260519222030.png",
+    "ccna/day-13.md",
+    "ccna/day-12.md",
+    "ccna/day-14.md",
+    "ccna/day-21.md",
+    "ccna/images/Pasted image 20260527133958.png",
+    "ccna/images/Pasted image 20260527133344.png",
+    "ccna/images/Pasted image 20260527133330.png",
+    "ccna/images/Pasted image 20260527133045.png",
+    "ccna/images/Pasted image 20260527132848.png",
+    "ccna/images/Pasted image 20260527132847.png",
+    "ccna/images/Pasted image 20260527132837.png",
+    "ccna/day-20.md",
+    "ccna/images/Pasted image 20260527132557.png",
+    "ccna/images/Pasted image 20260527132543.png",
+    "ccna/images/Pasted image 20260527132520.png",
+    "ccna/day-16.md",
+    "ccna/day-18.md",
+    "ccna/day-19.md",
     "aws-cloud-practitioner/aws-cloud-practitioner-main.md",
     "networking-notes/networking-notes.pdf",
     "google-introduction-to-git-github/google-introduction-to-git-github-main.md",
     "google-introduction-to-git-github/google-introduction-to-git-github-glossary.md",
     "google-cybersecurity/google-cybersecurity-glossary.md",
     "google-cybersecurity/google-cybersecurity-main.md",
-    "ccna/day-19.md",
-    "ccna/day-20.md",
     "ccna/day-11.md",
     "ccna/day-11 (II).md",
-    "ccna/day-18.md",
     "ccna/day-17.md",
-    "ccna/day-16.md",
     "ccna/day-15.md",
-    "ccna/day-13.md",
-    "ccna/day-14.md",
-    "ccna/day-12.md",
     "Untitled.md",
     "ccna/day-10.md",
     "ccna/day-09.md",
@@ -232,7 +232,6 @@
     "ccna/day-06.md",
     "ccna/day-05.md",
     "ccna/day-04.md",
-    "ccna/day-03.md",
     "ccna/images",
     "ccna"
   ]
