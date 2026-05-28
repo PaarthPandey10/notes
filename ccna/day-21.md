@@ -51,3 +51,62 @@ Message Age is the number of hops.
 
 Portfast only works on access ports, not trunks because trunks are usually connected to switches. 
 
+*DETAILED EXPLANATION*:
+#### Portfast: The Problem
+![](images/Pasted%20image%2020260528150208.png)
+
+![](images/Pasted%20image%2020260528150232.png)
+STP Listening + Learning State going on
+![](images/Pasted%20image%2020260528150311.png)
+Interface ready to use after 30 seconds
+
+#### Portfast: The Solution
+![](images/Pasted%20image%2020260528150356.png)
+
+![](images/Pasted%20image%2020260528150429.png)
+Interface ready to use instantly
+
+#### Portfast Configuration: Per Port/Interface
+![](images/Pasted%20image%2020260528150559.png)
+
+
+### BPDU Guard
+![](images/Pasted%20image%2020260528143759.png)
+In cases like this, BPDU Guard comes in handy.
+![](images/Pasted%20image%2020260528143823.png)
+![](images/Pasted%20image%2020260528143832.png)
+![](images/Pasted%20image%2020260528143844.png)
+![](images/Pasted%20image%2020260528143852.png)
+![](images/Pasted%20image%2020260528143908.png)
+
+## Configuring the Spanning Tree Mode
+![](images/Pasted%20image%2020260528144008.png)
+
+## Configuring the Root Bridge
+### Primary Bridge
+![](images/Pasted%20image%2020260528144053.png)
+SW3 = Primary
+SW2 = Secondary
+![](images/Pasted%20image%2020260528144157.png)
+Running Config's output:
+![](images/Pasted%20image%2020260528144213.png)
+### Secondary Bridge
+![](images/Pasted%20image%2020260528144245.png)
+![](images/Pasted%20image%2020260528144322.png)
+
+## STP Load-Balancing
+![](images/Pasted%20image%2020260528144430.png)
+![](images/Pasted%20image%2020260528144438.png)
+Blocking the same interfaces in both VLAN 1 and 2 = Interface Bandwidth wasting. 
+
+Since the primary and secondary changes applied above were in VLAN 1, it shows a different topology. 
+
+### Load Balancing Example
+![](images/Pasted%20image%2020260528144655.png)
+![](images/Pasted%20image%2020260528144710.png)
+![](images/Pasted%20image%2020260528144727.png)
+![](images/Pasted%20image%2020260528144747.png)
+![](images/Pasted%20image%2020260528144802.png)
+
+## Configuring STP Port Settings
+![](images/Pasted%20image%2020260528144944.png)
