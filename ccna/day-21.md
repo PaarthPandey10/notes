@@ -110,6 +110,7 @@ Port 1 remains ErrDisabled even after removing the cable. Removing cable does no
 
 ##### Fixing ErrDisable (Re-enabling)
 ![](images/Pasted%20image%2020260528162826.png)
+![](images/Pasted%20image%2020260528230603.png)
 
 
 
