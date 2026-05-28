@@ -99,6 +99,20 @@ In cases like this, BPDU Guard comes in handy.
 ![](images/Pasted%20image%2020260528161204.png)
 
 When enabled by default: BPDU Guard is activated on all Portfast-enabled ports - THIS MEANS NOT NECESSARILY ALL ACCESS PORTS - ALL PORTFAST PORTS MEANING ANY PORT - EITHER ACCESS OR TRUNK - DEPENDS ON PORTFAST PORT. 
+#### ErrDisable
+![](images/Pasted%20image%2020260528162442.png)
+
+##### ErrDisable on a real switch
+![](images/Pasted%20image%2020260528162611.png)
+Port 1 is ErrDisabled because of a BPDU Guard Violation.
+![](images/Pasted%20image%2020260528162646.png)
+Port 1 remains ErrDisabled even after removing the cable. Removing cable does not fix an ErrDisabled port. 
+
+##### Fixing ErrDisable (Re-enabling)
+![](images/Pasted%20image%2020260528162826.png)
+
+
+
 ## Configuring the Spanning Tree Mode
 ![](images/Pasted%20image%2020260528144008.png)
 

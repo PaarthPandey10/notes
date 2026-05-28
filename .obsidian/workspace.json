@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,8 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f146412307083702",
+  "active": "114e2b9fc207c584",
   "lastOpenFiles": [
+    "ccna/images/Pasted image 20260528162826.png",
+    "ccna/images/Pasted image 20260528162646.png",
+    "ccna/images/Pasted image 20260528162611.png",
+    "ccna/images/Pasted image 20260528162442.png",
     "ccna/images/Pasted image 20260528161204.png",
     "ccna/images/Pasted image 20260528161033.png",
     "ccna/images/Pasted image 20260528160637.png",
@@ -203,10 +207,6 @@
     "ccna/images/Pasted image 20260528160603.png",
     "ccna/images/Pasted image 20260528160546.png",
     "ccna/images/Pasted image 20260528160431.png",
-    "ccna/images/Pasted image 20260528160408.png",
-    "ccna/images/Pasted image 20260528155848.png",
-    "ccna/images/Pasted image 20260528154924.png",
-    "ccna/images/Pasted image 20260528154737.png",
     "ccna/day-13.md",
     "ccna/day-12.md",
     "ccna/day-14.md",
