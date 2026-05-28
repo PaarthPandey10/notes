@@ -69,6 +69,13 @@ Interface ready to use instantly
 #### Portfast Configuration: Per Port/Interface
 ![](images/Pasted%20image%2020260528150559.png)
 
+#### Portfast Configuration: Default
+![](images/Pasted%20image%2020260528154737.png)
+
+#### Portfast on Trunk Ports
+![](images/Pasted%20image%2020260528154924.png)
+#### Portfast Edge
+![](images/Pasted%20image%2020260528155848.png)
 
 ### BPDU Guard
 ![](images/Pasted%20image%2020260528143759.png)
@@ -79,6 +86,19 @@ In cases like this, BPDU Guard comes in handy.
 ![](images/Pasted%20image%2020260528143852.png)
 ![](images/Pasted%20image%2020260528143908.png)
 
+*DETAILED EXPLANATION*:
+#### Portfast & BPDUs
+![](images/Pasted%20image%2020260528160408.png)
+![](images/Pasted%20image%2020260528160431.png)
+#### BPDU Guard: The Problem
+![](images/Pasted%20image%2020260528160546.png)
+![](images/Pasted%20image%2020260528160603.png)
+![](images/Pasted%20image%2020260528160637.png)
+![](images/Pasted%20image%2020260528161033.png)
+#### BPDU Guard Configuration
+![](images/Pasted%20image%2020260528161204.png)
+
+When enabled by default: BPDU Guard is activated on all Portfast-enabled ports - THIS MEANS NOT NECESSARILY ALL ACCESS PORTS - ALL PORTFAST PORTS MEANING ANY PORT - EITHER ACCESS OR TRUNK - DEPENDS ON PORTFAST PORT. 
 ## Configuring the Spanning Tree Mode
 ![](images/Pasted%20image%2020260528144008.png)
 
