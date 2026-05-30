@@ -87,7 +87,7 @@ In cases like this, BPDU Guard comes in handy.
 ![](images/Pasted%20image%2020260528143908.png)
 
 *DETAILED EXPLANATION*:
-#### Portfast & BPDUs
+#### BPDUs vs Portfast
 ![](images/Pasted%20image%2020260528160408.png)
 ![](images/Pasted%20image%2020260528160431.png)
 #### BPDU Guard: The Problem
@@ -111,7 +111,12 @@ Port 1 remains ErrDisabled even after removing the cable. Removing cable does no
 ##### Fixing ErrDisable (Re-enabling)
 ![](images/Pasted%20image%2020260528162826.png)
 ![](images/Pasted%20image%2020260528230603.png)
-
+### BPDU Filter 
+#### BPDU Filter: The Problem
+![](images/Pasted%20image%2020260528232300.png)
+#### BPDU Filter: The Solution
+![](images/Pasted%20image%2020260528232439.png)
+![](images/Pasted%20image%2020260528232547.png)
 
 
 ## Configuring the Spanning Tree Mode
