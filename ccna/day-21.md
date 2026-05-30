@@ -1,4 +1,4 @@
-# Spanning Tree Protocol II
+# Spanning Tree Protocol II 
 
 ![](images/Pasted%20image%2020260527131149.png)
 

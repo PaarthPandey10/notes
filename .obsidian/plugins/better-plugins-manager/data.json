@@ -1,0 +1,222 @@
+{
+  "LANGUAGE": "en",
+  "LANGUAGE_INITIALIZED": true,
+  "MIGRATION_VERSION": "1.0.4",
+  "DEBUG": false,
+  "PERSISTENCE": false,
+  "CENTER": false,
+  "DELAY": false,
+  "HIDE_BPM_TAG": false,
+  "MAIN_PAGE_ACTION_PLACEMENT": {
+    "checkUpdate": "menu",
+    "downloadUpdate": "item",
+    "singleStart": "menu",
+    "restart": "menu",
+    "hide": "menu",
+    "note": "menu",
+    "hotkeys": "menu",
+    "copyId": "menu",
+    "openRepo": "item",
+    "openSettings": "item",
+    "openDir": "item",
+    "delete": "item"
+  },
+  "AUTO_TAKEOVER": false,
+  "SELF_CHECK_IGNORED": false,
+  "COMMAND_ITEM": false,
+  "COMMAND_GROUP": false,
+  "STARTUP_CHECK_UPDATES": false,
+  "SOURCE_STARTUP_CHECK_UPDATES": false,
+  "SOURCE_AUTO_UPDATE": true,
+  "GITHUB_TOKEN": "",
+  "FILTER_SEARCH": "",
+  "FILTER_STATUS": "all",
+  "FILTER_STATUS_OPERATOR": "contains",
+  "FILTER_GROUP": "",
+  "FILTER_GROUP_OPERATOR": "contains",
+  "FILTER_TAG": "",
+  "FILTER_TAG_OPERATOR": "contains",
+  "FILTER_DELAY": "",
+  "FILTER_DELAY_OPERATOR": "contains",
+  "PLUGIN_OVERVIEW_LAYOUT": "list",
+  "ITEM_STYLE": "alwaysExpand",
+  "GROUP_STYLE": "a",
+  "TAG_STYLE": "b",
+  "FADE_OUT_DISABLED_PLUGINS": true,
+  "GROUPS": [],
+  "TAGS": [
+    {
+      "id": "bpm-install",
+      "name": "bpm install",
+      "color": "#409EFF"
+    },
+    {
+      "id": "bpm-ignore",
+      "name": "BPM Ignored",
+      "color": "#6c757d"
+    }
+  ],
+  "DELAYS": [
+    {
+      "id": "default",
+      "name": "Default delay",
+      "time": 10
+    }
+  ],
+  "Plugins": [
+    {
+      "id": "better-plugins-manager",
+      "name": "Better Plugins Manager",
+      "desc": "Plugin Manager: Simplify, Enhance, Personalize | 插件管理器：简化操作、增强功能、个性化设置",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "better-export-pdf",
+      "name": "Better Export PDF",
+      "desc": "Export your notes to PDF, support export preview, add bookmarks outline and header/footer.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "consolidate-to-pdf",
+      "name": "Consolidate to PDF",
+      "desc": "Consolidates and exports the entire vault into one PDF.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-git",
+      "name": "Git",
+      "desc": "Integrate Git version control with automatic backup and other advanced features.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-style-settings",
+      "name": "Style Settings",
+      "desc": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    }
+  ],
+  "HIDES": [],
+  "PLUGIN_LAYOUT": [
+    {
+      "id": "better-export-pdf",
+      "type": "plugin"
+    },
+    {
+      "id": "better-plugins-manager",
+      "type": "plugin"
+    },
+    {
+      "id": "consolidate-to-pdf",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-git",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-style-settings",
+      "type": "plugin"
+    }
+  ],
+  "REPO_MAP": {
+    "obsidian-meta-bind-plugin": "mprojectscode/obsidian-meta-bind-plugin"
+  },
+  "BPM_INSTALLED": [],
+  "BETA_SOURCES": [],
+  "INSTALL_HISTORY": [],
+  "RIBBON_SETTINGS": [
+    {
+      "id": "switcher:Open quick switcher",
+      "name": "Open quick switcher",
+      "icon": "lucide-file-search",
+      "visible": true,
+      "order": 0
+    },
+    {
+      "id": "graph:Open graph view",
+      "name": "Open graph view",
+      "icon": "lucide-git-fork",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "canvas:Create new canvas",
+      "name": "Create new canvas",
+      "icon": "lucide-layout-dashboard",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "daily-notes:Open today's daily note",
+      "name": "Open today's daily note",
+      "icon": "lucide-calendar",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "templates:Insert template",
+      "name": "Insert template",
+      "icon": "lucide-files",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "command-palette:Open command palette",
+      "name": "Open command palette",
+      "icon": "lucide-terminal",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "bases:Create new base",
+      "name": "Create new base",
+      "icon": "lucide-layout-list",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "obsidian-git:Open Git source control",
+      "name": "Open Git source control",
+      "icon": "git-pull-request",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "consolidate-to-pdf:Consolidate vault to PDF",
+      "name": "Consolidate vault to PDF",
+      "icon": "file-output",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "better-plugins-manager:Plugin Manager",
+      "name": "Plugin Manager",
+      "icon": "folder-cog",
+      "visible": true,
+      "order": 9
+    }
+  ],
+  "SHARED_VAULT_MAIN_PATH": "",
+  "SHARED_VAULTS": [],
+  "EXPORT_DIR": ""
+}
