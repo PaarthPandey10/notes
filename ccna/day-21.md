@@ -118,6 +118,22 @@ Port 1 remains ErrDisabled even after removing the cable. Removing cable does no
 ![](images/Pasted%20image%2020260528232439.png)
 ![](images/Pasted%20image%2020260528232547.png)
 
+### Root Guard
+#### Root Bridge Placement
+![](images/Pasted%20image%2020260530200503.png)
+![](images/Pasted%20image%2020260530200552.png)
+#### Root Guard: The Problem
+![](images/Pasted%20image%2020260530202254.png)
+![](images/Pasted%20image%2020260530202343.png)
+
+#### Root Guard: The Solution
+![](images/Pasted%20image%2020260530202513.png)
+![](images/Pasted%20image%2020260530202542.png)
+
+#### Root Guard: CLI Demonstration
+![](images/Pasted%20image%2020260530202619.png)
+![](images/Pasted%20image%2020260530202749.png)
+
 
 ## Configuring the Spanning Tree Mode
 ![](images/Pasted%20image%2020260528144008.png)
