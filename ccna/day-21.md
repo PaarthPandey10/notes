@@ -135,6 +135,32 @@ Port 1 remains ErrDisabled even after removing the cable. Removing cable does no
 ![](images/Pasted%20image%2020260530202749.png)
 
 
+### Loop Guard
+#### Unidirectional Links
+![](images/Pasted%20image%2020260530204414.png)
+![](images/Pasted%20image%2020260530204435.png)
+![](images/Pasted%20image%2020260530204443.png)
+![](images/Pasted%20image%2020260530204503.png)
+![](images/Pasted%20image%2020260530204513.png)
+![](images/Pasted%20image%2020260530204525.png)
+![](images/Pasted%20image%2020260530204707.png)
+
+#### Loop Guard: The Problem
+![](images/Pasted%20image%2020260530204747.png)
+![](images/Pasted%20image%2020260530204758.png)
+
+### Loop Guard: The Solution
+![](images/Pasted%20image%2020260530204832.png)
+
+#### Loop Guard: CLI Demonstration
+![](images/Pasted%20image%2020260530204857.png)
+![](images/Pasted%20image%2020260530204909.png)
+![](images/Pasted%20image%2020260530204924.png)
+![](images/Pasted%20image%2020260530204942.png)
+
+#### Loop Guard vs Root Guard
+![](images/Pasted%20image%2020260530205010.png)
+
 ## Configuring the Spanning Tree Mode
 ![](images/Pasted%20image%2020260528144008.png)
 
