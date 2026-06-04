@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -196,10 +196,19 @@
       "better-plugins-manager:Plugin Manager": false
     }
   },
-  "active": "979c5dec7f233355",
+  "active": "f146412307083702",
   "lastOpenFiles": [
-    "ccna/images/Pasted image 20260603161054.png",
-    "ccna/images/Pasted image 20260603160853.png",
+    "ccna/images/Pasted image 20260604124758.png",
+    "ccna/images/Pasted image 20260604124725.png",
+    "ccna/images/Pasted image 20260604124649.png",
+    "ccna/images/Pasted image 20260604124613.png",
+    "ccna/images/Pasted image 20260604124545.png",
+    "ccna/images/Pasted image 20260604124238.png",
+    "ccna/images/Pasted image 20260604124208.png",
+    "ccna/images/Pasted image 20260604124141.png",
+    "ccna/images/Pasted image 20260604124118.png",
+    "ccna/images/Pasted image 20260604124102.png",
+    "ccna/images/Pasted image 20260604124042.png",
     "ccna/day-21.md",
     "ccna/day-22.md",
     "2026-05-30.md",
@@ -225,15 +234,6 @@
     "ccna/day-03.md",
     "ccna/day-02.md",
     "__vault_pdf_export_source.md",
-    "ccna/images/Pasted image 20260308153600.png",
-    "ccna/images/Pasted image 20260530205010.png",
-    "ccna/images/Pasted image 20260530204942.png",
-    "ccna/images/Pasted image 20260530204924.png",
-    "ccna/images/Pasted image 20260530204909.png",
-    "ccna/images/Pasted image 20260530204857.png",
-    "ccna/images/Pasted image 20260530204832.png",
-    "ccna/images/Pasted image 20260530204758.png",
-    "ccna/images/Pasted image 20260530204747.png",
     "aws-cloud-practitioner/aws-cloud-practitioner-main.md",
     "networking-notes/networking-notes.pdf",
     "ccna/images",
