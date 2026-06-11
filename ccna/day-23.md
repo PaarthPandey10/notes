@@ -23,3 +23,26 @@ The channel-group number has to match for member interfaces on the same switch. 
 
 ### Static EtherChannel Configuration
 ![](images/Pasted%20image%2020260611103713.png)
+
+### Manually Configure the Negotiation Protocol
+![](images/Pasted%20image%2020260611105244.png)
+![](images/Pasted%20image%2020260611105332.png)
+![](images/Pasted%20image%2020260611105353.png)
+
+## EtherChannel Commands
+### show etherchannel summary
+![](images/Pasted%20image%2020260611105429.png)
+![](images/Pasted%20image%2020260611105443.png)
+![](images/Pasted%20image%2020260611105453.png)
+
+### show etherchannel port-channel
+![](images/Pasted%20image%2020260611105556.png)
+
+### show spanning-tree
+![](images/Pasted%20image%2020260611110926.png)
+
+## Layer 3 EtherChannel
+![](images/Pasted%20image%2020260611110952.png)
+![](images/Pasted%20image%2020260611111001.png)
+![](images/Pasted%20image%2020260611111010.png)
+![](images/Pasted%20image%2020260611111021.png)
