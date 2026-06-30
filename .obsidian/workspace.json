@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/04-explore-microsoft-security-graph.md",
+                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/03-manage-incidents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-explore-microsoft-security-graph"
+              "title": "03-manage-incidents"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/04-explore-microsoft-security-graph.md",
+                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/03-manage-incidents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-explore-microsoft-security-graph"
+              "title": "Outline of 03-manage-incidents"
             }
           },
           {
@@ -196,11 +196,14 @@
       "better-plugins-manager:Plugin Manager": false
     }
   },
-  "active": "cec3b49e857ffc0e",
+  "active": "2fe27aa3afd47d80",
   "lastOpenFiles": [
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/02-use-the-microsoft-defender-portal.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/03-manage-incidents.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/01-introduction.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/04-explore-microsoft-security-graph.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/Untitled.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/04-explore-microsoft-security-graph.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/03-understand-microsoft-defender-xdr-in-a-security-operations-center-soc.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/02-explore-extended-detection-response-use-cases.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/01-intrdouction.md",
@@ -238,9 +241,7 @@
     "ccna/images/Pasted image 20260611105453.png",
     "ccna/images/Pasted image 20260611105443.png",
     "ccna/images/Pasted image 20260611105441.png",
-    "2026-05-30.md",
     "Untitled.canvas",
-    "ccna/day-01.md",
     "networking-notes/networking-notes.pdf",
     "ccna/images",
     "ccna"
