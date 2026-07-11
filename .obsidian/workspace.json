@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/06-use-the-action-center.md",
+                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/07-explore-advanced-hunting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-use-the-action-center"
+              "title": "07-explore-advanced-hunting"
             }
           }
         ]
@@ -200,6 +200,7 @@
   "active": "2fe27aa3afd47d80",
   "lastOpenFiles": [
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/06-use-the-action-center.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/07-explore-advanced-hunting.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/06-manage-automated-investigations.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/05-manage-and-investigate-alerts.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260708235153.png",
@@ -236,7 +237,6 @@
     "ccna/day-12.md",
     "ccna/day-14.md",
     "ccna/day-13.md",
-    "ccna/day-17.md",
     "ccna/images/Pasted image 20260611111021.png",
     "ccna/images/Pasted image 20260611111010.png",
     "ccna/images/Pasted image 20260611111001.png",
