@@ -1,125 +1,41 @@
-## Explore advanced hunting
+This is where you level up from a "security guard" watching for alarms to a "digital detective" actively hunting for hidden criminals.
 
-Advanced hunting is a powerful tool that uses queries to search through 30 days of raw data across your network. It helps you proactively find threats, indicators, and potential breaches. It pulls data from Microsoft Defender for Endpoint, Office 365, Cloud Apps, and Identity.
+### What we are learning in this section
 
-### Data freshness and update frequency
+In this section, you are learning about **Advanced Hunting**. We are moving beyond just looking at the alerts that the system throws at us. You are learning how to dive into the raw, 30-day history of your entire network, write custom queries to find "invisible" threats, turn those queries into auto-detecting rules, and use visual graphs to map out how an attacker moves through your system.
 
-- **Event/Activity data:** Populates tables like alerts and system events. This is available almost immediately after it is sent to the cloud.
+### What tf is Advanced Hunting?
+
+Think of this as a super-powered search engine for your entire network. Instead of waiting for an alert to pop up, you go looking for trouble yourself. You get access to 30 days of raw data from across your entire environment—Endpoints, Office 365, Cloud Apps, and Identity.
+
+It’s important to know _when_ the data shows up:
+
+- **Event/Activity data (the fast stuff):** Alerts and system events appear almost immediately after the sensors send them to the cloud.
     
-- **Entity data:** Information about users and devices. These tables update every 15 minutes and are fully consolidated every 24 hours.
-    
-
-### Time zone
-
-All time information is recorded in UTC.
-
-### Data schema
-
-The schema consists of various tables containing event or entity info. You need to understand these tables and their columns to write effective queries.
-
-#### Get schema information
-
-When building queries, you can check the reference to see:
-
-- **Table description:** What data is inside and where it comes from.
-    
-- **Columns:** The specific data fields available.
-    
-- **Action types:** The types of events supported by that table.
-    
-- **Sample query:** Examples of how to use the table.
+- **Entity data (the slow stuff):** Info about users and devices updates every 15 minutes, but gets fully consolidated every 24 hours.
     
 
-#### Access the schema reference
+### What tf is the Schema?
 
-You can access this by selecting "View reference" next to the table name or searching via "Schema reference".
+If Advanced Hunting is a search engine, the Schema is the map that tells you where to look. It’s a list of tables and columns that hold all your data. You can’t write a good query if you don’t know where the data lives, so you’ll use the "Schema reference" constantly to find table descriptions, the columns available, and examples of how to write the query.
 
-#### Learn the schema tables
+### What tf are Custom Detections?
 
-The schema includes many tables, such as:
+Hunting is great, but you don't want to hunt for the same thing 24/7. Custom Detections allow you to take a "hunting query" you wrote and turn it into a rule that runs on autopilot.
 
-- **AlertInfo:** Alerts from all Defender services (includes severity and threat info).
+- **The Golden Rule:** Every rule is capped at 100 alerts per run to stop you from getting spammed.
     
-- **DeviceEvents/DeviceProcessEvents:** Various events triggered on devices.
+- **The Requirement:** Your query _must_ return three specific columns to work: `Timestamp`, `DeviceId`, and `ReportId`.
     
-- **EmailEvents/EmailAttachmentInfo:** Data regarding email activity.
+- **The Autopilot:** You can set these to run every hour, every 3 hours, or even in "Continuous (NRT)" (Near Real-Time) mode to catch bad guys the second they do something suspicious.
     
-- **IdentityLogonEvents:** Authentication events.
-    
-
-## Custom detections
-
-You can create custom detection rules based on your hunting queries. These rules run automatically to monitor for specific breaches or misconfigurations and can trigger alerts and response actions.
-
-### Create detection rules
-
-1. **Prepare the query:** Run your query first to ensure it works.
-    
-    - _Important:_ Each rule is limited to 100 alerts per run.
-        
-    - _Required columns:_ The query must return `Timestamp`, `DeviceId`, and `ReportId`.
-        
-2. **Create a new rule:** Provide details like the detection name, frequency, alert title, severity, and MITRE ATT&CK techniques.
-    
-3. **Rule frequency:** You can set the rule to run every hour, 3 hours, 12 hours, 24 hours, or **Continuous (NRT)** for near real-time results.
-    
-4. **Choose the impacted entities:** Identify which query columns represent the main affected items (like Device or User).
-    
-5. **Specify actions:** You can have the rule automatically take actions on:
-    
-    - **Devices:** Isolate, collect investigation package, run AV scan, or initiate investigation.
-        
-    - **Files:** Allow/Block or Quarantine.
-        
-6. **Set the rule scope:** Choose whether to apply the rule to all devices or specific groups.
-    
-7. **Review and turn on:** Save the rule to start monitoring.
+- **The Response:** Once the rule catches something, it can automatically Isolate the device, run an AV scan, or Quarantine a file without you lifting a finger.
     
 
-## Visualize threat paths with the Hunting graph (Preview)
+### What tf is the Hunting Graph?
 
-The Hunting graph integrates Microsoft Sentinel with Microsoft Defender XDR to create visual, interactive maps of potential threat scenarios.
+Sometimes, reading tables of data is mind-numbing. The Hunting Graph is a visual map integration that shows you how everything is connected. Instead of stitching together relationships with complex code, you get a visual picture of "nodes" (entities like users or devices) and "edges" (the relationships between them, like permissions or traffic). It’s perfect for spotting "attack paths"—the literal route a hacker takes to get from Point A to your most sensitive data.
 
-- **Why use it:** It helps trace lateral movement, assess exposure to sensitive assets, and identify identities with high-value access without needing to manually write complex KQL joins.
-    
-- **Prerequisites:** You need proper Entra ID roles, access to the Sentinel data lake, and read-only access to Security Exposure Management.
-    
-- **How to launch:** Go to **Investigation & response > Hunting > Advanced hunting** and click the hunting graph icon.
-    
+### What is coming up next
 
-### Graph basics
-
-- **Nodes:** Represent entities (users, devices, storage, etc.).
-    
-- **Edges:** Represent relationships (permissions, traffic routing, etc.).
-    
-
-### Using predefined scenarios
-
-You can load guided panels (scenarios) that bundle specific queries and logic. Common examples include:
-
-- **Paths between two entities:** Checks if A can reach B.
-    
-- **Users with access to sensitive data:** Lists who can reach a sensitive asset.
-    
-- **Data exfiltration by a device:** Shows storage accounts a device can access.
-    
-
-### Refining with filters
-
-You can narrow the graph by:
-
-- Looking for only the shortest paths.
-    
-- Adding constraints like "Is vulnerable" or "Has sensitive data".
-    
-- Filtering by edge type (e.g., "can authenticate as" or "has role on").
-    
-
-### Workflow integration
-
-- **Hypothesize:** Use the graph to scope the investigation visually, then pivot to KQL for evidence validation.
-    
-- **Privilege review:** Use graph scenarios to export identities for access reviews.
-    
-- **Attack surface reduction:** Find over-centralized assets (choke points) to apply better security.
+In the next section, we are shifting focus to **Microsoft Entra sign-in logs**. This is the identity layer. We are going to look at how to track every single user login, spot brute-force attempts, and differentiate between a normal user logging in and a malicious actor trying to hijack an account.
