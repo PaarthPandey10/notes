@@ -2,7 +2,7 @@
 
 In this section, we are learning how to use **KQL (Kusto Query Language)** to specifically hunt through **Microsoft Entra sign-in logs**. You will learn which tables you need to pull from to see if someone’s login was legit or if they got blocked by a security policy.
 
-### What tf are we using to search these logs?
+### What are we using to search these logs?
 
 You can't just stare at a dashboard all day; sometimes you need to write a query to find the exact login you care about. Depending on where you are hunting, you use two different tables:
 
@@ -13,7 +13,7 @@ You can't just stare at a dashboard all day; sometimes you need to write a query
 
 It’s the same data, just two different places to grab it depending on which tool you have open.
 
-### What tf do I actually see in the Azure Portal?
+### What do I actually see in the Azure Portal?
 
 If you don't want to write a code query and just want to look at the logs manually, you head over to the Azure portal.
 

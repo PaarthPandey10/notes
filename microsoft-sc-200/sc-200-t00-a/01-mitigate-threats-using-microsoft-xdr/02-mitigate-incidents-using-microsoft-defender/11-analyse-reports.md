@@ -2,14 +2,14 @@
 
 In this section, we are exploring the **Reports blade** in the Microsoft Defender portal. We are learning how to monitor the "health" of your organization across Endpoints (devices) and Email & Collaboration. Think of this as your executive dashboard that tracks trends, compliance, and potential vulnerabilities before they become active incidents.
 
-### What tf is the Reports blade?
+### What is the Reports blade?
 
 The Reports blade is your "single source of truth." It gathers all the data from Microsoft Defender for Endpoint and Microsoft Defender for Office 365 and turns it into readable charts and metrics.
 
 - **General Reports:** The **Security report** is the main one here. It tracks security trends and shows you the protection status of your identities, data, devices, apps, and infrastructure all in one go.
     
 
-### What tf is happening with my computers (Endpoints)?
+### What is happening with my computers (Endpoints)?
 
 This is the "nuts and bolts" section for your hardware. If a device is acting up or has a hole in its security, these reports will rat it out.
 
@@ -28,7 +28,7 @@ This is the "nuts and bolts" section for your hardware. If a device is acting up
 - **Attack surface reduction (ASR) rules:** Shows you where you are misconfigured or where you need to add exclusions to stay secure without breaking things.
     
 
-### What tf is going on with our Email & Collaboration?
+### What is going on with our Email & Collaboration?
 
 Email is the #1 way bad guys get in. This section is all about keeping that door locked.
 

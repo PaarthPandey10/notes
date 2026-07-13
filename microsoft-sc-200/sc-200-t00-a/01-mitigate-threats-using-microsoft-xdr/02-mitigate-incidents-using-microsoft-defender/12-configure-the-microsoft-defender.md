@@ -2,7 +2,7 @@
 
 In this section, we are learning how to automate the "heads-up" system in the Microsoft Defender portal. You are learning how to configure email notifications so that the system tells _you_ when something big happens, instead of you having to go digging for it. We’re covering the two main types of alerts: **Incidents** (urgent stuff) and **Threat Analytics** (intelligence briefings).
 
-### What tf is this whole "Email Notifications" thing?
+### What is this whole "Email Notifications" thing?
 
 Think of this as your "push notification" system. You shouldn't live in the Defender portal; you have a life. By setting up email notifications, you ensure that as soon as the system flags an issue, it hits your inbox instantly. There are two main types of notifications you can configure:
 
@@ -11,7 +11,7 @@ Think of this as your "push notification" system. You shouldn't live in the Defe
 - **Threat Analytics:** Use this to get notified when new threat intelligence reports are published, so you can stay ahead of the curve.
     
 
-### What tf is the path to set this up?
+### What is the path to set this up?
 
 The path is the same regardless of what you are configuring. You don't need to learn a different maze for every feature. To find these settings, you always start in the same place:
 
@@ -24,7 +24,7 @@ The path is the same regardless of what you are configuring. You don't need to l
 
 From there, you just pick whether you want to configure **Incidents** or **Threat Analytics**.
 
-### How tf do I actually build a notification rule?
+### How do I actually build a notification rule?
 
 The process is so identical for both types that once you learn it, you’ve learned it for everything. It’s a simple 4-step flow:
 

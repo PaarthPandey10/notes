@@ -4,7 +4,7 @@ This is where you level up from a "security guard" watching for alarms to a "dig
 
 In this section, you are learning about **Advanced Hunting**. We are moving beyond just looking at the alerts that the system throws at us. You are learning how to dive into the raw, 30-day history of your entire network, write custom queries to find "invisible" threats, turn those queries into auto-detecting rules, and use visual graphs to map out how an attacker moves through your system.
 
-### What tf is Advanced Hunting?
+### What is Advanced Hunting?
 
 Think of this as a super-powered search engine for your entire network. Instead of waiting for an alert to pop up, you go looking for trouble yourself. You get access to 30 days of raw data from across your entire environment—Endpoints, Office 365, Cloud Apps, and Identity.
 
@@ -15,11 +15,11 @@ It’s important to know _when_ the data shows up:
 - **Entity data (the slow stuff):** Info about users and devices updates every 15 minutes, but gets fully consolidated every 24 hours.
     
 
-### What tf is the Schema?
+### What is the Schema?
 
 If Advanced Hunting is a search engine, the Schema is the map that tells you where to look. It’s a list of tables and columns that hold all your data. You can’t write a good query if you don’t know where the data lives, so you’ll use the "Schema reference" constantly to find table descriptions, the columns available, and examples of how to write the query.
 
-### What tf are Custom Detections?
+### What are Custom Detections?
 
 Hunting is great, but you don't want to hunt for the same thing 24/7. Custom Detections allow you to take a "hunting query" you wrote and turn it into a rule that runs on autopilot.
 
@@ -32,7 +32,7 @@ Hunting is great, but you don't want to hunt for the same thing 24/7. Custom Det
 - **The Response:** Once the rule catches something, it can automatically Isolate the device, run an AV scan, or Quarantine a file without you lifting a finger.
     
 
-### What tf is the Hunting Graph?
+### What is the Hunting Graph?
 
 Sometimes, reading tables of data is mind-numbing. The Hunting Graph is a visual map integration that shows you how everything is connected. Instead of stitching together relationships with complex code, you get a visual picture of "nodes" (entities like users or devices) and "edges" (the relationships between them, like permissions or traffic). It’s perfect for spotting "attack paths"—the literal route a hacker takes to get from Point A to your most sensitive data.
 
