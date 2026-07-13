@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/09-understand-microsoft-secure-store.md",
+                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/10-analyse-threats-with-security-copilot-threat-intelligence-briefing-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-understand-microsoft-secure-store"
+              "title": "10-analyse-threats-with-security-copilot-threat-intelligence-briefing-agent"
             }
           }
         ]
@@ -199,8 +199,9 @@
   },
   "active": "2fe27aa3afd47d80",
   "lastOpenFiles": [
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/08-investigate-microsoft-entra-id-logs.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/09-understand-microsoft-secure-store.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/10-analyse-threats-with-security-copilot-threat-intelligence-briefing-agent.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/08-investigate-microsoft-entra-id-logs.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/07-explore-advanced-hunting.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/06-use-the-action-center.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/06-manage-automated-investigations.md",
@@ -236,7 +237,6 @@
     "ccna/day-06.md",
     "ccna/day-05.md",
     "ccna/day-04.md",
-    "ccna/day-12.md",
     "ccna/images/Pasted image 20260611111021.png",
     "ccna/images/Pasted image 20260611111010.png",
     "ccna/images/Pasted image 20260611111001.png",
