@@ -11,6 +11,7 @@ The **Threat Intelligence Briefing Agent** acts like your own personal AI assist
 ### Where tf do I find this tool?
 
 You don't have to hunt for it in some hidden menu. You can find the agent as a banner right at the top of the **Threat analytics** page in the Microsoft Defender portal. To get there, you just go to **Threat intelligence > Threat analytics** in your navigation menu.
+![](images/Pasted%20image%2020260713132652.png)
 
 ### What tf do I need to run this?
 
@@ -26,6 +27,8 @@ You can't just flip a switch without having the right "keys." To get this workin
 ### How tf do I read these reports?
 
 Once the agent finishes its work, it drops a full briefing panel for you. This panel isn't just a wall of text; it summarizes the threats, shows you your vulnerable exposures (what's broken that might get you hacked), and explains the potential business impact. You don't have to keep it inside the portal, either—you can copy the text or download the whole thing as a **markdown file** to share with your team or bosses.
+![](images/Pasted%20image%2020260713132706.png)
+![](images/Pasted%20image%2020260713132710.png)
 
 ### How tf do I manage and improve this AI?
 
@@ -33,6 +36,8 @@ The agent isn't a "set it and forget it" tool. You can go into **Manage agent** 
 
 If you want to look at old reports, you can find them in the Security Copilot **Activity** area. And here’s the cool part: you can use a "thumbs up" or "thumbs down" to tell the AI if the report was helpful. This feedback loop is how you make the agent smarter so that future briefings are even more relevant to your organization.
 
+![](images/Pasted%20image%2020260713132719.png)
+![](images/Pasted%20image%2020260713132724.png)![](images/Pasted%20image%2020260713132728.png)![](images/Pasted%20image%2020260713132740.png)
 ### What is coming up next
 
 You’ve now mastered how to hunt for threats, investigate identity sign-ins, and generate AI-powered intelligence briefings. In the next section, we will be **Analyzing reports**, where we look at how to synthesize all of this intelligence into actionable defense strategies for your entire organization.
