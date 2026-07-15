@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/01-introduction-to-microsoft-defender-for-office-365.md",
+                "file": "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-introduction-to-microsoft-defender-for-office-365"
+              "title": "02-automate-investigate-remediate"
             }
           }
         ]
@@ -199,6 +199,8 @@
   },
   "active": "2fe27aa3afd47d80",
   "lastOpenFiles": [
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/01-introduction-to-microsoft-defender-for-office-365.md",
+    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/12-configure-the-microsoft-defender.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/11-analyse-reports.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/10-analyse-threats-with-security-copilot-threat-intelligence-briefing-agent.md",
@@ -208,7 +210,6 @@
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/06-use-the-action-center.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/05-manage-and-investigate-alerts.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/04-investigate-incidents.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/01-introduction-to-microsoft-defender-for-office-365.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender",
     "microsoft-sc-200/sc-200-t00-a/Untitled",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/Untitled 1.md",
@@ -244,7 +245,6 @@
     "ccna/day-10.md",
     "ccna/day-11.md",
     "ccna/day-09.md",
-    "ccna/day-08.md",
     "Untitled.canvas",
     "networking-notes/networking-notes.pdf"
   ]
