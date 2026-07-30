@@ -197,10 +197,11 @@
       "better-plugins-manager:Plugin Manager": false
     }
   },
-  "active": "cec3b49e857ffc0e",
+  "active": "aa78fd01ae95220f",
   "lastOpenFiles": [
-    "sc-200",
+    "sc-200/module2-master-notes.md",
     "sc-200/module1-master-notes.md",
+    "sc-200",
     "ccna/day-13.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/01-introduction-to-microsoft-defender-for-office-365.md",
@@ -245,7 +246,6 @@
     "microsoft-sc-200 (t00-a)/defend-against-cyberthreats-with-microsoft's-security-operations-platform.md",
     "ccna/day-23.md",
     "microsoft-sc-200",
-    "Untitled.canvas",
-    "networking-notes/networking-notes.pdf"
+    "Untitled.canvas"
   ]
 }
