@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module5-master-notes.md",
-                "mode": "source",
-                "source": false
+                "file": "sc-200/module1-master-notes.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "module5-master-notes"
+              "title": "module1-master-notes"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "727c5d791ba95412",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microsoft-sc-200/sc-200-t00-a.md",
+                "file": "sc-200/module1-master-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sc-200-t00-a"
+              "title": "Backlinks for module1-master-notes"
             }
           },
           {
@@ -175,8 +176,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,11 +199,11 @@
   },
   "active": "aa78fd01ae95220f",
   "lastOpenFiles": [
+    "sc-200/module2-master-notes.md",
+    "sc-200/module5-master-notes.md",
     "sc-200/module6-master-notes.md",
     "sc-200/module3-master-notes.md",
-    "sc-200/module5-master-notes.md",
     "sc-200/module4-master-notes.md",
-    "sc-200/module2-master-notes.md",
     "sc-200/module1-master-notes.md",
     "sc-200",
     "ccna/day-13.md",
