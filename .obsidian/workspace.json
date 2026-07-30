@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module1-master-notes.md",
+                "file": "sc-200/module5-master-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module1-master-notes"
+              "title": "module5-master-notes"
             }
           }
         ]
@@ -199,6 +199,10 @@
   },
   "active": "aa78fd01ae95220f",
   "lastOpenFiles": [
+    "sc-200/module6-master-notes.md",
+    "sc-200/module3-master-notes.md",
+    "sc-200/module5-master-notes.md",
+    "sc-200/module4-master-notes.md",
     "sc-200/module2-master-notes.md",
     "sc-200/module1-master-notes.md",
     "sc-200",
@@ -236,15 +240,11 @@
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/03-understand-microsoft-defender-xdr-in-a-security-operations-center-soc.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/Untitled.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/02-explore-extended-detection-response-use-cases.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/01-intrdouction.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr",
     "microsoft-sc-200/sc-200-t00-a/01-Mitigate threats using Microsoft Defender XDR.canvas",
     "microsoft-sc-200/sc-200-t00-a/Untitled.base",
     "microsoft-sc-200/sc-200-t00-a",
-    "microsoft-sc-200 (t00-a)/defend-against-cyberthreats-with-microsoft's-security-operations-platform.md",
-    "ccna/day-23.md",
     "microsoft-sc-200",
     "Untitled.canvas"
   ]
