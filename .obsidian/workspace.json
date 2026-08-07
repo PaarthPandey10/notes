@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module9-master-notes.md",
+                "file": "sc-200/module10-master-notes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "module9-master-notes"
+              "title": "module10-master-notes"
             }
           }
         ]
@@ -200,11 +200,11 @@
   },
   "active": "aa78fd01ae95220f",
   "lastOpenFiles": [
+    "sc-200/module9-master-notes.md",
     "sc-200/module8-master-notes.md",
     "sc-200/module7-master-notes.md",
     "sc-200/module6-master-notes.md",
     "sc-200/module10-master-notes.md",
-    "sc-200/module9-master-notes.md",
     "sc-200/module1-master-notes.md",
     "sc-200/module2-master-notes.md",
     "sc-200/module5-master-notes.md",
