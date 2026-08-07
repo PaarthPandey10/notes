@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module1-master-notes.md",
-                "mode": "preview",
+                "file": "sc-200/module9-master-notes.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "module1-master-notes"
+              "title": "module9-master-notes"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "right": {
     "id": "727c5d791ba95412",
@@ -199,12 +200,16 @@
   },
   "active": "aa78fd01ae95220f",
   "lastOpenFiles": [
+    "sc-200/module8-master-notes.md",
+    "sc-200/module7-master-notes.md",
+    "sc-200/module6-master-notes.md",
+    "sc-200/module10-master-notes.md",
+    "sc-200/module9-master-notes.md",
+    "sc-200/module1-master-notes.md",
     "sc-200/module2-master-notes.md",
     "sc-200/module5-master-notes.md",
-    "sc-200/module6-master-notes.md",
     "sc-200/module3-master-notes.md",
     "sc-200/module4-master-notes.md",
-    "sc-200/module1-master-notes.md",
     "sc-200",
     "ccna/day-13.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
@@ -235,11 +240,7 @@
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/03-manage-incidents.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/02-use-the-microsoft-defender-portal.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/01-introduction.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/04-explore-microsoft-security-graph.md",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection/03-understand-microsoft-defender-xdr-in-a-security-operations-center-soc.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/Untitled.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/01-introduction-to-microsoft-defender-xdr-threat-protection",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr",
     "microsoft-sc-200/sc-200-t00-a/01-Mitigate threats using Microsoft Defender XDR.canvas",
