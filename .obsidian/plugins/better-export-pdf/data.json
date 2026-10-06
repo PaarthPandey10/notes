@@ -13,8 +13,8 @@
   "enabledCss": false,
   "concurrency": "5",
   "prevConfig": {
-    "pageSize": "Legal",
-    "marginType": "1",
+    "pageSize": "A2",
+    "marginType": "2",
     "showTitle": true,
     "open": true,
     "scale": 100,

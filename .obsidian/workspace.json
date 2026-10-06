@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "right": {
     "id": "727c5d791ba95412",
@@ -202,8 +201,8 @@
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
     "sc-200/module1-master-notes.md",
-    "sc-200/module3-master-notes.md",
     "sc-200/module2-master-notes.md",
+    "sc-200/module3-master-notes.md",
     "Untitled.md",
     "Untitled",
     "sc-200/module10-master-notes.md",
