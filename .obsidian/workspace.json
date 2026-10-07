@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module2-master-notes.md",
+                "file": "sc-200/module1-master-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2-master-notes"
+              "title": "module1-master-notes"
             }
           }
         ]
@@ -200,8 +200,8 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
-    "sc-200/module1-master-notes.md",
     "sc-200/module2-master-notes.md",
+    "sc-200/module1-master-notes.md",
     "sc-200/module3-master-notes.md",
     "Untitled.md",
     "Untitled",
