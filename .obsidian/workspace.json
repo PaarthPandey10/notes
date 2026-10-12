@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module2-master-notes.md",
+                "file": "sc-200/module3-master-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2-master-notes"
+              "title": "module3-master-notes"
             }
           }
         ]
@@ -201,9 +201,10 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
-    "sc-200/module1-master-notes.md",
     "sc-200/module2-master-notes.md",
     "sc-200/module3-master-notes.md",
+    "sc-200/module4-master-notes.md",
+    "sc-200/module1-master-notes.md",
     "Untitled.md",
     "Untitled",
     "sc-200/module10-master-notes.md",
@@ -212,7 +213,6 @@
     "sc-200/module7-master-notes.md",
     "sc-200/module6-master-notes.md",
     "sc-200/module5-master-notes.md",
-    "sc-200/module4-master-notes.md",
     "sc-200",
     "ccna/day-13.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
