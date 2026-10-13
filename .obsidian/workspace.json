@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module2-graphs.md",
+                "file": "sc-200/module4-graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2-graphs"
+              "title": "module4-graphs"
             }
           }
         ],
@@ -215,8 +215,9 @@
   },
   "active": "95be1916b1e40cad",
   "lastOpenFiles": [
-    "sc-200/module2-master-notes.md",
     "sc-200/module2-graphs.md",
+    "sc-200/module4-graphs.md",
+    "sc-200/module2-master-notes.md",
     "sc-200/module4-master-notes.md",
     "sc-200/module1-graphs.md",
     "sc-200/module1-master-notes.md",
@@ -251,7 +252,6 @@
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260713132710.png",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260713132706.png",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260713132652.png",
-    "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/06-manage-automated-investigations.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260708235153.png",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260708235133.png",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/02-mitigate-incidents-using-microsoft-defender/images/Pasted image 20260708234139.png",
