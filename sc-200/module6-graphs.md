@@ -1,5 +1,4 @@
 ```
-NOTE: Module 6's notes contained no existing Plaintext tree graphs (only box/flow diagrams), so the tree graphs below are built from scratch in the same numbered-section + Master Map format, covering 100% of the raw text.
 
 1. AGENCY HEADQUARTERS & ARCHITECTURE: SENTINEL SIEM, DATA LAKES & MULTI-TENANT MANAGEMENT
 ├── The Big Picture

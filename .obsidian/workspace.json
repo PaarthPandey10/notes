@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module5-graphs.md",
+                "file": "sc-200/module6-graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module5-graphs"
+              "title": "module6-graphs"
             }
           }
         ]
@@ -201,11 +201,11 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
+    "sc-200/module5-graphs.md",
     "sc-200/module10-graphs.md",
     "sc-200/module9-graphs.md",
     "sc-200/module8-graphs.md",
     "sc-200/module7-graphs.md",
-    "sc-200/module5-graphs.md",
     "sc-200/module6-graphs.md",
     "Untitled.md",
     "sc-200/module7-master-notes.md",
