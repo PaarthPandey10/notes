@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "727c5d791ba95412",
@@ -200,15 +201,15 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
-    "sc-200/module5-graphs.md",
-    "sc-200/module10-graphs.md",
-    "sc-200/module9-graphs.md",
-    "sc-200/module8-graphs.md",
     "sc-200/module7-graphs.md",
     "sc-200/module6-graphs.md",
-    "Untitled.md",
     "sc-200/module7-master-notes.md",
+    "sc-200/module5-graphs.md",
     "sc-200/module6-master-notes.md",
+    "sc-200/module8-graphs.md",
+    "sc-200/module10-graphs.md",
+    "sc-200/module9-graphs.md",
+    "Untitled.md",
     "sc-200/module5-master-notes.md",
     "sc-200/module1-master-notes.md",
     "sc-200/module4-graphs.md",
