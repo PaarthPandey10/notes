@@ -1,0 +1,43 @@
+{
+  "workspace:goto-tab-1": [],
+  "desktop-sticky-notes:create-sticky-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "desktop-sticky-notes:hide-sticky-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "desktop-sticky-notes:open-sticky-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "desktop-sticky-notes:set-top-level-sticky-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "desktop-sticky-notes:toggle-top-level-sticky-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ]
+}

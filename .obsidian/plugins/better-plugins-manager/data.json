@@ -113,6 +113,16 @@
       "enabled": true,
       "delay": "",
       "note": ""
+    },
+    {
+      "id": "desktop-sticky-notes",
+      "name": "Desktop Sticky Notes",
+      "desc": "Resizable, file-backed sticky notes in always-on-top desktop windows.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
     }
   ],
   "HIDES": [],
