@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module2-master-notes.md",
+                "file": "sc-200/module1-graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2-master-notes"
+              "title": "module1-graphs"
             }
           }
         ]
@@ -200,19 +200,22 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
-    "Sticky note 2026-10-22T16-55-52-533Z.md",
+    "sc-200/module6-graphs.md",
+    "sc-200/module7-graphs.md",
+    "sc-200/module10-graphs.md",
+    "sc-200/module10-master-notes.md",
+    "sc-200/module9-graphs.md",
+    "sc-200/module9-master-notes.md",
+    "sc-200/module8-master-notes.md",
+    "sc-200/module8-graphs.md",
     "sc-200/module2-master-notes.md",
+    "Sticky note 2026-10-22T16-55-52-533Z.md",
     "sc-200/module2-graphs.md",
     "Sticky note 2026-10-22T16-46-35-813Z.md",
-    "sc-200/module6-graphs.md",
     "ToDo Work.md",
-    "sc-200/module7-graphs.md",
     "sc-200/module7-master-notes.md",
     "sc-200/module5-graphs.md",
     "sc-200/module6-master-notes.md",
-    "sc-200/module8-graphs.md",
-    "sc-200/module10-graphs.md",
-    "sc-200/module9-graphs.md",
     "Untitled.md",
     "sc-200/module5-master-notes.md",
     "sc-200/module1-master-notes.md",
@@ -221,9 +224,6 @@
     "sc-200/module1-graphs.md",
     "sc-200/module3-master-notes.md",
     "Untitled",
-    "sc-200/module10-master-notes.md",
-    "sc-200/module9-master-notes.md",
-    "sc-200/module8-master-notes.md",
     "sc-200",
     "ccna/day-13.md",
     "microsoft-sc-200/sc-200-t00-a/01-mitigate-threats-using-microsoft-xdr/03-remediate-threats-using-microsoft-defender/02-automate-investigate-remediate.md",
