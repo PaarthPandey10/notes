@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "727c5d791ba95412",
@@ -200,13 +201,15 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
+    "sc-200/module1-graphs.md",
+    "sc-200/module1-master-notes.md",
+    "sc-200/module6-master-notes.md",
+    "sc-200/module6-graphs.md",
     "sc-200/module5-graphs.md",
     "sc-200/module4-graphs.md",
     "sc-200/module3-graphs.md",
     "sc-200/module3-master-notes.md",
     "sc-200/module2-graphs.md",
-    "sc-200/module1-graphs.md",
-    "sc-200/module6-graphs.md",
     "sc-200/module7-graphs.md",
     "sc-200/module10-graphs.md",
     "sc-200/module10-master-notes.md",
@@ -219,10 +222,8 @@
     "Sticky note 2026-10-22T16-46-35-813Z.md",
     "ToDo Work.md",
     "sc-200/module7-master-notes.md",
-    "sc-200/module6-master-notes.md",
     "Untitled.md",
     "sc-200/module5-master-notes.md",
-    "sc-200/module1-master-notes.md",
     "sc-200/module4-master-notes.md",
     "Untitled",
     "sc-200",

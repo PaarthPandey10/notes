@@ -1,121 +1,176 @@
 ```
-1. THE BIG PICTURE: CATCHING THE GHOST WITH THE KEYS
-├── The Scenario & The Problem
-│   ├── The Illusion of Perimeter Security: It's 3 AM on a Sunday. Perimeter firewalls are holding strong, Microsoft Defender shows zero external threats, and physical guards are drinking coffee. Everything looks perfectly quiet.
-│   ├── The Nightmare: At that exact moment, your most trusted senior developer ("Jane") is quietly downloading your unreleased Q4 source code onto a personal thumb drive.
-│   └── The Blind Spot: Front-gate guards are completely useless because they are looking outward. You cannot catch a "ghost" that already has the keys to the building by waiting for a perimeter alarm to blink red.
-├── The Solution: Microsoft Purview (Looking Inward)
-│   ├── The overarching umbrella brand for managing data security, risk, and compliance (accessed at purview.microsoft.com).
-│   ├── Focuses on *actions and content*, not just malware code (e.g., "Why is the CFO's assistant photocopying the earnings report at 3 AM?").
-│   └── The Dual Architecture
-│       ├── Internal Affairs: The compliance and data security team monitoring employee behaviors for policy violations and data theft.
-│       └── Corporate Archive: The unified audit logging and evidence preservation vault that securely records every digital action for legal review.
-2. THE MAILROOM CHECKPOINT: DATA LOSS PREVENTION (DLP)
-├── Concept: Automated inspection guards standing at every office door, mail chute, and USB port, examining every package before it leaves the building.
-├── Identification Method 1: Sensitive Information Types (SITs)
-│   ├── The guard opens the envelope to look for specific text patterns (e.g., Credit Card Numbers).
-│   └── Preventing False Positives (The Granular Check):
-│       ├── Primary Evidence: Regex patterns matching the structural format.
-│       ├── Checksum Validation: Runs a mathematical algorithm (e.g., Luhn algorithm for credit cards) before alarming.
-│       └── Secondary Evidence: Checks for proximity keywords (e.g., "Visa", "Expiration Date" within 300 characters).
-├── Identification Method 2: Sensitivity Labels
-│   ├── The digital "Highly Confidential" red watermark stamped directly on the outside of the file.
-│   ├── Label Inheritance: If a user copies text from a labeled document and pastes it into a blank file, the new file automatically inherits the "Highly Confidential" status (the label travels with the data).
-│   └── Downgrade Protection: If an employee tries to change a label from "Confidential" to "Public" to sneak it out, the system forces them to type out a written justification, instantly generating a high-severity audit log.
-├── Managing Alert Fatigue (Single vs. Aggregate)
-│   ├── Single-Event Alerts: Triggered immediately for undeniable high-risk actions (e.g., emailing 5,000 patient health records).
-│   ├── Aggregate-Event Alerts: Triggered only when a threshold is met (e.g., 15 project codes shared in 60 minutes) to highlight deliberate exfiltration while ignoring accidental human error.
-│   └── User-and-Rule-Based Alert Aggregation: Groups single-event alerts triggered by the same user matching the same rule into one notification.
-├── The Alert Lifecycle (6 Phases)
-│   └── 1. Trigger -> 2. Notify (Purview & Defender XDR) -> 3. Triage -> 4. Investigate (Activity/Content Explorer) -> 5. Remediate -> 6. Tune.
-└── The Automated Sorting Clerk: DLP Triage Agent (Preview)
-├── An AI agent powered by Security Copilot (billed via SCU) that evaluates active alerts.
-├── Analyzes Content Risk, Exfiltration Risk (destination matters), and Policy Risk.
-└── Categorizes the massive queue into: [Needs Attention], [Less Urgent], and [Not Categorized] so humans focus on critical threats first.
-3. WATCHING INTERNAL AFFAIRS: INSIDER RISK MANAGEMENT
-├── Concept: Shifting from transactional events (DLP) to tracking behavioral patterns ("low and slow" data theft) over time.
-├── Privacy Protection: Pseudonymization
-│   ├── A strict GDPR/privacy requirement. By default, investigators do not see "Jane Smith"; they see an anonymized string like "User 8X9".
-│   └── Prevents investigator bias. True identity is only unmasked if the behavioral threat is definitively confirmed and HR/Legal grants approval.
-├── The 5-Step Alert Generation Engine
-│   ├── 1. Settings Configured: Establish privacy, audit logs, and risk indicators.
-│   ├── 2. Policy Created: Tell the system who/what to watch (e.g., "Data theft by departing employees").
-│   ├── 3. Triggering Event: The system wakes up (e.g., HR portal registers Jane submitting her two-week resignation notice).
-│   ├── 4. User Activity Evaluated & Scored: Machine learning compares current actions against historical baselines (e.g., Jane usually downloads 5 files a day; today she downloaded 500. Risk score spikes).
-│   └── 5. Alert Generated: Fired into the queue only if the accumulated risk score breaches the threshold.
-├── Visual Investigation UI (Parsing the Data)
-│   ├── All Risk Factors Tab: The executive summary (top exfiltration activities).
-│   ├── Activity Explorer Tab: The raw forensic timeline.
-│   └── User Activity Tab (The Scatter Plot Timeline)
-│       ├── An interactive visual map spanning 1, 3, or 6 months.
-│       ├── Bubbles = Scored events (height = risk score; size = volume; color = activity type like blue for benign access, red for exfiltration).
-│       └── Connecting Lines (Risk Sequences) = Visually connects the intent (e.g., Accesses code -> downgrades label -> transfers to personal cloud). Demystifies the entire narrative.
-└── Escalation & SOC Sync
-├── Defender XDR Integration: Bi-directional sync of alerts (Purview "Needs review" maps to Defender "In progress"). Raw telemetry queryable in Advanced Hunting (`AlertEvidence`, `DataSecurityBehaviors`).
-└── Confirm all alerts & create Case: Formally transitions the event from a security investigation to an incident response, bringing in HR and Legal.
-4. THE LEGAL VAULT: eDISCOVERY & LEGAL HOLDS
-├── Concept: When Legal/HR gets involved, a screenshot of a scatter plot isn't enough. They need hard, legally defensible, tamper-proof evidence (Chain of Custody).
-├── Securing the Vault Doors (RBAC Isolation)
-│   ├── Principle of Least Privilege: Even a Global IT Administrator does NOT have access to read the CEO's emails by default.
-│   ├── eDiscovery Manager: Can create cases and search data, but only sees cases they created or were invited to.
-│   └── eDiscovery Administrator: Can view all cases tenant-wide.
-├── The 4-Phase Search Process
-│   ├── 1. Define Criteria: Name and initial scope.
-│   ├── 2. Identify Sources: Narrow the haystack (target specific OneDrive URLs or mailboxes instead of searching a 10,000-person company).
-│   ├── 3. Build the Query: Uses KeyQL (Keyword Query Language).
-│   │   ├── Copilot Translation: Instead of risking a missed parenthesis in complex boolean logic, investigators type natural language ("Find emails from Jane about Project Phoenix"), and Copilot generates perfect KeyQL.
-│   │   └── Search by File: Uploads .txt or .csv files to use as baseline matching patterns.
-│   └── 4. Run & Review: System provides statistical samples to check your work (ensuring you didn't accidentally pull 40,000 irrelevant newsletters) before exporting.
-└── Preserving Chain of Custody (Export & Cryptographic Hashes)
-├── Export Format: PST (Personal Storage Table) bundling emails, metadata, and folders into one file.
-├── Condense Paths: Fixes the 259-character file path limit errors during download.
-└── Cryptographic Hash (The Digital Wax Seal):
-├── Runs the exported file through SHA-256 to spit out a fixed mathematical fingerprint.
-└── If opposing counsel claims IT altered a single comma to make the employee look guilty, rehashing the file will produce a radically different string. If the hashes match, the evidence is mathematically proven to be perfectly intact.
-5. SECURITY CAMERA TAPES: MICROSOFT PURVIEW AUDIT
-├── Concept: The unified logbook recording every click, download, and login. If you need to know exactly who did what, you rewind these tapes (Requires UTC timestamps).
-├── Fencing Visibility: Administrative Units (AUs)
-│   └── A logical container that ensures the Berlin IT auditor can only rewind tapes for the German campus, keeping them cryptographically blind to the Seattle CEO's logs.
-├── Audit Tiers & Retention (Cost vs. Risk)
-│   ├── Standard Audit: 180-day retention. Good for immediate response, but fails against long-term, patient insiders whose entry logs get overwritten.
-│   └── Premium Audit: 1-year default, custom policies up to 10 years. (Storing 10 years of logs for every intern is computationally/financially impossible; apply strategically to high-value targets via priority scoring).
-├── Deep Forensics: MailItemsAccessed (The Holy Grail)
-│   ├── Prevents catastrophic "assume all emails were read" legal breach notifications by proving exactly which emails the attacker actually opened.
-│   ├── Sync Access: Background infrastructural download (machine-to-machine).
-│   ├── Bind Access: The smoking gun. Proves human interaction (actively clicking/viewing a single specific email).
-│   ├── 24-Hour Throttling: If a script opens 10,000 emails in an hour, Purview logs the initial Bind and suppresses the rest for 24 hours to prevent the database from crashing.
-│   └── 1-Hour Deduplication: Filters out duplicate records for the exact same message opened within an hour.
-└── AI Surveillance (Watching the Robots)
-├── If an employee asks AI to summarize a secret file before stealing the summary, Purview watches the AI.
-├── Record Types: CopilotInteraction (1st party), ConnectedAIAppInteraction (Custom/Entra apps; requires DSPM onboarding), AIAppInteraction (3rd party; requires Browser Extension & Pay-As-You-Go billing).
-└── Metadata: Logs AppIdentity, AccessedResources (what the AI read), and JailbreakDetected (flagging prompt injections/safety bypasses). Does NOT log the raw prompt text for privacy.
-6. PARSING EVIDENCE: LOG TRANSFORMATIONS & POWER QUERY
-├── The Problem: The "Russian Nesting Doll"
-│   └── When you export the raw camera tapes, all crucial details (IPs, file paths) are crammed into a single unreadable nested JSON cell called `AuditData`.
-├── Method 1: Excel Power Query Editor (Visual Wizardry)
-│   ├── 1. Open CSV -> Transform Data
-│   ├── 2. Right-click the `AuditData` column -> Transform -> JSON.
-│   └── 3. Expand properties: Magically explodes the nested brackets into dozens of neat, distinct columns (SiteUrl, ClientIPAddress), generating a flattened, sortable report.
-└── Method 2: PowerShell (`Search-UnifiedAuditLog`)
-├── Used by tech-savvy investigators for massive, automated log extraction. Implements Pagination (`-SessionId` and `-SessionCommand ReturnLargeSet`) to bypass 5,000-row limits.
-└── The Legal Trap (`-Encoding UTF8`):
-└── You absolutely MUST append the `-Encoding UTF8` parameter to the export script. If omitted, foreign characters (German umlauts, Mandarin characters) corrupt into gibberish. Handing a spreadsheet of gibberish to a judge renders your evidence legally inadmissible.
-7. MASTER MAP: MITIGATING INTERNAL THREATS WITH PURVIEW
-├── 1. THE MAILROOM CHECKPOINT (DLP)
-│   ├── Tools: SITs (Regex + Checksums + Proximity), Sensitivity Labels (Downgrade protection/Inheritance).
-│   └── Operations: Single vs. Aggregate alerts; AI Triage Agent sorting the queue by risk.
-├── 2. INTERNAL AFFAIRS (INSIDER RISK MANAGEMENT)
-│   ├── Mindset: Behavioral "low and slow" sequences.
-│   ├── Privacy: Pseudonymization (User 8X9).
-│   └── Visuals: Scatter Plot Timeline drawing lines between anomalous spikes to reveal intent.
-├── 3. THE LEGAL VAULT (eDISCOVERY)
-│   ├── Security: Strict RBAC (eDiscovery Manager/Admin).
-│   ├── Workflow: 4-Phase Search (Scope, Source, KeyQL/Copilot NL Translation, Sample Review).
-│   └── Evidence: Exported as PSTs with SHA-256 Cryptographic Hashes for an airtight Chain of Custody.
-├── 4. THE SECURITY CAMERA TAPES (PURVIEW AUDIT)
-│   ├── Tiers: Standard (180 days) vs. Premium (1-10 years, High-Value Events).
-│   ├── Evidence: `MailItemsAccessed` (Bind vs. Sync; 24-hr throttling) & AI Surveillance logs (`JailbreakDetected`).
-│   └── Boundaries: Administrative Units (AUs) scope visibility.
-└── 5. PARSING EVIDENCE
-└── Extracting nested JSON from the `AuditData` column using Excel Power Query or PowerShell (mandating UTF8 encoding and pagination to prevent legally inadmissible gibberish).
+1. THE BIG PICTURE & AGENCY ARCHITECTURE
+├── GLOBAL INTELLIGENCE AGENCY ANALOGY (Managing enterprise security is like monitoring a global surveillance grid)
+│   ├── The Challenge: Billions of raw logs from physical and cloud assets. Humans can't read it all without "alert fatigue."
+│   └── The Solution: Microsoft Sentinel (a cloud-native platform aggregating, analyzing, and responding to enterprise threat data).
+│       ├── SIEM (Security Information and Event Management): The central system that ingests and analyzes logs.
+│       └── SOAR (Security Orchestration, Automation, and Response): The automated robotic framework that executes immediate response actions.
+│
+├── THE DUAL-STORAGE ARCHITECTURE (Hot vs. Cold Storage)
+│   ├── SIEM Operations Floor (Log Analytics Workspace)
+│   │   ├── The active "hot" database environment for day-to-day operations.
+│   │   ├── Kept in high-performance storage (Analytics tier) for real-time alerts.
+│   │   └── Operational retention window: 30 days by default (up to 730 days).
+│   └── Platform Data Lake
+│       ├── The "cold" long-term archive for historical logs (up to 12 years).
+│       └── Uses basic/Data Lake storage tiers for cost-efficiency; supports asynchronous graph-based analysis for slow-moving attacks.
+│
+├── DEPLOYMENT TOPOLOGIES & MANAGEMENT
+│   ├── Single Tenant with Single Workspace: One command room for a single SOC.
+│   ├── Regional Workspaces: Used strictly to comply with Data Residency rules (legal requirements keeping data within specific geographic borders).
+│   ├── Multi-Tenant Architecture: Independent workspaces for different subsidiaries/customers.
+│   │   ├── Workspace Manager: Centrally publishes rules/searches across multiple workspaces.
+│   │   └── Azure Lighthouse: Lets security providers view/operate customer Sentinel environments without constantly logging in and out.
+│   └── Unified Security Operations Platform ([https://security.microsoft.com/](https://security.microsoft.com/))
+│       ├── Merges Microsoft Sentinel and Microsoft Defender XDR into a single web portal.
+│       ├── Correlates XDR's specialized alerts into unified Incident case files automatically.
+│       └── Sentinel's legacy Fusion Analytics Rule (machine-learning multi-stage correlator) is automatically disabled to prevent duplicate tickets.
+│
+2. WIRING THE GLOBAL NETWORK (DATA INGESTION)
+├── CONTENT HUB & MANAGEMENT
+│   ├── Content Hub: The "digital hardware store" where you download pre-packaged Solutions (kits containing data connectors, parsing rules, and workbooks).
+│   └── Source Control: Syncs custom rules and code via GitHub or Azure DevOps.
+│
+├── NATIVE MICROSOFT CONNECTORS (Service-to-Service friction-less cables)
+│   ├── Microsoft Entra ID: Ingests audit, interactive, non-interactive, and service principal sign-in logs.
+│   ├── Azure Activity: Captures ARM management operations across Azure.
+│   ├── Microsoft Defender for Cloud: Offers legacy Subscription-based (raw SecurityAlerts) or modern Tenant-based (unified incident queues).
+│   └── Microsoft Defender XDR Connector: Streams raw Advanced Hunting tables (DeviceEvents, DeviceFileEvents, DeviceProcessEvents, DeviceNetworkEvents).
+│
+├── WINDOWS DESK SURVEILLANCE (Physical & Cloud Servers)
+│   ├── Azure Arc: A software bridge projecting non-Azure and on-premises servers into Azure as managed resources.
+│   ├── AMA (Azure Monitor Agent): The lightweight OS tracking bug that actually collects the logs.
+│   └── DCR (Data Collection Rule): The cloud-managed "ruthless mailroom sorter" that stops network congestion by filtering data before it leaves the laptop.
+│       └── Tiers: All Events, Common (logon 4624, logoff 4634), Minimal (critical breach only), Custom (KQL filtered).
+│
+├── FOREIGN FIREWALL TRANSLATION (Third-Party Appliances)
+│   ├── The Problem: Appliances (Palo Alto, Cisco) speak Syslog, a messy, unstructured event-logging protocol on TCP/UDP 514.
+│   ├── The Translation Booth (Syslog Forwarder): A dedicated Linux VM built to process foreign logs.
+│   ├── Raw Syslog Pipeline: Firewall -> Linux Forwarder (Port 514) -> AMA (TCP 28330) -> Sentinel Cloud (HTTPS Port 443). Lands unparsed in the `Syslog` table.
+│   └── CEF (Common Event Format) Pipeline: Preferred. Structures data into key-value columns before transmission (Port 25226). Lands in `CommonSecurityLog` table.
+│
+└── CUSTOM & EXTERNAL INGESTION
+├── CCP (Codeless Connector Platform): Builds REST API connectors for custom apps without coding.
+├── Log Analytics Ingestion API: Receives direct JSON payloads.
+└── Threat Intelligence: Wires live feeds of known-bad IPs/domains into the `ThreatIntelligenceIndicator` table via TAXII connectors or Upload Indicators API.
+│
+3. THE ROBOTIC LIBRARIAN'S CONVEYOR BELT (KQL SYNTAX)
+├── KQL (Kusto Query Language) BASICS
+│   ├── A read-only language designed for massive column-store database queries.
+│   └── The Pipe (`|`): Acts as a physical conveyor belt passing transformed data from left to right.
+│
+├── FOUNDATIONAL OPERATORS (The Workstations)
+│   ├── `search`: The "CPU Killer." Multi-table/column wildcard search. Computationally inefficient.
+│   ├── `where`: The strict filter/shredder. Instantly discards non-matching rows to speed up queries (uses `ago()`, `==`, `=~`, `in`, `!in`).
+│   ├── `let`: The "sticky note." Declares variables, arrays, or subqueries at the top for modularity.
+│   ├── The `project` Family: The "black marker" controlling output columns.
+│   │   ├── `project` (keeps listed columns/creates new ones)
+│   │   ├── `project-away` (excludes columns)
+│   │   ├── `project-keep` (explicitly preserves columns)
+│   │   ├── `project-rename` (changes column headers)
+│   │   └── `project-reorder` (reorders visually)
+│   └── `order by` / `sort by`: Sorts rows (asc/desc).
+│
+├── TRANSFORMATION & AGGREGATION (The Accountant's Desk)
+│   ├── `extend`: Calculates brand-new columns on the fly (e.g., using `substring`, `string_size`) without modifying the database.
+│   └── `summarize`: Groups rows by a common denominator (the `by` clause) and performs math.
+│       ├── `count()` / `countif()`: Tallies total rows (identifies Brute Force).
+│       ├── `dcount()` / `dcountif()`: Estimates distinct/unique values (identifies Password Spray).
+│       ├── `avg()`, `min()`, `max()`, `sum()`, `percentile()`, `stdev()`, `variance()`: Standard math.
+│       ├── `arg_max()` / `arg_min()`: Grabs the full row for the newest (max) or oldest (min) event.
+│       └── `make_list()` / `make_set()`: Bundles values into a dynamic JSON array (list = keeps duplicates, set = distinct unique values only).
+│
+└── TIME SERIES & VISUALIZATIONS
+├── `bin()`: Rounds scattered timestamps into discrete buckets (e.g., 1-hour chunks).
+└── `render`: Draws the visual graph (timechart, barchart, columnchart, piechart, areachart, scatterchart).
+│
+4. CONNECTING INTELLIGENCE DRAWERS (UNIONS & JOINS)
+├── VERTICAL STACKING: `union`
+│   ├── Dumps tables on top of each other (makes dataset taller). Supports wildcards (`union Security*`).
+│   └── `withsource`: Parameter that creates a new column showing which original table each row came from.
+│
+└── HORIZONTAL STAPLING: `join`
+├── Merges a LeftTable and RightTable into a wider table based on a matching key column.
+├── Golden Rule: Smallest dataset goes on the Left to prevent cluster memory crashes.
+└── KQL Join Flavors (How it handles matches/mismatches)
+├── `innerunique` (Default): 1 row from left matches right rows.
+├── `inner`: Strict. Outputs only if there is a match on BOTH sides.
+├── `leftouter` / `fullouter`: Inclusive. Keeps rows even if unmatched (fills blanks with nulls).
+├── `rightouter`: Keeps all right rows.
+├── `leftsemi` / `rightsemi`: Keeps rows with a match, but does NOT append the other table's columns.
+└── `leftanti` / `rightanti` (leftantisemi / rightantisemi): The Hunter's Negative Space. Keeps rows ONLY if they DO NOT have a match on the other side.
+│
+5. UNLOCKING UNSTRUCTURED FILES & EXTERNAL INTELLIGENCE
+├── PARSING TEXT & JSON
+│   ├── Text: `extract()` (uses strict Regex capture groups) and `parse` (uses a simpler string template with modes: simple, regex, relaxed).
+│   ├── JSON: Extracted using Dot Notation (e.g., `Device.OS`), or `parse_json()` / `todynamic()` (converts strings into queryable dynamic object bags).
+│   └── Arrays: `mv-expand` (explodes a JSON list by duplicating the row for every item) and `mv-apply` (applies subqueries to expanded elements).
+│
+└── INTEGRATING EXTERNAL DATA
+├── `externaldata`: Pulls external files directly from Azure Blob/Data Lake via a SAS token URL.
+├── Watchlists: Static CSV reference lists (e.g., VIPs, Terminated Employees) uploaded to Sentinel. Queried via the `_GetWatchlist()` function to suppress false positives.
+└── Threat Intelligence: Correlates incoming logs against known adversary infrastructure automatically.
+│
+6. AUTOMATED ALARM TRIPWIRES (ANALYTICS RULES)
+├── Scheduled Rules: KQL queries running on a strict timer (e.g., every 5 minutes). Built via a 5-step wizard.
+│   ├── Entity Mapping: Crucial step mapping KQL columns to standard Sentinel Entities (Account, IP, Host) for UEBA and visual graphs.
+│   ├── Custom Details / Alert Details: Extracts query metadata to dynamically name the alert.
+│   ├── Scheduling & Threshold: Uses overlapping historical lookback windows. Generates alert when row count > threshold.
+│   ├── Event Grouping: Groups matching rows into a Single alert or an alert for each event.
+│   ├── Suppression: Pauses the rule temporarily after firing to stop duplicate ticket floods.
+│   └── Incident Settings / Alert Grouping: Groups alerts within a window (up to 7 days) into a single incident case file.
+├── NRT Rules (Near-Real-Time): Runs continuously with sub-minute latency to catch high-speed attacks (ransomware).
+├── Anomaly Rules: Machine-learning algorithms establishing behavioral baselines. Writes silently to the `Anomalies` table instead of creating noisy incident tickets.
+└── Microsoft Security Rules: Auto-generates Sentinel incidents from connected Defender solutions.
+│
+7. AUTOMATED ROBOTIC TASK FORCES (SOAR)
+├── THE DISPATCH DESK: Automation Rules
+│   ├── Natively manages incident metadata (Triage).
+│   ├── Actions: Changes status/severity, assigns owner, adds operational tags, and evaluates execution order via the Priority field.
+│   └── Dispatches Playbooks.
+│
+└── THE ROBOTIC TASK FORCE: Logic App Playbooks
+├── Built on Azure Logic Apps (drag-and-drop cloud workflow designer).
+├── Triggers: Incident triggered, Alert triggered, or Entity triggered (manual execution from investigation page).
+├── Actions: API connector tasks (e.g., Disable Entra account, isolate MDE device, block IP, send Teams message).
+└── Security: Requires explicit Managed Identity permissions or service principals to execute administrative actions securely.
+│
+8. INCIDENT INVESTIGATION & ENTITY PROFILING
+├── The Incident Hierarchy
+│   ├── 1. Events: Individual, raw log lines.
+│   ├── 2. Alerts: Moments an analytics rule tripwire identified suspicious events.
+│   ├── 3. Entities: The real-world nouns (Accounts, Hosts, IPs, File Hashes).
+│   └── 4. Incidents: The central case file grouping all of the above.
+│
+├── UEBA (User and Entity Behavior Analytics)
+│   ├── Builds dynamic behavioral baselines (working hours, locations, peer groups).
+│   ├── Assigns an Investigation Priority Score for deviations (logging to the Anomalies table).
+│   └── Viewable on the interactive Entity Page.
+│
+├── ASIM (Advanced Security Information Model)
+│   ├── The "Universal Translator" framework. Normalizes varying vendor column schemas (Cisco, Windows, Palo Alto) into standard fields.
+│   └── Unifying Parsers: `imAuthentication`, `imProcessCreate`, `imNetworkSession`, `imDns`, `imWeb`, `imFileEvent`. (e.g., standardizing everything to `TargetUserPrincipalName`).
+│
+└── Workspace Transformation DCRs
+└── KQL rules that execute right at the ingestion pipeline to drop/mask unnecessary or PII data before it hits the disk, saving storage costs.
+│
+9. PROACTIVE FIELD OPERATIONS (THREAT HUNTING)
+├── The Threat Hunting Cycle (Assuming Breach)
+│   ├── Hypothesis: Must be Achievable, Narrow in Scope, Time-Bound, Useful/Efficient, and Aligned to Threat Model (MITRE ATT&CK).
+│   ├── Bookmarks: Digital evidence bags. Preserves logs and query syntax. Escalate to the visual Entity Graph and formal incidents.
+│   └── Live Stream: Runs a KQL hunt continuously in real-time with desktop notifications.
+│
+├── Deep Historical Archives
+│   ├── Search Jobs: Asynchronous background queries for massive Data Lakes (writes to `_SRCH` tables).
+│   ├── Data Restoration: Restores archived cold logs back into active Log Analytics.
+│   └── Data Lake KQL Jobs: Background analytical tasks across cold storage.
+│
+└── The Forensic Crime Lab (Jupyter Notebooks)
+├── Interactive Python coding environments running on Azure Machine Learning / Compute Clusters.
+├── KQLmagic: Python library allowing hunters to execute KQL inside Jupyter and pass results to Python data frames.
+├── MSTICPy: Microsoft Threat Intelligence Python Security Tool (built for IP lookups, decoding, cyber-visualization, malware analysis).
+└── Integration: Uses GitHub Copilot (AI) and MCP (Model Context Protocol) to connect IDEs to Sentinel backends securely.
+│
+10. CONNECTING THE DOTS (THE CLOSED LOOP)
+└── The Loop: Security is not a straight line. Proactive Threat Hunting discovers new adversary techniques, which are extracted into CSV Watchlists, and translated into brand new Analytics Rules. The hunt hardens the baseline, becoming tomorrow's automated tripwire.
 ```
