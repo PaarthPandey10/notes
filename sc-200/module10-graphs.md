@@ -35,7 +35,7 @@
 │   ├── Color-codes the matrix based on your active Analytics Rules.
 │   └── Gap Analysis: Shows exactly how many guards monitor a hallway (e.g., 18 rules for "Valid Accounts") and explicitly exposes your dark, unguarded hallways (e.g., 0 rules for "Scheduled Task").
 └── Simulated Coverage Dropdown (The Latent Potential)
-└── Acts like accessing a locked circuit breaker box. It overlaps all available, dormant built-in rules onto the matrix, visually proving to leadership how activating existing solutions could instantly close security gaps today.
+	└── Acts like accessing a locked circuit breaker box. It overlaps all available, dormant built-in rules onto the matrix, visually proving to leadership how activating existing solutions could instantly close security gaps today.
 4. PATROLLING THE CORRIDORS: KQL FLASHLIGHTS & LIVESTREAMS
 ├── KQL (Kusto Query Language) as the Flashlight Beam
 │   └── Used to rapidly sift through billions of raw telemetry events. The beam can be broad or adjusted to a highly complex laser pointer zeroing in on a single user.
@@ -46,9 +46,9 @@
 │   ├── Saving a custom query as a "Favorite" doesn't just bookmark the text.
 │   └── It commands Sentinel to automatically execute that exact sweep the moment the detective opens the Hunting page, delivering a real-time anomaly report before their morning coffee.
 └── Livestream (The Stopwatch / Real-Time Door Tap)
-├── The Concept: Pointing the KQL flashlight at a highly sensitive doorway and waiting with an unblinking stopwatch to see who walks through *right now*.
-├── The Mechanics: Runs continuously in the background, refreshing results every 30 seconds to generate immediate portal notifications.
-└── The Structural Constraint: You absolutely CANNOT use historical time parameters (e.g., `ago(7d)`). A livestream is strictly forward-looking; applying a historical lookback mathematically breaks the logic of a live data feed.
+	├── The Concept: Pointing the KQL flashlight at a highly sensitive doorway and waiting with an unblinking stopwatch to see who walks through *right now*.
+	├── The Mechanics: Runs continuously in the background, refreshing results every 30 seconds to generate immediate portal notifications.
+	└── The Structural Constraint: You absolutely CANNOT use historical time parameters (e.g., `ago(7d)`). A livestream is strictly forward-looking; applying a historical lookback mathematically breaks the logic of a live data feed.
 5. PRESERVING EVIDENCE: BOOKMARKS & THE ENTITY GRAPH
 ├── The Psychology of the Investigation (Calculated Precision)
 │   ├── Why not hit the big red button immediately? A weird login at 2 AM might be a nation-state... or just the VP of Sales in Tokyo dealing with insomnia.
@@ -58,8 +58,8 @@
 │   ├── Captures the raw logs, query results, detective's notes, mapped entities (IPs, users), and attaches a formal MITRE ATT&CK label (e.g., T1078 Valid Accounts).
 │   └── Handoff to SOAR: Appending the bookmark to an incident ticket passes the bagged evidence to automated robots (Playbooks) to isolate servers or route tickets.
 └── The Investigation Entity Graph (The Detective's Corkboard)
-├── A dynamic visual web translating disparate clues into a coherent narrative.
-└── Places the initial footprint (an IP address) as a central node, drawing red strings (connecting lines) to every associated server, database, and domain, revealing the attacker's entire trajectory through the campus.
+	├── A dynamic visual web translating disparate clues into a coherent narrative.
+	└── Places the initial footprint (an IP address) as a central node, drawing red strings (connecting lines) to every associated server, database, and domain, revealing the attacker's entire trajectory through the campus.
 6. DIGGING IN THE DEEP ARCHIVES: SEARCH JOBS VS. DATA RESTORATION
 ├── The Challenge: The trail goes cold, leading to an archive door locked 8 months ago. Hot cache data only holds recent logs. Standard queries across deep time horizons will time out.
 ├── Method 1: Search Jobs (The Tireless Intern)
