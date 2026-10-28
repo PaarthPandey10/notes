@@ -1,6 +1,4 @@
 ```
-
-
 1. ATTACK FRAMEWORKS & THE CAMPUS ARCHITECTURE
 ├── CAMPUS ANALOGY (Managing enterprise security is like managing physical security for a Sprawling Corporate Campus with a Centralized Security Control Room)
 │   ├── Sprawling Corporate Campus (your entire digital estate across email, endpoints, identities, and cloud applications)
