@@ -1,4 +1,4 @@
-```
+```t
 1. THE BIG PICTURE: THE WALKABOUT DETECTIVE & DWELL TIME
 ├── The Scenario: The Spy is Already Inside
 │   ├── The Illusion of Security: Your perimeter is heavily guarded (cameras, tripwires), but what if a spy walked in three months ago dressed as an HVAC technician and is quietly copying files in a dark basement?
