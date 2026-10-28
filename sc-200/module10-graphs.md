@@ -101,6 +101,6 @@ MASTER MAP: PROACTIVE THREAT HUNTING AND DEEP FORENSICS
 │   ├── Search Jobs (`_SRCH`): The tireless intern. Async, background searches up to 1 year.
 │   └── Data Restoration (`_RST`): The moving company. Hauling up to 60TB of cold logs into the hot cache for full KQL joins. Must be deleted post-investigation to stop billing.
 └── 6. THE FORENSIC CRIME LAB
-└── For apex predators: Escalate to Jupyter Notebooks on Azure ML Compute Instances. Use Kqlmagic and MSTICPy (Python) to execute complex data science, behavioral modeling, and external threat enrichment beyond the limits of standard KQL.
-
+	└── For apex predators: Escalate to Jupyter Notebooks on Azure ML Compute Instances. Use Kqlmagic and MSTICPy (Python) to execute complex data science, behavioral modeling, and external threat enrichment beyond the limits of standard KQL.
 ```
+
