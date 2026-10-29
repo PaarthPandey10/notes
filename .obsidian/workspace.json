@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module1-graphs.md",
+                "file": "sc-200/module2-graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module1-graphs"
+              "title": "module2-graphs"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
-    "sc-200/module10-master-notes.md",
     "sc-200/module1-graphs.md",
+    "sc-200/module10-master-notes.md",
     "aws-cloud-practitioner/aws-cloud-practitioner-main.md",
     "sc-200/module10-graphs.md",
     "ToDo Work.md",

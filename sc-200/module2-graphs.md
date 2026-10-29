@@ -1,6 +1,4 @@
 ```
-
-
 1. THE BIG PICTURE & THE AI DETECTIVE'S BRAIN
 ├── The Scenario: Cognitive Overload & The 2.5-Second Window
 │   ├── The Problem: A modern security analyst faces roughly 11,000 alerts every single day. That leaves a human being exactly 2.5 seconds to read an alert, understand the context, cross-reference baselines, and decide if it's a false alarm or a catastrophic breach.
