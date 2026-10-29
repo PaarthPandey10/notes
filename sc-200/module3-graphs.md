@@ -1,6 +1,4 @@
 ```
-
-
 1. THE BIG PICTURE: CATCHING THE GHOST WITH THE KEYS
 ├── The Scenario & The Problem
 │   ├── The Illusion of Perimeter Security: It's 3 AM on a Sunday. Perimeter firewalls are holding strong, Microsoft Defender shows zero external threats, and physical guards are drinking coffee. Everything looks perfectly quiet.

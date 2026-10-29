@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sc-200/module2-graphs.md",
+                "file": "sc-200/module4-graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "module2-graphs"
+              "title": "module4-graphs"
             }
           }
         ]
@@ -201,6 +201,8 @@
   },
   "active": "be3d41f17cfe97bc",
   "lastOpenFiles": [
+    "sc-200/module3-graphs.md",
+    "sc-200/module2-graphs.md",
     "sc-200/module1-graphs.md",
     "sc-200/module10-master-notes.md",
     "aws-cloud-practitioner/aws-cloud-practitioner-main.md",
@@ -210,8 +212,6 @@
     "sc-200/module7-graphs.md",
     "sc-200/module5-graphs.md",
     "sc-200/module4-graphs.md",
-    "sc-200/module3-graphs.md",
-    "sc-200/module2-graphs.md",
     "sc-200/module9-graphs.md",
     "sc-200/module9-master-notes.md",
     "sc-200/module8-graphs.md",
